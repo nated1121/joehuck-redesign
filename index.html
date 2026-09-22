@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Joe Huck Electric</title>
-<meta name="description" content="Joe Huck Electric — licensed Bucks County electrician for 40 years. Panel upgrades, Tesla-certified EV charger installs, lighting and repairs in Yardley, Newtown, New Hope, Levittown and Fairless Hills. Call 215-906-4634.">
+<meta name="description" content="Joe Huck Electric — licensed Bucks County electrician for 40 years. Electrician services, electrical installation and lighting in Yardley, Newtown, New Hope, Levittown and Fairless Hills. Call 215-906-4634.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -171,17 +171,18 @@ section.block{padding-block:clamp(64px,9vw,120px)}
 .box-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;font:500 11px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--steel)}
 .box-top .main{display:flex;align-items:center;gap:8px;color:var(--bronze-glow)}
 .screw{width:10px;height:10px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#8d8f92,#3c3d3f);box-shadow:inset 0 0 0 1px rgba(0,0,0,.5)}
-.breakers{display:grid;grid-template-columns:1fr 1fr;gap:10px;position:relative}
+.box{display:flex;flex-direction:column}
+.breakers{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:1fr;gap:12px;position:relative;flex:1}
 .breakers::before{content:"";position:absolute;left:50%;top:-6px;bottom:-6px;width:6px;transform:translateX(-50%);background:linear-gradient(90deg,#6b6d70,#b8babd,#6b6d70);border-radius:2px;opacity:.55}
-.brk{display:flex;align-items:center;gap:12px;background:var(--char-2);border:1px solid #34312d;border-radius:6px;padding:12px;cursor:pointer;color:inherit;font:inherit;text-align:left;transition:border-color .15s,background .15s;position:relative;z-index:1;min-height:76px}
+.brk{display:flex;align-items:center;gap:12px;background:var(--char-2);border:1px solid #34312d;border-radius:6px;padding:12px;cursor:pointer;color:inherit;font:inherit;text-align:left;transition:border-color .15s,background .15s;position:relative;z-index:1;min-height:96px}
 .brk:nth-child(odd){flex-direction:row-reverse;text-align:right}
 .brk:hover{border-color:#5a534b}
 .brk[aria-selected="true"]{border-color:var(--bronze);background:#2c2922}
-.toggle{flex:none;width:30px;height:52px;border-radius:4px;background:#0c0c0c;box-shadow:inset 0 2px 4px rgba(0,0,0,.7);position:relative}
-.toggle::after{content:"";position:absolute;left:4px;right:4px;height:24px;top:24px;border-radius:3px;background:linear-gradient(180deg,#cfd0d2,#8b8d90);box-shadow:0 2px 3px rgba(0,0,0,.6);transition:top .22s cubic-bezier(.3,1.4,.5,1),background .2s}
+.toggle{flex:none;width:34px;height:60px;border-radius:4px;background:#0c0c0c;box-shadow:inset 0 2px 4px rgba(0,0,0,.7);position:relative}
+.toggle::after{content:"";position:absolute;left:4px;right:4px;height:28px;top:28px;border-radius:3px;background:linear-gradient(180deg,#cfd0d2,#8b8d90);box-shadow:0 2px 3px rgba(0,0,0,.6);transition:top .22s cubic-bezier(.3,1.4,.5,1),background .2s}
 .brk[aria-selected="true"] .toggle::after{top:4px;background:linear-gradient(180deg,#e0d2a8,var(--bronze))}
 .brk-txt{display:grid;gap:3px;min-width:0}
-.brk-txt b{font:600 16px/1.15 var(--f-display);color:var(--white);letter-spacing:.01em}
+.brk-txt b{font:600 19px/1.15 var(--f-display);color:var(--white);letter-spacing:.01em}
 .brk-txt small{font:500 11px/1 var(--f-mono);letter-spacing:.08em;color:var(--steel)}
 .box-foot{margin-top:18px;font:500 11px/1.5 var(--f-mono);letter-spacing:.06em;color:var(--steel)}
 .detail{background:var(--white);padding:clamp(24px,4vw,48px);display:flex;flex-direction:column}
@@ -199,42 +200,20 @@ section.block{padding-block:clamp(64px,9vw,120px)}
 @media (max-width:900px){.panel{grid-template-columns:1fr}}
 @media (max-width:520px){.breakers{grid-template-columns:1fr}.breakers::before{display:none}.brk:nth-child(odd){flex-direction:row;text-align:left}}
 
-/* ---------- EV feature ---------- */
-.ev{background:var(--white);color:var(--ink);overflow:hidden}
-.ev .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,80px);align-items:center}
-.ev h2{font-size:clamp(32px,4.2vw,52px);font-weight:600;margin-top:14px}
-.ev h2 em{font-style:normal;color:var(--bronze-deep)}
-.ev p{color:var(--ink-2);max-width:52ch}
-.ev .gauge p.note{color:var(--steel)}
-.brands{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 28px;padding:0;list-style:none}
-.brands li{font:500 13px/1 var(--f-mono);letter-spacing:.06em;border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:9px 12px;border-radius:4px}
-.gauge{background:var(--char);color:var(--white);box-shadow:0 30px 60px -30px rgba(0,0,0,.45);border:1px solid #2e2b28;border-radius:12px;padding:clamp(20px,3vw,32px)}
-.gauge h3{font:500 12px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--steel);margin-bottom:22px}
-.bar-row{display:grid;grid-template-columns:110px minmax(0,1fr) 64px;gap:14px;align-items:center;margin-bottom:18px}
-.bar-row .lbl{font-weight:700;font-size:15px}
-.bar-row .lbl small{display:block;font:400 12px/1.3 var(--f-mono);color:var(--steel)}
-.track{height:14px;background:#0b0b0b;border-radius:7px;overflow:hidden;box-shadow:inset 0 1px 2px rgba(0,0,0,.8)}
-.fill{height:100%;border-radius:7px;background:linear-gradient(90deg,var(--bronze-deep),var(--bronze-glow));transform-origin:left}
-.fill.l1{background:linear-gradient(90deg,#55575a,#8a8c8f)}
-.bar-row .val{font:500 14px/1 var(--f-mono);text-align:right;font-variant-numeric:tabular-nums}
-.gauge .note{font-size:13px;color:var(--steel);margin:10px 0 0;border-top:1px solid #2e2b28;padding-top:14px}
-@media (max-width:900px){.ev .wrap{grid-template-columns:1fr}}
-@media (max-width:440px){.bar-row{grid-template-columns:84px minmax(0,1fr) 54px;gap:10px}}
-
 /* ---------- Process ---------- */
 .steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);counter-reset:s;border-top:2px solid var(--ink)}
 .steps li{padding:26px 22px 0 0;counter-increment:s;position:relative}
 .steps li::before{content:counter(s,decimal-leading-zero);font:500 13px/1 var(--f-mono);color:var(--bronze-deep);letter-spacing:.1em;display:block;margin-bottom:18px}
-.steps li::after{content:"";position:absolute;top:-7px;left:0;width:12px;height:12px;background:var(--bronze);border-radius:50%;box-shadow:0 0 0 4px var(--paper)}
+.steps li::after{content:"";position:absolute;top:-7px;left:0;width:12px;height:12px;background:var(--bronze);border-radius:50%;box-shadow:0 0 0 4px var(--white)}
 .steps h3{font-size:24px;font-weight:600;margin-bottom:10px}
 .steps p{margin:0;color:var(--ink-2);font-size:16px}
 @media (max-width:860px){.steps{grid-template-columns:1fr 1fr;gap:34px 0}}
 @media (max-width:480px){.steps{grid-template-columns:1fr;border-top:0;border-left:2px solid var(--ink);gap:28px}.steps li{padding:0 0 0 24px}.steps li::after{left:-7px;top:0}}
 
 /* ---------- Service area ---------- */
-.area{background:var(--white)}
-#process{background:var(--paper)}
-.rep{background:var(--paper)}
+.area{background:var(--paper)}
+#process{background:var(--white)}
+.rep{background:var(--white)}
 .area .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,80px);align-items:start}
 .area h2{font-size:clamp(32px,4.2vw,52px);font-weight:600;margin-top:14px}
 .area p{color:var(--ink-2)}
@@ -271,7 +250,7 @@ section.block{padding-block:clamp(64px,9vw,120px)}
 @media (max-width:860px){.rep .wrap{grid-template-columns:1fr}}
 
 /* ---------- FAQ ---------- */
-.faq{background:var(--white)}
+.faq{background:var(--paper)}
 .faq-list{max-width:860px;border-top:1px solid var(--line)}
 details{border-bottom:1px solid var(--line)}
 summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 0;font:600 20px/1.25 var(--f-display);}
@@ -326,7 +305,7 @@ footer .about{max-width:34ch;margin-top:16px}
 <div class="topbar">
   <div class="wrap">
     <span><span class="dot" aria-hidden="true"></span>Serving Bucks County homes &amp; businesses</span>
-    <span class="hide-sm">Licensed &amp; insured · <b>Tesla-certified</b> Level 2 installer · Yardley, PA</span>
+    <span class="hide-sm">Licensed &amp; insured · <b>Master electrician</b> · Yardley, PA</span>
   </div>
 </div>
 
@@ -340,7 +319,6 @@ footer .about{max-width:34ch;margin-top:16px}
     <nav class="primary" id="nav" aria-label="Main">
       <ul>
         <li><a href="#services">Services</a></li>
-        <li><a href="#ev">EV Chargers</a></li>
         <li><a href="#process">How it works</a></li>
         <li><a href="#area">Service area</a></li>
         <li><a href="#faq">FAQ</a></li>
@@ -362,7 +340,7 @@ footer .about{max-width:34ch;margin-top:16px}
       <div>
         <p class="eyebrow">Bucks County Electrician · Only electrical, 40+ years</p>
         <h1>Expert electrician in Bucks County. <em>Not your neighborhood handyman.</em></h1>
-        <p class="lede">We don't hang doors or fix leaky faucets. For over 40 years, Joe and Ryan Huck have done one thing: electrical work for Bucks County homes and small businesses. That covers everything from 200-amp panel upgrades to Tesla-certified EV charger installs, and every job is done by licensed, insured electricians.</p>
+        <p class="lede">We don't hang doors or fix leaky faucets. For over 40 years, Joe and Ryan Huck have done one thing: electrical work for Bucks County homes and small businesses. That means repairs, installations and lighting, with every job done by licensed, insured electricians.</p>
         <div class="hero-ctas">
           <a class="btn btn-bronze" href="#estimate">Get a free estimate
             <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M11 5l5 5-5 5"/></svg></a>
@@ -384,12 +362,10 @@ footer .about{max-width:34ch;margin-top:16px}
           <fieldset class="field">
             <legend>What do you need?</legend>
             <div class="chips" id="svcChips">
-              <label class="chip"><input type="checkbox" name="svc" value="Panel upgrade"><span>Panel upgrade</span></label>
-              <label class="chip"><input type="checkbox" name="svc" value="EV charger"><span>EV charger</span></label>
+              <label class="chip"><input type="checkbox" name="svc" value="Electrician services"><span>Repair / upgrade</span></label>
+              <label class="chip"><input type="checkbox" name="svc" value="Electrical installation"><span>Installation</span></label>
               <label class="chip"><input type="checkbox" name="svc" value="Lighting"><span>Lighting</span></label>
-              <label class="chip"><input type="checkbox" name="svc" value="New wiring / addition"><span>New wiring</span></label>
-              <label class="chip"><input type="checkbox" name="svc" value="Repair"><span>Repair</span></label>
-              <label class="chip"><input type="checkbox" name="svc" value="Commercial"><span>Commercial</span></label>
+              <label class="chip"><input type="checkbox" name="svc" value="Other"><span>Something else</span></label>
             </div>
           </fieldset>
           <div class="row2">
@@ -399,7 +375,7 @@ footer .about{max-width:34ch;margin-top:16px}
           <div class="field"><label for="q-town">Town</label>
             <input id="q-town" name="town" list="townlist" autocomplete="address-level2" placeholder="e.g. Yardley">
           </div>
-          <div class="field"><label for="q-note">Details (optional)</label><textarea id="q-note" name="note" placeholder="e.g. 100A panel, want to add a Tesla wall charger in the garage"></textarea></div>
+          <div class="field"><label for="q-note">Details (optional)</label><textarea id="q-note" name="note" placeholder="e.g. Breaker keeps tripping in the kitchen, and we'd like recessed lights in the basement"></textarea></div>
           <p class="err" id="q-err" hidden></p>
           <button class="btn btn-bronze" type="submit">Send my request</button>
           <p class="fine">Prefer to talk? Call <a href="tel:+12159064634">215-906-4634</a></p>
@@ -419,7 +395,7 @@ footer .about{max-width:34ch;margin-top:16px}
     <div class="wrap">
       <ul>
         <li><span class="big">40<sup>yrs</sup></span><span class="sm">Serving Bucks County homes &amp; businesses</span></li>
-        <li><span class="big">Tesla</span><span class="sm">Certified Level 2 charger installer</span></li>
+        <li><span class="big">Master</span><span class="sm">Electrician-led, never a handyman</span></li>
         <li><span class="big">’23 + ’24</span><span class="sm">Nextdoor Neighborhood Favorite</span></li>
         <li><span class="big">Only electric</span><span class="sm">Licensed &amp; insured. Never a jack-of-all-trades.</span></li>
       </ul>
@@ -431,7 +407,7 @@ footer .about{max-width:34ch;margin-top:16px}
     <div class="wrap">
       <div class="sec-head">
         <div>
-          <p class="eyebrow">Services</p>
+          <p class="eyebrow">What we do</p>
           <h2>Every circuit in the house.</h2>
         </div>
         <p>Choose a breaker to see what's included in each service. Most jobs start with a free on-site estimate, and every job ends with a clean, labeled panel.</p>
@@ -444,35 +420,6 @@ footer .about{max-width:34ch;margin-top:16px}
           <p class="box-foot">CIRCUIT DIRECTORY — JOE HUCK ELECTRIC · YARDLEY, PA</p>
         </div>
         <div class="detail" role="tabpanel" id="svcDetail" aria-live="polite"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= EV FEATURE ================= -->
-  <section class="block ev" id="ev">
-    <div class="wrap">
-      <div>
-        <p class="eyebrow">EV charger installation</p>
-        <h2>Charge overnight.<br><em>Wake up full.</em></h2>
-        <p>We're certified by Tesla to install Level 2 chargers, and we wire chargers for every major EV brand in your garage or driveway. That covers the wire run, breaker, permit, commissioning and final testing.</p>
-        <ul class="brands" aria-label="EV brands we install for">
-          <li>Tesla</li><li>Rivian</li><li>Kia</li><li>Hyundai</li><li>Mercedes</li><li>BYD</li><li>Ford</li><li>+ more</li>
-        </ul>
-        <a class="btn btn-bronze" href="#estimate" data-pick="EV charger">Get an EV charger quote</a>
-      </div>
-      <div class="gauge" role="img" aria-label="Typical miles of range added per hour of charging: household outlet about 4, Level 2 charger about 30.">
-        <h3>Range added per hour of charging · typical</h3>
-        <div class="bar-row">
-          <span class="lbl">Level 1<small>120V outlet</small></span>
-          <div class="track"><div class="fill l1" style="width:12%"></div></div>
-          <span class="val">~4 mi</span>
-        </div>
-        <div class="bar-row">
-          <span class="lbl">Level 2<small>240V · 48A</small></span>
-          <div class="track"><div class="fill" style="width:100%"></div></div>
-          <span class="val">~30 mi</span>
-        </div>
-        <p class="note">Figures are typical estimates. Actual range depends on the vehicle, the charger and your panel capacity. We check your panel's capacity before quoting.</p>
       </div>
     </div>
   </section>
@@ -557,8 +504,8 @@ footer .about{max-width:34ch;margin-top:16px}
       <div class="faq-list">
         <details open><summary>Is the estimate really free?<span class="pm" aria-hidden="true"></span></summary>
           <p>Yes. We look at the job, explain your options and give you a written price. You pay nothing unless you decide to go ahead.</p></details>
-        <details><summary>Do I need a panel upgrade for an EV charger?<span class="pm" aria-hidden="true"></span></summary>
-          <p>Not always. Many homes with a 200A service can add a Level 2 charger as is. Older 100A panels often need an upgrade or load management. We check your panel's capacity before quoting so you only pay for what you need.</p></details>
+        <details><summary>Why hire an electrician instead of a handyman?<span class="pm" aria-hidden="true"></span></summary>
+          <p>Handymen do a bit of everything. We only do electrical work, and we've done it for over 40 years. Every job is done by licensed, insured electricians, pulled under permit when needed and inspected, so it's safe and to code.</p></details>
         <details><summary>Signs my panel needs replacing?<span class="pm" aria-hidden="true"></span></summary>
           <p>Breakers that trip often, a warm or buzzing panel, fuses, flickering lights when appliances start, or not enough slots for new circuits. Some older panel brands are also known safety risks. If any of this sounds familiar, get it looked at.</p></details>
         <details><summary>Do you pull permits?<span class="pm" aria-hidden="true"></span></summary>
@@ -594,11 +541,9 @@ footer .about{max-width:34ch;margin-top:16px}
     <div>
       <h4>Services</h4>
       <ul>
-        <li><a href="#services" data-svc="panel">Panel upgrades</a></li>
-        <li><a href="#ev">EV chargers</a></li>
-        <li><a href="#services" data-svc="lighting">Lighting</a></li>
+        <li><a href="#services" data-svc="electrician">Electrician services</a></li>
         <li><a href="#services" data-svc="install">Electrical installation</a></li>
-        <li><a href="#services" data-svc="repair">Repairs</a></li>
+        <li><a href="#services" data-svc="lighting">Lighting contractor</a></li>
       </ul>
     </div>
     <div>
@@ -635,24 +580,18 @@ footer .about{max-width:34ch;margin-top:16px}
 (function(){
   /* ---------- Services data ---------- */
   var SERVICES=[
-    {id:"panel",name:"Panel upgrades",tag:"100A → 200A",pick:"Panel upgrade",
-     body:"We replace old, overloaded or unsafe panels with a modern panel that has room for what you'll add next, like EV chargers, heat pumps, generators or a finished basement.",
-     pts:["Service upgrades from 60A or 100A to 200A","Replacement of fuse boxes and recalled panel brands","Utility coordination, permits and inspection","Every circuit labeled when we're done"]},
-    {id:"ev",name:"EV chargers",tag:"240V · Level 2",pick:"EV charger",
-     body:"We're certified by Tesla to install Level 2 chargers, and we install chargers for every major EV brand in your garage or driveway. We handle everything from the wire run to final testing.",
-     pts:["Tesla Wall Connector and universal J1772 / NACS units","Load calculation so your panel isn't overloaded","Clean wire runs inside or outside","Commissioning and final testing on site"]},
-    {id:"lighting",name:"Lighting",tag:"Recessed · Fixtures",pick:"Lighting",
-     body:"We install energy-efficient recessed and flush lighting that makes kitchens, living rooms and basements bigger and brighter, and we fix flickering old fixtures for good.",
-     pts:["Recessed LED lighting","Fixture, fan and chandelier installation","Dimmers, smart switches and under-cabinet lights","Exterior and landscape lighting"]},
-    {id:"install",name:"Installation",tag:"New circuits",pick:"New wiring / addition",
-     body:"From wiring a new addition to adding one dedicated outlet, every install is done safely and efficiently, and it's up to code.",
-     pts:["Wiring for additions, basements and remodels","Dedicated circuits for appliances","New outlets, GFCI and AFCI protection","Hot tub, generator and HVAC hookups"]},
-    {id:"repair",name:"Repairs",tag:"Troubleshooting",pick:"Repair",
-     body:"When breakers keep tripping, outlets stop working or something smells warm, we find the cause and fix it properly instead of patching it.",
-     pts:["Diagnosing breakers that trip","Dead outlets and switches","Buzzing, warm or scorched devices","Safety inspections for home sales"]},
-    {id:"commercial",name:"Commercial",tag:"Small business",pick:"Commercial",
-     body:"We serve small businesses across Bucks County with dependable electrical work that's scheduled around your hours.",
-     pts:["Tenant fit-outs and new circuits","LED lighting retrofits","Equipment and signage hookups","Repairs and maintenance"]}
+    {id:"electrician",name:"Electrician services",tag:"Repairs · Upgrades",pick:"Electrician services",
+     body:"We provide dependable electrician services for homeowners and small businesses throughout the Greater Bucks County area. From tracking down electrical problems to repairs, upgrades and routine maintenance, we handle every job with precision and care.",
+     pts:["Troubleshooting breakers that trip and dead outlets","Panel and service upgrades, 100A → 200A","Replacing fuse boxes and unsafe panels","Safety inspections and routine maintenance"]},
+    {id:"install",name:"Electrical installation",tag:"New circuits · Wiring",pick:"Electrical installation",
+     body:"Whether you're upgrading your panel, wiring a new addition, or installing outlets, fixtures or appliances, every job is done safely, efficiently and up to code.",
+     pts:["Wiring for additions, basements and remodels","Dedicated circuits for appliances","New outlets with GFCI and AFCI protection","Permits pulled and inspections handled"]},
+    {id:"lighting",name:"Lighting contractor",tag:"Recessed · Fixtures",pick:"Lighting",
+     body:"We install energy-efficient recessed and flush lighting that makes kitchens, living rooms and basements feel bigger and brighter. We also upgrade to sleek new fixtures and fix flickering old ones, with clean wiring and a flawless finish.",
+     pts:["Recessed LED lighting","Fixture, fan and chandelier installation","Dimmers, switches and under-cabinet lights","Repairs for flickering and failed fixtures"]},
+    {id:"ev",name:"EV charging stations",tag:"240V · Level 2",pick:"",note:"EV charger installation",
+     body:"We're certified by Tesla to install Level 2 chargers, and we install chargers for Rivian, Kia, Mercedes, BYD and other brands in your garage or driveway. We handle everything from the wire run to final testing.",
+     pts:["Tesla Wall Connector and universal J1772 / NACS units","Load calculation so your panel isn't overloaded","Clean wire runs inside or outside","Commissioning and final testing on site"]}
   ];
   var brkWrap=document.getElementById("breakers"), detail=document.getElementById("svcDetail");
   SERVICES.forEach(function(s,i){
@@ -676,16 +615,17 @@ footer .about{max-width:34ch;margin-top:16px}
     detail.innerHTML='<div class="'+(animate?"fade-in":"")+'" style="display:flex;flex-direction:column;height:100%">'+
       '<span class="num">Circuit '+String(n).padStart(2,"0")+' · '+s.tag+'</span>'+
       '<h3>'+s.name+'</h3><p>'+s.body+'</p><ul>'+s.pts.map(function(p){return"<li>"+p+"</li>"}).join("")+'</ul>'+
-      '<div class="actions"><a class="btn btn-bronze" href="#estimate" data-pick="'+s.pick+'">Get a quote for '+s.name.toLowerCase()+'</a>'+
+      '<div class="actions"><a class="btn btn-bronze" href="#estimate" data-pick="'+s.pick+'" data-note="'+(s.note||"")+'">Request a quote</a>'+
       '<a class="btn btn-ghost" href="tel:+12159064634">Call 215-906-4634</a></div></div>';
   }
-  select("panel",false);
+  select("electrician",false);
 
   /* Deep links from footer / buttons */
   document.addEventListener("click",function(e){
     var a=e.target.closest("[data-svc]");if(a)select(a.dataset.svc,true);
     var p=e.target.closest("[data-pick]");
     if(p){[].forEach.call(document.querySelectorAll('#svcChips input'),function(c){if(c.value===p.dataset.pick)c.checked=true});
+      var qn=document.getElementById("q-note");if(p.dataset.note&&!qn.value)qn.value=p.dataset.note;
       setTimeout(function(){var n=document.getElementById("q-name");n&&n.focus({preventScroll:true})},450);}
   });
 
