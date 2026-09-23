@@ -264,15 +264,15 @@ details[open] summary .pm::after{transform:translate(-50%,-50%) rotate(0)}
 details p{margin:0 0 22px;color:var(--ink-2);max-width:68ch}
 
 /* ---------- Final CTA + footer ---------- */
-.cta{background:var(--bronze);color:var(--black);position:relative;overflow:hidden}
+.cta{background:var(--bronze);color:var(--white);text-shadow:0 1px 1px rgba(0,0,0,.2);position:relative;overflow:hidden}
 .cta::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(0,0,0,.05) 0 1px,transparent 1px 3px);pointer-events:none}
 .cta .wrap{position:relative;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:28px;padding-block:clamp(48px,7vw,80px)}
 .cta h2{font-size:clamp(30px,4vw,48px);font-weight:600;max-width:16ch}
-.cta .phone-big{display:block;font:700 clamp(36px,5vw,58px)/1 var(--f-display);color:var(--black);text-decoration:none;font-variant-numeric:tabular-nums;letter-spacing:.01em}
-.cta .phone-big:hover{color:var(--white)}
+.cta .phone-big{display:block;font:700 clamp(36px,5vw,58px)/1 var(--f-display);color:var(--white);text-decoration:none;font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.cta .phone-big:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:6px}
 .cta small{font:500 12px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;display:block;margin-bottom:10px}
-.cta .btn{margin-top:18px;background:var(--black);color:var(--white)}
-.cta .btn:hover{background:var(--char-2)}
+.cta .btn{margin-top:18px;background:var(--white);color:var(--bronze-deep);text-shadow:none}
+.cta .btn:hover{background:var(--silver-lt);color:var(--black)}
 footer{background:var(--black);color:var(--steel);font-size:15px}
 footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding-block:56px 32px}
 footer h4{font:500 12px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--silver);margin:0 0 16px}
