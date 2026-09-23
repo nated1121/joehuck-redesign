@@ -77,12 +77,12 @@ nav.primary ul{display:flex;gap:4px;list-style:none;margin:0;padding:0}
 nav.primary a{display:block;white-space:nowrap;padding:10px 10px;text-decoration:none;font-weight:600;font-size:16px;color:var(--white);text-shadow:0 1px 1px rgba(0,0,0,.25);border-radius:4px}
 nav.primary a:hover{color:var(--white);background:rgba(0,0,0,.16)}
 .header-call{white-space:nowrap;display:flex;flex-direction:column;align-items:flex-end;text-decoration:none;line-height:1.1}
-.header-call small{font:500 11px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:#3a3122}
-.header-call span{font:700 21px/1.2 var(--f-display);color:var(--black);font-variant-numeric:tabular-nums}
-.header-call:hover span{color:var(--white)}
-header.site .btn-bronze{background:var(--black)}
-header.site .btn-bronze:hover{background:var(--bronze-deep)}
-.menu-btn{display:none;margin-left:auto;background:none;border:1px solid rgba(0,0,0,.35);color:var(--black);border-radius:4px;width:44px;height:44px;cursor:pointer}
+.header-call small{font:500 11px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--white);opacity:.9}
+.header-call span{font:700 21px/1.2 var(--f-display);color:var(--white);text-shadow:0 1px 1px rgba(0,0,0,.25);font-variant-numeric:tabular-nums}
+.header-call:hover span{text-decoration:underline;text-underline-offset:4px}
+header.site .btn-bronze{background:var(--white);color:var(--bronze-deep)}
+header.site .btn-bronze:hover{background:var(--silver-lt);color:var(--black)}
+.menu-btn{display:none;margin-left:auto;background:none;border:1px solid rgba(255,255,255,.7);color:var(--white);border-radius:4px;width:44px;height:44px;cursor:pointer}
 @media (max-width:1100px){
   nav.primary{display:none}
   nav.primary.open{display:block;position:absolute;left:0;right:0;top:100%;background:var(--bronze);border-bottom:1px solid rgba(0,0,0,.2)}
