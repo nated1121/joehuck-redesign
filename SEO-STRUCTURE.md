@@ -173,7 +173,7 @@ landing page URL. Paste the descriptions into the Business Profile (Step 4.iv).
 
 **Assets**
 - [ ] Official logo file (the site uses a recreated wordmark)
-- [ ] Real job photos for each category, plus the van and crew. The WWP step "images align with the service" is the biggest gap right now.
+- [ ] Real job photos for each category, plus the van and crew. The WWP step "images align with the service" is the biggest gap right now. (One photo is in: the panel photo in the homepage estimate card, also used for og:image and schema.)
 - [ ] Map embed code from the Business Profile (Share → Embed), for an exact pin
 
 **Technical**

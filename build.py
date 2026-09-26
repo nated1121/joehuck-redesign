@@ -22,6 +22,7 @@ sys.path.insert(0, str(ROOT / "content"))
 import config as C  # noqa: E402
 
 AREA_PREFIX = "/service-areas/"
+HERO_PHOTO = "/assets/img/electrician-panel-yardley.jpg"
 WARNINGS = []
 
 
@@ -212,6 +213,7 @@ def business_schema(site):
         + [{"@type": "City", "name": a["meta"]["town"] + ", PA"} for a in site.areas.values()]
         + [{"@type": "AdministrativeArea", "name": "Bucks County, PA"}],
         "sameAs": C.SAME_AS,
+        "image": C.DOMAIN + HERO_PHOTO,
     }
     if C.HOURS:
         days = {"Mo": "Monday", "Tu": "Tuesday", "We": "Wednesday", "Th": "Thursday", "Fr": "Friday", "Sa": "Saturday", "Su": "Sunday"}
@@ -283,6 +285,7 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canonical}">
+<meta property="og:image" content="{C.DOMAIN + HERO_PHOTO}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -381,7 +384,7 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
 '''
 
 
-def quote_card(cat=None, service=None):
+def quote_card(cat=None, service=None, photo=False):
     if service:
         picker = f'''<input type="hidden" name="service" value="{esc(service)}">
           <p class="about-svc">About: <b>{esc(service)}</b></p>'''
@@ -399,7 +402,13 @@ def quote_card(cat=None, service=None):
             <legend>What do you need?</legend>
             <div class="chips" id="svcChips">{chips}</div>
           </fieldset>'''
-    return f'''<div class="quote" id="estimate">
+    fig = ""
+    if photo:
+        fig = f'''<figure class="quote-photo">
+          <img src="{photo}" width="960" height="480" alt="Joe Huck Electric electrician working on a home electrical panel" fetchpriority="high" decoding="async">
+        </figure>'''
+    return f'''<div class="quote{" has-photo" if photo else ""}" id="estimate">
+        {fig}
         <form id="quoteForm" novalidate>
           <h2>Request a Free Estimate</h2>
           <p class="sub">Takes about 30 seconds. We reply within one business day.</p>
@@ -792,7 +801,7 @@ def build_home(site):
           <span><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2l7 3v5c0 4-3 7-7 8-4-1-7-4-7-8V5z"/><path d="M7 10l2 2 4-4"/></svg>Licensed &amp; insured</span>
         </div>
       </div>
-      {quote_card()}
+      {quote_card(photo=p.href(HERO_PHOTO))}
     </div>
   </section>
 
