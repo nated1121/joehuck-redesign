@@ -385,3 +385,8 @@ footer .about{max-width:34ch;margin-top:16px}
 .region-jumps{font:600 20px/1.5 var(--f-display);margin:12px 0 10px}
 .region-jumps a{color:var(--bronze-deep);text-decoration:underline;text-underline-offset:4px}
 .region-jumps a:hover{color:var(--ink)}
+
+/* Homepage panel with three category breakers, stacked */
+.breakers.breakers-3{grid-template-columns:minmax(0,1fr);grid-auto-rows:1fr}
+.breakers.breakers-3::before{left:29px;transform:none;width:4px;opacity:.35}
+.breakers.breakers-3 .brk:nth-child(odd){flex-direction:row;text-align:left}

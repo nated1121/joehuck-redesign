@@ -74,9 +74,9 @@ A: If something is sparking, smoking or smells like burning, turn off the circui
 Q: Do you work on older homes?
 A: Constantly. Many Bucks County homes are 50 to 250 years old, and upgrading older wiring safely is a large part of what we do.
 
-=== electrical-installation
-h1: Electrical Installation in Yardley, PA
-title: Electrical Installation in Yardley, PA | Outlets, Circuits & Wiring
+=== electrical-installation-services
+h1: Electrical Installation Services in Yardley, PA
+title: Electrical Installation Services in Yardley, PA | Outlets & Wiring
 desc: Electrical installation in Yardley, PA: outlets, switches, dedicated circuits, ceiling fans, appliances, hot tubs, basements and garages. Licensed electricians.
 ---
 New outlets, switches, circuits and hookups, done safely and to code. Whether it's one GFCI outlet by the sink or the wiring for a finished basement, a hot tub or a detached garage, we install it cleanly and handle the permit and the inspection.
@@ -91,9 +91,9 @@ A: Usually. We fish new cable from the basement or attic and cut only a small op
 Q: Do small installations need a permit?
 A: Replacing a device like-for-like usually doesn't. New circuits and most new wiring do, and we'll tell you which applies.
 
-=== lighting
-h1: Lighting Installation in Yardley, PA
-title: Lighting Installation in Yardley, PA | Recessed, Fixtures & Landscape
+=== lighting-contractor-services
+h1: Lighting Contractor Services in Yardley, PA
+title: Lighting Contractor in Yardley, PA | Lighting Installation & Repair
 desc: Lighting installation in Yardley, PA: recessed lights, chandeliers, pendants, sconces, under-cabinet, landscape and security lighting, plus lighting repair.
 ---
 Good lighting changes how a room looks and how it works. We install and repair every kind of lighting in Yardley-area homes and small businesses, from recessed lights and chandeliers to under-cabinet, landscape and security lighting, with clean wiring and a finished look.

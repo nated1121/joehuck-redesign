@@ -340,9 +340,9 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
     <div>
       <h4>Services</h4>
       <ul>
-        <li><a href="{p.href('/electrician-services/')}">Electrician Services</a></li>
-        <li><a href="{p.href('/electrical-installation/')}">Electrical Installation</a></li>
-        <li><a href="{p.href('/lighting/')}">Lighting</a></li>
+        <li><a href="{p.href('/' + C.CATEGORIES['g']['slug'] + '/')}">{C.CATEGORIES['g']['name']}</a></li>
+        <li><a href="{p.href('/' + C.CATEGORIES['i']['slug'] + '/')}">{C.CATEGORIES['i']['name']}</a></li>
+        <li><a href="{p.href('/' + C.CATEGORIES['l']['slug'] + '/')}">{C.CATEGORIES['l']['name']}</a></li>
       </ul>
     </div>
     <div>
@@ -760,8 +760,6 @@ def build_home(site):
           <div class="actions">{p.link(cat["slug"], f"See all {n} {cat['short'].lower()} services", cls="btn btn-bronze")}
             <a class="btn btn-ghost" href="tel:{C.PHONE_E164}">Call {C.PHONE_DISPLAY}</a></div>
         </div>''')
-    # the tab row only has three breakers; a fourth, decorative "spare" keeps the 2x2 panel
-    tabs.append('<div class="brk" aria-hidden="true" style="cursor:default;opacity:.55"><span class="toggle"></span><span class="brk-txt"><b>Spare</b><small>Room to grow</small></span></div>')
 
     towns = "".join(
         f'<li>{p.link(s, esc(site.areas[s]["meta"]["town"]))}</li>' for s in site.area_order
@@ -818,7 +816,7 @@ def build_home(site):
       <div class="panel">
         <div class="box">
           <div class="box-top"><span class="screw" aria-hidden="true"></span><span class="main">● Main · 200A</span><span class="screw" aria-hidden="true"></span></div>
-          <div class="breakers" role="tablist" aria-label="Service categories">{"".join(tabs)}</div>
+          <div class="breakers breakers-3" role="tablist" aria-label="Service categories">{"".join(tabs)}</div>
           <p class="box-foot">CIRCUIT DIRECTORY — JOE HUCK ELECTRIC · YARDLEY, PA</p>
         </div>
         {"".join(panels)}
@@ -939,7 +937,8 @@ def main():
         with open(ROOT / "gbp-services.csv", "w", newline="", encoding="utf-8") as fh:
             w = csv.writer(fh)
             w.writerow(["GBP category", "GBP service name", "Description (<300 chars)", "Landing page"])
-            w.writerow(["Lighting", "Lighting installation", site.pages["lighting"]["body"].partition("\n\n")[0][:299], C.DOMAIN + "/lighting/"])
+            lc = C.CATEGORIES["l"]
+            w.writerow([lc["name"], "Lighting installation", site.pages[lc["slug"]]["body"].partition("\n\n")[0][:299], C.DOMAIN + "/" + lc["slug"] + "/"])
             for slug in site.svc_order:
                 s = site.services[slug]
                 for name in s["meta"].get("gbp", s["meta"]["name"]).split(";"):

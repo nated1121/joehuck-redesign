@@ -18,10 +18,10 @@ individual pages. The services hub is split into the three GBP categories.
 ```
 /                                   Homepage — targets "Electrician in Yardley, PA"
 ├── /services/                      Services hub (all 53 service pages, grouped)
-│   ├── /electrician-services/      GBP category 1 hub — 16 service pages
-│   ├── /electrical-installation/   GBP category 2 hub — 21 service pages
-│   └── /lighting/                  GBP category 3 hub — 16 service pages
-│                                   (also the page for "Lighting installation")
+│   ├── /electrician-services/               "Electrician" (primary GBP category) — 16 pages
+│   ├── /electrical-installation-services/   "Electrical Installation Services" — 21 pages
+│   └── /lighting-contractor-services/       "Lighting Contractor Services" — 16 pages
+│                                            (also the page for "Lighting installation")
 ├── /service-areas/                 Areas hub, grouped by region
 │   ├── Near Yardley (12):  Lower Makefield, Newtown, Washington Crossing, New Hope,
 │   │                       Langhorne, Levittown, Fairless Hills, Morrisville, Bristol,
@@ -34,6 +34,14 @@ individual pages. The services hub is split into the three GBP categories.
 
 **81 indexable pages** (the playbook benchmark is 30+). Every page is listed,
 with its H1, title tag and word count, in [`PAGES.md`](PAGES.md).
+
+### Category names
+
+The three hubs use the GBP category names exactly: **Electrician**, **Electrical
+Installation Services** and **Lighting Contractor Services**. "Electrician" is
+also the homepage's keyword, so its hub's headline reads "Electrician Services in
+Yardley, PA" rather than "Electrician in Yardley, PA". Otherwise the two pages
+would compete for the same search.
 
 ### Why the homepage is the Yardley page
 
@@ -61,10 +69,10 @@ AI-sounding pages you wanted to stay away from.
 | Security & Flood Light Installation | Security lighting installation, Flood light installation | Floodlights are the security light |
 | Accent & Cove Lighting | Accent lighting installation, Cove lighting installation | Cove is a type of accent lighting |
 | Lighting Repair | Lighting repair, Ballast and bulb replacement | Same service call |
-| `/lighting/` hub | Lighting installation | It's the category's umbrella term |
+| Lighting Contractor Services hub | Lighting installation | It's the category's umbrella term |
 
 **Moved:** "Ground wire installation & Repair" was listed under Lighting. It sits
-under Electrician Services, where it belongs. Consider moving it in GBP too.
+under Electrician, where it belongs. Consider moving it in GBP too.
 
 Any combined page can be split later by adding a block to the content file.
 

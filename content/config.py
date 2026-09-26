@@ -34,21 +34,21 @@ SAME_AS = [
 CATEGORIES = {
     "g": {
         "slug": "electrician-services",
-        "name": "Electrician Services",
-        "short": "Electrician Services",
+        "name": "Electrician",
+        "short": "Electrician",
         "chip": "Electrician services",
         "tag": "Repairs · Upgrades",
     },
     "i": {
-        "slug": "electrical-installation",
-        "name": "Electrical Installation",
-        "short": "Installations",
+        "slug": "electrical-installation-services",
+        "name": "Electrical Installation Services",
+        "short": "Installation",
         "chip": "Electrical installation",
         "tag": "New circuits · Wiring",
     },
     "l": {
-        "slug": "lighting",
-        "name": "Lighting",
+        "slug": "lighting-contractor-services",
+        "name": "Lighting Contractor Services",
         "short": "Lighting",
         "chip": "Lighting",
         "tag": "Recessed · Fixtures",
@@ -58,8 +58,8 @@ CATEGORIES = {
 # Old URLs on the current site → new pages (301 redirects).
 REDIRECTS = {
     "/bucks-county-electrician": "/electrician-services/",
-    "/bucks-county-electrical-installation-service": "/electrical-installation/",
-    "/bucks-county-lighting-contractor": "/lighting/",
+    "/bucks-county-electrical-installation-service": "/electrical-installation-services/",
+    "/bucks-county-lighting-contractor": "/lighting-contractor-services/",
     "/bucks-county-electric-vehicle-charging-station-contractor": "/electrician-services/ev-charger-installation/",
     "/level-2-ev-charger-installation": "/electrician-services/ev-charger-installation/",
     "/copy-of-electrical-fixture-installation-1": "/electrician-services/ev-charger-installation/",

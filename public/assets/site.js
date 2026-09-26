@@ -24,7 +24,7 @@
   brks.forEach(function(b,i){
     b.addEventListener("click",function(){select(b.dataset.id)});
     b.addEventListener("keydown",function(e){
-      var d={ArrowDown:2,ArrowUp:-2,ArrowRight:1,ArrowLeft:-1}[e.key];
+      var d={ArrowDown:1,ArrowUp:-1,ArrowRight:1,ArrowLeft:-1}[e.key];
       if(d==null)return;e.preventDefault();
       select(brks[(i+d+brks.length)%brks.length].dataset.id,true);
     });
