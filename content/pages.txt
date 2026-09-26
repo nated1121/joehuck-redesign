@@ -5,14 +5,14 @@ section that build.py places into the page layout.
 h1: Expert Electrician in Yardley, PA.
 title: Electrician in Yardley, PA | Licensed Electricians in Bucks County
 desc: Joe Huck Electric is a licensed electrician in Yardley, PA. Repairs, panel upgrades, installations and lighting for Bucks County for 40+ years.
-about_h2: Yardley's Electrician for Over 40 Years.
+about_h2: Always the|Same, Small, Expert Team
 area_h2: Your Local Bucks County Electrician.
 featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, ev-charger-installation, home-rewiring
 featured_i: switch-outlet-installation, ceiling-fan-installation, dedicated-circuit-installation, hot-tub-electrical-hookup
 featured_l: recessed-lighting-installation, under-cabinet-lighting-installation, landscape-lighting-installation, lighting-repair
 ---
 #### lede
-We don't hang doors or fix leaky faucets. For over 40 years, Joe and Ryan Huck have done one thing: electrical work for homes and small businesses in Yardley and across Bucks County. Repairs, upgrades, installations and lighting, every job done by licensed, insured electricians.
+We don't hang doors or fix leaky faucets. For over 40 years, Joe Huck Electric has done one thing: electrical work for homes and small businesses in Yardley and across Bucks County. Repairs, upgrades, installations and lighting, every job done by licensed, insured electricians.
 
 #### services_intro
 Choose a breaker to see what's in each part of our work. Every job starts with a free, written estimate, and every job ends with the work inspected, tested and cleaned up.
@@ -27,11 +27,11 @@ New outlets, switches, circuits and hookups, installed safely and to code. From 
 Good lighting changes how a room feels. We install recessed lighting, fixtures, chandeliers, pendants, under-cabinet and landscape lighting, and we fix lights that flicker, buzz or won't turn on.
 
 #### about
-Joe Huck Electric is a family electrical contractor based in Yardley, Pennsylvania. Joe Huck has spent more than 40 years doing one kind of work, electrical, and his son Ryan works alongside him. Both are licensed and insured. We don't take on carpentry, plumbing or odd jobs, because we'd rather be very good at one trade than average at several.
+Hi, I'm Ryan Huck. My dad started Joe Huck Electric over 40 years ago because he believed homeowners deserved an electrician they could actually know and trust.
 
-That focus shows up in the details. We pull permits when the work needs them and meet the inspector ourselves. We explain what we found in plain language and give you a written price before we start. We protect your floors, label every circuit we touch and clean up before we leave.
+These days, most electricians are part of big conglomerates that rarely send the same person twice. That's not us.
 
-Most of our work comes from neighbors telling neighbors. Bucks County residents named us a Nextdoor Neighborhood Favorite in 2023 and 2024, and we'd like to earn your recommendation too. Learn more [about Joe Huck Electric](@about), or call and talk to us directly.
+At Joe Huck, **it's always Abie and I showing up at your door**, so you always know who to expect. Plus, you get peace of mind knowing your job is being handled by a team that has done thousands just like it. With us, your home is in safe hands.
 
 #### area
 We're based in Yardley and work every week in the towns around it, from Morrisville and Newtown to Langhorne, Levittown and Bensalem, and we serve the rest of Bucks County up to Doylestown and Quakertown. Being local means shorter waits, easier scheduling and an electrician who can come back quickly if you need anything. Type your town to see if we cover it, or pick it from the list.
@@ -126,9 +126,13 @@ desc: Joe Huck Electric is a family-run, licensed and insured electrical contrac
 ---
 Joe Huck Electric is a family electrical contractor in Yardley, Pennsylvania. For over 40 years we've done one kind of work, electrical, for homes and small businesses across Bucks County.
 
+## Always the Same, Small, Expert Team
+
+Joe Huck started Joe Huck Electric over 40 years ago because he believed homeowners deserved an electrician they could actually know and trust. Today his son Ryan Huck leads the work as head electrician, with Abie alongside him as assistant electrician. Most electricians now work for large companies that rarely send the same person twice. With us, it's always Ryan and Abie at your door.
+
 ## Only Electrical, on Purpose
 
-Joe Huck has spent his career as an electrician, and his son Ryan works alongside him. Both are licensed and insured. We don't take on carpentry, plumbing or general handyman work. That's not because those jobs aren't worth doing; it's because the electrical system in your home deserves someone who does nothing else.
+We're licensed and insured, and we do electrical work only. We don't take on carpentry, plumbing or general handyman work. That's not because those jobs aren't worth doing; it's because the electrical system in your home deserves someone who does nothing else.
 
 That focus means we've seen almost everything a Bucks County house can hide in its walls: knob-and-tube in New Hope farmhouses, overloaded original panels in Levittown, aluminum wiring in 1970s colonials, and the work of every weekend electrician who came before us. We know how to fix it properly.
 

@@ -608,7 +608,7 @@ A: Often a tripped GFCI elsewhere on the circuit, or a loose connection at the l
 Q: Is a flickering light dangerous?
 A: A bulb or dimmer issue isn't, but flicker across several rooms can mean a loose connection at the panel or service. That needs a look soon.
 Q: Do you charge to diagnose the problem?
-A: We'll explain our diagnostic pricing when you call, and you'll get a price for the repair before we do the work.
+A: No. Diagnosis and the quote are free. We find the problem, explain it and give you a written price before we fix anything.
 
 === electrical-maintenance
 cat: g

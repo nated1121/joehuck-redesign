@@ -24,6 +24,33 @@ import config as C  # noqa: E402
 AREA_PREFIX = "/service-areas/"
 HERO_PHOTO = "/assets/img/electrician-panel-yardley.jpg"  # 2:1 crop, used for og:image and schema
 HERO_BG = "/assets/img/electrician-panel-yardley-hero.jpg"
+ABOUT_PHOTO = "/assets/img/ryan-huck-electrician-ladder.jpg"
+TEAM = [
+    {"name": "Ryan", "full": "Ryan Huck", "role": "Head Electrician", "img": "/assets/img/ryan-huck-head-electrician.jpg"},
+    {"name": "Abie", "full": "Abie", "role": "Assistant Electrician", "img": "/assets/img/abie-assistant-electrician.jpg"},
+]
+
+
+def team_section(p, bg=""):
+    cards = "".join(
+        f'''<li class="team-card">
+          <img src="{p.href(t["img"])}" width="900" height="1350" alt="{esc(t["full"])}, {esc(t["role"].lower())} at {C.NAME}" loading="lazy" decoding="async">
+          <span class="team-tag">{esc(t["name"])} | {esc(t["role"])}</span>
+        </li>'''
+        for t in TEAM
+    )
+    return f'''
+  <section class="block team{bg}" id="team">
+    <div class="wrap">
+      <div class="team-head">
+        <h2>Meet the <em>Local Team</em></h2>
+        <p>You deserve a team you know and trust. With us, you always know who you're getting.</p>
+      </div>
+      <ul class="team-grid">{cards}</ul>
+      <p class="team-note">Ryan leads every job as head electrician, with Abie at his side. Together they carry on the work Joe Huck started in Bucks County over 40 years ago.</p>
+    </div>
+  </section>'''
+
 WARNINGS = []
 
 
@@ -215,6 +242,8 @@ def business_schema(site):
         + [{"@type": "AdministrativeArea", "name": "Bucks County, PA"}],
         "sameAs": C.SAME_AS,
         "image": C.DOMAIN + HERO_PHOTO,
+        "founder": {"@type": "Person", "name": "Joe Huck"},
+        "employee": [{"@type": "Person", "name": t["full"], "jobTitle": t["role"], "image": C.DOMAIN + t["img"]} for t in TEAM],
     }
     if C.HOURS:
         days = {"Mo": "Monday", "Tu": "Tuesday", "We": "Wednesday", "Th": "Thursday", "Fr": "Friday", "Sa": "Saturday", "Su": "Sunday"}
@@ -406,7 +435,7 @@ def quote_card(cat=None, service=None, photo=False):
     fig = ""
     if photo:
         fig = f'''<figure class="quote-photo">
-          <img src="{photo}" width="960" height="480" alt="Joe Huck Electric electrician working on a home electrical panel" fetchpriority="high" decoding="async">
+          <img src="{photo}" width="960" height="480" alt="Ryan Huck of Joe Huck Electric working on a home electrical panel" fetchpriority="high" decoding="async">
         </figure>'''
     return f'''<div class="quote{" has-photo" if photo else ""}" id="estimate">
         {fig}
@@ -788,7 +817,7 @@ def build_home(site):
     faq_html = faq_section(p, faqs)
     main = f'''  <section class="hero hero-photo" id="top">
     <div class="hero-bg">
-      <img src="{p.href(HERO_BG)}" width="1200" height="1800" alt="Joe Huck Electric electrician working on a home electrical panel" fetchpriority="high" decoding="async">
+      <img src="{p.href(HERO_BG)}" width="1200" height="1800" alt="Ryan Huck of Joe Huck Electric working on a home electrical panel" fetchpriority="high" decoding="async">
     </div>
     <div class="wrap">
       <div>
@@ -838,10 +867,18 @@ def build_home(site):
 
   <section class="block about-home" id="about">
     <div class="wrap">
-      <div><p class="eyebrow">About us</p><h2>{esc(m["about_h2"])}</h2></div>
-      <div class="prose">{p.md(sections["about"])}</div>
+      <div>
+        <p class="eyebrow">About us</p>
+        <h2>{esc(m["about_h2"].split("|")[0])} <em>{esc(m["about_h2"].split("|")[1])}</em></h2>
+        <div class="prose">{p.md(sections["about"])}</div>
+        <a class="btn btn-bronze" href="#estimate" style="margin-top:8px">Free Diagnosis &amp; Quote {ICON_ARROW}</a>
+      </div>
+      <figure class="about-photo">
+        <img src="{p.href(ABOUT_PHOTO)}" width="900" height="1350" alt="Ryan Huck, head electrician at Joe Huck Electric, on a job in a Bucks County home" loading="lazy" decoding="async">
+      </figure>
     </div>
   </section>
+{team_section(p, " services")}
 
   <section class="block" id="process">
     <div class="wrap">
@@ -933,7 +970,7 @@ def main():
         write(out_dir, site.areas[slug]["path"], build_area(site, site.areas[slug]))
     write(out_dir, AREA_PREFIX, build_simple(site, "service-areas", AREA_PREFIX, "areas", areas_index_extra(site)))
     write(out_dir, "/services/", build_simple(site, "services", "/services/", "services", services_index_extra(site)))
-    write(out_dir, "/about/", build_simple(site, "about", "/about/", "about", lambda p: ""))
+    write(out_dir, "/about/", build_simple(site, "about", "/about/", "about", lambda p: team_section(p, " services")))
     write(out_dir, "/contact/", build_simple(site, "contact", "/contact/", "contact", contact_extra(site)))
 
     paths = [r[0] for r in REPORT]
