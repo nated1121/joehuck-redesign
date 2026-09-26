@@ -214,6 +214,20 @@ ICON_ARROW = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-
 LOGO = '<svg class="logo-mark" viewBox="0 0 34 40" fill="currentColor" aria-hidden="true"><path d="M2 38c0-7 3-9 7-9h4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><rect x="12" y="20" width="16" height="16" rx="3"/><rect x="28" y="23" width="6" height="3" rx="1"/><rect x="28" y="30" width="6" height="3" rx="1"/></svg><span class="logo-type"><strong>Joe Huck</strong><span>Electric</span></span>'
 
 
+MAPS_LINK = "https://www.google.com/maps/search/?api=1&query=" + "+".join(f"{C.NAME} {C.STREET} {C.CITY} {C.REGION} {C.POSTAL}".split())
+
+
+def map_embed(preview, title):
+    """Embedded Google Map on the live site. File previews and embedded viewers
+    block third-party frames, so previews get an address card instead."""
+    if not preview:
+        return f'<iframe src="{C.MAP_EMBED}" title="{esc(title)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+    return f'''<div class="map-card">
+        <div><b>{C.NAME}</b><span>{C.STREET}, {C.CITY}, {C.REGION} {C.POSTAL}</span></div>
+        <a class="btn btn-bronze" href="{MAPS_LINK}" target="_blank" rel="noopener">Open in Google Maps</a>
+      </div>'''
+
+
 def hours_line():
     return "; ".join(h[3] for h in C.HOURS) if C.HOURS else "Call or text to schedule"
 
@@ -301,7 +315,7 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
     canonical = C.DOMAIN + p.path
     map_band = ""
     if home:
-        map_band = f'''<div class="map-band"><iframe src="{C.MAP_EMBED}" title="Map: {C.NAME}, {C.STREET}, {C.CITY}, {C.REGION}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>'''
+        map_band = f'''<div class="map-band">{map_embed(p.site.preview, f"Map: {C.NAME}, {C.STREET}, {C.CITY}, {C.REGION}")}</div>'''
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -764,7 +778,7 @@ def contact_extra(site):
         </address>
         <p style="color:var(--ink-2);max-width:52ch;margin-top:20px">Tell us what's going on and where you are. We'll call back within one business day to set up a free, written estimate. For anything that's sparking, smoking or smells like burning, turn off the circuit at the panel and call us right away.</p>
       </div>
-      <div class="contact-map"><iframe src="{C.MAP_EMBED}" title="Map: {C.NAME}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div class="contact-map">{map_embed(p.site.preview, f"Map: {C.NAME}")}</div>
     </div>
   </section>'''
     return f
