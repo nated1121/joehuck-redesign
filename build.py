@@ -653,7 +653,20 @@ REGIONS = [
 
 def areas_index_extra(site):
     def f(p):
-        out = []
+        total = len(site.areas)
+        jumps = " · ".join(
+            f'<a href="#{key}">{esc(title)} ({sum(1 for a in site.areas.values() if a["meta"]["region"] == key)})</a>'
+            for key, title, _ in REGIONS
+        )
+        all_towns = ", ".join(esc(site.areas[s]["meta"]["town"]) for s in site.area_order)
+        out = [f'''
+  <section class="block" style="padding-block:40px">
+    <div class="wrap">
+      <p class="eyebrow">{total} towns + Yardley, in 3 regions</p>
+      <p class="region-jumps">{jumps}</p>
+      <p style="color:var(--ink-2);max-width:80ch;margin:0">{all_towns}.</p>
+    </div>
+  </section>''']
         for i, (key, title, intro) in enumerate(REGIONS):
             towns = [site.areas[s] for s in site.area_order if site.areas[s]["meta"]["region"] == key]
             cards = "".join(
@@ -664,7 +677,7 @@ def areas_index_extra(site):
             out.append(f'''
   <section class="block{bg}" id="{key}">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">{len(towns)} towns</p><h2>{esc(title)}</h2></div>
+      <div class="sec-head"><div><p class="eyebrow">{len(towns)} of {total} towns</p><h2>{esc(title)}</h2></div>
         <p>{esc(intro)}</p></div>
       <ul class="svc-grid">{cards}</ul>
     </div>
