@@ -22,7 +22,8 @@ sys.path.insert(0, str(ROOT / "content"))
 import config as C  # noqa: E402
 
 AREA_PREFIX = "/service-areas/"
-HERO_PHOTO = "/assets/img/electrician-panel-yardley.jpg"
+HERO_PHOTO = "/assets/img/electrician-panel-yardley.jpg"  # 2:1 crop, used for og:image and schema
+HERO_BG = "/assets/img/electrician-panel-yardley-hero.jpg"
 WARNINGS = []
 
 
@@ -785,8 +786,10 @@ def build_home(site):
         area_links[k] = area_links.get(v)
 
     faq_html = faq_section(p, faqs)
-    main = f'''  <section class="hero" id="top">
-    <canvas id="wires" aria-hidden="true"></canvas>
+    main = f'''  <section class="hero hero-photo" id="top">
+    <div class="hero-bg">
+      <img src="{p.href(HERO_BG)}" width="1200" height="1800" alt="Joe Huck Electric electrician working on a home electrical panel" fetchpriority="high" decoding="async">
+    </div>
     <div class="wrap">
       <div>
         <p class="eyebrow">Only electrical, for 40+ years</p>
@@ -801,7 +804,7 @@ def build_home(site):
           <span><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2l7 3v5c0 4-3 7-7 8-4-1-7-4-7-8V5z"/><path d="M7 10l2 2 4-4"/></svg>Licensed &amp; insured</span>
         </div>
       </div>
-      {quote_card(photo=p.href(HERO_PHOTO))}
+      {quote_card()}
     </div>
   </section>
 
