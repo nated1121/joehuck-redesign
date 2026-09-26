@@ -4,14 +4,25 @@
 
   /* ---------- Start new pages at the top ----------
      A fresh link click should always open a page at its top. Some embedded
-     viewers keep the previous scroll position, so on a normal navigation
-     (not Back/Forward or reload, and not a #anchor link) scroll to the top,
-     including any scrolling container around the page. */
+     viewers restore the previous scroll position after the page loads, so on
+     a normal navigation (not Back/Forward or reload, and not a #anchor link)
+     reset to the top now and again shortly after load, stopping as soon as
+     the visitor scrolls, taps or types. */
   try{
     var nav0=performance.getEntriesByType&&performance.getEntriesByType("navigation")[0];
     if(!location.hash&&(!nav0||nav0.type==="navigate")){
-      window.scrollTo(0,0);
-      document.documentElement.scrollIntoView({block:"start"});
+      var userMoved=false,stop=function(){userMoved=true};
+      ["wheel","touchstart","keydown","mousedown"].forEach(function(ev){addEventListener(ev,stop,{once:true,passive:true})});
+      var toTop=function(){
+        if(userMoved)return;
+        try{window.scrollTo({top:0,left:0,behavior:"instant"})}catch(e){window.scrollTo(0,0)}
+        if(document.scrollingElement)document.scrollingElement.scrollTop=0;
+        try{document.documentElement.scrollIntoView({block:"start",behavior:"instant"})}catch(e){document.documentElement.scrollIntoView(true)}
+      };
+      toTop();
+      addEventListener("DOMContentLoaded",toTop);
+      addEventListener("load",function(){toTop();[60,200,500,1000,1800].forEach(function(ms){setTimeout(toTop,ms)})});
+      addEventListener("pageshow",toTop);
     }
   }catch(e){}
   var $$=function(s,r){return [].slice.call((r||document).querySelectorAll(s))};
