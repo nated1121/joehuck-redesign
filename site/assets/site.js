@@ -1,6 +1,19 @@
 /* Joe Huck Electric — shared page behavior */
 (function(){
   var $=function(s,r){return (r||document).querySelector(s)};
+
+  /* ---------- Start new pages at the top ----------
+     A fresh link click should always open a page at its top. Some embedded
+     viewers keep the previous scroll position, so on a normal navigation
+     (not Back/Forward or reload, and not a #anchor link) scroll to the top,
+     including any scrolling container around the page. */
+  try{
+    var nav0=performance.getEntriesByType&&performance.getEntriesByType("navigation")[0];
+    if(!location.hash&&(!nav0||nav0.type==="navigate")){
+      window.scrollTo(0,0);
+      document.documentElement.scrollIntoView({block:"start"});
+    }
+  }catch(e){}
   var $$=function(s,r){return [].slice.call((r||document).querySelectorAll(s))};
 
   /* ---------- Mobile nav ---------- */
