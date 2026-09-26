@@ -1,0 +1,922 @@
+Service pages: Lighting (GBP category). "Lighting installation" itself is the
+category hub at /lighting/.
+
+=== recessed-lighting-installation
+cat: l
+name: Recessed Lighting Installation
+gbp: Recessed lighting installation
+h1: Recessed Lighting Installation in Yardley, PA
+title: Recessed Lighting Installation in Yardley, PA | LED Can & Wafer Lights
+desc: Recessed lighting installation in Yardley, PA. Slim LED wafer and can lights for kitchens, living rooms and basements, laid out evenly and on dimmers.
+blurb: Recessed LED lighting for kitchens, living rooms, basements and baths, laid out for even light without dark spots or glare, on dimmers, and installed in finished ceilings with minimal patching.
+related: dimmer-switch-installation, led-lighting-retrofits, ceiling-light-installation
+---
+Recessed lighting is the most requested lighting upgrade we do in Yardley. Done well, it makes a room look bigger, brighter and cleaner. Done badly, it looks like a runway. We plan the layout, pick the right fixtures and install them cleanly in finished ceilings.
+
+:::signs
+## Good Rooms for Recessed Lighting
+- Kitchens that rely on one center fixture
+- Living and family rooms without overhead lighting
+- Basements with low ceilings
+- Hallways and stairwells
+- Bathrooms and showers (with wet-rated fixtures)
+:::
+
+## Planning the Layout
+
+Good recessed lighting starts on paper. We space fixtures based on ceiling height and the room's use, keep them the right distance from walls so they wash the walls instead of leaving scallops, and line them up with cabinets, islands and furniture. We'll suggest color temperature (warmer for living spaces, a little cooler for kitchens and work areas) and zone the lights so they're controlled in useful groups.
+
+## Fixtures That Fit Your Ceiling
+
+Modern slim LED "wafer" lights need very little ceiling depth, which makes them ideal for basements and for ceilings with joists or ductwork in the way. Where there's attic insulation above, fixtures must be IC-rated for contact with insulation and airtight so they don't leak heated or cooled air. Over tubs and showers, we use fixtures rated for wet locations.
+
+## Clean Installation in Finished Ceilings
+
+Most of our recessed lighting jobs are in finished rooms. We cut the holes precisely, fish wire between fixtures through the ceiling from the attic or from below, and leave little or no patching. Every layout goes on a [dimmer](@dimmer-switch-installation) matched to the fixtures, so the lights dim smoothly without flicker. If you already have old cans, see [LED lighting retrofits](@led-lighting-retrofits). For a single decorative fixture, see [ceiling light installation](@ceiling-light-installation).
+
+## What Affects the Cost
+
+The number of lights, ceiling access, the type of fixture and how many switching zones you want drive the price. A kitchen might need 6 to 10 lights; a large basement more.
+
+## Retrofit vs. New Construction Fixtures
+
+In existing ceilings, we use remodel-style fixtures that install through the hole without access from above. In new construction or open ceilings, new-construction housings attach to the framing. Both look the same when finished; the choice depends on your ceiling.
+
+## Recessed Lighting Around Yardley
+
+We install recessed lighting in kitchens and family rooms throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and in basement finishes in [Langhorne](@langhorne).
+
+## FAQ
+Q: How many recessed lights do I need?
+A: It depends on the room size, ceiling height and use. As a starting point, many rooms space lights roughly four to six feet apart. We lay it out for your room.
+Q: Can you install recessed lights without an attic above?
+A: Yes. Slim LED wafer lights and careful wire fishing let us install them in first-floor and basement ceilings.
+Q: What color temperature should I choose?
+A: Around 2700K to 3000K feels warm and suits living spaces. 3500K to 4000K is crisper for kitchens and work areas.
+
+=== ceiling-light-installation
+cat: l
+name: Ceiling Light Installation
+gbp: Ceiling light installation
+h1: Ceiling Light Installation in Yardley, PA
+title: Ceiling Light Installation in Yardley, PA | Fixture Replacement
+desc: Ceiling light installation in Yardley, PA. Replace old fixtures, add ceiling lights to rooms without them and install flush and semi-flush fixtures safely.
+blurb: Replace dated ceiling fixtures or add a ceiling light to a room that doesn't have one. We check the box and wiring, support heavier fixtures properly and put it on the switch where you want it.
+related: chandelier-installation, ceiling-fan-installation, recessed-lighting-installation
+---
+Replacing a dated ceiling fixture is one of the fastest ways to update a room. Adding a ceiling light to a room that was built without one can change how the whole space works. We do both in Yardley-area homes, safely and without leaving a mess.
+
+:::signs
+## When to Call for a Ceiling Light
+- You're replacing old flush mounts or "boob lights" throughout the house
+- A room has only a switched outlet and no ceiling light
+- The new fixture is heavier than the old one
+- The existing box is loose, damaged or has no ground
+- The ceiling or fixture shows signs of heat or scorching
+:::
+
+## Replacing a Fixture
+
+We remove the old fixture, check the box and wiring, and correct anything that isn't right: a loose or undersized box, brittle wire insulation from years of heat, or a missing ground. Then we mount the new fixture securely, level it and test it. If you're replacing several fixtures at once, it's efficient to do them in one visit.
+
+## Adding a Light Where There Isn't One
+
+Many older homes have bedrooms and living rooms with a switched outlet instead of a ceiling light. We run a new switch leg from the wall switch to the ceiling through the attic or from below, install a properly supported box and mount the fixture. If you'd rather have a fan there, the box needs to be fan-rated; see [ceiling fan installation](@ceiling-fan-installation). For multiple lights in one room, consider [recessed lighting](@recessed-lighting-installation).
+
+## Heavier Fixtures
+
+Standard boxes are rated for fixtures up to a certain weight. Heavier fixtures need a box and support rated for them. We check the weight before installing; for large, heavy fixtures, see [chandelier installation](@chandelier-installation).
+
+## What Affects the Cost
+
+Straight swaps are quick, especially several in one visit. Adding a new light and switch leg, high ceilings and heavy fixtures take longer.
+
+## Updating Every Fixture at Once
+
+Many homeowners replace all the builder-grade fixtures in a house in one visit: bedroom and hallway flush mounts, the dining light and the entry fixture. It's efficient, it gives the house a consistent look, and it's a good chance for us to check each box and connection. We'll haul away the old fixtures and packaging. If some of your fixtures are on dimmers, we'll make sure the new bulbs and dimmers are compatible.
+
+## Ceiling Lights Around Yardley
+
+We replace and add ceiling lights in older homes in [Levittown](@levittown) and [Fairless Hills](@fairless-hills), and swap builder fixtures in [Lower Makefield](@lower-makefield).
+
+## FAQ
+Q: Can I replace a light fixture myself?
+A: Many people do simple swaps. If the box is loose, the wires are brittle or the fixture is heavy, it's worth having an electrician do it.
+Q: Can you add a ceiling light to a room with no wiring?
+A: Yes. We run a new switch leg and install a properly supported box.
+Q: Do you supply the fixture?
+A: We can, or we'll install the one you've chosen.
+
+=== chandelier-installation
+cat: l
+name: Chandelier Installation
+gbp: Chandelier installation
+h1: Chandelier Installation in Yardley, PA
+title: Chandelier Installation in Yardley, PA | Foyers & Dining Rooms
+desc: Chandelier installation in Yardley, PA. Heavy fixtures properly supported, high foyer ceilings, correct hanging height, dimmers and assembly. Licensed.
+blurb: Chandeliers installed safely on supports rated for the weight, hung at the right height over the table or in a two-story foyer, assembled, leveled and put on a dimmer.
+related: pendant-lighting-installation, ceiling-light-installation, dimmer-switch-installation
+---
+A chandelier is usually the most visible light in the house, and often the heaviest. We install chandeliers in dining rooms, foyers and stairwells around Yardley, with the support, height and dimming they need to look right and stay put.
+
+:::signs
+## When You Need Help With a Chandelier
+- The fixture is heavy, or heavier than the one it's replacing
+- It's going in a two-story foyer or over a stairwell
+- It has dozens of crystals or parts to assemble
+- It needs to be centered over a table that isn't centered in the room
+- You want it on a dimmer
+:::
+
+## Proper Support
+
+Standard ceiling boxes are rated for fixtures up to about 50 pounds. Many chandeliers weigh more, and they need a box and bracing rated for the weight, or support independent of the box, anchored to the framing. We check the weight and the ceiling structure first and add the support needed. A heavy fixture hanging from an ordinary box can pull loose over time.
+
+## Height and Position
+
+Over a dining table, a chandelier usually hangs about 30 to 36 inches above the tabletop, and its width should suit the table. In a foyer, the bottom should clear the door and people walking under it, and in a two-story entry it often lines up with the second-floor window. When a table isn't centered under the existing box, we can relocate the box or add a swag hook.
+
+## High Ceilings
+
+Two-story foyers and stairwells need the right equipment to work safely. We bring tall ladders or scaffolding as needed and protect your floors and stairs. We can also install a lift so the fixture can be lowered for cleaning.
+
+## Assembly and Dimming
+
+We assemble the fixture, including crystals and shades, level it and put it on a [dimmer](@dimmer-switch-installation) matched to the bulbs. For kitchen islands and smaller spaces, see [pendant lighting installation](@pendant-lighting-installation). For simpler fixtures, see [ceiling light installation](@ceiling-light-installation).
+
+## What Affects the Cost
+
+Weight, ceiling height, assembly time and whether we need to add support or move the box drive the price.
+
+## Lowering an Existing Chandelier
+
+Sometimes a chandelier is simply at the wrong height. We can shorten or lengthen the chain and wire, or move the canopy, so it hangs where it should. It's a small job that changes how a room feels.
+
+## Chandeliers Around Yardley
+
+We hang chandeliers in two-story foyers in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and in dining rooms of older homes in [New Hope](@new-hope).
+
+## FAQ
+Q: How high should a dining room chandelier hang?
+A: Usually about 30 to 36 inches above the table, adjusted for ceiling height and the fixture's size.
+Q: Can my ceiling box hold a heavy chandelier?
+A: Standard boxes are rated to about 50 pounds. Heavier fixtures need added support, which we install.
+Q: Can you install a chandelier in a two-story foyer?
+A: Yes. We bring the equipment to work safely at height and protect your floors and stairs.
+Q: Can a chandelier go on a dimmer?
+A: Yes, as long as the bulbs are dimmable. We match the dimmer to the bulbs so the fixture dims smoothly without flicker or buzzing.
+
+=== pendant-lighting-installation
+cat: l
+name: Pendant Lighting Installation
+gbp: Pendant lighting installation
+h1: Pendant Lighting Installation in Yardley, PA
+title: Pendant Lighting Installation in Yardley, PA | Kitchen Island Pendants
+desc: Pendant lighting installation in Yardley, PA. Kitchen island pendants, spacing and height, sloped ceiling adapters and new boxes. Licensed electricians.
+blurb: Pendant lights over kitchen islands, peninsulas, dining tables and entries, spaced and hung at the right height, with new boxes where they're needed and adapters for sloped ceilings.
+related: chandelier-installation, under-cabinet-lighting-installation, kitchen-electrical-upgrade
+---
+Pendants over a kitchen island give you task light where you need it and set the style of the room. We install pendant lighting around Yardley, spaced evenly, hung at the right height and wired so they switch and dim the way you want.
+
+:::signs
+## Common Pendant Projects
+- Two or three pendants over a kitchen island
+- Replacing a single island fixture with pendants
+- Pendants over a peninsula, bar or breakfast table
+- Pendants on sloped or vaulted ceilings
+- A pendant in an entry or over a bathroom vanity
+:::
+
+## Spacing and Height
+
+Pendants over an island usually hang about 30 to 36 inches above the countertop, high enough to see across the room and low enough to light the work surface. Spacing depends on the island's length and the pendants' size; as a rule, they should be evenly spaced, with some clearance from each end. We measure before cutting and mark the positions with you.
+
+## New Boxes and Wiring
+
+When you're going from one fixture to two or three pendants, each one needs its own box, and we run wiring between them in the ceiling, usually through the floor above or the attic, with small openings. On sloped ceilings we use adapters so pendants hang straight. Multi-light canopies can hang several pendants from a single box when that's the better option.
+
+## Switching and Dimming
+
+Pendants usually go on their own switch and dimmer, separate from the room's recessed lights, so you can set the mood. They pair naturally with [under-cabinet lighting](@under-cabinet-lighting-installation) and are often part of a larger [kitchen electrical upgrade](@kitchen-electrical-upgrade). For a larger single fixture, see [chandelier installation](@chandelier-installation).
+
+## What Affects the Cost
+
+Replacing an existing fixture with one pendant is quick. Adding new boxes for multiple pendants, sloped ceilings and finished ceilings above take more time.
+
+## Choosing Pendants
+
+Pendant size should suit the island and the room. Larger pendants make a statement but can block sight lines, while small pendants work well in groups of three. Clear glass pendants show the bulb, so the bulb choice matters; frosted and opaque shades hide it. Adjustable-height cords or chains make it easier to fine-tune the hanging height after installation. We'll help you check that the pendants you like will work with your ceiling height, your island and the dimmer we install. If you're still choosing, bring us the options and we'll tell you what each needs.
+
+## Kitchens Without Island Wiring
+
+If your island has no ceiling box above it, we'll add one, running the wiring through the ceiling from a nearby switch location.
+
+## Pendant Lighting Around Yardley
+
+We install island pendants in kitchen remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and replace dated fixtures in [Langhorne](@langhorne).
+
+## FAQ
+Q: How high should pendants hang over an island?
+A: Typically about 30 to 36 inches above the counter, adjusted for ceiling height and fixture size.
+Q: How many pendants should go over my island?
+A: Most islands take two or three, depending on length and pendant size. We'll help you decide.
+Q: Can you hang pendants from a sloped ceiling?
+A: Yes, with sloped-ceiling adapters so they hang straight.
+
+=== wall-sconce-installation
+cat: l
+name: Wall Sconce Installation
+gbp: Wall sconce installation
+h1: Wall Sconce Installation in Yardley, PA
+title: Wall Sconce Installation in Yardley, PA | Bath & Hallway Sconces
+desc: Wall sconce installation in Yardley, PA for bathrooms, hallways, bedrooms, stairs and exteriors. New boxes in finished walls, correct height, dimmers.
+blurb: Wall sconces beside bathroom mirrors, along hallways and stairs, by the bed and at exterior doors, installed at the right height with new boxes fished into finished walls.
+related: bathroom-fixture-wiring, accent-cove-lighting, switch-outlet-installation
+---
+Wall sconces add light at eye level, which is flattering in bathrooms, welcoming in hallways and practical beside the bed. We install sconces in Yardley-area homes, including new locations in finished walls, with minimal patching.
+
+:::signs
+## Good Places for Sconces
+- Either side of a bathroom mirror
+- Along hallways and stairways
+- Beside the bed, in place of table lamps
+- Flanking a fireplace or artwork
+- Outside front and back doors and garages
+:::
+
+## Height and Placement
+
+Bathroom sconces usually sit close to eye level on either side of the mirror, which lights your face evenly without the shadows an overhead light casts. Hallway sconces are generally mounted a bit above eye level and spaced along the wall. Bedside sconces go at a height that works for reading. We'll mark locations with you before we cut, and line them up with the mirror, the headboard or the architecture.
+
+## New Sconces in Finished Walls
+
+Adding a sconce where there isn't one means cutting a box into the wall and fishing wire from a nearby switch or circuit. We do this from the attic, basement or an adjacent box, with a small, clean opening, and we can add a new switch or dimmer at the same time. Plug-in sconces are another option for rentals and bedsides.
+
+## Bathroom and Outdoor Sconces
+
+Bathroom sconces near tubs and showers must be rated for damp or wet locations; see [bathroom fixture wiring](@bathroom-fixture-wiring). Outdoor sconces need wet-location ratings and weatherproof mounting, and can be paired with dusk-to-dawn sensors. For picture lights and softer effects, see [accent and cove lighting](@accent-cove-lighting). New switches for sconces are covered under [switch and outlet installation](@switch-outlet-installation).
+
+## What Affects the Cost
+
+Replacing existing sconces is quick. Adding new locations depends on wall construction, access and how many sconces share a switch.
+
+## Plug-In vs. Hardwired Sconces
+
+Plug-in sconces are easy to install and good for renters, but their cords are visible and they need an outlet nearby. Hardwired sconces look cleaner, run from a wall switch and can be dimmed, and we can often add them without much patching. For bedside sconces, a switch on the sconce itself or a switch by the bed is convenient.
+
+## Matching Sconces to the Room
+
+Sconce size and brightness should suit the wall and room. In bathrooms, choose fixtures that shine light outward, not just up and down, so your face is evenly lit. In hallways, sconces with shades that point light upward make low ceilings feel taller.
+
+## Sconces Around Yardley
+
+We install bathroom and hallway sconces in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and exterior sconces on older homes in [New Hope](@new-hope).
+
+## FAQ
+Q: How high should bathroom sconces be mounted?
+A: Usually around eye level on either side of the mirror. We'll adjust for your mirror and household.
+Q: Can you add sconces to a finished wall?
+A: Yes. We fish wire and cut a small, clean opening for each new box.
+Q: Can sconces be on a dimmer?
+A: Yes, as long as the fixtures and bulbs are dimmable.
+
+=== track-lighting-installation
+cat: l
+name: Track Lighting Installation
+gbp: Track lighting installation
+h1: Track Lighting Installation in Yardley, PA
+title: Track Lighting Installation in Yardley, PA | Track & Monorail Lighting
+desc: Track and monorail lighting installation in Yardley, PA for art, kitchens, sloped ceilings and retail displays. Modern LED track heads, dimmers.
+blurb: Adjustable track and monorail lighting for artwork, kitchens, sloped ceilings, studios and retail displays, with modern LED heads you can aim, move and dim.
+related: accent-cove-lighting, led-lighting-retrofits, recessed-lighting-installation
+---
+Track lighting has come a long way from the bulky fixtures of the 1980s. Modern LED track and monorail systems are slim, efficient and flexible, which makes them a smart choice for artwork, sloped ceilings, kitchens and shops. We install and update track lighting around Yardley.
+
+:::signs
+## When Track Lighting Makes Sense
+- You want to light artwork, shelves or a gallery wall
+- The ceiling is sloped, beamed or too shallow for recessed lights
+- A kitchen or studio needs light aimed at work areas
+- A shop or gallery changes its displays often
+- You have old halogen track that runs hot and burns through bulbs
+:::
+
+## Track, Monorail and Cable
+
+Standard track holds heads you can slide and aim anywhere along its length. Monorail systems can be bent to follow curves and mounted on standoffs, which works well on sloped or high ceilings. We'll help you choose a system and heads for how you'll use the space, with LED heads in the right beam spread and color temperature.
+
+## Installation
+
+Track can often be fed from an existing ceiling box, so there's no need for new wiring in the ceiling. We mount the track securely, level it, set the heads and aim them. Low-voltage systems need a transformer located where it can be reached. Everything goes on a dimmer compatible with the system.
+
+## Updating Old Track
+
+Old halogen track heads are hot and inefficient. We can replace the heads with LED versions on the same track, if it's in good shape, or replace the whole system. For offices and shops, see [LED lighting retrofits](@led-lighting-retrofits).
+
+## Track or Something Else?
+
+For flush general lighting, [recessed lights](@recessed-lighting-installation) may suit you better. For highlighting shelves, coves and artwork with a softer look, see [accent and cove lighting](@accent-cove-lighting).
+
+## What Affects the Cost
+
+The track length, the number of heads, whether a new feed location is needed and the system type drive the price.
+
+## Designing for Artwork
+
+For artwork, aim heads so light hits the art at about a 30-degree angle, which reduces glare on glass and canvas. Narrow beams highlight small pieces; wider beams cover larger works. High color-rendering LEDs make colors look accurate. We'll set the heads and adjust them with you so each piece looks its best.
+
+## Track Lighting Around Yardley
+
+We install track and monorail lighting for galleries and shops in [New Hope](@new-hope), and for art walls and sloped ceilings in homes in [Newtown](@newtown) and [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Can track lighting go on a sloped ceiling?
+A: Yes. Monorail and many track systems mount on sloped and vaulted ceilings.
+Q: Can I reuse my old track with LED heads?
+A: Often, if the track is in good shape and the new heads are compatible with it.
+Q: Is track lighting good for art?
+A: It's one of the best options, because you can aim and reposition heads as your art changes.
+Q: Is LED track lighting dimmable?
+A: Most LED track heads are dimmable with a compatible dimmer. Low-voltage systems need a dimmer that works with their transformer, which we match when we install the system.
+
+=== under-cabinet-lighting-installation
+cat: l
+name: Under Cabinet Lighting Installation
+gbp: Under cabinet lighting installation
+h1: Under Cabinet Lighting Installation in Yardley, PA
+title: Under Cabinet Lighting Installation in Yardley, PA | Hardwired LED
+desc: Under cabinet lighting installation in Yardley, PA. Hardwired LED light bars and strips on a wall switch, hidden wiring and drivers. Licensed electricians.
+blurb: Hardwired LED under-cabinet lighting on a wall switch or dimmer, with the wiring and drivers hidden, so your counters are evenly lit without cords or dark spots.
+related: led-strip-lighting-installation, pendant-lighting-installation, kitchen-electrical-upgrade
+---
+Overhead lights leave shadows on your counters, right where you're working. Under-cabinet lighting fixes that and makes the whole kitchen look finished. We install hardwired LED under-cabinet lighting in Yardley-area kitchens, on a wall switch, with no cords showing.
+
+:::signs
+## Signs You Need Under-Cabinet Lighting
+- You work in your own shadow at the counter
+- The backsplash disappears in the evening
+- Old puck lights run hot or have burned out
+- Plug-in lights leave cords hanging into the outlets
+- You're remodeling and want it planned in
+:::
+
+## Choosing the Fixtures
+
+Slim LED light bars give even light with no hot spots and install neatly at the front of the cabinet. [LED strip lighting](@led-strip-lighting-installation) in an aluminum channel with a diffuser works well for a continuous line. Old-style puck lights create pools of light and are best for accents. We'll help you choose the color temperature to match your other lights and the brightness for your counters.
+
+## Hardwired and Hidden
+
+We run power from a nearby circuit into the cabinets and to a wall switch, often fishing the wire behind the backsplash or through the cabinets. Low-voltage systems need a driver, which we hide in a cabinet where it can still be reached. Everything goes on a switch or [dimmer](@dimmer-switch-installation), sometimes with the pendants or on a separate control. In a remodel, we rough in the wiring before the backsplash goes up.
+
+## Part of a Kitchen Lighting Plan
+
+Under-cabinet lighting works best as one layer of a plan: recessed lights for general light, [pendants](@pendant-lighting-installation) over the island, and under-cabinet lights for tasks. See [kitchen electrical upgrades](@kitchen-electrical-upgrade) for circuits, outlets and appliances.
+
+## What Affects the Cost
+
+Linear feet of cabinets, fixture type, whether walls and backsplash are finished and where the switch goes all shape the price.
+
+## Placement and Color
+
+Mounting fixtures toward the front edge of the cabinet lights the counter rather than the backsplash, and reduces reflections on shiny counters. Warm or neutral color temperatures usually match the kitchen's other lighting best. If your counters are polished stone, we'll choose fixtures with diffused lenses so you don't see a row of reflected dots. For glass-front cabinets, a separate strip inside the cabinet shows off what's on display. We can put those on their own switch or dimmer.
+
+## Existing Plug-In Lights
+
+If you've been using plug-in lights, we can replace them with hardwired fixtures and clear the cords off your counter outlets.
+
+## Under-Cabinet Lighting Around Yardley
+
+We install under-cabinet lighting in kitchen remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and add it to existing kitchens in [Langhorne](@langhorne).
+
+## FAQ
+Q: Can under-cabinet lights be added to an existing kitchen?
+A: Yes. We fish power into the cabinets and add a switch, usually without disturbing the backsplash much.
+Q: Hardwired or plug-in?
+A: Hardwired is cleaner, runs on a wall switch and doesn't use up your counter outlets.
+Q: Can they be dimmed?
+A: Yes, with dimmable fixtures and a compatible dimmer or driver.
+Q: How long do LED under-cabinet lights last?
+A: Quality LED fixtures typically last many years of normal use. Keeping the driver accessible makes it easy to replace if it ever fails.
+
+=== accent-cove-lighting
+cat: l
+name: Accent & Cove Lighting Installation
+gbp: Accent lighting installation; Cove lighting installation
+h1: Accent & Cove Lighting Installation in Yardley, PA
+title: Accent & Cove Lighting in Yardley, PA | Tray Ceilings, Shelves & Art
+desc: Accent and cove lighting installation in Yardley, PA. LED cove lighting for tray ceilings and crown molding, shelf, art, toe-kick and stair lighting.
+blurb: Soft LED cove lighting in tray ceilings and crown molding, plus accent lighting for shelves, artwork, toe-kicks, stairs and built-ins, with hidden drivers and dimming.
+related: led-strip-lighting-installation, track-lighting-installation, wall-sconce-installation
+---
+Accent and cove lighting is the layer that makes a room feel finished: a soft glow from a tray ceiling, lit shelves, artwork that stands out, or a gentle line of light under the cabinets or along the stairs. We install accent and cove lighting in Yardley-area homes with the wiring and drivers hidden.
+
+:::signs
+## Popular Accent and Cove Projects
+- LED cove lighting in a tray or coffered ceiling
+- Lighting above crown molding or cabinets
+- Lit bookshelves, built-ins and display cabinets
+- Picture lights and art lighting
+- Toe-kick, stair-tread and night lighting
+:::
+
+## Cove Lighting
+
+Cove lighting bounces light off the ceiling for a soft, even glow with no visible fixtures. It's usually done with [LED strip lighting](@led-strip-lighting-installation) in a channel, hidden behind the lip of a tray ceiling or crown molding. The key details are placing the strip so you don't see dots of light, choosing a warm color temperature, and running long strips with the power feeds they need to stay evenly bright.
+
+## Accent Lighting
+
+Accent lighting draws attention to things: shelves, art, stone walls or architectural details. We use small LED fixtures, strips and picture lights, and adjustable [track lighting](@track-lighting-installation) for art that changes. Toe-kick and stair lighting doubles as safe night lighting. [Wall sconces](@wall-sconce-installation) can also serve as accent lights beside a fireplace or artwork.
+
+## Drivers, Switching and Dimming
+
+Most accent and cove lighting runs on low voltage and needs a driver, which we locate where it's hidden but can still be reached for service. We put these lights on their own dimmer so they can run low in the evening, and they can be tied into smart controls.
+
+## What Affects the Cost
+
+Length of the runs, how many zones, whether the woodwork is in place and the dimming method shape the price. Coordinating with your carpenter during a build is easier and less expensive.
+
+## Color and Brightness
+
+For most homes, warm white LED strips around 2700K to 3000K look best in coves and on shelves. Tunable-white strips let you shift from warmer to cooler light, and color-changing strips can be fun in a media room or bar. Brightness should be modest; accent lighting works best as a soft layer, not the main light in the room. We'll help you choose the right strip and density for each spot.
+
+## Accent Lighting Around Yardley
+
+We install cove lighting in tray ceilings in newer homes in [Newtown](@newtown) and [Washington Crossing](@washington-crossing), and shelf and art lighting in [New Hope](@new-hope).
+
+## FAQ
+Q: What's the difference between cove and accent lighting?
+A: Cove lighting is indirect light bounced off a ceiling. Accent lighting highlights specific things like art, shelves and architecture.
+Q: Can cove lighting be added to an existing tray ceiling?
+A: Usually. We run power to the tray and install LED strip in a channel behind the lip.
+Q: Is accent lighting dimmable?
+A: Yes, with a dimmable driver and a compatible dimmer.
+Q: Where does the driver go?
+A: Somewhere hidden but reachable, such as inside a cabinet, a closet or the attic above a tray ceiling, so it can be replaced without tearing anything apart.
+
+=== led-lighting-retrofits
+cat: l
+name: LED Lighting Installation & Retrofits
+gbp: LED lighting installation; Lighting retrofits
+h1: LED Lighting Installation & Retrofits in Yardley, PA
+title: LED Lighting Retrofits in Yardley, PA | Homes & Businesses
+desc: LED lighting installation and retrofits in Yardley, PA. Convert fluorescent fixtures, old recessed cans and halogen lights to LED for homes and businesses.
+blurb: Convert fluorescent fixtures, old recessed cans, halogen and incandescent lighting to efficient LED, for homes and small businesses, including ballast bypass and full fixture replacement.
+related: recessed-lighting-installation, lighting-repair, garage-lighting-installation
+---
+LED lighting uses a fraction of the energy of older fluorescent, halogen and incandescent lights, lasts years longer and gives better light. We retrofit and install LED lighting for homes and small businesses around Yardley, from old recessed cans to whole-store conversions.
+
+:::signs
+## Signs It's Time to Go LED
+- Fluorescent tubes flicker, hum or keep burning out
+- Ballasts keep failing, especially in garages and basements
+- Old recessed cans are hot, yellowed or use large halogen bulbs
+- High electric bills from lights that run all day
+- A business wants brighter, better-looking light at lower cost
+:::
+
+## Retrofitting Old Fixtures
+
+Many fixtures can be converted instead of replaced. Old recessed cans take LED retrofit trims that screw into the socket and clip into the can, giving you a clean, modern look without cutting the ceiling. Fluorescent fixtures can take LED tubes, often with the ballast bypassed so there's nothing left to fail. We'll tell you whether a retrofit is the right call or whether the fixture is too worn and should be replaced.
+
+## Replacing With LED Fixtures
+
+When fixtures are old, yellowed or damaged, new integrated LED fixtures are often the better choice. We install LED flat panels, linear fixtures, recessed lights and wraps in homes, garages and commercial spaces. For new recessed lighting, see [recessed lighting installation](@recessed-lighting-installation). For garages and workshops, see [garage lighting installation](@garage-lighting-installation).
+
+## For Small Businesses
+
+Offices, shops, restaurants and warehouses benefit the most, because their lights run long hours. We plan conversions to minimize disruption, working after hours or in phases. Better color quality also makes merchandise and workspaces look better.
+
+## Flicker and Dimming
+
+LED conversions sometimes reveal old dimmers that aren't compatible, or fixtures with failing parts. We match dimmers to the new lights and fix any flicker. If a fixture is already failing, see [lighting repair](@lighting-repair).
+
+## What Affects the Cost
+
+The number of fixtures, retrofit versus replacement, ceiling height and working hours drive the price.
+
+## Choosing Color and Brightness
+
+LEDs come in a range of color temperatures. For homes, warm white around 2700K to 3000K looks natural. Garages, basements and workspaces often benefit from 4000K. For retail, high color-rendering LEDs make products look their best. We'll recommend options for each space.
+
+## LED Conversions Around Yardley
+
+We convert shops and galleries in [New Hope](@new-hope), offices in [Langhorne](@langhorne), and garages and basements in [Levittown](@levittown).
+
+## FAQ
+Q: Can I put LED tubes in my fluorescent fixture?
+A: Often yes. Some LED tubes work with the ballast; ballast-bypass tubes remove it entirely. We'll recommend the right type.
+Q: Are LED retrofit trims as good as new recessed lights?
+A: For most rooms, yes. They give a clean, modern look without cutting the ceiling.
+Q: How much can a business save with LED?
+A: It depends on hours and fixtures, but LED typically uses a fraction of the energy of fluorescent or halogen lighting.
+Q: Will LED lights work with my existing dimmers?
+A: Sometimes. Many older dimmers were made for incandescent bulbs and cause LEDs to flicker. We check each dimmer and replace the ones that aren't compatible.
+
+=== led-strip-lighting-installation
+cat: l
+name: LED Strip Lighting Installation
+gbp: LED strip lighting installation
+h1: LED Strip Lighting Installation in Yardley, PA
+title: LED Strip Lighting Installation in Yardley, PA | Tape Lighting
+desc: LED strip lighting installation in Yardley, PA. Hardwired LED tape in aluminum channels for kitchens, coves, stairs, shelves and bars, with hidden drivers.
+blurb: Hardwired LED strip (tape) lighting in aluminum channels with diffusers for coves, cabinets, shelves, stairs, bars and toe-kicks, with drivers sized for the run and hidden from view.
+related: accent-cove-lighting, under-cabinet-lighting-installation, smart-lighting-installation
+---
+LED strip lighting, also called tape lighting, can put a clean line of light almost anywhere: under cabinets, inside coves, along stairs and shelves, or behind a TV. Installed properly, it looks built in. We install hardwired LED strip lighting in Yardley-area homes and businesses.
+
+:::signs
+## Where LED Strips Work Well
+- Under kitchen cabinets and in glass-front cabinets
+- Tray ceilings, coves and crown molding
+- Shelves, bars and display cases
+- Stair treads, handrails and toe-kicks
+- Behind TVs, mirrors and headboards
+:::
+
+## Doing Strip Lighting Right
+
+The difference between strip lighting that looks professional and strip lighting that looks cheap comes down to details. We mount strips in aluminum channels with diffusers, which hide the individual dots, protect the strip and pull heat away so the LEDs last. We choose the strip density and brightness for the location, and match color temperature to the room's other lights.
+
+## Drivers and Voltage Drop
+
+LED strips run on low voltage, usually 12 or 24 volts, from a driver. Long runs lose voltage along the way, which makes the far end dimmer or a different color. We size drivers for the total load, feed long runs from more than one point, and keep drivers in accessible, ventilated locations. Hardwired drivers get a switch or dimmer, so the lights work like any other light in the house.
+
+## Controls
+
+Strip lighting can be dimmed, and tunable-white or color strips can change with a remote, app or smart system. We'll help you choose controls that are simple to use; see [smart lighting installation](@smart-lighting-installation). For coves and tray ceilings, see [accent and cove lighting](@accent-cove-lighting). For kitchen counters, see [under-cabinet lighting](@under-cabinet-lighting-installation).
+
+## What Affects the Cost
+
+Length of the runs, channels and diffusers, the number of drivers and zones, and how the wiring is concealed drive the price.
+
+## Waterproof Strips and Outdoor Use
+
+Strip lighting in bathrooms, near sinks, outdoors or in damp basements needs the right protection rating, typically a silicone-coated or fully sealed strip, and a driver located where it will stay dry. We'll choose strips rated for the location. For outdoor steps and railings, we use channels and strips designed for exposure to weather.
+
+## Planning for Service
+
+LED strips last a long time, but drivers can fail. We keep drivers in accessible spots, never sealed behind drywall or cabinetry, so replacing one later is simple.
+
+## Strip Lighting Around Yardley
+
+We install LED strip lighting in kitchens and bars in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and in shop displays in [New Hope](@new-hope).
+
+## FAQ
+Q: Why do LED strips need a channel?
+A: A channel with a diffuser hides the dots of light, protects the strip and helps it stay cool, so it lasts longer.
+Q: Can LED strips be dimmed?
+A: Yes, with a dimmable driver and a compatible dimmer or controller.
+Q: Why is the end of my strip dimmer than the start?
+A: Voltage drop on a long run. Feeding the strip from more than one point fixes it.
+
+=== smart-lighting-installation
+cat: l
+name: Smart Lighting Installation
+gbp: Smart lighting installation
+h1: Smart Lighting Installation in Yardley, PA
+title: Smart Lighting Installation in Yardley, PA | Switches & Scenes
+desc: Smart lighting installation in Yardley, PA. Smart switches, dimmers, scenes, schedules and app and voice control that work reliably. Licensed electricians.
+blurb: Smart switches and dimmers, scenes and schedules, app and voice control, installed with the neutrals and compatible fixtures they need, so your lighting is convenient and reliable.
+related: dimmer-switch-installation, smart-home-wiring, motion-sensor-lighting
+---
+Smart lighting lets you set scenes, schedule outdoor lights, and turn everything off from bed or from across the country. It only works if the switches, fixtures and wiring are compatible. We install smart lighting in Yardley-area homes so it's reliable from day one.
+
+:::signs
+## What Smart Lighting Can Do for You
+- Turn lights on at sunset and off at bedtime automatically
+- Set scenes for dinner, movies or morning with one button
+- Check and control lights from your phone when you're away
+- Voice control through Alexa, Google or Apple Home
+- Replace a wall of switches with a cleaner keypad
+:::
+
+## Smart Switches vs. Smart Bulbs
+
+Smart switches and dimmers control whatever fixtures are on the circuit, work with any bulb and keep the wall switch working for guests. Smart bulbs are great for lamps and color effects, but they stop working as "smart" when someone flips the wall switch off. For most homes, we recommend smart switches and dimmers for fixed lighting.
+
+## The Wiring Smart Switches Need
+
+Most smart switches need a neutral wire in the switch box. Many homes built before the 1980s don't have one there. We can add a neutral, choose a system designed to work without one, or use a wireless solution. Smart dimmers also need to be compatible with the LED fixtures they control, just like any [dimmer](@dimmer-switch-installation). Our [smart home wiring](@smart-home-wiring) page covers thermostats, doorbells and other devices.
+
+## Planning a System
+
+We'll help you pick a system that suits your home, whether that's Lutron Caseta or a similar platform, and set up rooms, scenes and schedules so the system is easy to live with. [Motion sensor lighting](@motion-sensor-lighting) pairs well with smart lighting in closets, laundry rooms and garages.
+
+## What Affects the Cost
+
+The number of switches, whether neutrals need adding, multi-location control and the system you choose drive the price. Many homes start with a few rooms and expand later.
+
+## Starting Small
+
+You don't have to automate the whole house at once. Many homeowners start with the outdoor lights on a sunset schedule, a smart dimmer in the kitchen and living room, and a scene for movie night. Once the system is set up, adding rooms later is simple, and every switch works together in the same app. We'll make sure the first pieces fit the system you'll grow into.
+
+## Smart Lighting Around Yardley
+
+We install smart lighting in homes throughout [Lower Makefield](@lower-makefield), [Newtown](@newtown) and [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Do smart switches need a neutral wire?
+A: Most do. We'll check your boxes and add a neutral or recommend a system that doesn't need one.
+Q: Will smart switches work if the internet goes down?
+A: The switches still work as switches. App and voice control need the network.
+Q: Which smart lighting system should I use?
+A: It depends on your home and how you'll use it. We'll recommend a reliable system that fits.
+Q: Can smart lighting work with my existing fixtures?
+A: Yes. Smart switches and dimmers control your existing fixtures, as long as the fixtures and bulbs are compatible with the dimmer.
+
+=== motion-sensor-lighting
+cat: l
+name: Motion Sensor Lighting Installation
+gbp: Motion sensor lighting installation
+h1: Motion Sensor Lighting Installation in Yardley, PA
+title: Motion Sensor Lighting in Yardley, PA | Indoor & Outdoor Motion Lights
+desc: Motion sensor lighting installation in Yardley, PA. Indoor occupancy and vacancy sensors and outdoor motion lights for closets, garages, stairs and driveways.
+blurb: Motion-activated lighting indoors and out: occupancy and vacancy sensor switches for closets, laundry rooms, garages and stairs, and outdoor motion lights for driveways, doors and walkways.
+related: security-flood-lighting, smart-lighting-installation, garage-lighting-installation
+---
+Motion sensor lighting turns lights on when you need them and off when you don't, which is handy when your hands are full and useful for security outside. We install indoor and outdoor motion lighting in Yardley-area homes and businesses.
+
+:::signs
+## Good Places for Motion Lighting
+- Closets, pantries and laundry rooms
+- Garages and basements, where you walk in with full hands
+- Stairways and hallways at night
+- Driveways, walkways and side yards
+- Front, back and garage doors
+:::
+
+## Indoor Sensors: Occupancy vs. Vacancy
+
+Occupancy sensors turn lights on automatically when you enter and off after you leave. Vacancy sensors require you to turn lights on, then turn them off automatically; they're a good fit for bedrooms and offices, where automatic on isn't always wanted. We replace ordinary switches with sensor switches, choose the right coverage for the room, and adjust the timeout and sensitivity so lights don't shut off while you're still there.
+
+## Outdoor Motion Lights
+
+Outdoor motion lights light your way and discourage intruders. We install LED fixtures with built-in sensors, or add sensors to existing fixtures, aimed at the areas you care about rather than the street. Many combine a dusk-to-dawn low light with full brightness on motion. For stronger lighting on driveways and yards, see [security and flood lighting](@security-flood-lighting).
+
+## Tuning It So It Works
+
+Poorly aimed sensors either miss you or trigger on passing cars and swaying branches. We set the angle, range, sensitivity and time settings at the job, and come back to adjust them if needed. Motion sensors also pair well with [smart lighting](@smart-lighting-installation) systems. In garages, see [garage lighting installation](@garage-lighting-installation) for brighter fixtures.
+
+## What Affects the Cost
+
+Swapping a switch for a sensor is quick. Adding new outdoor fixtures, especially where there's no existing wiring, takes more time.
+
+## Motion Sensors for Safety
+
+Motion lighting on stairs and hallways helps prevent falls at night, especially for older family members. Low-level lighting that comes on with motion, like a lit toe-kick, a step light or a sensor-controlled hallway light, lets people see where they're going without turning on bright overhead lights. We can add these in finished homes with minimal disruption.
+
+## Outdoor Sensors and Cameras
+
+If you have security cameras, motion lights near them help cameras capture clearer images at night. We'll position the lights so they don't glare into the camera lens.
+
+## Motion Lighting Around Yardley
+
+We install motion lighting on driveways and garages throughout [Lower Makefield](@lower-makefield), [Levittown](@levittown) and [Fairless Hills](@fairless-hills).
+
+## FAQ
+Q: What's the difference between occupancy and vacancy sensors?
+A: Occupancy sensors turn lights on and off automatically. Vacancy sensors only turn them off; you turn them on.
+Q: Why does my motion light keep turning on by itself?
+A: It's likely picking up cars, trees or animals. Adjusting the angle and sensitivity usually fixes it.
+Q: Can you add a motion sensor to my existing outdoor light?
+A: Often, yes, with an add-on sensor or by replacing the fixture.
+Q: Can a motion sensor work with LED lights?
+A: Yes. Most modern sensor switches work with LED fixtures. We choose models rated for LED loads so the lights don't flicker or stay dimly lit.
+
+=== security-flood-lighting
+cat: l
+name: Security & Flood Light Installation
+gbp: Security lighting installation; Flood light installation
+h1: Security & Flood Light Installation in Yardley, PA
+title: Security & Flood Light Installation in Yardley, PA | LED Floodlights
+desc: Security lighting and flood light installation in Yardley, PA. LED floodlights with motion and dusk-to-dawn control for driveways, yards and businesses.
+blurb: LED floodlights and security lighting for driveways, yards, entrances and commercial lots, with motion sensors, dusk-to-dawn control and aiming that lights your property without blinding the neighbors.
+related: motion-sensor-lighting, landscape-lighting-installation, outdoor-outlet-installation
+---
+A well-lit property is safer and less inviting to trouble. We install LED flood and security lighting around Yardley-area homes and businesses, with smart controls and careful aiming, so your property is lit without glaring into the neighbors' windows.
+
+:::signs
+## When to Add Security Lighting
+- Dark driveways, side yards or back doors
+- Old halogen floods that run hot and burn out
+- Cameras that can't see at night
+- A detached garage, barn or shed with no outdoor light
+- A business lot or entrance that needs to be lit after hours
+:::
+
+## Choosing the Right Lights
+
+LED floodlights use far less power than old halogen fixtures and last much longer. We choose brightness and beam spread for the area, and color temperature that looks good and helps cameras. Many homes pair a floodlight at the driveway with [motion sensor lighting](@motion-sensor-lighting) at the doors.
+
+## Controls
+
+Security lights can run dusk-to-dawn with a photocell, turn on with motion, or both: dim all night and full brightness on motion. They can also be scheduled or controlled from your phone with smart switches. We set the controls to match how you use your property.
+
+## Aiming and Mounting
+
+We mount fixtures high enough to cover the area and aim them down, which lights your property effectively and keeps glare out of the neighbors' windows and drivers' eyes. Fixtures on older homes, detached buildings and barns may need new wiring and boxes. Runs to detached buildings go underground in conduit.
+
+## Beyond Security
+
+For lighting that makes the yard look good, see [landscape lighting](@landscape-lighting-installation). For outlets for holiday lights and tools, see [outdoor outlet installation](@outdoor-outlet-installation).
+
+## What Affects the Cost
+
+Replacing existing floods is quick. New locations, high mounting, brick or stone walls and runs to detached buildings take more time.
+
+## Lighting and Cameras
+
+Cameras record much better with good lighting. Floodlights that come on with motion give cameras clear, color footage instead of grainy night vision. Some combined camera-floodlight units need a strong mounting point and steady power; we'll install the box and wiring they need. We can also add outlets or power for standalone cameras near the lights, so everything is powered and nothing depends on batteries.
+
+## Lighting for Businesses
+
+For commercial lots, walkways and entrances, we install LED wall packs and area lights, set on photocells or timers, and repair or replace failing fixtures.
+
+## Security Lighting Around Yardley
+
+We install floodlights and security lighting on driveways and yards in [Lower Makefield](@lower-makefield) and [Washington Crossing](@washington-crossing), and on commercial buildings in [Langhorne](@langhorne).
+
+## FAQ
+Q: Can floodlights be on a motion sensor and a timer?
+A: Yes. Many fixtures run dim all night and go to full brightness on motion.
+Q: How do I keep floodlights from bothering neighbors?
+A: Mount them high and aim them down at your property. We choose fixtures with good glare control.
+Q: Are LED floodlights bright enough?
+A: Yes. They're brighter than halogen per watt and last years longer.
+Q: Can you replace old halogen floodlights?
+A: Yes. We replace them with LED fixtures that use far less power, run cooler and last much longer, often on the same box.
+
+=== landscape-lighting-installation
+cat: l
+name: Landscape & Low-Voltage Lighting Installation
+gbp: Landscape lighting installation; Low voltage lighting installation
+h1: Landscape Lighting Installation in Yardley, PA
+title: Landscape Lighting Installation in Yardley, PA | Low-Voltage LED
+desc: Landscape and low-voltage lighting installation in Yardley, PA. LED path lights, uplights, patio and step lighting with transformers and timers.
+blurb: Low-voltage LED landscape lighting for paths, driveways, trees, steps, patios and the front of the house, with properly sized transformers, buried cable and timers or astronomical clocks.
+related: outdoor-outlet-installation, security-flood-lighting, pool-electrical-wiring
+---
+Landscape lighting makes a home look inviting after dark and makes paths and steps safer. We design and install low-voltage LED landscape lighting around Yardley-area homes, from a few path lights to the whole property.
+
+:::signs
+## What Landscape Lighting Can Light
+- Walkways, driveways and steps
+- Trees, shrubs and garden beds (uplighting)
+- The front of the house and architectural features
+- Patios, decks and outdoor kitchens
+- Pool areas and water features
+:::
+
+## Low-Voltage Systems
+
+Most landscape lighting runs on 12 volts from a transformer plugged into or wired to a GFCI-protected outdoor outlet. Low voltage is safer around the yard and lets fixtures be moved as plants grow. We size the transformer for the total load with room to add fixtures, plan cable runs to keep brightness even, and bury cable neatly so it doesn't get cut by edgers or aerators. If you need a new outlet for the transformer, see [outdoor outlet installation](@outdoor-outlet-installation).
+
+## Designing the Layout
+
+Good landscape lighting lights what matters and leaves some darkness for contrast. We walk the property with you, usually at dusk, and plan path lights, uplights on trees and walls, and step and deck lights. Warm LED color temperature looks best on stone, brick and plants. We aim fixtures to avoid glare into windows and neighboring yards.
+
+## Timers and Controls
+
+Transformers with photocells and timers, or astronomical clocks that follow sunset through the seasons, keep lights running without you touching them. Smart transformers can be controlled from your phone. For motion-activated or brighter lighting, see [security and flood lighting](@security-flood-lighting). Around pools, low-voltage lighting follows specific rules; see [pool electrical wiring](@pool-electrical-wiring).
+
+## What Affects the Cost
+
+The number of fixtures, the fixture quality, the size of the property and how the cable is routed drive the price. Many homeowners start with the front and add more later.
+
+## Fixture Quality Matters
+
+Landscape fixtures live outdoors year-round, so materials matter. Solid brass and copper fixtures last far longer than painted aluminum or plastic and develop a natural patina. Sealed LED fixtures resist moisture and insects. Quality connectors keep water out of connections, which is the most common cause of failed landscape lighting. We use fixtures and connectors built to last, and we'll show you what to expect from each option.
+
+## Maintaining Your System
+
+Plants grow, mulch builds up and fixtures get bumped. An occasional check keeps lights aimed and working, and we can adjust your system as your landscaping changes.
+
+## Landscape Lighting Around Yardley
+
+We install landscape lighting on larger properties in [Washington Crossing](@washington-crossing) and [Newtown](@newtown), and front-yard and path lighting throughout [Lower Makefield](@lower-makefield).
+
+## FAQ
+Q: Is low-voltage landscape lighting safe?
+A: Yes. It runs on 12 volts from a transformer on a GFCI-protected outlet, which makes it much safer than line-voltage lighting in the yard.
+Q: Can I add more lights later?
+A: Yes. We size the transformer with room to expand.
+Q: How are the lights controlled?
+A: With a timer, photocell, astronomical clock or smart control, so they come on at dusk automatically.
+
+=== garage-lighting-installation
+cat: l
+name: Garage Lighting Installation
+gbp: Garage lighting installation
+h1: Garage Lighting Installation in Yardley, PA
+title: Garage Lighting Installation in Yardley, PA | Bright LED Shop Lights
+desc: Garage lighting installation in Yardley, PA. Bright LED shop lights and linear fixtures, new circuits and switches, and motion-activated garage lighting.
+blurb: Replace the single bare bulb with bright, even LED shop lighting, hardwired on a switch at the door, with added outlets and circuits for tools, freezers and workbenches.
+related: shed-garage-wiring, led-lighting-retrofits, motion-sensor-lighting
+---
+Most garages come with a single bulb or two, which is fine for parking and not much else. We install bright, even LED lighting in garages around Yardley, turning a dim storage space into somewhere you can actually work.
+
+:::signs
+## Signs Your Garage Needs Better Lighting
+- One bare bulb or a pull-chain fixture
+- Flickering or dead fluorescent shop lights
+- Shadows over the workbench and car
+- No switch at the house door
+- You want a gym, workshop or hobby space in the garage
+:::
+
+## Bright, Even Light
+
+Modern LED linear fixtures and shop lights put out a lot of light for little power and work in cold weather, unlike fluorescent tubes that struggle in winter. We lay out fixtures to light the whole garage evenly, with extra over the workbench, and hardwire them on switches at the house door and the side door. See [LED lighting retrofits](@led-lighting-retrofits) if you'd like to convert existing fluorescent fixtures instead.
+
+## Motion Control
+
+Walking into a garage with your arms full is the best argument for [motion sensor lighting](@motion-sensor-lighting). We can put the lights on a sensor switch so they come on as you walk in.
+
+## Outlets and Circuits
+
+Better lighting often goes with more outlets and circuits for tools, a freezer, a second fridge or a workbench, all GFCI-protected as garages require. For detached garages, workshops and car charging, see [shed and garage wiring](@shed-garage-wiring).
+
+## What Affects the Cost
+
+The number of fixtures, ceiling height, switch locations and whether we're adding circuits drive the price. Most garage lighting jobs are done in a day.
+
+## Garages Used as Workshops and Gyms
+
+If you use your garage as a workshop, gym or hobby space, plan the lighting for that use. Workbenches benefit from bright task lighting mounted directly above, so you don't work in your own shadow. Home gyms feel better with evenly distributed, bright light and no glare in mirrors. A 4000K to 5000K color temperature is usually best for detail work. We can also add ceiling outlets for garage door openers, retractable cord reels and extra lighting.
+
+## Garage Door Openers
+
+Many garage door openers need a ceiling outlet. We'll add one if yours plugs into an extension cord, and make sure it's on an appropriate circuit.
+
+## Detached Garages
+
+For detached garages, see our page on powering outbuildings. We'll handle the feeder, subpanel and lighting in one job.
+
+## Garage Lighting Around Yardley
+
+We light up attached garages in [Lower Makefield](@lower-makefield) and [Levittown](@levittown), and detached garages and workshops in [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Do LED lights work in a cold garage?
+A: Yes. LEDs start instantly and stay bright in cold weather, unlike many fluorescent fixtures.
+Q: How many lights does a two-car garage need?
+A: It depends on ceiling height and fixture type. Many two-car garages are well lit with four to six LED linear fixtures.
+Q: Can you add outlets while you're there?
+A: Yes. Garage outlets need GFCI protection, and we can add circuits for tools and freezers.
+
+=== lighting-repair
+cat: l
+name: Lighting Repair
+gbp: Lighting repair; Ballast and bulb replacement
+h1: Lighting Repair in Yardley, PA
+title: Lighting Repair in Yardley, PA | Flickering Lights & Ballasts
+desc: Lighting repair in Yardley, PA. Fix flickering or dead lights, buzzing fixtures, failed ballasts, hard-to-reach bulbs and outdoor lights. Licensed electricians.
+blurb: Fix lights that flicker, buzz or won't turn on, replace failed ballasts and drivers, change bulbs in hard-to-reach fixtures, and repair outdoor and landscape lighting.
+related: electrical-repair-troubleshooting, led-lighting-retrofits, dimmer-switch-installation
+---
+Lights that flicker, buzz or just stop working are among the most common calls we get. Sometimes it's a bulb; often it's a dimmer, a loose connection or a failing ballast. We repair lighting in Yardley-area homes and businesses and find the real cause.
+
+:::signs
+## Lighting Problems We Fix
+- Lights that flicker or pulse, on a dimmer or not
+- Fixtures that buzz or hum
+- Lights that don't turn on, even with a new bulb
+- Fluorescent fixtures that flicker, hum or won't light
+- Bulbs in high ceilings, foyers and stairwells you can't reach
+- Outdoor, porch and landscape lights that have quit
+:::
+
+## Finding the Cause
+
+Flicker has many causes: an incompatible [dimmer](@dimmer-switch-installation), a loose connection at the fixture or switch, a failing LED driver or a worn socket. Flicker across several rooms can point to a loose connection at the panel or service, which needs attention soon; see [electrical repair and troubleshooting](@electrical-repair-troubleshooting). We test the circuit, the switch and the fixture to find the cause, then fix it.
+
+## Ballast and Bulb Replacement
+
+Fluorescent fixtures use a ballast that eventually fails, causing flicker, humming or dark tubes. We can replace the ballast, but in many cases converting the fixture to LED makes more sense; see [LED lighting retrofits](@led-lighting-retrofits). We also replace bulbs in fixtures that are hard or unsafe to reach, like two-story foyers, cathedral ceilings and stairwells, and can switch them to long-life LEDs so you won't need us again for years.
+
+## Outdoor and Landscape Lights
+
+Outdoor fixtures face weather, and moisture causes corrosion and failures. We repair and replace porch lights, floodlights, post lights and landscape lighting, and fix tripped or failed transformers and photocells.
+
+## What Affects the Cost
+
+Most lighting repairs are quick once the cause is found. High ceilings, several fixtures and replacement parts affect the price, which we'll give you before doing the work.
+
+## When to Replace Instead of Repair
+
+If a fixture has corroded sockets, brittle wiring from years of heat, or cracked housings, replacing it is often cheaper than repairing it. Older fixtures in closets and attics may lack the protection that modern fixtures have. We'll tell you when a repair makes sense and when a new fixture is the better value, and give you prices for both.
+
+## Lighting Repair Around Yardley
+
+We fix flickering and failed lighting throughout [Lower Makefield](@lower-makefield), [Morrisville](@morrisville) and [Fairless Hills](@fairless-hills).
+
+## FAQ
+Q: Why do my lights flicker?
+A: Usually a loose bulb, an incompatible dimmer, a loose connection or a failing driver. Flicker in several rooms can mean a problem at the panel.
+Q: Should I replace my fluorescent ballast or switch to LED?
+A: If the fixture is in good shape, either works. LED conversion usually costs about the same and ends ballast failures for good.
+Q: Can you change bulbs in my two-story foyer?
+A: Yes. We bring the equipment to work safely at height and can switch you to long-life LEDs.
+Q: Why does my light bulb keep burning out?
+A: Common causes are a loose socket, too much heat in an enclosed fixture, voltage problems or the wrong bulb type. We check the fixture and circuit to find it.
+

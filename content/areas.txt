@@ -1,0 +1,355 @@
+Service area pages. Yardley itself is the homepage, so it has no separate page.
+Each page mentions and links 3–6 services, plus 2–3 nearby towns in the sidebar.
+
+=== lower-makefield
+town: Lower Makefield
+h1: Electrician in Lower Makefield, PA
+title: Electrician in Lower Makefield, PA | Joe Huck Electric, Yardley
+desc: Licensed electrician serving Lower Makefield Township, PA. Panel upgrades, EV chargers, lighting and repairs from a local Yardley electrician. Free estimates.
+blurb: The township that surrounds Yardley Borough. Panel upgrades, EV chargers, recessed lighting and repairs in homes from the 1950s to today.
+nearby: newtown, morrisville, washington-crossing
+---
+Lower Makefield Township wraps around Yardley Borough, so for us it's barely a commute. We're an electrician based right in Yardley, and we work in Lower Makefield homes every week, from the older streets near the borough to the newer developments along Stony Hill Road and Oxford Valley Road.
+
+## Homes in Lower Makefield and What They Need
+
+Lower Makefield grew in waves. There are early post-war capes and ranchers near Yardley, 1960s and 1970s colonials and splits across the middle of the township, and larger homes from the 1980s through the 2000s farther out. Each era brings its own electrical issues.
+
+Homes from the 1950s and 1960s often still have 100 amp services and too few kitchen circuits. Some houses built in the late 1960s and early 1970s have aluminum branch wiring, which needs proper [aluminum wiring repair](@aluminum-wiring-replacement) at every connection. Newer homes are usually wired well, but their owners want more from them: EV chargers, finished basements, and better lighting than the builder's single fixture per room.
+
+## Electrical Work We Do in Lower Makefield
+
+Our most common jobs in the township are [panel upgrades](@electrical-panel-upgrade) for homes adding major loads, [EV charger installation](@ev-charger-installation) in attached garages, and [recessed lighting](@recessed-lighting-installation) in kitchens and family rooms. We also finish basements with new circuits and lighting, add outdoor outlets for decks and patios, and handle [electrical code corrections](@electrical-code-corrections) when homes go on the market. Lower Makefield's housing market moves quickly, and we can usually turn inspection items around before closing.
+
+We work on small businesses in the township too, from office lighting retrofits to new circuits for equipment.
+
+## Around the Township
+
+We know the area well. Whether you're near Five Mile Woods, off Big Oak Road, by the Makefield Highlands golf course or along the Delaware Canal towpath, we're usually close by. Being local means shorter drive times, easier scheduling and a crew that can come back quickly if you need anything after the job.
+
+## Permits and Inspections
+
+Most of the electrical work we do in Lower Makefield, including panel changes, new circuits and EV chargers, requires a permit and an inspection. We pull the permits, schedule the inspections and meet the inspector, so you don't have to take time off to deal with it. It's part of every job we quote.
+
+## Why Lower Makefield Homeowners Call Us
+
+We only do electrical work, and we've been doing it in this area for over 40 years. You get a licensed, insured electrician, a clear written estimate before any work starts and a clean job site when we leave. Joe Huck Electric was named a Nextdoor Neighborhood Favorite in 2023 and 2024, and most of our work comes from neighbors recommending us to neighbors.
+
+## FAQ
+Q: Do you serve all of Lower Makefield Township?
+A: Yes. We're based in Yardley, which Lower Makefield surrounds, so every part of the township is close by.
+Q: Can you help with inspection items before a sale?
+A: Yes. Send us the report and your closing date, and we'll price each item and schedule the work to fit.
+
+=== newtown
+town: Newtown
+h1: Electrician in Newtown, PA
+title: Electrician in Newtown, PA | Licensed Electricians Near Newtown
+desc: Licensed electrician serving Newtown Borough and Newtown Township, PA. Rewiring for historic homes, panel upgrades, lighting and EV chargers. Free estimates.
+blurb: Historic homes in Newtown Borough and newer neighborhoods in Newtown Township. Rewiring, panel upgrades, lighting and EV chargers.
+nearby: lower-makefield, washington-crossing, langhorne
+---
+Newtown is a short drive up the road from our shop in Yardley, and we serve both Newtown Borough and Newtown Township. From 18th-century homes in the historic district to newer neighborhoods off the Newtown Bypass, we handle the electrical work Newtown homes and businesses need.
+
+## Two Very Different Kinds of Homes
+
+Newtown Borough is one of the oldest towns in Pennsylvania, and its historic district along State Street, Court Street and Centre Avenue is full of homes that were built long before electricity. Many were wired in stages over the past century, so it's common to find knob-and-tube wiring, cloth-insulated cable and ungrounded circuits hidden behind plaster walls. Careful [home rewiring](@home-rewiring) lets these houses keep their character while getting safe, modern wiring. We work carefully in finished historic interiors and fish new cable wherever we can instead of opening walls.
+
+Newtown Township, by contrast, is mostly neighborhoods built from the 1970s onward. Those homes usually have sound wiring, but owners want more: finished basements, better lighting, EV chargers and room in the panel for all of it.
+
+## Electrical Work We Do in Newtown
+
+Besides rewiring, our most frequent Newtown jobs are [panel upgrades](@electrical-panel-upgrade), [EV charger installation](@ev-charger-installation), [kitchen electrical upgrades](@kitchen-electrical-upgrade) during remodels, and [recessed lighting](@recessed-lighting-installation). We also add [whole-house surge protection](@whole-house-surge-protection) and handle code corrections when homes are sold.
+
+We serve small businesses in Newtown too, including shops and offices in the borough, with lighting, new circuits and repairs scheduled around business hours.
+
+## Common Electrical Issues in Newtown Homes
+
+In the borough, the issues we see most are ungrounded outlets, overloaded older panels, and wiring added in stages by past owners. In the township's 1970s and 1980s neighborhoods, it's often panels that are full, builder-grade lighting and basements ready to be finished. Whatever the age of your home, we'll explain what we find and give you clear options.
+
+## Around Newtown
+
+We work all over the area, from the borough streets near the Newtown Theatre to neighborhoods near Tyler State Park and the Council Rock schools. For older homes in the historic district, we're used to working around plaster, original trim and tight spaces, and we treat the house with the care it deserves.
+
+## Permits and Inspections
+
+Electrical work in Newtown Borough and Newtown Township that needs a permit gets one. We handle the paperwork, schedule the inspections and meet the inspector.
+
+## Why Newtown Homeowners Call Us
+
+For over 40 years, Joe Huck Electric has done only electrical work. You'll deal with a licensed, insured electrician, not a general handyman, and you'll get a written estimate before any work begins. We were a Nextdoor Neighborhood Favorite in 2023 and 2024.
+
+## FAQ
+Q: Can you rewire a historic home without tearing out the plaster?
+A: Usually, yes. We fish new cable through existing cavities from the attic and basement and make small, neat access holes where we have to.
+Q: Do you serve Newtown Township as well as the borough?
+A: Yes, both, along with the surrounding neighborhoods.
+
+=== washington-crossing
+town: Washington Crossing
+h1: Electrician in Washington Crossing, PA
+title: Electrician in Washington Crossing, PA | Upper Makefield Electrician
+desc: Licensed electrician serving Washington Crossing and Upper Makefield, PA. Farmhouse rewiring, barn and garage wiring, EV chargers and landscape lighting.
+blurb: Farmhouses, estate homes and barns in Washington Crossing and Upper Makefield. Rewiring, barn and garage wiring, landscape lighting and EV chargers.
+nearby: lower-makefield, new-hope, newtown
+---
+Washington Crossing and the rest of Upper Makefield Township sit just up the river from Yardley. We serve homeowners here with everything from rewiring old farmhouses to wiring new barns, garages and outdoor living spaces on the township's larger properties.
+
+## Homes in Washington Crossing and Upper Makefield
+
+This part of Bucks County mixes stone farmhouses from the 1700s and 1800s, mid-century homes along the river and large newer homes on multi-acre lots. The older houses often have wiring added in layers over a century: some knob-and-tube, some early cloth cable, some newer circuits, and a panel that's been asked to do too much. Newer estate homes tend to have big electrical loads, with multiple HVAC systems, pools and outbuildings.
+
+Longer driveways and detached buildings mean a lot of our work here involves running power across the property. That includes feeders to detached garages, workshops and pool houses, plus lighting along driveways and paths.
+
+## Electrical Work We Do in Washington Crossing
+
+Our most common jobs here are [barn wiring](@barn-wiring) for horse and hobby barns, [shed and garage wiring](@shed-garage-wiring) with subpanels, [landscape lighting](@landscape-lighting-installation) and [EV charger installation](@ev-charger-installation). For older farmhouses, we do [home rewiring](@home-rewiring) and service upgrades. With overhead lines running through wooded areas, many customers also add [whole-house surge protection](@whole-house-surge-protection).
+
+## Common Electrical Issues Here
+
+Long overhead service drops through trees are vulnerable to storms, which is why surge protection is a good idea. Older farmhouses often have undersized services and a mix of wiring from different eras. Outbuildings are sometimes fed by old underground cable or overhead wires that should be replaced. We'll walk the property with you and point out anything that needs attention.
+
+## Around Washington Crossing
+
+We know the roads well, from the river along Route 32 and the grounds of Washington Crossing Historic Park up toward Bowman's Hill, and inland along Taylorsville and Wrightstown roads. Being based a few minutes away in Yardley means we can respond quickly and come back easily when a job runs in phases.
+
+## Working on Larger Properties
+
+Runs to outbuildings need careful planning. We size feeders for the distance and the load, trench at the proper depth in conduit, and give each building its own grounding and disconnect. For barns, we use wiring methods and fixtures rated for damp, dusty conditions. All of it is permitted and inspected.
+
+## Why Washington Crossing Homeowners Call Us
+
+We're a local electrical contractor with over 40 years in this area, and we only do electrical work. You get a licensed, insured electrician, a clear written estimate and a clean site. Our customers named us a Nextdoor Neighborhood Favorite in 2023 and 2024.
+
+## FAQ
+Q: Can you run power to a barn or detached garage far from the house?
+A: Yes. We size the feeder for the distance, run it underground in conduit, and install a subpanel and grounding at the building.
+Q: Do you work on old stone farmhouses?
+A: Often. We plan cable routes around thick stone walls and original materials and upgrade the service when it's needed.
+
+=== new-hope
+town: New Hope
+h1: Electrician in New Hope, PA
+title: Electrician in New Hope, PA | Licensed Electricians Near New Hope
+desc: Licensed electrician serving New Hope and Solebury, PA. Rewiring historic homes, panel upgrades, lighting and small business electrical. Free estimates.
+blurb: Historic homes and small businesses in New Hope and Solebury. Rewiring, service upgrades, lighting and commercial electrical work.
+nearby: washington-crossing, newtown, lower-makefield
+---
+New Hope is a short drive up the Delaware from Yardley, and we serve homes and small businesses throughout the borough and neighboring Solebury Township. Historic buildings, river conditions and busy storefronts all bring their own electrical challenges, and we've worked through all of them.
+
+## Historic Homes and Buildings
+
+Many of New Hope's homes and shops date to the 18th and 19th centuries, with stone walls, deep window sills and wiring added in pieces over the last hundred years. It's common to find knob-and-tube, fuse boxes and ungrounded circuits side by side with newer work. We do [home rewiring](@home-rewiring) and [fuse box replacement](@fuse-box-replacement) in these buildings with care, planning routes that avoid damaging original materials wherever possible.
+
+Properties near the river and canal have another concern: moisture. Basements, crawlspaces and outdoor areas need GFCI protection and wiring methods suited to damp locations, and equipment located low in a building may need to be relocated higher.
+
+## Small Businesses in New Hope
+
+Main Street, Bridge Street and the surrounding blocks are full of shops, galleries and restaurants. We help small businesses with lighting, new circuits for equipment, signage power and repairs, and we schedule work around opening hours so you don't lose a day of sales. Our [LED lighting retrofits](@led-lighting-retrofits) cut energy costs and improve how merchandise looks.
+
+## Electrical Work We Do in New Hope
+
+Along with rewiring and retrofits, we install [recessed lighting](@recessed-lighting-installation) and fixtures, handle [electrical repair and troubleshooting](@electrical-repair-troubleshooting), and add [outdoor outlets](@outdoor-outlet-installation) for patios and gardens. For homes with older panels, we do service upgrades and add surge protection.
+
+## Common Electrical Issues in New Hope
+
+The issues we see most in New Hope are older wiring in historic buildings, overloaded panels in homes that have been expanded over time, moisture-related problems near the river, and small businesses that have outgrown their original lighting and circuits. We'll explain what we find in plain terms and give you options.
+
+## Around New Hope
+
+We work across the borough, from the streets near the Bucks County Playhouse and the New Hope and Ivyland Railroad station to homes along the canal towpath, and out into Solebury Township. We're a local contractor, not a national chain, so you'll talk to the people who do the work.
+
+## Permits and Inspections
+
+We pull permits and schedule inspections for work that needs them, including in historic buildings. When a project touches the exterior of a historic property, ask your borough about any additional approvals before work starts.
+
+## Why New Hope Calls Us
+
+For over 40 years we've done nothing but electrical work. You get a licensed, insured electrician and a written estimate before any work begins. We were named a Nextdoor Neighborhood Favorite in 2023 and 2024.
+
+## FAQ
+Q: Do you work on commercial buildings in New Hope?
+A: Yes. We work on shops, galleries, restaurants and offices, and schedule around your business hours.
+Q: Can you rewire a historic stone home?
+A: Yes. We plan routes carefully around stone walls and original trim to keep damage to a minimum.
+
+=== langhorne
+town: Langhorne
+h1: Electrician in Langhorne, PA
+title: Electrician in Langhorne, PA | Middletown Township Electrician
+desc: Licensed electrician serving Langhorne and Middletown Township, PA. Panel upgrades, basement wiring, lighting, repairs and code corrections. Free estimates.
+blurb: Langhorne Borough's historic homes and Middletown Township neighborhoods. Panel upgrades, basement finishing, lighting and repairs.
+nearby: newtown, levittown, fairless-hills
+---
+Langhorne is a quick drive west from Yardley, and we serve Langhorne Borough, Langhorne Manor, Penndel and the Middletown Township neighborhoods around them. Whether it's a historic home in the borough or a split-level off Maple Avenue, we handle the electrical work Langhorne homes need.
+
+## Homes in Langhorne and Middletown
+
+Langhorne Borough has one of the older historic districts in lower Bucks County, with homes from the 1700s and 1800s along Maple Avenue and Bellevue Avenue. The surrounding Middletown Township neighborhoods were mostly built from the 1950s through the 1980s. The older homes need careful rewiring and service upgrades; the mid-century homes usually need more capacity and more circuits than they were built with.
+
+Many Langhorne homeowners are finishing basements, updating kitchens and adding EV chargers, which often means the original panel needs attention first.
+
+## Electrical Work We Do in Langhorne
+
+Our most common Langhorne jobs are [panel upgrades](@electrical-panel-upgrade) for mid-century homes, [basement wiring](@basement-wiring) for finishing projects, [circuit breaker replacement](@circuit-breaker-replacement) in aging panels, and [recessed lighting](@recessed-lighting-installation). We also handle [code corrections](@electrical-code-corrections) for homes being sold in the Neshaminy school district, which move quickly in this market.
+
+We work for small businesses in the area too, including offices and retail near Oxford Valley and along Route 1, with lighting, dedicated circuits and repairs.
+
+## Common Electrical Issues in Langhorne Homes
+
+In older homes in the borough, we find ungrounded outlets, fuse boxes and wiring added by several owners. In mid-century homes in Middletown, the common issues are full panels, not enough kitchen circuits and missing GFCI protection. We'll give you a clear picture and options.
+
+## Around Langhorne
+
+We're in the area often, from the borough's historic streets to neighborhoods near Core Creek Park, Sesame Place and the Oxford Valley Mall. Because we're based nearby in Yardley, we can usually schedule quickly and come back without a long wait if a job needs a follow-up.
+
+## Finishing a Basement in Langhorne
+
+Basement finishes are one of our most requested jobs here. We plan outlets, lighting, dedicated circuits and smoke alarms with you, install the wiring before the drywall goes up, add the arc-fault and ground-fault protection current code requires, and pass the rough and final inspections. If your panel is full, a subpanel in the basement is often the simplest way to add the new circuits.
+
+## Why Langhorne Homeowners Call Us
+
+We've done only electrical work for over 40 years. You get a licensed, insured electrician, a written estimate before we start, and a job site cleaned up when we leave. Joe Huck Electric was named a Nextdoor Neighborhood Favorite in 2023 and 2024.
+
+## FAQ
+Q: Do you serve Middletown Township and Penndel?
+A: Yes. We serve Langhorne Borough, Langhorne Manor, Penndel and the surrounding Middletown Township neighborhoods.
+Q: Can you wire my basement before drywall?
+A: Yes. We plan the layout with you, rough in the wiring, pass inspection, and return to install devices and fixtures after the walls are finished.
+
+=== levittown
+town: Levittown
+h1: Electrician in Levittown, PA
+title: Electrician in Levittown, PA | Panel Upgrades for Levitt Homes
+desc: Licensed electrician serving Levittown, PA. Panel and service upgrades, rewiring, grounding and kitchen circuits for original Levitt homes. Free estimates.
+blurb: Original 1950s Levitt homes across all of Levittown's sections. Panel and service upgrades, grounding, kitchen circuits and home electrical upgrades.
+nearby: fairless-hills, langhorne, morrisville
+---
+Levittown's original homes were built by Levitt & Sons between 1952 and 1958, more than 17,000 of them across Bristol, Falls and Middletown townships and Tullytown. They're solid houses, but their electrical systems were designed for a 1950s household. We upgrade Levittown homes every week, and we know these houses well.
+
+## What We Find in Levittown Homes
+
+Most Levitt homes were built with small electrical services and just a few circuits. Over 70 years, owners have added air conditioning, bigger kitchens, laundry, finished additions and home offices, often by stretching the original circuits. The result is panels with no room, overloaded circuits, two-prong outlets and wiring that's been extended by several different hands.
+
+These homes were built on concrete slabs with radiant heat in the floor, so there's no basement to run new wiring through. We route new circuits through attics, soffits and exterior walls instead, and we know where the good paths are in each model, from the Levittowner and Jubilee to the Country Clubber.
+
+## Electrical Work We Do in Levittown
+
+Our most common Levittown jobs are [panel and service upgrades](@electrical-panel-upgrade), [home electrical upgrades](@home-electrical-upgrades) that add circuits and grounded outlets, [ground wire installation](@ground-wire-installation-repair), and [kitchen electrical upgrades](@kitchen-electrical-upgrade) during remodels. We also install ceiling fans, recessed lighting and EV chargers, and handle code corrections when Levittown homes are sold or rented.
+
+## Common Electrical Issues in Levitt Homes
+
+Besides small services, the issues we see most are two-prong outlets, circuits extended to additions by previous owners, and kitchens with too few circuits for modern appliances. We'll explain what we find and give you a plan you can do all at once or in stages.
+
+## Around Levittown
+
+We work in every section, from Birch Valley, Crabtree and Elderberry Pond to Snowball Gate, Vermilion Hills and the rest. Levittown is a short drive from our base in Yardley, so we're here often and can schedule quickly.
+
+## Upgrading in Phases
+
+We know many Levittown owners are updating a house over several years. We'll give you a written plan, safety items first, and price each piece separately. Anything we do now is planned so it won't have to be redone later, and a service upgrade is usually the first step because everything else depends on it.
+
+## Why Levittown Homeowners Call Us
+
+For over 40 years, we've done only electrical work, and a lot of it in Levittown. You get a licensed, insured electrician, a written estimate before any work starts, and a clean job site. We were a Nextdoor Neighborhood Favorite in 2023 and 2024.
+
+## FAQ
+Q: How do you run new wiring in a Levitt home without a basement?
+A: Through the attic, soffits and wall cavities. We know the common routes in the original Levitt models, which keeps wall damage to a minimum.
+Q: Does my Levittown home need a service upgrade?
+A: If it still has its original service or a small panel with no open slots, very likely. We'll check your panel and load before recommending anything.
+
+=== fairless-hills
+town: Fairless Hills
+h1: Electrician in Fairless Hills, PA
+title: Electrician in Fairless Hills, PA | Falls Township Electrician
+desc: Licensed electrician serving Fairless Hills and Falls Township, PA. Panel upgrades, rewiring, lighting and repairs for 1950s homes. Free estimates.
+blurb: Fairless Hills' 1950s homes and Falls Township neighborhoods. Panel upgrades, rewiring, ceiling fans, lighting and repairs.
+nearby: levittown, morrisville, langhorne
+---
+Fairless Hills was built in the early 1950s by U.S. Steel to house workers at the Fairless Works, and it's just south of us in Falls Township. We work in Fairless Hills homes all the time, and we know what's typically behind their walls.
+
+## Homes in Fairless Hills
+
+Most Fairless Hills homes are modest capes, ranchers and twins built in a short span in the early 1950s. Like other post-war homes, they were built with small electrical services and few circuits. Seventy years later, many still have original or near-original panels, ungrounded outlets and circuits that have been extended over and over.
+
+Owners here are finishing attics and basements, updating kitchens, adding central air and mini-splits, and buying EVs. Nearly all of that starts with more capacity in the panel.
+
+## Electrical Work We Do in Fairless Hills
+
+Our most common Fairless Hills jobs are [panel upgrades](@electrical-panel-upgrade), [home rewiring](@home-rewiring) for original wiring, [ceiling fan installation](@ceiling-fan-installation) in bedrooms that were built with no overhead light, and [electrical repair and troubleshooting](@electrical-repair-troubleshooting). We also install [whole-house surge protection](@whole-house-surge-protection) with panel upgrades and handle code corrections for sales and rentals.
+
+## Common Electrical Issues in Fairless Hills Homes
+
+The issues we find most often are small or outdated panels, two-prong outlets, circuits extended to attic and basement rooms by previous owners, and kitchens with too few circuits. Some homes still have fuse boxes. We'll explain what we find in plain language and give you options for fixing it all at once or in stages. Safety items come first.
+
+## Finishing Attics and Basements
+
+Many Fairless Hills owners are finishing attic and basement space. We wire those spaces with new circuits, lighting, smoke alarms and the protection code requires, and add a subpanel when the main panel is full.
+
+## Around Falls Township
+
+We serve all of Fairless Hills and the rest of Falls Township, including the neighborhoods near Pennsbury Manor and the Pennsbury schools. It's a short drive from our base in Yardley, so scheduling is easy and follow-up visits are quick.
+
+## Adding Light and Fans to Older Rooms
+
+Many 1950s bedrooms were built with no ceiling fixture, just a switched outlet. Adding a ceiling light or fan means running a new switch leg and installing a fan-rated box, which we do through the attic with minimal patching. It's one of the most popular upgrades we do here, and it makes an older room feel new.
+
+## Why Fairless Hills Homeowners Call Us
+
+We only do electrical work, and we've been doing it in this area for over 40 years. You get a licensed, insured electrician, a clear written estimate, and a clean job site. Our neighbors named Joe Huck Electric a Nextdoor Neighborhood Favorite in 2023 and 2024.
+
+## FAQ
+Q: Can you add a ceiling fan to a room with no ceiling light?
+A: Yes. We run a new switch leg through the attic, install a fan-rated box and wire the fan and light to the switches you want.
+Q: Do you serve all of Falls Township?
+A: Yes, including Fairless Hills and the neighborhoods around it.
+
+=== morrisville
+town: Morrisville
+h1: Electrician in Morrisville, PA
+title: Electrician in Morrisville, PA | Licensed Local Electricians
+desc: Licensed electrician serving Morrisville, PA. Rewiring older twins and rowhomes, fuse box replacement, grounding, repairs and rental inspections.
+blurb: Older twins, rowhomes and singles in Morrisville Borough. Rewiring, fuse box replacement, grounding, repairs and rental inspection items.
+nearby: lower-makefield, fairless-hills, levittown
+---
+Morrisville sits on the Delaware just south of Yardley, across from Trenton, and it's one of the closest towns to our shop. Its older twins, rowhomes and single homes are often due for electrical work, and we've been doing that work here for decades.
+
+## Homes in Morrisville
+
+Much of Morrisville Borough was built in the late 1800s and early 1900s, with more homes added through the mid-century. That means a lot of older wiring: knob-and-tube, cloth-covered cable, fuse boxes, ungrounded outlets and panels that have been added onto more than once. In twins and rowhomes, wiring routes can be tight, and we plan carefully to avoid unnecessary damage.
+
+Many Morrisville properties are rentals, and landlords need electrical items fixed quickly to pass inspections and keep units rented.
+
+## Electrical Work We Do in Morrisville
+
+Our most common Morrisville jobs are [home rewiring](@home-rewiring), [fuse box replacement](@fuse-box-replacement), [ground wire installation](@ground-wire-installation-repair) for ungrounded outlets, and [electrical repair and troubleshooting](@electrical-repair-troubleshooting). We also handle [code corrections](@electrical-code-corrections) for rental inspections and sales, and install [smoke and CO detectors](@smoke-detector-installation).
+
+## Common Electrical Issues in Morrisville Homes
+
+The issues we find most often in Morrisville are knob-and-tube and cloth-insulated wiring, fuse boxes, ungrounded outlets, overloaded circuits and amateur wiring from past repairs. In twins and rowhomes, shared walls and tight spaces make careful planning important. We'll explain what we find in plain language and give you options, with safety items first.
+
+## Small Businesses on Bridge Street
+
+We also work for small businesses in Morrisville, including shops and offices along Bridge Street and Pennsylvania Avenue, with lighting, circuits for equipment and repairs.
+
+## Around Morrisville
+
+We work throughout the borough, from the streets near the Calhoun Street and "Trenton Makes" bridges to the neighborhoods around Summerseat and the Morrisville schools. We're just a few minutes away in Yardley, so we can often respond quickly when something stops working.
+
+## Landlords and Rental Properties
+
+We work with Morrisville landlords to correct items flagged on rental inspections, often within days. We'll price each item, do the work and give you an itemized invoice describing every correction. For multi-unit properties, we can look at the whole building and plan upgrades in phases.
+
+## Why Morrisville Calls Us
+
+We only do electrical work, and we've done it in this area for over 40 years. You get a licensed, insured electrician, a written estimate before any work starts, and a clean job site. We were named a Nextdoor Neighborhood Favorite in 2023 and 2024.
+
+## FAQ
+Q: Do you work with landlords on rental inspections?
+A: Yes. Send us the inspection list and we'll price each item and schedule the work quickly.
+Q: Can you rewire a twin or rowhome?
+A: Yes. We plan routes through the basement and attic and work room by room to keep disruption low.
+Q: Do you install smoke and CO alarms for home sales?
+A: Yes. Pennsylvania requires carbon monoxide alarms in homes with fuel-burning appliances or attached garages when they're sold, and we install them along with interconnected smoke alarms.
+

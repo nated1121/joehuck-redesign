@@ -1,0 +1,1128 @@
+Service pages: Electrical Installations (GBP category)
+
+=== electrical-wiring-installation
+cat: i
+name: Electrical Wiring Installation
+gbp: Electrical wiring installation
+h1: Electrical Wiring Installation in Yardley, PA
+title: Electrical Wiring Installation in Yardley, PA | Remodels & Additions
+desc: Electrical wiring installation in Yardley, PA for remodels, additions and new rooms. New circuits, outlets and lighting wired to code, permits included.
+blurb: New wiring for remodels, additions, attic and basement conversions: circuits, outlets, switches and lighting planned around how you'll use the space, installed to code and inspected.
+related: new-construction-electrical, basement-wiring, dedicated-circuit-installation
+---
+Remodeling a room, adding space or opening up walls? That's the best time to get the wiring right. We install new wiring for remodels, additions and conversions around Yardley, planned around how you'll actually use the space.
+
+:::signs
+## When You Need New Wiring
+- You're remodeling a kitchen, bath or living area and the walls are open
+- You're adding a room, a sunroom or a second story
+- You're converting an attic, garage or basement to living space
+- The room needs more outlets, better lighting or its own circuits
+- Previous owners added wiring that doesn't look right
+:::
+
+## Planning the Layout
+
+Before we pull a single wire, we walk the space with you. We'll place outlets where furniture, TVs and desks will actually go, put switches at the doors you'll use, plan lighting in layers, and think about what you might add later, like a wall-mounted TV, a charging station or smart controls. Code sets minimums for outlet spacing and protection; we treat those as a starting point.
+
+## How We Install It
+
+With walls open, we run new circuits from the panel, set boxes at the right heights and install cable neatly through the framing with protection where it's required. New circuits in living areas get arc-fault protection, and outlets in kitchens, baths, laundry areas, garages and outdoors get ground-fault protection. We schedule the rough-in inspection before insulation and drywall go up, then return after the finish work to install devices and fixtures and test everything.
+
+When walls are finished, we can often fish new wiring through from the attic or basement with small access holes. For larger projects, see [new construction electrical](@new-construction-electrical). For finishing a lower level, our [basement wiring](@basement-wiring) page covers the details. Appliances and equipment that need their own circuit are covered under [dedicated circuit installation](@dedicated-circuit-installation).
+
+## What Affects the Cost
+
+The number of circuits, outlets and fixtures, whether walls are open or finished, and your panel's available capacity all drive the price. If your panel is full, we'll tell you up front and include a subpanel or panel upgrade in the estimate as an option.
+
+## Wiring Older Walls
+
+Older homes present their own challenges: plaster and lath, fire blocking between floors and past renovations that left surprises in the walls. We plan routes around these and use the right tools to fish cable through finished walls, so you get new circuits without opening every room. Where we have to cut, we keep openings small and clean.
+
+## Wiring Installation Around Yardley
+
+We wire remodels and additions across [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and attic and basement conversions in [Langhorne](@langhorne).
+
+## FAQ
+Q: When should the electrician start on a remodel?
+A: After framing and before insulation and drywall. We rough in, pass inspection, then come back for trim-out after the finish work.
+Q: Can you work with my contractor?
+A: Yes. We coordinate with general contractors and cabinet and drywall crews to keep the project on schedule.
+Q: Does new wiring need a permit?
+A: New circuits and most new wiring do. We pull the permit and schedule the inspections.
+
+=== dedicated-circuit-installation
+cat: i
+name: Dedicated Circuit Installation
+gbp: Dedicated circuit installation
+h1: Dedicated Circuit Installation in Yardley, PA
+title: Dedicated Circuit Installation in Yardley, PA | 20A & 240V Circuits
+desc: Dedicated circuit installation in Yardley, PA for appliances, space heaters, home offices, freezers, sump pumps and equipment. 120V and 240V circuits.
+blurb: Give appliances and equipment their own circuit so they stop tripping breakers: microwaves, refrigerators, freezers, sump pumps, space heaters, home offices, gym equipment and 240-volt tools.
+related: appliance-wiring, electrical-panel-upgrade, ev-charger-installation
+---
+If a breaker trips every time the microwave, space heater or treadmill runs with something else, that appliance probably needs a circuit of its own. We install dedicated circuits in Yardley homes and businesses so each load gets the power it needs without taking down the rest of the room.
+
+:::signs
+## Signs You Need a Dedicated Circuit
+- A breaker trips when a particular appliance runs with anything else
+- Lights dim when the appliance starts up
+- You're adding a freezer, wine fridge or second refrigerator
+- You need a reliable circuit for a sump pump or medical equipment
+- You're setting up a home office, gym, workshop or window AC
+:::
+
+## What Gets a Dedicated Circuit
+
+Code requires dedicated circuits for many built-in appliances, including dishwashers, disposals, built-in microwaves, and the washer and furnace. Beyond the rules, anything that draws a lot of power for a long time benefits from its own circuit: space heaters, window air conditioners, freezers, gym equipment and computer setups. Sump pumps and freezers get their own circuit so an unrelated trip doesn't leave you with a flooded basement or spoiled food.
+
+## 120-Volt and 240-Volt Circuits
+
+Most household equipment runs on 120-volt, 15 or 20 amp circuits. Larger equipment like ranges, dryers, water heaters, welders, air compressors, mini-splits and EV chargers needs a 240-volt circuit sized to the equipment. Our [appliance wiring](@appliance-wiring) page covers those hookups, and [EV charger installation](@ev-charger-installation) has its own page.
+
+## How We Install It
+
+We confirm your panel has space and capacity, size the wire and breaker for the load, and run the new circuit by the cleanest route, often from the basement or attic with a small opening for the new outlet. We add the ground-fault or arc-fault protection the location requires, label the breaker and test the circuit under load. If the panel is full or near capacity, we'll talk through a subpanel or [panel upgrade](@electrical-panel-upgrade).
+
+## What Affects the Cost
+
+Distance from the panel, the circuit's size, how hard the route is, and the type of breaker required all shape the price. A new 20 amp outlet near the panel is a quick job; a 240-volt run to a far corner of the house takes longer.
+
+## Labeling and Documentation
+
+Every new circuit gets a clear, typed label at the panel, so you know exactly what it feeds. That makes future troubleshooting faster and saves guessing during an outage.
+
+## Dedicated Circuits Around Yardley
+
+We add circuits for kitchens and home offices in [Lower Makefield](@lower-makefield), and split overloaded circuits in the original homes of [Levittown](@levittown) and [Fairless Hills](@fairless-hills).
+
+## FAQ
+Q: Does my refrigerator need its own circuit?
+A: It's strongly recommended, and often required in new kitchens. A shared circuit can trip and leave your food warm.
+Q: Can a space heater run on a regular outlet?
+A: It can, but a 1,500-watt heater uses most of a 15-amp circuit by itself. That's the classic cause of tripping in bedrooms and offices.
+Q: Do I need a permit for a new circuit?
+A: Yes, a new circuit generally needs a permit. We handle it.
+
+=== switch-outlet-installation
+cat: i
+name: Switch & Outlet Installation
+gbp: Switch & Outlet installation; Electrical switch replacement
+h1: Switch & Outlet Installation in Yardley, PA
+title: Switch & Outlet Installation in Yardley, PA | Replacements
+desc: Switch and outlet installation and replacement in Yardley, PA. New outlets, USB outlets, worn or warm switches replaced, tamper-resistant outlets. Licensed.
+blurb: Add outlets where you need them and replace worn, loose, cracked or warm switches and outlets. We install USB and tamper-resistant outlets and fix the loose connections behind flickering switches.
+related: switch-outlet-relocation, gfci-outlet-installation, dimmer-switch-installation
+---
+Outlets and switches get used thousands of times, and eventually they wear out. We add new outlets where you need them and replace worn, loose or damaged switches and outlets throughout Yardley-area homes, fixing the connections behind them while we're at it.
+
+:::signs
+## Signs It's Time to Replace or Add
+- Plugs fall out of the outlet or feel loose
+- A switch or outlet is cracked, warm or discolored
+- A switch crackles, sparks or has to be jiggled to work
+- You're running extension cords to reach an outlet
+- Outlets are two-prong or painted over
+- You want USB or USB-C charging built into the wall
+:::
+
+## Replacing Worn Switches and Outlets
+
+When we replace a device, we don't just swap it. We check the box, the wire and the connections. Many older outlets were wired with push-in "backstab" connections that loosen over time and cause flickering, intermittent power and heat. We move those connections to the screw terminals or use quality back-wire devices, and replace any damaged wire ends. New outlets in homes are tamper-resistant, which keeps kids from pushing objects into the slots.
+
+If a switch is warm or flickers, that's a sign of a loose connection or a device that's failing, and it should be fixed soon. See [electrical repair and troubleshooting](@electrical-repair-troubleshooting) if the problem is on more than one device.
+
+## Adding New Outlets and Switches
+
+We add outlets behind TVs and beds, along kitchen counters, in hallways, garages and home offices, usually by fishing wire from the basement or attic and cutting only a small opening for the new box. We can add switches for lights that only have a pull chain, and install combination switch-and-outlet devices where space is tight. Moving an existing outlet or switch is covered on our [switch and outlet relocation](@switch-outlet-relocation) page. For dimmers, see [dimmer switch installation](@dimmer-switch-installation).
+
+## What Affects the Cost
+
+Replacing devices is priced per device and goes quickly when several are done at once. New outlets depend on access and distance from a circuit with capacity.
+
+## Upgrading a Whole House at Once
+
+Replacing all the outlets and switches in a house is a popular update, especially when yellowed or mismatched devices are part of the problem. It's efficient to do in one visit, and it gives us a chance to check every connection in the house. We can match a new style and color throughout, add USB outlets where they're useful and put dimmers in the rooms that need them.
+
+## Outlet and Switch Work Around Yardley
+
+We replace outlets and switches throughout [Lower Makefield](@lower-makefield) and [Morrisville](@morrisville), and add outlets to older rooms in [Levittown](@levittown) that were built with only one or two.
+
+## FAQ
+Q: Why do my plugs fall out of the outlet?
+A: The outlet's internal contacts are worn. It should be replaced, since a loose connection can overheat.
+Q: Are USB outlets worth it?
+A: For bedsides, kitchens and desks, yes. They free up plug space and charge devices without adapters.
+Q: Can I replace a switch myself?
+A: Many people do, but if the switch was warm or sparking, have the box and wiring checked, because the problem may be behind the switch.
+
+=== switch-outlet-relocation
+cat: i
+name: Switch & Outlet Relocation
+gbp: Switch & Outlet relocation
+h1: Switch & Outlet Relocation in Yardley, PA
+title: Switch & Outlet Relocation in Yardley, PA | Move Outlets & Switches
+desc: Switch and outlet relocation in Yardley, PA. Move outlets for TVs, furniture, cabinets and remodels, and move switches to the right side of the door.
+blurb: Move outlets and switches to where they belong: behind a wall-mounted TV, clear of new cabinets, at the right height, or on the latch side of a door. Old boxes are closed up to code.
+related: switch-outlet-installation, electrical-wiring-installation, three-way-switch-wiring
+---
+A switch behind the door, an outlet where the new cabinet goes, or a TV cord hanging down the wall: most of the time, the fix is moving the outlet or switch. We relocate outlets and switches in Yardley homes neatly and to code.
+
+:::signs
+## Common Reasons to Relocate
+- You're mounting a TV and want the outlet hidden behind it
+- New cabinets, a vanity or built-ins cover an existing outlet or switch
+- A switch is on the hinge side of the door, behind it when it's open
+- Outlets are at the wrong height for a desk, counter or bed
+- A remodel moved a doorway or a wall
+:::
+
+## How We Move an Outlet or Switch
+
+Most relocations use the existing circuit. We open the old box, extend the circuit to the new location through the wall, and install a new box and device there. The old box can't just be buried in the wall; code requires every splice to stay accessible, so we either leave it as a neat blank-covered junction box or reroute the wiring so the old box can be removed and patched.
+
+For TV walls, we can install a recessed outlet and a low-voltage pass-through behind the TV so no cords show. For switches, moving to the latch side of a door or adding a second switch location often goes together. Controlling a light from two places is covered on our [three-way switch wiring](@three-way-switch-wiring) page.
+
+## Relocation During Remodels
+
+If the walls are open, relocating devices is simple and inexpensive, so it's worth thinking about layout before the drywall goes up. For bigger changes, see [electrical wiring installation](@electrical-wiring-installation). When a new location needs a brand-new circuit, see [switch and outlet installation](@switch-outlet-installation).
+
+## What Affects the Cost
+
+Distance, wall construction (plaster takes longer than drywall), whether there's a fire block or header in the way, and whether the old box can be removed all affect the price. We'll tell you how much patching to expect.
+
+## Plan Before You Mount the TV
+
+If you're wall-mounting a TV, decide on its height and position before we move the outlet. The outlet should sit behind the TV, within reach of the power cord but hidden by the screen. If you'll use a soundbar or a streaming box, we'll plan a second outlet or a larger recessed box so every device plugs in behind the screen and nothing hangs below it.
+
+## Relocations Around Yardley
+
+We move outlets and switches for TV mounts and remodels throughout [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and in older plaster-walled homes in [New Hope](@new-hope).
+
+## FAQ
+Q: Can you hide the TV cords in the wall?
+A: Yes. We install a recessed outlet behind the TV and a code-approved pass-through for low-voltage cables.
+Q: What happens to the old outlet box?
+A: It either stays as a covered junction box or is removed once the wiring is rerouted. Splices can never be hidden inside a wall.
+Q: Will you patch the drywall?
+A: We keep openings small and neat. We can leave them ready for your painter or arrange patching.
+
+=== gfci-outlet-installation
+cat: i
+name: GFCI Outlet Installation
+gbp: GFCI outlet installation
+h1: GFCI Outlet Installation in Yardley, PA
+title: GFCI Outlet Installation in Yardley, PA | Kitchens, Baths & Garages
+desc: GFCI outlet installation in Yardley, PA for kitchens, bathrooms, garages, basements, laundry and outdoors. Code corrections and GFCI troubleshooting.
+blurb: Ground-fault (GFCI) protection for kitchens, bathrooms, laundry areas, garages, basements and outdoor outlets. We install GFCI outlets and breakers where code requires and fix GFCIs that won't reset.
+related: outdoor-outlet-installation, electrical-code-corrections, bathroom-fixture-wiring
+---
+A GFCI outlet shuts off power in a fraction of a second when it senses electricity taking a path it shouldn't, such as through a person standing near water. It's one of the most effective shock-prevention devices ever made, and one of the most common items on Yardley home inspection reports.
+
+:::signs
+## Where You Need GFCI Protection
+- Kitchen countertop outlets and outlets near any sink
+- Bathrooms and laundry areas
+- Garages and unfinished basements
+- All outdoor outlets, including decks and porches
+- Near pools, hot tubs and wet bars
+- Anywhere a home inspector flagged "missing GFCI"
+:::
+
+## GFCI Outlets vs. GFCI Breakers
+
+There are two ways to protect a circuit. A GFCI outlet protects itself and every outlet wired after it on the circuit. A GFCI breaker in the panel protects the whole circuit from its source, which is useful when outlets are hard to reach, when a circuit feeds outdoor outlets, or for equipment like hot tubs. We'll choose the right method for each location, and label protected outlets downstream so you know where to reset.
+
+## Installing and Testing
+
+We identify the first outlet on each circuit, install GFCI protection there or at the panel, and test every outlet it covers. GFCIs can also protect ungrounded three-prong outlets when a ground wire isn't available, labeled "No equipment ground" as the code requires; see [ground wire installation](@ground-wire-installation-repair) for a permanent ground. For outdoor locations, see [outdoor outlet installation](@outdoor-outlet-installation). In bathrooms, we often pair GFCI work with [bathroom fixture wiring](@bathroom-fixture-wiring).
+
+## GFCIs That Trip or Won't Reset
+
+A GFCI that trips often may have found a real problem, such as moisture in an outdoor box, a worn appliance or damaged wiring. A GFCI that won't reset may have failed, or may have no power coming in. We find the cause. GFCIs also wear out and should be tested monthly with the test button.
+
+## What Affects the Cost
+
+GFCI outlets are affordable; GFCI breakers cost more. Most homes need only a handful, placed at the start of each circuit.
+
+## GFCI Breakers for Hard-to-Reach Circuits
+
+When the first outlet on a circuit is behind a fridge, a washer or a basement freezer, resetting a GFCI outlet there is a nuisance. A GFCI breaker in the panel is often the better choice. We also avoid putting refrigerators and sump pumps on GFCI protection where the code allows, so a nuisance trip doesn't leave you with spoiled food or a wet basement.
+
+## GFCI Work Around Yardley
+
+We add GFCI protection as part of [code corrections](@electrical-code-corrections) before sales in [Lower Makefield](@lower-makefield) and [Langhorne](@langhorne), and in basements and garages in [Levittown](@levittown).
+
+## FAQ
+Q: Why did several outlets stop working at once?
+A: Often a GFCI in another room, the garage or outside has tripped. Press its reset button. If it won't reset, call us.
+Q: How often should I test my GFCIs?
+A: Once a month. Press test, confirm power goes off, then press reset.
+Q: Do GFCI outlets wear out?
+A: Yes. Most last many years, but a GFCI that no longer trips when tested should be replaced.
+
+=== outdoor-outlet-installation
+cat: i
+name: Outdoor Outlet Installation
+gbp: Outdoor outlet installation
+h1: Outdoor Outlet Installation in Yardley, PA
+title: Outdoor Outlet Installation in Yardley, PA | Weatherproof GFCI Outlets
+desc: Outdoor outlet installation in Yardley, PA. Weather-resistant GFCI outlets with in-use covers for decks, patios, holiday lights and landscape lighting.
+blurb: Weather-resistant, GFCI-protected outdoor outlets with in-use covers for decks, patios, porches, holiday lights, landscape lighting transformers, pool equipment and yard tools.
+related: gfci-outlet-installation, landscape-lighting-installation, hot-tub-electrical-hookup
+---
+Running an extension cord through a window every December gets old. We install weather-resistant, GFCI-protected outdoor outlets on decks, patios, porches and garage walls around Yardley, so power is right where you use it.
+
+:::signs
+## Good Places for an Outdoor Outlet
+- The deck or patio, for lights, a grill or a heater
+- Front porch and yard for holiday lights
+- Near the landscape beds for a lighting transformer or fountain
+- Back of the garage for yard tools and a pressure washer
+- Near a pool or hot tub for equipment (with required spacing)
+:::
+
+## Built for the Weather
+
+Outdoor outlets have to handle rain, snow and freeze-thaw cycles. We install weather-resistant GFCI receptacles in weatherproof boxes with "in-use" covers, the bubble-style covers that keep water out even when something is plugged in, as current code requires. Outlets are mounted at a sensible height, sealed to the siding, and protected by a GFCI so they shut off if water gets where it shouldn't. For more on how that protection works, see [GFCI outlet installation](@gfci-outlet-installation).
+
+## Wiring the Outlet
+
+Most outdoor outlets are fed from a nearby indoor circuit through the wall. When the outlet needs to be out in the yard, on a post or at a garden bed, we run the circuit underground in conduit at the proper depth. Outlets that will run heaters, pumps or a [landscape lighting](@landscape-lighting-installation) transformer may need a dedicated circuit. Pools and [hot tubs](@hot-tub-electrical-hookup) have their own rules for outlet spacing and protection.
+
+## Switched Outlets
+
+A switched outlet near the door is handy for string lights and holiday displays. We can put it on a switch inside, on a timer, or on a smart switch you control from your phone.
+
+## What Affects the Cost
+
+Outlets on an exterior wall near an existing circuit are quick jobs. Freestanding outlets in the yard need trenching and conduit and cost more. Brick and stone exteriors take a little longer than siding.
+
+## Holiday Lights and Heavy Loads
+
+Holiday displays, heaters, pool pumps and pressure washers can overload a single outdoor outlet, especially if it shares a circuit with indoor outlets. If you run a large holiday display or plan to use outdoor heaters, we'll recommend a dedicated circuit, and can add more than one outlet on it so cords don't have to run across the yard. We also make sure outlets are placed where cords won't cross walkways or sit in puddles.
+
+## Outdoor Outlets Around Yardley
+
+We install deck and patio outlets throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and garden and yard outlets on the larger properties around [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Do outdoor outlets need to be GFCI?
+A: Yes. Every outdoor outlet at a home must have GFCI protection.
+Q: Can you put an outlet on a post in the yard?
+A: Yes. We run the circuit underground in conduit and mount the outlet on a sturdy post.
+Q: Can an outdoor outlet be controlled by a switch inside?
+A: Yes, and we can use a timer or smart switch instead.
+
+=== dimmer-switch-installation
+cat: i
+name: Dimmer Switch Installation
+gbp: Dimming switch installation
+h1: Dimmer Switch Installation in Yardley, PA
+title: Dimmer Switch Installation in Yardley, PA | LED-Compatible Dimmers
+desc: Dimmer switch installation in Yardley, PA. LED-compatible dimmers that don't flicker or buzz, multi-location dimming and smart dimmers. Licensed electricians.
+blurb: LED-compatible dimmers that dim smoothly without flicker or buzz, including smart dimmers, multi-location dimming and dimmers matched to your fixtures and bulbs.
+related: smart-lighting-installation, recessed-lighting-installation, switch-outlet-installation
+---
+A good dimmer lets one set of lights work for cooking, dinner and a movie. A bad one makes LED lights flicker, buzz or snap on at half brightness. We install dimmers in Yardley homes that are matched to your lights, so they dim smoothly.
+
+:::signs
+## Signs You Need a Better Dimmer
+- LED lights flicker or strobe at low settings
+- The dimmer or fixture buzzes
+- Lights don't dim all the way down, or turn off before the bottom
+- You switched to LED bulbs and the old dimmer stopped working right
+- You want to dim a room from two places
+:::
+
+## Dimmers for Fans and Special Fixtures
+
+Ceiling fans need a fan-speed control, never a light dimmer, because a light dimmer can damage the motor. Low-voltage fixtures, some under-cabinet lights and LED strips need dimmers or drivers designed for their power supply. We'll match the control to each fixture, so everything works smoothly and lasts. If you have a mix of fixtures on one switch, we may recommend separating them so each can be controlled properly.
+
+## Why LEDs Need the Right Dimmer
+
+Older dimmers were designed for incandescent bulbs, which draw a lot of power. LEDs draw very little, and many older dimmers can't control such a small load smoothly. The result is flicker, buzzing and a limited dimming range. We install dimmers rated for LED loads and adjust their low-end trim settings so the lights dim smoothly without dropping out. We also check that the bulbs or fixtures themselves are dimmable, because not every LED is.
+
+## Types of Dimmers We Install
+
+We install standard slide, rotary and paddle dimmers, dimmers that work from more than one location, and smart dimmers from brands like Lutron that you can control from your phone or voice assistant. Smart dimmers usually need a neutral wire in the switch box, which some older homes don't have; we'll check and find a solution if yours doesn't. For whole-room scenes and app control, see [smart lighting installation](@smart-lighting-installation).
+
+## Pairing Dimmers With New Lighting
+
+Dimmers matter most with [recessed lighting](@recessed-lighting-installation), chandeliers and dining room fixtures. When we install new lighting, we match the dimmer to the fixtures from the start. Replacing an ordinary switch is covered under [switch and outlet installation](@switch-outlet-installation).
+
+## What Affects the Cost
+
+Standard dimmers are inexpensive; smart and multi-location dimmers cost more. Boxes with several switches, missing neutrals and older wiring can add time.
+
+## Dimmer Work Around Yardley
+
+We fix flickering LED dimmers throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and install dimming with new lighting in [Langhorne](@langhorne).
+
+## FAQ
+Q: Why do my LED lights flicker on the dimmer?
+A: Usually the dimmer isn't designed for LED loads, or its low-end setting needs adjustment. The right dimmer fixes it in most cases.
+Q: Can any LED bulb be dimmed?
+A: No. Check the package for "dimmable." Non-dimmable LEDs will flicker or fail on a dimmer.
+Q: Do smart dimmers need special wiring?
+A: Most need a neutral wire in the switch box. We'll check yours and recommend a model that works.
+
+=== three-way-switch-wiring
+cat: i
+name: Two-Way (3-Way) Switch Wiring
+gbp: Two-way switching wiring
+h1: Two-Way & 3-Way Switch Wiring in Yardley, PA
+title: 3-Way Switch Wiring in Yardley, PA | Control Lights From Two Places
+desc: Two-way and 3-way switch wiring in Yardley, PA. Control lights from both ends of stairs, halls and rooms. Repairs for 3-way switches that don't work right.
+blurb: Control a light from two or more places, such as the top and bottom of the stairs or both ends of a hallway. We add new switch locations and fix 3-way circuits that only work one way.
+related: switch-outlet-relocation, dimmer-switch-installation, smart-lighting-installation
+---
+Walking back across a dark room to turn off the light gets old fast. Two-way switching, usually called 3-way switching in the US, lets you control a light from two places, like the top and bottom of the stairs. We add it to Yardley-area homes and fix it when it's wired wrong.
+
+:::signs
+## Where Two-Way Switching Helps
+- Stairways, so you can turn lights on and off from each floor
+- Long hallways and rooms with two entrances
+- Garages with a house door and an overhead door
+- Bedrooms, to switch the light from the bed
+- A 3-way switch that only works when the other one is in a certain position
+:::
+
+## How Two-Way Switching Works
+
+A 3-way circuit uses two special switches connected by two "traveler" wires, so either switch can change the state of the light. Adding a third or fourth location uses a 4-way switch between them. Installing a new 3-way location means running the right cable between the two switch boxes and the fixture, which we usually do from the attic or basement with minimal wall openings.
+
+## Fixing 3-Way Circuits That Don't Work Right
+
+The most common problem we see is a 3-way circuit that someone rewired incorrectly, so the light works only when the other switch is in one position. It's usually a matter of identifying the common and traveler terminals and correcting the connections. Worn 3-way switches can also cause intermittent problems and need replacing.
+
+## Smart and Wireless Options
+
+When running new cable isn't practical, smart switches with a wireless companion switch can control a light from a second location without new traveler wires. We install both the wired and the smart approach and will tell you which fits your home. For more, see [smart lighting installation](@smart-lighting-installation). You can also dim from both locations with the right [dimmer switches](@dimmer-switch-installation). If a switch just needs to move to a better spot, see [switch and outlet relocation](@switch-outlet-relocation).
+
+## What Affects the Cost
+
+The distance between switch locations, access through the attic or basement, and whether you choose wired or smart switches affect the price.
+
+## Adding Switches During a Remodel
+
+If walls are open for a remodel, it's the easiest time to add three-way switching at stairs, hallways and rooms with two doors. Adding the cable at that stage costs little, and it's one of the details that makes a house feel well planned.
+
+## Two-Way Switching Around Yardley
+
+We add stair and hallway switching in two-story homes in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and fix mis-wired 3-way circuits in older homes in [Morrisville](@morrisville).
+
+## FAQ
+Q: What's the difference between two-way and 3-way switching?
+A: They're the same thing. "Two-way" is the term used in many countries; in the US these switches are called 3-way.
+Q: Can I control a light from three places?
+A: Yes. Two 3-way switches with a 4-way switch between them control a light from three locations.
+Q: Can I add a second switch without running wire?
+A: Yes, with a smart switch and a wireless companion switch.
+
+=== ceiling-fan-installation
+cat: i
+name: Ceiling Fan Installation
+gbp: Ceiling fan installation
+h1: Ceiling Fan Installation in Yardley, PA
+title: Ceiling Fan Installation in Yardley, PA | Fan-Rated Boxes & New Wiring
+desc: Ceiling fan installation in Yardley, PA. Replace a light with a fan, add fans to rooms with no fixture, fan-rated boxes, separate fan and light control.
+blurb: Ceiling fans installed securely on fan-rated boxes, whether you're replacing a light fixture or adding a fan to a room with no ceiling wiring. Separate fan and light control, remotes and high-ceiling downrods.
+related: ceiling-light-installation, attic-fan-installation, three-way-switch-wiring
+---
+A ceiling fan makes a room more comfortable in summer and helps move warm air in winter. We install ceiling fans across Yardley, from simple fixture swaps to fans in rooms that were built with no ceiling wiring at all.
+
+:::signs
+## When to Call an Electrician for a Fan
+- You're replacing a light fixture with a fan
+- The room has no ceiling fixture, only a switched outlet
+- You want the fan and light on separate switches
+- The fan wobbles, hums or the light flickers
+- The ceiling is high or sloped
+:::
+
+## Fan-Rated Boxes Matter
+
+A ceiling fan is heavy and it moves, and a standard light fixture box isn't built to hold it. Every fan we install is mounted to a fan-rated box or brace secured to the ceiling framing. When we replace a light with a fan, we check the existing box and replace it if it isn't rated, usually without opening the ceiling. That's the difference between a fan that runs quietly for years and one that wobbles or works loose.
+
+## Adding a Fan Where There's No Fixture
+
+Many older homes, especially 1950s homes in lower Bucks County, have bedrooms with no ceiling fixture. We run a new switch leg from the wall switch to the ceiling through the attic, install a fan-rated box and wire the fan. If you want the fan and light on separate wall switches, we run the extra conductor while we're there. Remote and wall-control kits are an option when adding wire isn't practical. For light-only fixtures, see [ceiling light installation](@ceiling-light-installation).
+
+## Assembly, Balance and Setup
+
+We assemble the fan, set the blade pitch, balance it so it runs without wobble and set the direction for the season. On high or sloped ceilings, we install the right downrod length and slope adapter. If you're ventilating a hot attic rather than cooling a room, see [attic fan installation](@attic-fan-installation).
+
+## What Affects the Cost
+
+Replacing a fixture with a fan is the quickest job. Adding a new switch leg, separate fan and light control, high ceilings and heavy fans take more time. We quote the whole job, including the box.
+
+## Porch and Outdoor Fans
+
+Covered porches and patios need fans rated for damp or wet locations, and they're usually mounted to boxes that can handle outdoor conditions. We'll check the rating and wire them with GFCI protection where required.
+
+## Ceiling Fans Around Yardley
+
+We install a lot of ceiling fans in the original bedrooms of [Fairless Hills](@fairless-hills) and [Levittown](@levittown) homes, and in family rooms and porches in [Lower Makefield](@lower-makefield).
+
+## FAQ
+Q: Can I put a ceiling fan where my light fixture is?
+A: Usually, if the box is fan-rated or can be replaced with one. We check and upgrade the box as part of the install.
+Q: Can the fan and light be on separate switches?
+A: Yes, if there's an extra conductor, which we can run. Otherwise a remote or smart control is an option.
+Q: Why does my fan wobble?
+A: Usually unbalanced blades or a loose mount. We balance the fan and check the box.
+
+=== attic-fan-installation
+cat: i
+name: Attic Fan Installation
+gbp: Attic fan installation
+h1: Attic Fan Installation in Yardley, PA
+title: Attic Fan Installation in Yardley, PA | Attic Ventilator Wiring
+desc: Attic fan installation and wiring in Yardley, PA. Gable and roof-mounted powered attic ventilators with thermostat and humidistat control. Licensed.
+blurb: Powered attic ventilators wired with thermostat and humidistat control to move hot, humid air out of your attic. We install gable fans and wire roof-mounted units, and repair fans that have stopped working.
+related: ceiling-fan-installation, dedicated-circuit-installation, smart-home-wiring
+---
+On a July afternoon, an attic can reach well over 130 degrees. A powered attic fan pushes that heat out, which can ease the load on your air conditioning and help control moisture. We install and wire attic fans in Yardley-area homes, and repair the ones that have quit.
+
+:::signs
+## Signs an Attic Fan Could Help
+- Upstairs rooms stay hot in summer even with the AC running
+- The attic is stuffy, with no ridge or soffit venting
+- You see condensation or frost on roof sheathing in winter
+- Your existing attic fan hums but doesn't spin, or never turns on
+:::
+
+## Gable and Roof-Mounted Fans
+
+Gable fans mount behind an existing gable vent and don't need a new opening in the roof, which makes them a simple install. Roof-mounted fans need a new opening and flashing; when one is needed, we work with your roofer, or wire a unit they've installed. Solar-powered fans don't need wiring at all, though they only run when the sun is out.
+
+Before recommending a fan, we look at your attic's intake venting. A fan without enough fresh air coming in through the soffits can pull conditioned air from the house instead of outdoor air, which defeats the purpose.
+
+## Wiring and Controls
+
+We wire the fan to a nearby circuit or a [dedicated circuit](@dedicated-circuit-installation), depending on the fan's draw, and install an adjustable thermostat so it runs only when the attic is hot. A humidistat can also run it when moisture builds up. Wiring runs neatly along the framing with proper support, and the fan has a local disconnect for service. We can add a switch or a smart control so you can turn it off from inside the house; our [smart home wiring](@smart-home-wiring) page covers those options.
+
+## Repairs
+
+A fan that hums but won't spin usually has a failed motor or seized bearing. A fan that never runs may have a failed thermostat or a wiring problem. We diagnose it and repair or replace the motor or the whole unit. For cooling the rooms themselves, see [ceiling fan installation](@ceiling-fan-installation).
+
+## What Affects the Cost
+
+Gable fans cost less to install than roof-mounted units. The distance to a power source and the controls you choose also affect the price.
+
+## Safety Features
+
+Attic fans should have a firestat that shuts the fan off if the attic gets extremely hot, which some local codes require. We install or check it as part of the job.
+
+## Attic Fans Around Yardley
+
+We wire attic fans in two-story homes in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), where upstairs bedrooms heat up quickly.
+
+## FAQ
+Q: Does an attic fan replace air conditioning?
+A: No. It removes heat from the attic, which can reduce the load on your AC and keep upstairs rooms cooler.
+Q: What's the difference between an attic fan and a whole-house fan?
+A: An attic fan ventilates only the attic. A whole-house fan pulls air through the living space and out through the attic.
+Q: Should my attic fan have a thermostat?
+A: Yes, so it runs only when the attic needs it.
+
+=== appliance-wiring
+cat: i
+name: Appliance Wiring
+gbp: Appliance wiring
+h1: Appliance Wiring & Hookups in Yardley, PA
+title: Appliance Wiring in Yardley, PA | Range, Dryer & Oven Hookups
+desc: Appliance wiring in Yardley, PA. 240V circuits and hookups for ranges, induction cooktops, wall ovens, dryers, water heaters and more. Licensed electricians.
+blurb: Circuits and hookups for electric and induction ranges, cooktops, wall ovens, dryers, water heaters, dishwashers, disposals and built-in microwaves, sized to each appliance and wired to code.
+related: dedicated-circuit-installation, kitchen-electrical-upgrade, electrical-panel-upgrade
+---
+New appliances often need more than a plug. Induction ranges, wall ovens, electric dryers and water heaters need 240-volt circuits sized to the appliance, and built-ins need hardwired connections. We wire and connect appliances in Yardley-area homes so they run safely and the way the manufacturer intended.
+
+:::signs
+## When You Need an Electrician for an Appliance
+- You're switching from gas to an electric or induction range
+- The new range or dryer has a different plug than the old outlet
+- You're adding a wall oven, cooktop or second oven
+- You're installing an electric or heat pump water heater
+- The dishwasher, disposal or built-in microwave needs a new connection
+:::
+
+## Sizing the Circuit to the Appliance
+
+Every appliance lists the circuit it needs on its nameplate and in the installation instructions. An induction range often needs 40 or 50 amps; a wall oven and cooktop combination may need separate circuits. We size the wire and breaker to the appliance, not a guess, and install the correct receptacle or hardwired connection. If your panel lacks capacity or space for the new circuit, we'll talk through the options, including a [panel upgrade](@electrical-panel-upgrade).
+
+## Three-Wire to Four-Wire Connections
+
+Older homes often have three-prong range and dryer outlets. Current code requires four-wire circuits for new installations, with a separate ground and neutral. When a new appliance comes with a four-wire cord, we update the circuit and receptacle, or connect it correctly to an existing three-wire circuit where that's permitted.
+
+## Built-Ins and Kitchen Appliances
+
+Dishwashers, disposals and built-in microwaves each typically need their own circuit and a proper connection. We coordinate with your appliance installer or cabinet crew. For a full kitchen, see [kitchen electrical upgrades](@kitchen-electrical-upgrade). For equipment like freezers and gym machines, see [dedicated circuit installation](@dedicated-circuit-installation).
+
+## What Affects the Cost
+
+A like-for-like hookup on an existing correct circuit is quick. A new 240-volt circuit costs more, especially when the appliance is far from the panel.
+
+## Heat Pump Water Heaters and Other Upgrades
+
+Heat pump water heaters, electric heat pumps and induction cooktops are replacing gas appliances in many homes. Each has specific circuit requirements, and several at once can add up to more than an older panel can carry. When you're planning more than one electric appliance, we'll run a load calculation for the whole group, so you know in advance whether your panel can handle all of them.
+
+## Appliance Wiring Around Yardley
+
+We wire induction ranges and wall ovens in kitchen remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and dryer and water heater circuits in [Levittown](@levittown).
+
+## FAQ
+Q: Can I switch from a gas range to induction?
+A: Yes, with a 240-volt circuit sized to the range, usually 40 or 50 amps. We'll check your panel first.
+Q: My new dryer plug doesn't fit the outlet. What now?
+A: The dryer likely has a four-prong cord and your outlet is three-prong. We'll update the circuit or connect it the correct way.
+Q: Does a dishwasher need its own circuit?
+A: It's typically required in new work and strongly recommended. We'll confirm what applies to your kitchen.
+
+=== bathroom-fixture-wiring
+cat: i
+name: Bathroom Fixture Wiring
+gbp: Bathroom fixture wiring
+h1: Bathroom Electrical & Fixture Wiring in Yardley, PA
+title: Bathroom Fixture Wiring in Yardley, PA | Fans & Vanity Lights
+desc: Bathroom electrical and fixture wiring in Yardley, PA: exhaust fans, vanity lights, heated floors, GFCI outlets and wet-rated shower lights. Licensed.
+blurb: Electrical for bathroom remodels and updates: vanity lights, exhaust fans vented to the outside, heated floors, towel warmers, wet-rated shower lights and GFCI-protected outlets.
+related: gfci-outlet-installation, wall-sconce-installation, recessed-lighting-installation
+---
+Bathrooms combine water, steam and electricity, so the rules are strict for good reason. We wire bathroom remodels and updates around Yardley: vanity lights, exhaust fans, heated floors and outlets, all installed with the right protection and fixtures rated for the location.
+
+:::signs
+## Common Bathroom Electrical Projects
+- New vanity lighting or sconces beside the mirror
+- An exhaust fan that's missing, noisy or vents into the attic
+- Heated floors or a towel warmer
+- Recessed or shower lights rated for wet locations
+- Outlets without GFCI protection, or not enough of them
+:::
+
+## Exhaust Fans
+
+A bathroom fan clears moisture that otherwise feeds mold and peels paint. We install quiet, properly sized fans, and duct them to the outside, never just into the attic. A humidity-sensing fan or a timer switch keeps it running long enough to clear the room after a shower. Fans over a tub or shower need to be rated for the location and are often GFCI-protected.
+
+## Lighting in the Bath
+
+Good bathroom lighting comes from the sides of the mirror, not only from above. We install [wall sconces](@wall-sconce-installation) and vanity bars at the right height, and [recessed lights](@recessed-lighting-installation) rated for damp or wet locations over the tub and shower. Dimmers are a nice addition for night-time.
+
+## Outlets, Heated Floors and Protection
+
+Bathroom outlets need GFCI protection and a 20 amp circuit, and code limits where outlets can go near tubs and showers. See [GFCI outlet installation](@gfci-outlet-installation) for details. Heated floor mats and towel warmers get their own GFCI-protected supply and a thermostat or timer. In a remodel, we coordinate with your tile installer so the heating mat is tested before and after tile goes down.
+
+## What Affects the Cost
+
+A fixture swap is quick. Adding a vented fan, new circuits or heated floors takes longer, especially in finished second-floor baths. We plan the work around your remodel schedule.
+
+## Planning a Bathroom Remodel
+
+A bathroom remodel is the best time to fix everything at once. Before the walls close, think about lighting on both sides of the mirror, a vented fan with a humidity control, an outlet inside the vanity or medicine cabinet for toothbrushes and razors, and whether you want heated floors or a towel warmer. We'll rough in all of it, pass the inspection before the tile and drywall go up, and return to trim it out when the finishes are done. Coordinating with your contractor keeps the project on schedule.
+
+## Bathroom Work Around Yardley
+
+We wire bathroom remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and replace old fans and add GFCI outlets in [Levittown](@levittown) baths.
+
+## FAQ
+Q: Can my bathroom fan vent into the attic?
+A: No. It should vent outdoors. Venting into the attic puts moisture where it can cause mold and rot.
+Q: How high should vanity lights be?
+A: Sconces beside a mirror usually sit around eye level. We'll help you place them for your mirror and vanity.
+Q: Do bathroom outlets need GFCI?
+A: Yes. All bathroom outlets need GFCI protection.
+
+=== smart-home-wiring
+cat: i
+name: Smart Home Wiring
+gbp: Smart home wiring
+h1: Smart Home Wiring in Yardley, PA
+title: Smart Home Wiring in Yardley, PA | Smart Switches, Thermostats & Hubs
+desc: Smart home wiring in Yardley, PA. Smart switches and dimmers, neutral wires, smart thermostats, video doorbells and hardwired devices installed right.
+blurb: Wiring for smart switches, dimmers, thermostats, video doorbells, cameras and hubs, including adding neutral wires and power where devices need it, so your smart home is reliable rather than frustrating.
+related: smart-lighting-installation, low-voltage-wiring, doorbell-installation
+---
+Smart switches, thermostats and doorbells are easy to buy and surprisingly easy to install wrong. Many need a neutral wire older homes don't have, more power than an old transformer supplies, or a better location than the existing box. We wire smart homes around Yardley so the devices work reliably.
+
+:::signs
+## When to Call an Electrician for Smart Devices
+- A smart switch needs a neutral wire and your box doesn't have one
+- A new thermostat needs a C-wire for constant power
+- The video doorbell keeps losing power or rebooting
+- You want cameras or floodlights where there's no power
+- You're building or remodeling and want to plan ahead
+:::
+
+## Smart Switches and Dimmers
+
+Most smart switches need a neutral wire in the switch box to power their radio. Many homes built before the 1980s don't have one there. We can run a neutral, choose a model designed to work without one, or use a smart bulb or remote solution. We also make sure switches are compatible with the fixtures they control. See [smart lighting installation](@smart-lighting-installation) for scenes, schedules and whole-room control.
+
+## Thermostats, Doorbells and Cameras
+
+Smart thermostats typically need a C-wire for continuous power; we add one at the furnace or air handler when it's missing. Video doorbells need a transformer strong enough to power them, which older doorbell transformers often aren't; see [doorbell installation](@doorbell-installation). Cameras and floodlights need power at the location, which we provide with weatherproof boxes and proper circuits.
+
+## Planning a Smart Home
+
+In a remodel or new build, it's worth running a few extra wires while the walls are open: neutrals in every switch box, network cable to TVs and offices, power for cameras and access points. Our [low voltage wiring](@low-voltage-wiring) page covers network, thermostat and speaker cable.
+
+## What Affects the Cost
+
+Installing a device on existing wiring is quick. Adding neutrals, C-wires, transformers or new power locations takes more time and depends on access.
+
+## Wi-Fi and Power in the Right Places
+
+Many smart devices depend on a strong Wi-Fi signal. Access points mounted on ceilings in the center of the house, fed by network cable, give far better coverage than a single router in a corner. We can install the power and network cable for them, along with outlets for hubs and bridges in a closet or cabinet, so your smart home equipment has a tidy, reliable home.
+
+## Smart Home Work Around Yardley
+
+We install smart switches and thermostats throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and plan smart home wiring for new homes in [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Why won't my smart switch work in my old house?
+A: Most likely there's no neutral wire in the box. We can add one or recommend a switch that doesn't need it.
+Q: What's a C-wire?
+A: A thermostat wire that provides constant power. Many smart thermostats need one, and we can add it.
+Q: Should I use smart switches or smart bulbs?
+A: Smart switches work with any bulb and keep the wall switch useful. Smart bulbs are great for color and lamps.
+
+=== smoke-detector-installation
+cat: i
+name: Smoke Detector Installation
+gbp: Smoke detector installation
+h1: Smoke Detector Installation in Yardley, PA
+title: Smoke Detector Installation in Yardley, PA | Smoke & CO Alarms
+desc: Hardwired, interconnected smoke and carbon monoxide detector installation in Yardley, PA. Replacements, code compliance for sales and new work.
+blurb: Hardwired, interconnected smoke and carbon monoxide alarms with battery backup, installed where code requires, plus replacement of alarms past their ten-year life and fixes for chirping and false alarms.
+related: electrical-code-corrections, electrical-maintenance, basement-wiring
+---
+Working smoke and carbon monoxide alarms are the cheapest life-safety equipment in your home. We install hardwired, interconnected alarms in Yardley-area homes, replace aging units and make sure you meet the requirements when you sell, finish a basement or add a room.
+
+:::signs
+## Signs Your Alarms Need Attention
+- The alarms are more than ten years old (check the date on the back)
+- Constant chirping, even with new batteries
+- False alarms from cooking or showers
+- Alarms don't all sound together when one goes off
+- A bedroom, hallway or floor has no alarm
+- You're selling and need CO alarms for the sale
+:::
+
+## Hardwired and Interconnected
+
+Hardwired alarms run on household power with a battery backup, and interconnected alarms all sound when any one detects smoke, so you hear a basement fire from an upstairs bedroom. Current code calls for interconnected alarms in every bedroom, outside each sleeping area and on every level in new work. Where running interconnect wire isn't practical, wireless-interconnected alarms are an approved alternative.
+
+## Carbon Monoxide Alarms
+
+Homes with a gas furnace, water heater, fireplace or an attached garage need carbon monoxide alarms. Pennsylvania requires CO alarms in homes with fuel-burning appliances or attached garages when they're sold, and we install combination smoke and CO alarms to meet that requirement. See [electrical code corrections](@electrical-code-corrections) if alarms are on your inspection list.
+
+## Replacing Old Alarms
+
+Smoke alarms have a ten-year service life, and CO alarms often less. Replacing hardwired units usually means matching or adapting the connector, and we replace the whole set so they all interconnect. We test each alarm and the interconnect before we leave. Checking alarms is also part of our [electrical maintenance](@electrical-maintenance) visit.
+
+## New Rooms and Basements
+
+When you finish a basement or add a bedroom, new alarms are required as part of the permit. We tie them into your existing system so every alarm sounds together. See [basement wiring](@basement-wiring) for the rest of that job.
+
+## What Affects the Cost
+
+Replacing existing hardwired alarms is quick and priced per alarm. Adding new hardwired locations depends on attic and wall access.
+
+## Placement Matters
+
+Alarms should be on the ceiling or high on the wall, away from corners and at least a few feet from kitchens and bathrooms, where steam and cooking cause false alarms. We place each alarm to follow the manufacturer's instructions and code.
+
+## Alarm Work Around Yardley
+
+We replace alarms and add CO detectors for pre-sale requirements in [Morrisville](@morrisville) and [Langhorne](@langhorne), and add hardwired alarms in older homes in [Fairless Hills](@fairless-hills).
+
+## FAQ
+Q: How often should smoke alarms be replaced?
+A: Every ten years. The date is printed on the back of each alarm.
+Q: Why does my hardwired alarm chirp?
+A: Usually a low backup battery or an alarm at the end of its life. If a new battery doesn't stop it, the alarm needs replacing.
+Q: Do I need CO alarms to sell my house?
+A: In Pennsylvania, yes, if the home has fuel-burning appliances or an attached garage.
+
+=== doorbell-installation
+cat: i
+name: Doorbell Installation
+gbp: Doorbell installation
+h1: Doorbell Installation in Yardley, PA
+title: Doorbell Installation in Yardley, PA | Video Doorbells & Transformers
+desc: Doorbell installation in Yardley, PA. Video doorbell wiring, new transformers and chimes, and fixes for doorbells that don't ring. Ring, Nest and more.
+blurb: Wired and video doorbell installation, new transformers for Ring, Nest and other video doorbells, chime replacement and repair of doorbells that don't ring or keep losing power.
+related: smart-home-wiring, low-voltage-wiring, security-flood-lighting
+---
+A video doorbell should just work. When it keeps rebooting, won't charge or the chime stops ringing, the problem is almost always the doorbell wiring or transformer. We install and repair doorbells around Yardley, including the transformer upgrades video doorbells need.
+
+:::signs
+## Signs of a Doorbell Wiring Problem
+- The video doorbell reboots, drops offline or shows low power
+- The chime hums, buzzes or doesn't ring
+- The button is dead, or the doorbell never worked in your house
+- You want a doorbell at a door that has no wiring
+- The old transformer is warm or hums
+:::
+
+## Choosing a Video Doorbell
+
+Battery doorbells are simpler to install but need charging, and they can lag in cold weather. Wired doorbells stay powered and record continuously, which is why we recommend wiring whenever possible. Check that the doorbell fits your door trim, whether it needs a wedge or corner mount to see visitors, and whether its app and subscription suit you. We'll install the one you choose and make sure it gets the steady power it needs. For side and back doors, we can run new doorbell wire so every entry is covered.
+
+## Why Video Doorbells Need a Better Transformer
+
+Traditional doorbells run on a small low-voltage transformer, often 10 or 16 volts, that only needs to power a chime briefly. Video doorbells need steady power, typically 16 to 24 volts, to run the camera, Wi-Fi and night vision. An old transformer can't keep up, so the doorbell drains its battery or restarts. We replace the transformer with the right one, located where it's accessible, and add the chime adapter or power kit your doorbell requires.
+
+## Installation and Repairs
+
+We mount the doorbell at the right height and angle, connect it to properly sized wiring, and set up the chime. If there's no wiring at the door, we run new low-voltage cable from the transformer, usually through the basement or attic. For a doorbell that doesn't ring, we test the button, wiring, chime and transformer to find the failed part.
+
+## Part of a Bigger Setup
+
+Doorbells often go with other upgrades: cameras, lighting and smart locks. See [smart home wiring](@smart-home-wiring) for the rest, and [security and flood lighting](@security-flood-lighting) for motion lights by the door. General low-voltage runs are covered under [low voltage wiring](@low-voltage-wiring).
+
+## What Affects the Cost
+
+Installing on good existing wiring is quick. A new transformer, new wire runs or a doorbell at a new location takes more time.
+
+## Doorbell Work Around Yardley
+
+We install video doorbells throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and fix old doorbell wiring in older homes in [Morrisville](@morrisville).
+
+## FAQ
+Q: Why does my Ring doorbell keep losing power?
+A: Usually the transformer can't supply enough steady power. Upgrading it typically fixes the problem.
+Q: Where is my doorbell transformer?
+A: Often near the panel, the furnace, in a closet or attached to a junction box in the basement. We'll find it.
+Q: Can I keep my old chime with a video doorbell?
+A: Often yes, with the right adapter. Some digital chimes need to be replaced.
+
+=== low-voltage-wiring
+cat: i
+name: Low Voltage Wiring
+gbp: Low voltage wiring
+h1: Low Voltage Wiring in Yardley, PA
+title: Low Voltage Wiring in Yardley, PA | Network & Thermostat Cable
+desc: Low voltage wiring in Yardley, PA: Ethernet and network cable, thermostat wire, speaker wire, TV pass-throughs, doorbells and camera power. Licensed.
+blurb: Network (Cat6) cable, thermostat and doorbell wire, speaker wire, TV wall pass-throughs and camera wiring, run neatly and kept a safe distance from power wiring.
+related: smart-home-wiring, doorbell-installation, switch-outlet-relocation
+---
+Wi-Fi is great until it isn't. A wired network connection to a home office, TV or access point is faster and more reliable, and the same goes for speakers, cameras and thermostats. We run low-voltage cable in Yardley-area homes neatly and to the same standard as our power wiring.
+
+:::signs
+## When Low-Voltage Wiring Helps
+- Wi-Fi is weak in the office, basement or far rooms
+- You want wired connections for TVs, gaming or security cameras
+- A wall-mounted TV needs its cables hidden
+- A new thermostat needs more conductors than you have
+- You're remodeling and want to plan ahead
+:::
+
+## What We Run
+
+We run Cat6 network cable to offices, TVs and Wi-Fi access points, terminated at wall plates and at a central location near your router. We also run thermostat wire, doorbell wire, speaker wire for built-in audio, and cable for cameras. For wall-mounted TVs, we install a recessed outlet and a code-approved pass-through so cords stay inside the wall. See [switch and outlet relocation](@switch-outlet-relocation) for the power side of a TV wall.
+
+## Doing It Right
+
+Low-voltage cable has its own rules. It has to be kept apart from power wiring, or separated by an approved barrier, and it can't share a box with line-voltage connections. It should be run through proper openings with bushings, not stapled tight, and labeled at both ends. Poorly run cable is one of the things we most often clean up in finished basements.
+
+## Part of a Smart Home
+
+Low-voltage wiring is the backbone of a reliable [smart home](@smart-home-wiring). Video [doorbells](@doorbell-installation), cameras and access points all depend on it, and running it before the walls close is far easier than fishing it later.
+
+## What Affects the Cost
+
+The number of runs, the distance to the central location and whether walls are open drive the price. Finished two-story homes take longer than a basement with open joists.
+
+## Planning a Home Network
+
+A good home network starts in one place, usually near where the internet enters the house. From there, we run cable to the rooms and devices that need a wired connection: offices, TVs, gaming consoles, cameras and ceiling-mounted Wi-Fi access points. We label every cable at both ends and terminate them in wall plates and at a central patch location, so adding or troubleshooting a connection later is easy. If you're remodeling, running a few extra cables while the walls are open is inexpensive insurance.
+
+## Low-Voltage Work Around Yardley
+
+We run network cable to home offices in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and plan wiring for new homes and additions in [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Is wired internet really better than Wi-Fi?
+A: For desks, TVs and access points, yes. It's faster and more consistent, and it frees up Wi-Fi for phones and laptops.
+Q: Can you hide TV cables in the wall?
+A: Yes, with a recessed outlet and a code-approved low-voltage pass-through.
+Q: Can low-voltage cable run next to electrical wire?
+A: It needs separation or an approved barrier, and it can't share a box with power connections.
+
+=== hot-tub-electrical-hookup
+cat: i
+name: Hot Tub Electrical Hookup
+gbp: Hot tub electrical hookup
+h1: Hot Tub Electrical Hookup in Yardley, PA
+title: Hot Tub Electrical Hookup in Yardley, PA | 240V Spa Wiring
+desc: Hot tub and spa electrical hookup in Yardley, PA. 240V circuit, GFCI disconnect, bonding, permits and inspection by licensed electricians. Free estimates.
+blurb: Complete hot tub and swim spa wiring: a 240-volt circuit sized to the tub, a GFCI-protected disconnect at the required distance, bonding, the permit and the inspection.
+related: pool-electrical-wiring, electrical-panel-upgrade, outdoor-outlet-installation
+---
+A hot tub needs a dedicated 240-volt circuit, a GFCI-protected disconnect in the right place, and proper bonding. We wire hot tubs and swim spas for Yardley-area homeowners, from the panel to the final inspection, so your tub is ready to fill on delivery day.
+
+:::signs
+## What Your Hot Tub Needs
+- A 240-volt circuit sized to the tub, commonly 40, 50 or 60 amps
+- A GFCI-protected disconnect within sight of the tub and at least five feet away
+- Bonding of the tub's metal parts and nearby metal
+- Space and capacity in your panel
+- A permit and inspection
+:::
+
+## Planning the Location
+
+Before the tub arrives, we look at where it will sit, where the panel is and how the circuit will get there. Most runs go underground in conduit or along the house exterior. The disconnect has to be within sight of the tub but at least five feet from its inside wall, so someone in the water can't reach it. We also check overhead lines, since hot tubs have required clearances from them.
+
+## Installation
+
+We run the circuit from the panel with wire sized for the tub's amperage and the distance, install the GFCI disconnect, and connect the tub according to the manufacturer's instructions. The tub's metal parts are bonded as the code requires. After the inspection, we power it up with you and confirm the GFCI trips when tested. If your panel lacks capacity or space, we'll explain options including a [panel upgrade](@electrical-panel-upgrade).
+
+## Plug-In Tubs and Swim Spas
+
+Some small "plug and play" tubs run on a 120-volt outlet, but they still need a dedicated, GFCI-protected [outdoor outlet](@outdoor-outlet-installation) in the right place. Swim spas usually need larger circuits and sometimes two. For in-ground pools, see [pool electrical wiring](@pool-electrical-wiring).
+
+## What Affects the Cost
+
+The distance from the panel, the tub's amperage, trenching or surface routing, and panel capacity drive the price. We'll give you a written estimate before delivery day.
+
+## Before Delivery Day
+
+Order the tub, then call us with the model. We'll confirm its electrical requirements from the manufacturer's manual, plan the circuit and disconnect location, pull the permit and schedule the work so the wiring is inspected before the tub arrives. That way it can be filled and running the day it's set. If the tub is going on a deck, we'll plan the route with your deck builder.
+
+## Hot Tubs Around Yardley
+
+We wire hot tubs on decks and patios throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and on larger properties around [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: How far does the disconnect need to be from the hot tub?
+A: At least five feet from the inside wall of the tub, and within sight of it.
+Q: What size breaker does my hot tub need?
+A: It depends on the model. Most need 40 to 60 amps. We follow the manufacturer's specifications.
+Q: Do I need a permit for a hot tub?
+A: Yes. The circuit and disconnect need a permit and an inspection.
+
+=== pool-electrical-wiring
+cat: i
+name: Pool Electrical Wiring
+gbp: Pool electrical wiring
+h1: Pool Electrical Wiring in Yardley, PA
+title: Pool Electrical Wiring in Yardley, PA | Pumps, Lights & Bonding
+desc: Pool electrical wiring in Yardley, PA: pumps, heaters, pool lights, equipotential bonding, GFCI protection and inspections for in-ground and above-ground pools.
+blurb: Electrical for in-ground and above-ground pools: pump, filter and heater circuits, pool lighting, equipotential bonding, GFCI protection and the inspections pools require.
+related: hot-tub-electrical-hookup, landscape-lighting-installation, outdoor-outlet-installation
+---
+Pools have some of the strictest electrical rules in the code, because water and electricity together can be deadly. We wire in-ground and above-ground pools around Yardley, including pumps, heaters, lighting and the bonding that keeps swimmers safe.
+
+:::signs
+## Pool Electrical Work We Handle
+- Circuits for pumps, filters, heaters and heat pumps
+- Pool and spa lighting, including low-voltage LED lights
+- Equipotential bonding of the pool shell, deck and metal parts
+- GFCI protection for pumps and receptacles
+- Replacing old equipment wiring that failed an inspection
+:::
+
+## Equipotential Bonding
+
+Bonding connects the pool's reinforcing steel, metal parts, deck and nearby metal so they're all at the same electrical potential. That way, a stray voltage can't create a difference between the water and the deck that a swimmer would feel. It's required for in-ground and many above-ground pools and must be installed and inspected before concrete is poured, so we coordinate closely with your pool builder.
+
+## Equipment and Lighting
+
+We run circuits to the equipment pad sized for the pump, filter, heater or heat pump, install a disconnect and GFCI protection where required, and make the connections. Pool lighting uses low-voltage LED fixtures and transformers or listed line-voltage fixtures installed to strict rules. Receptacles near the pool must be a set distance from the water and GFCI-protected; see [outdoor outlet installation](@outdoor-outlet-installation). For lighting around the pool and yard, see [landscape lighting](@landscape-lighting-installation).
+
+## Hot Tubs and Spas
+
+Spas attached to the pool are wired along with it. Standalone tubs have their own requirements; see [hot tub electrical hookup](@hot-tub-electrical-hookup).
+
+## What Affects the Cost
+
+The equipment you're powering, the distance from the panel, bonding requirements and panel capacity all shape the price. We work from your pool builder's plans to give you a written estimate.
+
+## Working With Your Pool Builder
+
+Pool electrical has to be coordinated at several stages. Bonding is installed and inspected before the concrete or deck is poured. Conduit for lights and equipment is set during excavation. Equipment is wired once the pad is ready, and final connections and testing happen before the pool is filled and started. We work from your builder's schedule and plans, and we're on site at each stage so nothing is missed. Above-ground pools need less work, but they still need bonding, a GFCI-protected pump circuit and a properly located outlet.
+
+## Replacing Old Pool Wiring
+
+Older pools often have equipment wiring that's corroded, undersized or missing required bonding and GFCI protection. When you replace a pump or heater, it's a good time to bring the wiring up to date.
+
+## Pool Wiring Around Yardley
+
+We wire pools on properties in [Lower Makefield](@lower-makefield), [Newtown](@newtown) and [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: What is pool bonding?
+A: Connecting all the metal in and around the pool so there's no voltage difference a swimmer could feel. It's required and inspected before concrete goes in.
+Q: Do pool pumps need GFCI protection?
+A: Yes, current code requires GFCI protection for pool pump motors.
+Q: Can you replace my old pool equipment wiring?
+A: Yes. We update circuits, disconnects and bonding when equipment is replaced.
+
+=== basement-wiring
+cat: i
+name: Basement Wiring
+gbp: Basement wiring
+h1: Basement Wiring in Yardley, PA
+title: Basement Wiring in Yardley, PA | Finished Basement Electrical
+desc: Basement wiring in Yardley, PA for finished basements: circuits, outlets, recessed lighting, smoke alarms, subpanels, permits and inspections.
+blurb: Complete electrical for finished basements: circuits, outlets, recessed lighting, AFCI and GFCI protection, smoke alarms, sump pump circuits and a subpanel if your main panel is full.
+related: electrical-subpanel-installation, recessed-lighting-installation, smoke-detector-installation
+---
+A finished basement is one of the best ways to add living space, and the electrical is a big part of getting it right. We wire basements around Yardley, from planning the layout to passing the final inspection.
+
+:::signs
+## What a Finished Basement Usually Needs
+- Outlets along every wall, plus for the TV and bar area
+- Recessed lighting on dimmers, zoned by area
+- A dedicated circuit for the sump pump, freezer or gym
+- Smoke and CO alarms tied into your existing system
+- Room in the panel for all of it
+:::
+
+## Planning the Layout
+
+We walk the space with you and your contractor and plan it room by room: outlets for furniture and TVs, lighting zones, a bathroom or bar, and a home office or gym. Code sets minimum outlet spacing and requires arc-fault protection for living areas and ground-fault protection for unfinished areas, bathrooms and wet bars. We plan for all of it up front.
+
+## Lighting a Basement
+
+Basements are dark, and lighting makes or breaks the space. [Recessed lights](@recessed-lighting-installation) work well under low ceilings; we use slim LED fixtures that fit around ductwork and pipes and put them on dimmers by zone.
+
+## The Panel and Protected Circuits
+
+Basement finishes add a lot of circuits, and many older main panels are full. A [subpanel](@electrical-subpanel-installation) in the basement is often the simplest way to add space. Sump pumps and freezers get their own circuits so an unrelated trip can't take them down. New [smoke and CO alarms](@smoke-detector-installation) are required and interconnected with the rest of the house.
+
+## Rough-In to Final
+
+We rough in the wiring after framing, pass the rough inspection before insulation and drywall, and return after the finish work to install devices and fixtures, test everything and pass the final inspection. We work to your contractor's schedule.
+
+## What Affects the Cost
+
+Square footage, the number of rooms, lighting count, bathrooms or bars and whether a subpanel is needed shape the price. We quote from your plan.
+
+## Damp Basements
+
+If your basement gets damp, we'll address it in the plan. Outlets in unfinished areas need GFCI protection, fixtures in damp spots need the right rating, and wiring should stay clear of areas that take on water. Sump pumps get their own circuit, and we can add a battery backup outlet for them. We'll also make sure the panel and any subpanel stay accessible, with the clear working space in front of them that the code requires, even after the finish work is done.
+
+## Basement Wiring Around Yardley
+
+We wire basement finishes throughout [Lower Makefield](@lower-makefield), [Langhorne](@langhorne) and [Newtown](@newtown).
+
+## FAQ
+Q: Do I need a permit to finish my basement's electrical?
+A: Yes. New circuits and wiring need a permit with rough and final inspections.
+Q: How many outlets does a basement need?
+A: Code requires outlets along the walls so no point is more than six feet from one. We usually add more for TVs, desks and bars.
+Q: Can you wire around existing ductwork and pipes?
+A: Yes. We use slim LED fixtures and plan routes around mechanicals.
+
+=== shed-garage-wiring
+cat: i
+name: Shed & Garage Wiring
+gbp: Shed or garage wiring
+h1: Shed & Garage Wiring in Yardley, PA
+title: Shed & Garage Wiring in Yardley, PA | Detached Garage Power
+desc: Shed and garage wiring in Yardley, PA. Power to detached garages and sheds, underground feeders, subpanels, lighting, outlets and EV chargers. Licensed.
+blurb: Power for detached garages, sheds and workshops: underground feeders, subpanels, lighting, outlets, 240-volt tool circuits and EV charger circuits, permitted and inspected.
+related: electrical-subpanel-installation, garage-lighting-installation, ev-charger-installation
+---
+A shed or detached garage without power is just storage. With lights and outlets it's a workshop, a gym or a place to charge the car. We run power to detached garages, sheds and workshops around Yardley, from a single circuit to a full subpanel.
+
+:::signs
+## What Your Garage or Shed Might Need
+- Lights and a few outlets for tools and a fridge
+- 240-volt circuits for a compressor, welder or table saw
+- An EV charger in a detached garage
+- A subpanel for a workshop or finished space
+- Replacing an old extension-cord or overhead-wire setup
+:::
+
+## Getting Power to the Building
+
+Most detached buildings are fed underground. We trench from the house to the building and run the feeder in conduit at the required depth, sized for the load and the distance. For a shed that only needs light and a couple of outlets, a single circuit may be enough. For a garage or workshop, we install a [subpanel](@electrical-subpanel-installation) with its own grounding electrode and a disconnect, which the code requires for a separate building.
+
+## Inside the Building
+
+We install lighting, outlets and the circuits you need, with GFCI protection on garage and shed outlets. Bright LED fixtures make a big difference; see [garage lighting installation](@garage-lighting-installation). For car charging in a detached garage, we size the feeder to include it; see [EV charger installation](@ev-charger-installation). We use wiring methods suited to unfinished spaces and damp locations.
+
+## Attached Garages
+
+Attached garages often need more outlets, better lighting and a dedicated circuit or two. The work is simpler because the panel is usually close.
+
+## What Affects the Cost
+
+The distance and route for the trench, the size of the feeder, and what you want inside the building are the main factors. We'll tell you if anything like a driveway or patio is in the way.
+
+## Planning for the Future
+
+Trenching is the most labor-intensive part of powering a detached building, so it's worth sizing the feeder for what you might add later: a car charger, a heater, a compressor or a finished workspace. Running a larger feeder now costs little compared with trenching again. We can also run an empty conduit alongside it for network cable or a future camera, so you won't have to dig twice. We'll call for utility marking before any digging starts.
+
+## Garage and Shed Wiring Around Yardley
+
+We run power to detached garages and workshops on larger lots in [Washington Crossing](@washington-crossing) and [Newtown](@newtown), and to backyard sheds in [Levittown](@levittown).
+
+## FAQ
+Q: How deep does wiring to a shed need to be buried?
+A: It depends on the wiring method and conduit. We follow the code depth for the method we use and call to have utilities marked first.
+Q: Does a detached garage need its own panel?
+A: Not always. A small shed can run on one circuit; a garage or workshop usually benefits from a subpanel.
+Q: Do I need a permit?
+A: Yes. Running power to a detached building needs a permit and an inspection.
+
+=== barn-wiring
+cat: i
+name: Barn Wiring
+gbp: Barn wiring
+h1: Barn Wiring in Yardley, PA
+title: Barn Wiring in Yardley, PA | Horse Barns & Pole Buildings
+desc: Barn wiring in Bucks County, PA near Yardley. Horse barns, pole buildings and agricultural buildings wired for damp, dusty conditions. Licensed electricians.
+blurb: Electrical for horse barns, pole buildings and agricultural outbuildings: feeders and subpanels, damp- and dust-rated lighting, GFCI-protected outlets, water heater and fan circuits, and old barn wiring replaced safely.
+related: shed-garage-wiring, electrical-subpanel-installation, security-flood-lighting
+---
+Barns are hard on electrical systems. Dust, moisture, temperature swings, animals and rodents all shorten the life of ordinary wiring. We wire and rewire barns and pole buildings on properties around Yardley and upper Bucks County with materials made for those conditions.
+
+:::signs
+## Signs a Barn Needs Electrical Work
+- Old wiring with chewed, cracked or exposed insulation
+- Extension cords run to stalls, fans or water heaters
+- Fixtures without covers, full of dust and cobwebs
+- Not enough light in stalls, aisles or the tack room
+- A new barn or pole building that needs power
+:::
+
+## Built for Barn Conditions
+
+We use wiring methods suited to damp and dusty agricultural buildings, often PVC conduit with sealed boxes that keep out dust, moisture and rodents. Fixtures are enclosed and rated for wet or damp locations, and outlets are GFCI-protected. Wiring is kept out of reach of horses and livestock and protected where it could be damaged.
+
+## Power to the Barn
+
+Barns are usually some distance from the house. We run an underground feeder sized for the load, install a [subpanel](@electrical-subpanel-installation) with the barn's own grounding and a disconnect, and lay out circuits for lighting, outlets, fans, heated waterers, water heaters and any workshop equipment. The approach is similar to [shed and garage wiring](@shed-garage-wiring), with more attention to durability.
+
+## Lighting and Safety
+
+Good light in aisles, stalls, wash racks and the tack room makes chores safer. We install bright, efficient LED fixtures with protective enclosures, and [security and flood lighting](@security-flood-lighting) outside with dusk-to-dawn or motion control.
+
+## What Affects the Cost
+
+Barn size, distance from the house, the number of stalls and circuits, and whether old wiring has to be removed shape the price. We'll walk the building with you and quote in writing.
+
+## Fire Safety in Barns
+
+Barns hold hay, bedding and dust, all of which burn easily, so electrical faults in barns can be especially dangerous. That's why we avoid exposed cable where animals or equipment can reach it, use enclosed fixtures that keep dust off hot bulbs, and protect outlets with GFCIs. Extension cords to heaters and water tank de-icers are a common fire cause; we replace them with properly protected circuits. Adding [surge protection](@whole-house-surge-protection) at the barn panel also helps protect fans, waterers and equipment from storm surges.
+
+## Planning a New Barn or Pole Building
+
+If you're building, bring us in early. We'll plan outlets, lighting and circuits for stalls, the wash rack, the tack room and any workshop, and coordinate the feeder with your builder.
+
+## Barns Around Yardley
+
+We wire horse barns and outbuildings on properties around [Washington Crossing](@washington-crossing), [New Hope](@new-hope) and [Newtown](@newtown).
+
+## FAQ
+Q: Can you rewire an old bank barn?
+A: Yes. We remove unsafe wiring and replace it with methods suited to the building and how you use it.
+Q: Do barn outlets need GFCI protection?
+A: Yes. Outlets in barns and agricultural buildings need GFCI protection.
+Q: Can you power heated waterers?
+A: Yes, on properly protected circuits sized for them.

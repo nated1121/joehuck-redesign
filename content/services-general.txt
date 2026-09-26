@@ -1,0 +1,819 @@
+Service pages: General Electrician Services (GBP category)
+Format: "=== slug", front matter, "---", body. The first paragraph of the body is
+the hero intro. [text](@slug) links to another page. "## FAQ" starts Q:/A: pairs.
+
+=== electrical-panel-upgrade
+cat: g
+name: Electrical Panel Upgrade
+gbp: Electrical panel upgrade
+h1: Electrical Panel Upgrades in Yardley, PA
+title: Electrical Panel Upgrade in Yardley, PA | 200 Amp Service Upgrades
+desc: Electrical panel and service upgrades in Yardley, PA. 100A to 200A upgrades, PECO coordination, permits and inspection by licensed electricians. Free estimates.
+blurb: Replace an outdated or overloaded electrical panel with a modern 200-amp service. We handle the permit, the PECO disconnect and reconnect, the inspection, and label every circuit when we're done.
+related: electrical-subpanel-installation, fuse-box-replacement, whole-house-surge-protection
+---
+If your breakers trip when two things run at once, or you're planning an EV charger, a heat pump or a finished basement, your panel may be the bottleneck. We upgrade panels and electrical services for Yardley homes every week, from the permit to the final inspection.
+
+:::signs
+## Signs You Need a Panel Upgrade
+- Breakers trip when the microwave and toaster run together
+- You have a 60 or 100 amp service and want to add major appliances
+- The panel is warm, buzzing, rusty or smells like burning plastic
+- There are no open slots, or the panel is full of tandem breakers
+- It's a Federal Pacific Stab-Lok or Zinsco panel
+- Your home insurer or home inspector flagged the panel
+:::
+
+## What a Panel Upgrade Involves
+
+Most upgrades in older Yardley homes go from 100 amps to 200 amps. That usually means a new panel, new service entrance cable, a new meter base when the utility requires it, and updated grounding and bonding. We pull the permit with your township, schedule the disconnect and reconnect with PECO, and book the inspection.
+
+On the day of the swap, your power is off for part of the day. We move every circuit to the new panel, replace any breakers that are damaged or wrong for the wire size, and add the protection current code requires. Before we leave, every breaker gets a clear, typed label, so you know what each one controls.
+
+Sometimes a full upgrade isn't needed. If your service is big enough but the panel is out of space, a [subpanel](@electrical-subpanel-installation) may solve the problem for less. If you still have fuses, see our page on [fuse box replacement](@fuse-box-replacement). We'll tell you which option actually fits your house.
+
+## What Affects the Cost
+
+The price depends on the size of the new service, whether the meter base and service cable need replacing, where the panel sits in the house, and how many circuits need new breakers or repairs. Moving the panel to a new location costs more than a same-spot swap. Your written estimate spells out all of it before any work starts, so there are no surprises on the invoice.
+
+## Panel Upgrades Around Yardley
+
+A lot of our panel work is in the 1950s and 1960s homes of [Levittown](@levittown) and [Fairless Hills](@fairless-hills), where the original services were never sized for today's appliances. We also upgrade panels in older colonials across [Lower Makefield](@lower-makefield) and the historic homes of [Newtown](@newtown).
+
+## FAQ
+Q: How long does a panel upgrade take?
+A: The work itself is usually done in one day, with the power off for part of it. Scheduling the PECO reconnect and the inspection can add a few days on either side.
+Q: Do I need a permit to replace my electrical panel?
+A: Yes. A panel or service upgrade always needs a permit and an inspection in Pennsylvania. We pull the permit and meet the inspector for you.
+Q: Is a 200 amp service enough for an EV charger?
+A: In most homes, yes. We run a load calculation first to confirm there's room for the charger along with your heating, cooking and other large loads.
+
+=== electrical-subpanel-installation
+cat: g
+name: Electrical Subpanel Installation
+gbp: Electrical subpanel installation
+h1: Electrical Subpanel Installation in Yardley, PA
+title: Electrical Subpanel Installation in Yardley, PA | Garage Subpanels
+desc: Subpanel installation in Yardley, PA for garages, basements, additions and workshops. Load calculations, permits and clean installs by licensed electricians.
+blurb: Add circuits where you need them with a subpanel for a garage, basement, addition or workshop. We check your service capacity first, size the feeder properly and handle the permit and inspection.
+related: electrical-panel-upgrade, shed-garage-wiring, basement-wiring
+---
+A subpanel gives you room for new circuits without replacing your main panel. It's the right fix when your service has enough capacity but the panel is out of space, or when a garage, basement or addition needs its own set of breakers close to where the power is used.
+
+:::signs
+## When a Subpanel Makes Sense
+- Your main panel has no open slots, but your service isn't overloaded
+- You're finishing a basement and need several new circuits
+- A detached garage or workshop needs lights, outlets and tools
+- An addition is a long run from the main panel
+- You want space for a future EV charger or generator hookup
+:::
+
+## How We Install a Subpanel
+
+We start with a load calculation. A subpanel adds space, not capacity, so if your service is already close to its limit, the honest answer may be a [panel upgrade](@electrical-panel-upgrade) instead. When a subpanel fits, we choose its location, size the feeder cable and breaker to match what you'll run on it, and install it with separate ground and neutral bars as the code requires.
+
+For a detached building, the feeder runs underground in conduit at the proper depth, and the building gets its own grounding electrode and a disconnect. Inside the house, we route cable through joists and finished spaces as cleanly as we can and patch only what we have to open. Every new circuit is labeled, and the job is permitted and inspected.
+
+## What Affects the Cost
+
+Cost depends mostly on the distance between the main panel and the subpanel, the size of the feeder, whether trenching is involved, and how many circuits you want installed now. A 60-amp subpanel in a basement next to the main panel is a very different job from a 100-amp feed to a barn across the yard. We price it out in writing before we start.
+
+## Subpanels and Generators
+
+A subpanel can also make a backup generator simpler. Instead of wiring a transfer switch to every circuit in the house, we can move the essentials, like the furnace, refrigerator, sump pump and a few lights and outlets, to a dedicated subpanel that the generator feeds. It's a common setup for homes that lose power in storms.
+
+## Subpanels Around Yardley
+
+We install subpanels for basement finishes in [Lower Makefield](@lower-makefield) and [Langhorne](@langhorne), and for detached garages and workshops on the larger lots around [Washington Crossing](@washington-crossing). If you're adding a building, our [shed and garage wiring](@shed-garage-wiring) page covers the rest of that job.
+
+## FAQ
+Q: Will a subpanel give me more power?
+A: No. It gives you more breaker space. The total power available is still limited by your main service, which is why we run a load calculation before recommending one.
+Q: Can a subpanel go in a detached garage?
+A: Yes. A detached building needs its own grounding and a disconnect, and the feeder runs underground in conduit. We handle all of it, including the permit.
+Q: How big should my subpanel be?
+A: It depends on what you plan to run. A basement might need 60 amps, while a workshop with welders or a garage with an EV charger may need 100 amps or more.
+
+=== fuse-box-replacement
+cat: g
+name: Fuse Box Replacement
+gbp: Fuse box replacement; Electrical fuse changing
+h1: Fuse Box Replacement in Yardley, PA
+title: Fuse Box Replacement in Yardley, PA | Fuse to Breaker Panel Upgrades
+desc: Fuse box replacement and fuse changing in Yardley, PA. Convert an old fuse panel to a modern breaker panel with permits and inspection. Licensed electricians.
+blurb: Replace an old fuse box with a modern circuit breaker panel, or get a blown fuse changed safely. We make sure every fuse is the right size for its wire and upgrade the service when it's due.
+related: electrical-panel-upgrade, home-rewiring, circuit-breaker-replacement
+---
+Fuse boxes did their job for decades, but most can't handle a modern home's electrical load, and many insurers won't cover a house that still has one. We replace fuse boxes with breaker panels across Yardley, and we'll also change a blown fuse safely if that's all you need today.
+
+:::signs
+## Signs Your Fuse Box Needs Attention
+- Fuses blow regularly, especially in the kitchen or when the AC starts
+- Someone has installed a larger fuse than the circuit's wire can handle
+- There are pennies or foil behind fuses, or the box shows scorch marks
+- Your insurance company or buyer's inspector flagged the fuse box
+- You want to add circuits, and there's no room left
+:::
+
+## Changing a Blown Fuse the Right Way
+
+A fuse blows to protect the wire behind it. The most dangerous thing we find in older homes is a 20 or 30 amp fuse screwed into a socket meant for 15 amps, because the wire can overheat long before that fuse blows. When we change fuses, we match each one to its wire size and can install tamper-resistant Type S adapters so the wrong size can't go back in. If fuses keep blowing, that's a sign the circuit is overloaded, and the lasting fix is more circuits or a new panel.
+
+## Replacing a Fuse Box With a Breaker Panel
+
+Most fuse boxes we replace are on 60 amp services, so the job is usually a full [panel and service upgrade](@electrical-panel-upgrade) to 100 or 200 amps. We pull the permit, coordinate the PECO disconnect, install the new panel and service equipment, move each circuit to a properly sized breaker, and book the inspection. Homes with fuse boxes often have old wiring too, and we'll tell you honestly whether any of it needs [rewiring](@home-rewiring).
+
+## What Affects the Cost
+
+A fuse box swap costs more than a breaker-panel swap because the service equipment usually has to change too. The size of the new service, the condition of the existing wiring and the number of circuits all affect the price. Your written estimate covers everything.
+
+## What to Expect on Replacement Day
+
+Your power will be off for most of the day while we swap the equipment. We'll tell you in advance, so you can plan around refrigerators, medical devices and work from home, and we restore power as soon as the utility reconnects.
+
+## Fuse Boxes Around Yardley
+
+We still find fuse boxes in older homes along Main Street in [New Hope](@new-hope), in [Morrisville](@morrisville) twins and rowhomes, and in farmhouses around [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Is it safe to keep my fuse box?
+A: A fuse box with correctly sized fuses isn't dangerous by itself. The problems are oversized fuses, overloaded circuits and old wiring, which is why we inspect it before recommending anything.
+Q: Will my insurance company care about my fuse box?
+A: Many insurers charge more for homes with fuse boxes or won't write a policy at all. Replacing it usually solves that problem.
+Q: Can you just change a blown fuse?
+A: Yes. We'll replace it with the correct size and check why it blew, so you know whether the circuit needs more work.
+
+=== circuit-breaker-replacement
+cat: g
+name: Circuit Breaker Replacement
+gbp: Circuit breaker replacement
+h1: Circuit Breaker Replacement in Yardley, PA
+title: Circuit Breaker Replacement in Yardley, PA | Tripping Breakers
+desc: Circuit breaker replacement in Yardley, PA. We diagnose breakers that trip, run hot or won't reset, and install the right breaker for your panel.
+blurb: Breakers that trip for no reason, feel hot or won't reset get diagnosed and replaced with the correct breaker for your panel. We find out why it failed before we swap it, so the problem doesn't come back.
+related: afci-breaker-installation, electrical-repair-troubleshooting, electrical-panel-upgrade
+---
+Circuit breakers wear out. A breaker that trips for no reason, won't reset, or feels warm to the touch needs attention, and so does whatever made it fail. We replace breakers across Yardley with the correct part for your panel, and we find the cause first.
+
+:::signs
+## Signs a Breaker Needs Replacing
+- It trips with a light load, or won't stay reset
+- The handle feels loose or mushy, or won't latch
+- The breaker or the panel cover is warm to the touch
+- You see scorch marks, melted plastic or smell burning near the panel
+- A breaker hums or buzzes
+:::
+
+## A Breaker That Never Trips
+
+A breaker that never trips can be worse than one that trips too often. Some older breakers can fail in the on position and stop protecting the wire. We test suspect breakers and replace any that don't respond.
+
+## Why We Don't Just Swap It
+
+A breaker that trips is usually doing its job. Before we replace one, we test the circuit for overloads, short circuits and ground faults. If the circuit simply has too much on it, a new breaker won't help, and we'll talk about adding a [dedicated circuit](@dedicated-circuit-installation) instead. If there's a loose connection, a damaged wire or a failing device on the circuit, we fix that too. Our [repair and troubleshooting](@electrical-repair-troubleshooting) page explains how we track those problems down.
+
+## Using the Right Breaker for Your Panel
+
+Breakers have to be listed for the panel they go in. A breaker from another brand may fit in the slot and still make a poor connection to the bus bar, which causes heat and can damage the panel itself. We use breakers that match your panel's label. When a panel is old enough that parts are hard to find, or it's a brand with a known history of failures, we'll tell you straight whether it's time for a [panel upgrade](@electrical-panel-upgrade).
+
+## Bringing Breakers Up to Code
+
+When we replace breakers on bedroom and living-area circuits, current code often requires arc-fault protection, and circuits in kitchens, bathrooms, laundry areas and garages need ground-fault protection. We'll explain what applies to your home and use [AFCI breakers](@afci-breaker-installation) or GFCI protection where they're required or make sense.
+
+## What Affects the Cost
+
+Standard breakers cost far less than AFCI, GFCI or dual-function breakers. The rest depends on what we find on the circuit and whether the panel's bus bar is damaged.
+
+## Breaker Work Around Yardley
+
+We replace breakers in homes across [Lower Makefield](@lower-makefield), [Langhorne](@langhorne) and [Levittown](@levittown), often in panels that are 30 or more years old.
+
+## FAQ
+Q: Can a circuit breaker go bad?
+A: Yes. Breakers wear with age and repeated trips, and heat from a loose connection can damage them. A worn breaker may trip too easily or, worse, fail to trip at all.
+Q: Is it safe to replace a breaker myself?
+A: We don't recommend it. The panel's main lugs stay live even with the main breaker off, and the wrong breaker can damage the panel.
+Q: Why does my breaker keep tripping?
+A: Usually an overloaded circuit, a short, a ground fault or a failing breaker. We test to find which one before replacing anything.
+
+=== afci-breaker-installation
+cat: g
+name: AFCI Breaker Installation
+gbp: AFCI breaker installation
+h1: AFCI Breaker Installation in Yardley, PA
+title: AFCI Breaker Installation in Yardley, PA | Arc-Fault Protection
+desc: AFCI breaker installation in Yardley, PA. Arc-fault protection for bedrooms and living areas, code upgrades and fixes for nuisance tripping.
+blurb: Arc-fault (AFCI) breakers detect the kind of sparking that starts electrical fires inside walls. We install them where code requires, add them during remodels, and track down the cause when one keeps tripping.
+related: circuit-breaker-replacement, electrical-code-corrections, home-electrical-upgrades
+---
+Arc-fault circuit interrupters, or AFCI breakers, shut off a circuit when they detect arcing, the kind of sparking from a damaged cord or loose connection that can start a fire inside a wall. We install AFCI protection in Yardley homes during remodels, panel work and code corrections.
+
+:::signs
+## When You Need AFCI Protection
+- You're finishing a basement, adding a room or remodeling
+- You're extending or modifying a circuit in a bedroom or living area
+- A home inspection listed missing arc-fault protection
+- You're replacing breakers in a panel from before AFCIs were required
+- An existing AFCI trips repeatedly
+:::
+
+## Where Code Requires AFCIs
+
+Current code requires arc-fault protection on most 120-volt circuits that serve living spaces, including bedrooms, living rooms, dining rooms, family rooms, hallways, closets and kitchens. When an existing circuit in one of those rooms is extended or modified, arc-fault protection generally has to be added. We'll tell you exactly what applies to your project instead of selling you breakers you don't need.
+
+## How We Install Them
+
+In most panels, AFCI protection is a breaker swap: we replace the standard breaker with an AFCI or combination AFCI/GFCI breaker listed for your panel, then test it. On some older panels AFCI breakers aren't made, and an AFCI receptacle at the first outlet on the circuit can provide the protection instead. If your panel is old enough that parts are scarce, we'll discuss whether a [panel upgrade](@electrical-panel-upgrade) makes more sense.
+
+## When an AFCI Keeps Tripping
+
+An AFCI that trips often is usually telling you something. Common causes are a loose wire at an outlet, a nail or screw through a cable, shared neutrals between circuits, or an appliance with a worn motor. We test the circuit, find the fault and fix it, rather than swapping the breaker for a standard one and removing the protection. It's the same process we use for general [electrical troubleshooting](@electrical-repair-troubleshooting).
+
+## What Affects the Cost
+
+The number of circuits, the brand of panel and whether any faults need repairing all affect the price. Combination AFCI/GFCI breakers cost more but cover both requirements in one device.
+
+## Testing After Installation
+
+Every AFCI we install is tested with its built-in test button and under load, and we show you how to test it yourself. Manufacturers recommend testing AFCIs monthly, like GFCIs.
+
+## AFCI Work Around Yardley
+
+We add arc-fault protection during basement finishes in [Newtown](@newtown) and [Langhorne](@langhorne), and as part of [code corrections](@electrical-code-corrections) before home sales in [Lower Makefield](@lower-makefield).
+
+## FAQ
+Q: Do I have to replace all my breakers with AFCIs?
+A: No. Existing circuits are generally allowed to stay as they are. AFCI protection is required when circuits are added, extended or modified in the rooms the code covers.
+Q: What's the difference between AFCI and GFCI?
+A: A GFCI protects people from shock by detecting current leaking to ground. An AFCI protects against fire by detecting arcing. Combination breakers do both.
+Q: Why did my new AFCI start tripping?
+A: Usually because it found a real problem the old breaker ignored, such as a loose connection or damaged cable. We track it down and fix it.
+
+=== home-rewiring
+cat: g
+name: Home Rewiring
+gbp: Home rewiring
+h1: Home Rewiring in Yardley, PA
+title: Home Rewiring in Yardley, PA | Knob-and-Tube & Old Wiring Replacement
+desc: Whole and partial home rewiring in Yardley, PA. Replace knob-and-tube, cloth and ungrounded wiring with minimal wall damage. Licensed electricians.
+blurb: Replace knob-and-tube, cloth-insulated or ungrounded wiring in older homes, room by room or all at once. We fish new cable through existing walls wherever we can, so you get new wiring with as little patching as possible.
+related: aluminum-wiring-replacement, ground-wire-installation-repair, electrical-panel-upgrade
+---
+Older wiring wasn't built for today's electrical loads, and after 60 or 80 years its insulation can crack and crumble. We rewire older homes around Yardley room by room or all at once, fishing new cable through existing walls so you're not left with a gutted house.
+
+:::signs
+## Signs Your Home Needs Rewiring
+- You have knob-and-tube wiring, or cloth-covered cable that crumbles when touched
+- Most outlets are two-prong, with no ground wire
+- Lights dim or flicker when appliances start
+- Outlets or switch plates feel warm
+- Your insurer won't cover the house until the wiring is replaced
+- You're remodeling and the walls are already open
+:::
+
+## How We Rewire a House
+
+We start with a walkthrough to map what's in the walls and what you want the finished house to have: more outlets, dedicated kitchen circuits, grounded receptacles, better lighting. Then we plan cable routes through attics, basements and existing wall cavities. Most rewires need only small, neat access holes rather than open walls, and we can arrange drywall and plaster patching when we're done.
+
+New wiring is grounded throughout and gets arc-fault and ground-fault protection where current code requires it. We usually rewire one area at a time, so you keep power in the rest of the house while we work. Many rewires include a [panel upgrade](@electrical-panel-upgrade), since an old fuse box or undersized panel can't support the new circuits.
+
+## Partial Rewiring
+
+Not every house needs a full rewire. If the problem is a few ungrounded circuits, [ground wire installation](@ground-wire-installation-repair) may be enough. If your house was built in the late 1960s or early 1970s, check whether it has aluminum branch wiring; our [aluminum wiring](@aluminum-wiring-replacement) page covers that separately.
+
+## What Affects the Cost
+
+Square footage, number of stories, plaster versus drywall, attic and basement access, and how many circuits and outlets you want all shape the price. We give you a written estimate by room or area, so you can phase the work if that fits your budget better.
+
+## Living in the House During a Rewire
+
+We plan the work so the kitchen, a bathroom and bedrooms stay usable each night. Furniture gets moved away from the walls we're working on and covered, and we clean up dust at the end of each day. You'll always know which rooms we're in next.
+
+## Rewiring Around Yardley
+
+We rewire historic stone and frame homes in [New Hope](@new-hope) and [Newtown](@newtown), and older twins and singles in [Morrisville](@morrisville), where knob-and-tube and early cloth-insulated cable are still common.
+
+## FAQ
+Q: How long does it take to rewire a house?
+A: A typical single-family home takes one to two weeks, depending on size and access. We work in sections so you're not without power the whole time.
+Q: Do I have to move out while you rewire?
+A: Usually not. We work one area at a time and restore power at the end of each day.
+Q: Is knob-and-tube wiring dangerous?
+A: It was well made, but after decades the insulation breaks down, it has no ground, and it was never meant to be buried in insulation. Most insurers now want it replaced.
+
+=== aluminum-wiring-replacement
+cat: g
+name: Aluminum Wiring Replacement
+gbp: Aluminum wiring replacement
+h1: Aluminum Wiring Replacement & Repair in Yardley, PA
+title: Aluminum Wiring Replacement in Yardley, PA | AlumiConn Repairs
+desc: Aluminum wiring repair and replacement in Yardley, PA. Safe copper pigtail repairs or full rewiring for 1960s–70s homes. Licensed, insured electricians.
+blurb: Homes wired with single-strand aluminum in the 1960s and 70s can overheat at outlets and switches. We make every connection safe with approved copper pigtail connectors, or replace the aluminum wiring entirely.
+related: home-rewiring, switch-outlet-installation, electrical-code-corrections
+---
+Some homes built in the mid-1960s to mid-1970s were wired with single-strand aluminum branch circuits. The wire itself isn't the problem; the connections are. Aluminum expands, contracts and oxidizes at outlets and switches, which can make them overheat. We repair and replace aluminum wiring in Yardley-area homes with methods the industry recognizes as safe.
+
+:::signs
+## Signs of an Aluminum Wiring Problem
+- Your home was built between roughly 1965 and 1975
+- The cable jacket is stamped "AL" or "Aluminum," or the wire is silver-colored
+- Outlets or switch plates feel warm
+- Lights flicker, or outlets work intermittently
+- You smell burning plastic near an outlet or switch
+- A home inspection flagged aluminum branch wiring
+:::
+
+## Repair or Replace?
+
+There are two lasting fixes. The first is to keep the aluminum wiring and make every connection safe by attaching a short copper pigtail with a connector made for the job, such as AlumiConn or COPALUM. Every outlet, switch, light, junction box and panel connection in the house gets treated, not just the ones that look bad. The second is a full [rewire](@home-rewiring) with copper, which costs more but removes the aluminum completely.
+
+We'll inspect your system and explain both options. What we won't do is use standard twist-on connectors or "CO/ALR" devices as a whole-house fix; they aren't a substitute for proper remediation.
+
+## Our Remediation Process
+
+We work circuit by circuit, opening every box, checking the wire for damage from past overheating, and installing the approved connectors with the right tools. Damaged devices get replaced, and outlets and switches are [replaced with new ones](@switch-outlet-installation) where needed. When we're done, you get documentation of the work, which buyers, inspectors and insurers often ask for.
+
+## What Affects the Cost
+
+The number of connection points drives the price: every outlet, switch, fixture and junction box counts. A full copper rewire depends on the house's size and access. We'll give you written prices for both approaches.
+
+## Why Standard Connectors Aren't Enough
+
+Aluminum and copper expand at different rates, and aluminum forms an oxide layer that doesn't conduct well. Ordinary twist-on connectors and the screw terminals on standard devices can loosen and heat up as they cycle. The connectors we use are designed and tested for aluminum-to-copper connections and are installed with the correct tools, which is why they're recognized as a permanent repair.
+
+## Aluminum Wiring Around Yardley
+
+We find aluminum branch wiring in some neighborhoods built during that era in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and often fix it as part of [code corrections](@electrical-code-corrections) before a sale in [Langhorne](@langhorne).
+
+## FAQ
+Q: Is aluminum wiring safe?
+A: Aluminum wiring can be made safe when every connection is properly remediated. Untreated connections are the fire risk.
+Q: Will my insurance cover a house with aluminum wiring?
+A: Some insurers won't, or require proof of remediation. Our documentation of the repair usually satisfies them.
+Q: Can I just replace the outlets with aluminum-rated ones?
+A: That isn't a complete fix. Every connection in the system needs attention, including fixtures, junction boxes and the panel.
+
+=== ev-charger-installation
+cat: g
+name: Electric Car Charger Installation
+gbp: Electric car charger installation
+h1: EV Charger Installation in Yardley, PA
+title: EV Charger Installation in Yardley, PA | Tesla-Certified Installer
+desc: Level 2 EV charger installation in Yardley, PA by a Tesla-certified installer. Tesla, Rivian, Kia, Ford and more. Load calculation, permit and testing included.
+blurb: Level 2 home EV charger installation by a Tesla-certified installer. We check your panel's capacity, run the circuit to your garage or driveway, and install and test chargers for Tesla, Rivian, Ford, Kia and other brands.
+related: electrical-panel-upgrade, dedicated-circuit-installation, shed-garage-wiring
+---
+A Level 2 charger adds roughly 25 to 30 miles of range per hour, enough to fill most EVs overnight. We're certified by Tesla to install their Level 2 chargers, and we install chargers for every major brand in garages and driveways around Yardley.
+
+:::signs
+## Is Your Home Ready for a Level 2 Charger?
+- You're charging from a regular 120-volt outlet and it can't keep up
+- You have a 100 amp service, or your panel is nearly full
+- The garage is detached, or the charger needs to go outside
+- You have two EVs, or plan to
+- You want a charger on the same circuit as a future second car
+:::
+
+## How We Install Your Charger
+
+Every install starts with a load calculation. A charger is a large, continuous load, and we need to confirm your service can carry it along with your heat, air conditioning, cooking and water heater. Most homes with a 200 amp service can add a charger with no trouble. If yours can't, we'll explain your options, from load-management devices to a [panel upgrade](@electrical-panel-upgrade).
+
+Then we install a [dedicated circuit](@dedicated-circuit-installation) sized for the charger, typically 40 to 60 amps at 240 volts, and run it to where you park. Wire runs are neat and protected, inside the garage or outdoors in conduit. We mount the charger, configure it for the circuit, and test it with your car. The job is permitted and inspected.
+
+## Chargers We Install
+
+We're certified by Tesla to install the Tesla Wall Connector, and we install hardwired and plug-in chargers from ChargePoint, Emporia, Grizzl-E, Wallbox and the automakers themselves for Rivian, Ford, Kia, Hyundai, Mercedes, BYD and more. We can install a NEMA 14-50 outlet if you'd rather plug in a mobile charger.
+
+## What Affects the Cost
+
+The distance from the panel to the charger, whether the run is inside or outside, the charger's amperage and your panel's capacity all affect the price. Detached garages may need a trench or a [garage subpanel](@shed-garage-wiring).
+
+## Choosing Where to Mount the Charger
+
+We'll look at where you park, where the charge port is on your car and whether you might add a second EV later. Mounting the charger where the cable reaches comfortably without crossing a walkway keeps it safe and convenient. Outdoor chargers need a location that's protected from snow piles and plows, and the charger itself must be rated for outdoor use.
+
+## EV Chargers Around Yardley
+
+We install chargers in garages throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and in driveways on the larger lots around [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Do I need a permit for an EV charger?
+A: Yes. A new 240-volt circuit for a charger needs a permit and an inspection, which we handle for you.
+Q: Should I hardwire the charger or use an outlet?
+A: Hardwiring is more reliable and allows higher charging speeds. A NEMA 14-50 outlet is more flexible if you might change chargers.
+Q: Can my 100 amp panel handle an EV charger?
+A: Sometimes, with a lower-amperage charger or a load-management device. The load calculation tells us for sure.
+
+=== whole-house-surge-protection
+cat: g
+name: Whole House Surge Protection
+gbp: Whole house surge protection
+h1: Whole House Surge Protection in Yardley, PA
+title: Whole House Surge Protection in Yardley, PA | Panel Surge Protectors
+desc: Whole house surge protector installation in Yardley, PA. Protect appliances, HVAC and electronics at the panel. Licensed electricians, free estimates.
+blurb: A surge protector installed at your electrical panel protects everything in the house, from the furnace and fridge to TVs and computers, against surges from lightning, the utility and your own large appliances.
+related: electrical-panel-upgrade, circuit-breaker-replacement, smart-home-wiring
+---
+Plug-in power strips only protect what's plugged into them. A whole-house surge protector mounts at your electrical panel and protects every circuit, including the furnace, air conditioner, refrigerator, washer and all the electronics built into modern appliances.
+
+:::signs
+## Good Reasons to Add Surge Protection
+- You've lost a TV, router, garage door opener or appliance board after a storm
+- Your home has expensive HVAC, a generator, solar or an EV charger
+- Lights briefly brighten or flicker when large appliances cycle
+- You're upgrading or replacing your panel
+- You work from home and rely on your computer and network
+:::
+
+## Where Surges Come From
+
+Lightning gets the attention, but most surges start closer to home: utility switching, tree limbs on lines, and large motors in your own house turning on and off. Each surge wears on electronic circuit boards a little, which is why appliances sometimes die early for no clear reason. A panel-mounted protector diverts that excess voltage to ground before it reaches your circuits.
+
+## How We Install It
+
+We install a surge protective device in or beside your panel on a dedicated breaker, keeping the leads as short as possible so it reacts fast. We check your grounding and bonding while we're there, because a surge protector is only as good as the ground it dumps energy into. If your grounding needs work, see our page on [ground wire installation and repair](@ground-wire-installation-repair).
+
+Newer editions of the electrical code require surge protection whenever a service is upgraded or replaced, so we include it in every [panel upgrade](@electrical-panel-upgrade). For the most protection, we recommend pairing the whole-house device with quality plug-in protectors for computers and home theaters.
+
+## What Affects the Cost
+
+The protector's rating, your panel type and whether a breaker space is available all affect the price. Most installs take about an hour.
+
+## Signs Your Home Has Been Hit by Surges
+
+Surge damage isn't always dramatic. Watch for electronics that fail after storms, garage door openers and furnace control boards that need replacing more often than they should, and LED bulbs that burn out early. Those are common signs of repeated small surges. A whole-house protector won't repair damage that's already happened, but it can prevent the next round.
+
+## Surge Protection Around Yardley
+
+Homes near the river in [New Hope](@new-hope) and [Washington Crossing](@washington-crossing), and anywhere with overhead lines through the trees, see more than their share of storm surges. We also add protection during panel upgrades in [Fairless Hills](@fairless-hills).
+
+## FAQ
+Q: Does a whole-house surge protector stop lightning?
+A: Nothing stops a direct lightning strike. A surge protector handles the far more common surges from nearby strikes, the utility and your own appliances.
+Q: How long does a surge protector last?
+A: Most last many years, but they wear with each surge they absorb. Many models have an indicator light that shows when they need replacing.
+Q: Do I still need power strips?
+A: For computers and home theaters, a good plug-in protector adds a second layer. The whole-house unit protects everything else.
+
+=== home-electrical-upgrades
+cat: g
+name: Home Electrical Upgrades
+gbp: Home electrical upgrades
+h1: Home Electrical Upgrades in Yardley, PA
+title: Home Electrical Upgrades in Yardley, PA | Modernize Older Homes
+desc: Home electrical upgrades in Yardley, PA: grounded outlets, more circuits, better lighting and code updates for older homes. Free estimates.
+blurb: Bring an older home's electrical system up to how you live now: grounded three-prong outlets, more circuits, USB and GFCI outlets, better lighting and the capacity for modern appliances.
+related: electrical-panel-upgrade, kitchen-electrical-upgrade, gfci-outlet-installation
+---
+Many Yardley-area homes were wired for a single TV, a toaster and a window air conditioner. If you're running power strips everywhere, tripping breakers or living with two-prong outlets, a set of targeted upgrades can make an older house work the way you do.
+
+:::signs
+## Signs Your Home Is Due for Upgrades
+- Two-prong outlets, or three-prong outlets with no ground behind them
+- Extension cords and power strips in most rooms
+- Breakers trip when you run a space heater, hair dryer or window unit
+- Not enough outlets in the kitchen, home office or bedrooms
+- Dim rooms with a single ceiling fixture or none at all
+:::
+
+## Upgrades We Do Most Often
+
+We start by walking through the house with you and listing what bothers you. Then we recommend the upgrades that fix the biggest problems for the money. Common ones include adding circuits to split overloaded rooms, grounding outlets or protecting them with GFCIs, adding outlets where furniture actually goes, and upgrading switches to dimmers or smart controls.
+
+For the heart of the house, see our [kitchen electrical upgrade](@kitchen-electrical-upgrade) page. For wet areas, garages and outdoors, [GFCI outlet installation](@gfci-outlet-installation) is often the first and cheapest safety improvement. When the house needs more power overall, it starts with a [panel upgrade](@electrical-panel-upgrade).
+
+## Planning Upgrades in Phases
+
+You don't have to do it all at once. We can put together a written plan, ordered by safety first and convenience second, and price each piece separately. Many customers do the safety items now and the lighting and convenience upgrades later. Anything we install now is planned so it won't have to be redone when the next phase comes.
+
+## What Affects the Cost
+
+The number of circuits and outlets, how easy it is to reach the walls from the attic and basement, and plaster versus drywall all affect price. We quote each item, so you can choose.
+
+## Upgrades That Pay Off Quickly
+
+Some upgrades cost little and make a noticeable difference: replacing worn outlets that don't grip plugs, adding a circuit for a home office, putting the porch and garage lights on a timer or smart switch, and adding outlets where you're using extension cords. We'll point these out during the walkthrough, so you can get quick wins while planning bigger projects.
+
+## Home Upgrades Around Yardley
+
+Most of our upgrade work is in the post-war homes of [Levittown](@levittown) and [Fairless Hills](@fairless-hills), and in 1960s and 1970s colonials and ranchers in [Lower Makefield](@lower-makefield) that still have their original wiring layouts.
+
+## FAQ
+Q: Can I just swap two-prong outlets for three-prong ones?
+A: Only if there's a ground wire, or if the outlet is protected by a GFCI and labeled "No equipment ground." We'll tell you which option is right for each circuit.
+Q: Where should I start if my budget is limited?
+A: Safety first: GFCI protection in wet areas, working smoke alarms and fixing anything warm or overloaded. Convenience upgrades can follow.
+Q: Will upgrades increase my home's value?
+A: Updated electrical systems help with inspections and insurance, and buyers notice modern outlets, lighting and panel capacity.
+
+=== kitchen-electrical-upgrade
+cat: g
+name: Kitchen Electrical Upgrade
+gbp: Kitchen electrical upgrade
+h1: Kitchen Electrical Upgrades in Yardley, PA
+title: Kitchen Electrical Upgrade in Yardley, PA | Remodel Wiring & Circuits
+desc: Kitchen electrical upgrades in Yardley, PA. Countertop circuits, GFCI outlets, appliance circuits, islands, induction ranges and lighting for remodels.
+blurb: Wiring for kitchen remodels and updates: countertop circuits, GFCI outlets, island power, dedicated appliance circuits, induction and electric ranges, recessed and under-cabinet lighting.
+related: appliance-wiring, under-cabinet-lighting-installation, recessed-lighting-installation
+---
+The kitchen draws more power than any other room in the house. If your breakers trip when the microwave and toaster run together, or you're planning a remodel, we'll wire it to handle how you actually cook, with circuits, outlets and lighting to match.
+
+:::signs
+## Signs Your Kitchen Needs an Electrical Upgrade
+- Breakers trip when two countertop appliances run together
+- Too few outlets along the counters, or none on the island
+- Outlets near the sink without GFCI protection
+- You're switching to an induction range or adding a wall oven
+- One ceiling fixture lights the whole room
+:::
+
+## What a Kitchen Upgrade Includes
+
+Current code calls for at least two 20-amp small-appliance circuits for countertop outlets, GFCI protection for those outlets, and dedicated circuits for the dishwasher, disposal, built-in microwave and, typically, the refrigerator. Islands need outlets too. We lay out outlets so no spot along the counter is far from one, and we plan for the appliances you have and the ones you're buying.
+
+Electric and induction ranges and wall ovens need 240-volt circuits sized to the appliance; an induction range often needs a 40 or 50 amp circuit. Our [appliance wiring](@appliance-wiring) page covers those hookups. Lighting makes the biggest visual difference: [recessed lights](@recessed-lighting-installation) for general light, [under-cabinet lighting](@under-cabinet-lighting-installation) for the counters and pendants over the island.
+
+## Working With Your Remodel
+
+We coordinate with your contractor or cabinet installer so rough wiring is done before the walls close and trim-out happens after the counters are set. If you're not remodeling, we can often add circuits and outlets to an existing kitchen by working from the basement or attic. The work is permitted and inspected.
+
+## What Affects the Cost
+
+The number of new circuits, whether walls are open, the range and oven requirements, and the lighting you choose drive the price. We quote each part separately so you can see where the money goes.
+
+## Planning Outlets Around How You Cook
+
+Think about where the coffee maker, toaster, stand mixer and chargers will live, and whether you want an appliance garage with outlets inside it. Pop-up or under-cabinet outlet strips can keep a backsplash clean. If you're adding an island cooktop, we'll plan the circuit and any outlets around it to meet the code's clearance rules. Telling us how you use the kitchen helps us put power exactly where you'll reach for it, rather than just meeting the minimum count.
+
+## Kitchen Work Around Yardley
+
+We wire kitchen remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and add circuits to smaller original kitchens in [Levittown](@levittown) homes without opening every wall.
+
+## FAQ
+Q: How many circuits does a kitchen need?
+A: A modern kitchen commonly has six or more: two or more for countertops, plus dedicated circuits for the dishwasher, disposal, microwave, refrigerator and range.
+Q: Do I need a panel upgrade for an induction range?
+A: Not always. We check your panel's capacity and space before recommending anything.
+Q: Can you add outlets to my island?
+A: Yes. We can usually run power through the floor from the basement to island outlets.
+
+=== electrical-repair-troubleshooting
+cat: g
+name: Electrical Repair & Troubleshooting
+gbp: General electrical repair; Electrical troubleshooting
+h1: Electrical Repair & Troubleshooting in Yardley, PA
+title: Electrical Repair in Yardley, PA | Troubleshooting Electrician
+desc: Electrical repair and troubleshooting in Yardley, PA. Dead outlets, tripping breakers, flickering lights and buzzing switches found and fixed.
+blurb: Dead outlets, tripping breakers, flickering lights, buzzing switches and half-working circuits, tracked down methodically and fixed properly. We find the cause instead of guessing, and explain what we found.
+related: circuit-breaker-replacement, lighting-repair, switch-outlet-installation
+---
+When part of your house loses power, a breaker won't stay on, or the lights flicker for no clear reason, you need someone who finds the cause, not someone who starts replacing parts. We troubleshoot and repair electrical problems in Yardley-area homes and small businesses every day.
+
+:::signs
+## Problems We Fix Every Week
+- Outlets or a whole room that suddenly stopped working
+- Breakers or GFCIs that trip and won't reset
+- Lights that flicker, dim or buzz
+- Switches or outlets that are warm, loose or crackle when used
+- A burning smell, scorch marks or a shock from a switch or appliance
+- Power that works on some outlets on a circuit but not others
+:::
+
+## How We Troubleshoot
+
+Electrical problems follow the wiring, so we start at the panel and work outward. We test voltage and continuity, check each device on the affected circuit, and look for the usual suspects: a loose connection at a push-in "backstab" outlet, a tripped GFCI in another room that feeds the circuit, a failed splice in a junction box, or a nail through a cable. Once we find the fault, we explain it, give you the price to fix it and make the repair.
+
+If the problem is a worn breaker, see [circuit breaker replacement](@circuit-breaker-replacement). If it's worn or damaged devices, we [replace switches and outlets](@switch-outlet-installation). Flickering fixtures often have their own causes, covered on our [lighting repair](@lighting-repair) page.
+
+## When It Can't Wait
+
+Turn off the circuit at the panel and call right away if you see sparks or smoke, smell burning plastic, feel heat at a switch or outlet, or get a shock. Don't reset a breaker that trips immediately. Call [215-906-4634](@contact) and we'll tell you how to make things safe until we get there.
+
+## What Affects the Cost
+
+Most repairs are straightforward once the problem is found. The time it takes to locate a fault, the parts involved and access to the wiring drive the price. We tell you what we found and what it costs before we fix it.
+
+## Problems That Come Back
+
+If you've had the same breaker trip or the same outlet fail more than once, the earlier fix probably treated a symptom. We look for the root cause, such as a shared neutral, an overloaded circuit or a failing splice, so you don't have to call again.
+
+## Repairs Around Yardley
+
+We handle repair calls across [Lower Makefield](@lower-makefield), [Morrisville](@morrisville) and [Fairless Hills](@fairless-hills), and for small businesses along the Route 1 and Oxford Valley corridor.
+
+## FAQ
+Q: Why did half the outlets in my room stop working?
+A: Often a tripped GFCI elsewhere on the circuit, or a loose connection at the last working outlet. We trace it and fix the connection.
+Q: Is a flickering light dangerous?
+A: A bulb or dimmer issue isn't, but flicker across several rooms can mean a loose connection at the panel or service. That needs a look soon.
+Q: Do you charge to diagnose the problem?
+A: We'll explain our diagnostic pricing when you call, and you'll get a price for the repair before we do the work.
+
+=== electrical-maintenance
+cat: g
+name: Electrical Maintenance
+gbp: Electrical maintenance
+h1: Electrical Maintenance & Safety Inspections in Yardley, PA
+title: Electrical Maintenance in Yardley, PA | Safety Inspections
+desc: Electrical maintenance and safety inspections in Yardley, PA: panel checks, connection tightening, GFCI and AFCI tests and smoke alarm checks.
+blurb: A thorough check of your home's electrical system: panel inspection, tightening connections, testing GFCI and AFCI protection, smoke and CO alarms, and a written list of anything that needs attention.
+related: electrical-code-corrections, smoke-detector-installation, whole-house-surge-protection
+---
+Electrical systems don't need much attention, but they do need some. A maintenance visit catches loose connections, worn devices and missing protection before they turn into a dead circuit or a fire. We perform electrical safety checks for homes and small businesses around Yardley.
+
+:::signs
+## Good Times to Schedule a Check
+- You just bought a home, or you're about to sell one
+- The house is 25 or more years old and hasn't been looked at
+- You've added large appliances, an EV or a hot tub
+- After a storm, flood or lightning strike nearby
+- Before a remodel, so you know what you're working with
+:::
+
+## What We Check
+
+We open the panel and look at the breakers, the bus bar, and the main, neutral and ground connections, and tighten terminations where needed. We check for overheating, corrosion and double-tapped breakers. We test every GFCI and AFCI, check a sample of outlets for polarity and grounding, and look at exposed wiring in the basement, attic and garage.
+
+We also test your [smoke and carbon monoxide alarms](@smoke-detector-installation) and note any that are missing or past their replacement date. You get a written list of what we found, sorted into safety items, code items and nice-to-haves, with prices.
+
+## Small Business Maintenance
+
+For small offices and shops, we check panels, emergency and exit lighting, outdoor lighting, and dedicated circuits for equipment. We can schedule regular visits so problems are caught between busy seasons.
+
+## What Happens Next
+
+Most visits end with nothing urgent and a few small fixes we can take care of the same day. If we find something bigger, like a panel with a known failure history or ungrounded circuits, we explain the options and give you a written price. If you're preparing for a sale, our [code corrections](@electrical-code-corrections) page covers the items inspectors flag most often. Adding a [whole-house surge protector](@whole-house-surge-protection) is a common upgrade after a maintenance check.
+
+## For Older Homes and New Owners
+
+In homes more than 40 years old, we pay extra attention to aluminum or cloth-insulated wiring, panels with known failure histories, and past additions that may not have been done to code. For new homeowners, a maintenance visit is a good way to learn where the panel is, what each circuit feeds and how to reset GFCIs and AFCIs. We'll label anything that isn't clearly marked while we're there.
+
+## Maintenance Around Yardley
+
+We do maintenance checks for new homeowners in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and for small businesses in [Langhorne](@langhorne).
+
+## FAQ
+Q: How often should my home's electrical system be inspected?
+A: For most homes, every few years, and any time you buy a house, add major loads or notice a problem.
+Q: What's the most common thing you find?
+A: GFCI outlets that no longer trip when tested, smoke alarms past their ten-year life, and loose connections in the panel.
+Q: Is this the same as a home inspection?
+A: No. A home inspector looks at the whole house; we go deeper into the electrical system and can fix what we find.
+
+=== electrical-code-corrections
+cat: g
+name: Electrical Code Corrections
+gbp: Electrical code corrections
+h1: Electrical Code Corrections in Yardley, PA
+title: Electrical Code Corrections in Yardley, PA | Home Inspection Repairs
+desc: Electrical code corrections in Yardley, PA. Fix home inspection findings fast: double taps, missing GFCIs, open boxes and ungrounded outlets.
+blurb: Fix the electrical items on a home inspection or municipal inspection report, from double-tapped breakers and missing GFCIs to open junction boxes and ungrounded outlets, with documentation for buyers and sellers.
+related: electrical-maintenance, gfci-outlet-installation, ground-wire-installation-repair
+---
+A home inspection report with a page of electrical findings can stall a sale. We fix inspection and code items for sellers, buyers and landlords around Yardley, often within days, and provide the paperwork your agent or buyer needs.
+
+:::signs
+## Items We Fix Most Often
+- Double-tapped breakers and missing panel knockouts
+- Missing GFCI protection in kitchens, baths, garages, basements and outdoors
+- Three-prong outlets with no ground, or reversed polarity
+- Open junction boxes, loose cable and missing cover plates
+- Missing or expired smoke and carbon monoxide alarms
+- Amateur wiring from past projects
+:::
+
+## How It Works
+
+Send us the electrical section of the inspection report, or the whole thing. We'll review it, visit to confirm each item, and give you a written price for each one. Some findings are quick fixes; others, like an outdated panel, need a real decision, and we'll lay out your options without pressure.
+
+Most correction jobs take a day or less. When the work needs a permit, we pull it and handle the inspection. When we're done, you get an itemized invoice describing what was corrected, which most buyers and lenders accept as proof the items were addressed.
+
+## Common Fixes
+
+Missing ground-fault protection is the most common finding, and [GFCI outlet installation](@gfci-outlet-installation) usually solves it quickly. Ungrounded three-prong outlets can be fixed with GFCI protection and labeling, or with [ground wire installation](@ground-wire-installation-repair). Pennsylvania requires carbon monoxide alarms in homes with fuel-burning appliances or attached garages when they're sold, and we install those along with smoke alarms.
+
+## Buyers and Landlords
+
+If you're buying, we can review the report before your negotiation deadline and give you real prices to work with. Landlords use us to correct items flagged on rental inspections. For a broader look at an older house, see our [electrical maintenance](@electrical-maintenance) check.
+
+## Items That Come Up in Older Homes
+
+Older homes around Bucks County tend to show the same findings: ungrounded outlets, missing GFCIs, a fuse box or an outdated panel, and wiring added by past owners without a permit. In homes built in the late 1960s and early 1970s, [aluminum wiring](@aluminum-wiring-replacement) sometimes appears on the report. None of these has to derail a sale. We'll explain which items are safety concerns, which are simply out of date, and what it costs to correct each one, so you can negotiate with real numbers.
+
+## Code Corrections Around Yardley
+
+We handle a lot of pre-sale corrections in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and rental inspection items in [Morrisville](@morrisville) and [Levittown](@levittown).
+
+## FAQ
+Q: How fast can you fix inspection items?
+A: Often within a few days of your call, depending on the list. Tell us your closing date and we'll work to it.
+Q: Do you provide documentation for the buyer?
+A: Yes. You get an itemized invoice describing every correction, and permit records where a permit was required.
+Q: Do I have to fix everything on the report?
+A: That's between you and the buyer. We'll help you understand which items are safety issues and which are minor.
+
+=== new-construction-electrical
+cat: g
+name: New Construction Electrical
+gbp: New construction electrical
+h1: New Construction Electrical in Yardley, PA
+title: New Construction Electrical in Yardley, PA | Additions & Custom Homes
+desc: New construction electrical in Yardley, PA for custom homes, additions and major renovations. Service, rough-in, trim-out and inspections.
+blurb: Complete electrical for new homes, additions and major renovations: planning, temporary power, service installation, rough-in, trim-out and inspections, coordinated with your builder's schedule.
+related: electrical-wiring-installation, electrical-panel-upgrade, smart-home-wiring
+---
+New construction is the one chance to get the wiring exactly right. We handle the electrical for custom homes, additions and whole-house renovations around Yardley, working with homeowners and builders from the plan to the final inspection.
+
+:::signs
+## Projects We Wire
+- Custom homes and tear-down rebuilds
+- Additions, in-law suites and second stories
+- Gut renovations down to the studs
+- Detached garages, pool houses and workshops
+- Small commercial build-outs
+:::
+
+## How We Work on New Construction
+
+We start with the plans and a walkthrough. We'll suggest outlet, switch and lighting locations based on how the rooms will be used, not just the code minimums. Then we handle temporary power for the build if needed, the new service and panel, and the rough-in wiring once framing is done. We coordinate the rough inspection before insulation and drywall go up.
+
+After finishes are in, we come back to trim out: devices, fixtures, appliance connections and final testing. Then we schedule the final inspection. Throughout, we work to your builder's schedule, show up when we say we will, and keep a clean site.
+
+## Planning Ahead
+
+The cheapest time to add wiring is before the walls are closed. We'll talk through what to plan for now, even if you don't install it yet: EV charger circuits, [smart home and network wiring](@smart-home-wiring), generator connections, outdoor outlets and landscape lighting feeds. For additions tied into an older house, we'll check whether your existing service can carry the new load or needs a [panel upgrade](@electrical-panel-upgrade). Our [electrical wiring installation](@electrical-wiring-installation) page covers smaller renovation wiring.
+
+## What Affects the Cost
+
+Square footage, the number of circuits and fixtures, the size of the service, and specialty systems like lighting controls or low-voltage wiring all shape the price. We give builders and homeowners itemized proposals from the plans.
+
+## Lighting and Controls Worth Planning Now
+
+New construction is the best time to plan lighting in layers: recessed lighting for general light, pendants and chandeliers as focal points, under-cabinet and accent lighting, and outdoor lighting for entries and landscape. Decide where you want dimmers, three-way switches at stairs and hallways, and smart controls, so the right wiring and boxes go in during rough-in. It costs very little to add a neutral wire to every switch box or blocking for a heavy fixture now, and much more to add it after the drywall is up. We'll walk the framed house with you before rough-in to confirm every location.
+
+## New Construction Around Yardley
+
+We wire new homes and additions on larger lots in [Washington Crossing](@washington-crossing) and [Newtown](@newtown), and renovations in [Lower Makefield](@lower-makefield).
+
+## FAQ
+Q: Do you work with my builder or directly with me?
+A: Either. We regularly work as the electrical contractor for builders, and directly with homeowners who manage their own projects.
+Q: When should I bring in an electrician?
+A: As early as the planning stage. It's the best time to decide on lighting, outlets and future needs.
+Q: Do you handle the permits and inspections?
+A: Yes. We pull the electrical permit and schedule the rough and final inspections.
+
+=== ground-wire-installation-repair
+cat: g
+name: Ground Wire Installation & Repair
+gbp: Ground wire installation & Repair
+h1: Ground Wire Installation & Repair in Yardley, PA
+title: Ground Wire Installation & Repair in Yardley, PA | Grounding & Bonding
+desc: Ground wire installation and repair in Yardley, PA. Ground ungrounded outlets, fix grounding electrodes, water pipe and gas line bonding. Licensed electricians.
+blurb: Add ground wires to ungrounded outlets, repair or replace grounding electrodes and ground rods, and bond water pipes and gas lines, so your outlets, surge protection and electronics work as designed.
+related: home-rewiring, whole-house-surge-protection, electrical-code-corrections
+---
+Grounding gives stray electricity a safe path away from people and equipment. Many older homes around Yardley have two-prong outlets, three-prong outlets with no ground behind them, or a grounding system that's been cut or corroded over the years. We install and repair grounding so your outlets, surge protection and electronics work the way they should.
+
+:::signs
+## Signs of a Grounding Problem
+- Two-prong outlets, or three-prong outlets that test as ungrounded
+- A home inspector noted "open ground" or missing bonding
+- A plumber replaced metal water pipe with plastic
+- Your home has yellow or black flexible gas line (CSST)
+- You feel tingles from appliances or fixtures
+- Surge protectors show a "not grounded" light
+:::
+
+## Grounding Outlets
+
+To ground an existing outlet, we run a new ground wire from the outlet back to the panel or to a grounded circuit, following the paths the code allows. When running a new wire isn't practical, GFCI protection with a "No equipment ground" label is a code-approved alternative for many outlets, though it doesn't provide a true ground for surge protectors and electronics. If most of the house is ungrounded, [rewiring](@home-rewiring) those circuits may cost little more than grounding them one by one.
+
+## The Grounding Electrode System
+
+Your panel connects to the earth through grounding electrodes: typically ground rods outside and the metal water pipe where it enters the house. Over time, clamps corrode, wires get cut during other work, and water pipes get replaced with plastic, which breaks the ground. We test and repair the electrode system, drive new ground rods if needed and make sure every connection is tight.
+
+## Bonding Water and Gas Lines
+
+Metal water piping needs to be bonded to the electrical system. Many homes also have corrugated stainless steel tubing (CSST) for gas, which manufacturers require to be bonded to protect against lightning damage. We add the bonding the code and manufacturers require. Good grounding also makes your [whole-house surge protector](@whole-house-surge-protection) far more effective.
+
+## What Affects the Cost
+
+Grounding individual outlets depends on how many and how hard the wire runs are. Electrode and bonding repairs are usually quick, fixed-scope jobs.
+
+## Grounding and Surge Protectors
+
+Plug-in surge protectors need a true ground to work. On an ungrounded outlet, they can't divert surges and may give no warning. Grounding the outlets where your computers and TVs plug in is one of the most practical reasons to do this work.
+
+## Grounding Work Around Yardley
+
+We ground outlets in older homes in [Morrisville](@morrisville) and [Levittown](@levittown), and bond CSST gas lines in newer homes in [Newtown](@newtown) as part of [code corrections](@electrical-code-corrections).
+
+## FAQ
+Q: Can I replace a two-prong outlet with a three-prong one?
+A: Only if a ground is present, or if it's GFCI-protected and labeled "No equipment ground." Otherwise the third prong gives false confidence.
+Q: What is CSST bonding?
+A: CSST is flexible gas tubing. Manufacturers require it to be bonded to the electrical grounding system to reduce the risk of damage from lightning.
+Q: How do I know if my outlets are grounded?
+A: An inexpensive plug-in tester shows it, but we test properly and check the ground path back to the panel.
