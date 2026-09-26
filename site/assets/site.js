@@ -39,7 +39,7 @@
   });
 
   /* ---------- Towns: datalist + "do you serve my town?" ---------- */
-  var TOWNS=["Yardley","Lower Makefield","Newtown","New Hope","Washington Crossing","Upper Makefield","Levittown","Fairless Hills","Falls Township","Langhorne","Middletown","Morrisville","Bristol","Bensalem","Penndel","Richboro","Holland","Churchville","Southampton","Feasterville","Trevose","Croydon","Tullytown","Doylestown","Warminster","Warrington","Buckingham","Solebury","Lahaska","Furlong","Jamison","Wrightstown","Ivyland","Hulmeville","Langhorne Manor","Northampton"];
+  var TOWNS=["Yardley","Lower Makefield","Newtown","New Hope","Washington Crossing","Upper Makefield","Levittown","Fairless Hills","Falls Township","Langhorne","Middletown","Morrisville","Bristol","Bensalem","Penndel","Richboro","Holland","Churchville","Southampton","Feasterville","Trevose","Croydon","Tullytown","Doylestown","Warminster","Warrington","Buckingham","Solebury","Lahaska","Furlong","Jamison","Wrightstown","Ivyland","Hulmeville","Langhorne Manor","Northampton","Chalfont","New Britain","Perkasie","Sellersville","Quakertown","Upper Southampton","Lower Southampton","Feasterville-Trevose","Plumstead","Hilltown","West Rockhill","Richland","Milford"];
   var dl=$("#townlist");
   if(dl)TOWNS.forEach(function(t){var o=document.createElement("option");o.value=t;dl.appendChild(o)});
   var af=$("#areaForm");

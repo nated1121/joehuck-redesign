@@ -1,7 +1,7 @@
 # Joe Huck Electric — Website
 
 A static site for Joe Huck Electric (Yardley, PA), built for local SEO.
-It has 69 pages: homepage, 3 category hubs, 53 service pages, 8 service-area
+It has 81 pages: homepage, 3 category hubs, 53 service pages, 20 service-area
 pages, plus Services, Service Areas, About and Contact.
 
 - **Plan and reasoning:** [`SEO-STRUCTURE.md`](SEO-STRUCTURE.md)

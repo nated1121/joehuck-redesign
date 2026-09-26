@@ -6,7 +6,7 @@ h1: Expert Electrician in Yardley, PA.
 title: Electrician in Yardley, PA | Licensed Electricians in Bucks County
 desc: Joe Huck Electric is a licensed electrician in Yardley, PA. Repairs, panel upgrades, installations and lighting for Bucks County for 40+ years.
 about_h2: Yardley's Electrician for Over 40 Years.
-area_h2: Your Local Yardley Electrician.
+area_h2: Your Local Bucks County Electrician.
 featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, ev-charger-installation, home-rewiring
 featured_i: switch-outlet-installation, ceiling-fan-installation, dedicated-circuit-installation, hot-tub-electrical-hookup
 featured_l: recessed-lighting-installation, under-cabinet-lighting-installation, landscape-lighting-installation, lighting-repair
@@ -34,7 +34,7 @@ That focus shows up in the details. We pull permits when the work needs them and
 Most of our work comes from neighbors telling neighbors. Bucks County residents named us a Nextdoor Neighborhood Favorite in 2023 and 2024, and we'd like to earn your recommendation too. Learn more [about Joe Huck Electric](@about), or call and talk to us directly.
 
 #### area
-We're based in Yardley and work every week in the towns around it, from Lower Makefield and Morrisville to Newtown, Langhorne and Levittown. Being local means shorter waits, easier scheduling and an electrician who can come back quickly if you need anything. Type your town to see if we cover it, or pick it from the list.
+We're based in Yardley and work every week in the towns around it, from Morrisville and Newtown to Langhorne, Levittown and Bensalem, and we serve the rest of Bucks County up to Doylestown and Quakertown. Being local means shorter waits, easier scheduling and an electrician who can come back quickly if you need anything. Type your town to see if we cover it, or pick it from the list.
 
 ## FAQ
 Q: Is the estimate really free?
@@ -112,10 +112,10 @@ A: Yes. We run a new switch leg through the attic or from below and install a pr
 h1: Electrician Service Areas Around Yardley, PA
 eyebrow: Service areas
 crumb: Service Areas
-title: Service Areas | Electrician Serving Yardley & Lower Bucks County, PA
-desc: Joe Huck Electric serves Yardley, Lower Makefield, Newtown, Washington Crossing, New Hope, Langhorne, Levittown, Fairless Hills and Morrisville, PA.
+title: Service Areas | Electrician Serving Yardley & Bucks County, PA
+desc: Joe Huck Electric serves Yardley and Bucks County, PA, from Newtown, Levittown and Bensalem to Doylestown, Warminster and Quakertown.
 ---
-We're based in Yardley and work in the towns around it every week. Pick your town below to see the work we do there most, or call to ask about anywhere else in Bucks County.
+We're based in Yardley and serve homes and businesses across Bucks County, from the river towns of lower Bucks to Doylestown and Quakertown. Pick your town below to see the work we do there most, or call to ask about anywhere else in the county.
 
 === about
 h1: About Joe Huck Electric

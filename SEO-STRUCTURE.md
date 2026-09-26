@@ -22,20 +22,17 @@ individual pages. The services hub is split into the three GBP categories.
 │   ├── /electrical-installation/   GBP category 2 hub — 21 service pages
 │   └── /lighting/                  GBP category 3 hub — 16 service pages
 │                                   (also the page for "Lighting installation")
-├── /service-areas/                 Areas hub
-│   ├── /service-areas/lower-makefield-pa/
-│   ├── /service-areas/newtown-pa/
-│   ├── /service-areas/washington-crossing-pa/
-│   ├── /service-areas/new-hope-pa/
-│   ├── /service-areas/langhorne-pa/
-│   ├── /service-areas/levittown-pa/
-│   ├── /service-areas/fairless-hills-pa/
-│   └── /service-areas/morrisville-pa/
+├── /service-areas/                 Areas hub, grouped by region
+│   ├── Near Yardley (12):  Lower Makefield, Newtown, Washington Crossing, New Hope,
+│   │                       Langhorne, Levittown, Fairless Hills, Morrisville, Bristol,
+│   │                       Bensalem, Feasterville-Trevose, Southampton
+│   ├── Central Bucks (5):  Richboro, Warminster, Warrington, Doylestown, Chalfont
+│   └── Upper Bucks (3):    Perkasie, Sellersville, Quakertown
 ├── /about/
 └── /contact/                       Use as the GBP booking link (Step 3.iv)
 ```
 
-**69 indexable pages** (the playbook benchmark is 30+). Every page is listed,
+**81 indexable pages** (the playbook benchmark is 30+). Every page is listed,
 with its H1, title tag and word count, in [`PAGES.md`](PAGES.md).
 
 ### Why the homepage is the Yardley page
@@ -86,39 +83,48 @@ marked up with FAQ schema.
 
 ---
 
-## 3. Area pages for the edges of the heat map
+## 3. Area pages: one per GBP service area
 
-The 8 area pages ring Yardley, each in a different direction on the map grid:
+There's an area page for every town in the Business Profile's service area
+list, except Yardley (that's the homepage) and Bucks County (the whole region).
+Lower Makefield and Fairless Hills also have pages. They aren't in the GBP list,
+but they sit right next to Yardley, and GBP only allows 20 service areas.
 
-| Direction from Yardley | Area page |
+| GBP service area | Page |
 |---|---|
-| Surrounding | Lower Makefield |
-| North (river) | Washington Crossing / Upper Makefield |
-| Far north | New Hope / Solebury |
-| Northwest | Newtown |
-| West | Langhorne / Middletown |
-| Southwest | Levittown |
-| South | Fairless Hills / Falls Township |
-| Southeast (river) | Morrisville |
+| Yardley | Homepage |
+| Bucks County | Service Areas hub + schema `areaServed` |
+| Langhorne, Levittown, Bristol, Newtown, New Hope, Morrisville, Washington Crossing, Bensalem, Southampton (Upper Southampton), Feasterville (Feasterville-Trevose) | Near Yardley pages |
+| Richboro, Warminster Township, Warrington, Doylestown, Chalfont | Central Bucks pages |
+| Perkasie, Sellersville, Quakertown | Upper Bucks pages |
 
 Each page has 500–700 words of **unique** local content: the town's real
-housing stock (1950s Levitt homes, Fairless Hills' U.S. Steel-era homes, New
-Hope's historic stone buildings, and so on), real landmarks, and the electrical
-problems that come with them. That's Step 6's "referencing real local
-landmarks" instead of swapping town names into a template.
+housing stock, real landmarks and the electrical problems that come with them.
+One example is the Levitt homes built on slabs. Another is Perkasie and
+Quakertown running their own electric utilities, which changes how service
+upgrades get scheduled. That's Step 6's "referencing real local landmarks"
+instead of swapping town names into a template.
 
-**East of Yardley is New Jersey.** The east edge of any Yardley heat map falls
-across the river (Ewing, West Trenton, Titusville). Joe needs a New Jersey
-license to work there. If he has one, NJ area pages would help the east side of
-the grid; if not, leave it.
+### What these pages will and won't do for the heat map
 
----
+- **The heat-map corners are the lower-Bucks towns:** Newtown, Washington
+  Crossing, Langhorne, Levittown, Bristol, Bensalem, Morrisville and Feasterville.
+  Pages for these support the map pack where Yardley's proximity already gives
+  the profile a chance.
+- **The central and upper Bucks towns are 15 to 35 miles out.** Google's map
+  results lean heavily on distance, so these pages mostly help *organic* results
+  ("electrician Doylestown", "electrician Quakertown") rather than the map
+  pack. They're still worth having, since those searches convert.
+- **East of Yardley is New Jersey.** The east edge of any Yardley heat map
+  falls across the river (Ewing, West Trenton, Titusville). That only matters
+  if Joe is licensed in New Jersey.
 
 ## 4. Interlinking (Step 7), enforced by the build
 
 - Service pages link to **2–4 area pages** within the text.
 - Area pages link to **3–6 service pages** within the text.
-- Homepage links to all 3 category hubs, 12 featured services and all 8 area pages; the hubs link every service.
+- Homepage links to all 3 category hubs, 12 featured services and all 20 area pages; the hubs link every service.
+- Every area page receives at least 4 contextual links from service pages, spread by what's typical in each town (historic rewiring in Doylestown, aluminum wiring in Bensalem, barns up north).
 - No more than **10 links** in the content of any service or area page; the sidebar skips any service already linked in the body.
 - Anchor text is written as a person would say it, and varies from page to page.
 - Footer has only NAP, the 3 hubs and company pages. There's no link dump.

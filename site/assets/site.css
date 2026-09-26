@@ -220,7 +220,8 @@ section.block{padding-block:clamp(64px,9vw,120px)}
 .towns small{font:500 11px/1 var(--f-mono);letter-spacing:.08em;color:var(--steel);text-transform:uppercase}
 .towns li.hi{color:var(--bronze-deep)}
 .towns li.all{grid-column:1/-1;padding-left:0;border-left:0;color:var(--ink-2);font-size:16px}
-@media (max-width:860px){.area .wrap{grid-template-columns:1fr}}
+@media (max-width:860px){.area .wrap{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:520px){.towns{grid-template-columns:minmax(0,1fr)}.towns li:nth-child(n){padding-left:0;padding-right:0;border-left:0}}
 
 /* ---------- Reputation ---------- */
 .rep .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(32px,6vw,80px);align-items:center}

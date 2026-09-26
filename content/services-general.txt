@@ -38,7 +38,7 @@ The price depends on the size of the new service, whether the meter base and ser
 
 ## Panel Upgrades Around Yardley
 
-A lot of our panel work is in the 1950s and 1960s homes of [Levittown](@levittown) and [Fairless Hills](@fairless-hills), where the original services were never sized for today's appliances. We also upgrade panels in older colonials across [Lower Makefield](@lower-makefield) and the historic homes of [Newtown](@newtown).
+A lot of our panel work is in the 1950s and 1960s homes of [Levittown](@levittown) and [Feasterville](@feasterville), where the original services were never sized for today's appliances. We also upgrade panels in the historic homes of [Doylestown](@doylestown), and coordinate with the borough utility on upgrades in [Quakertown](@quakertown).
 
 ## FAQ
 Q: How long does a panel upgrade take?
@@ -85,7 +85,7 @@ A subpanel can also make a backup generator simpler. Instead of wiring a transfe
 
 ## Subpanels Around Yardley
 
-We install subpanels for basement finishes in [Lower Makefield](@lower-makefield) and [Langhorne](@langhorne), and for detached garages and workshops on the larger lots around [Washington Crossing](@washington-crossing). If you're adding a building, our [shed and garage wiring](@shed-garage-wiring) page covers the rest of that job.
+We install subpanels for basement finishes in [Southampton](@southampton) and [Langhorne](@langhorne), and for detached garages and workshops in [Warminster](@warminster) and on the larger lots around [Washington Crossing](@washington-crossing). If you're adding a building, our [shed and garage wiring](@shed-garage-wiring) page covers the rest of that job.
 
 ## FAQ
 Q: Will a subpanel give me more power?
@@ -134,7 +134,7 @@ Your power will be off for most of the day while we swap the equipment. We'll te
 
 ## Fuse Boxes Around Yardley
 
-We still find fuse boxes in older homes along Main Street in [New Hope](@new-hope), in [Morrisville](@morrisville) twins and rowhomes, and in farmhouses around [Washington Crossing](@washington-crossing).
+We still find fuse boxes in older homes along Radcliffe Street in [Bristol](@bristol), in [Morrisville](@morrisville) twins and rowhomes, and in older borough homes in [Sellersville](@sellersville) and [Perkasie](@perkasie).
 
 ## FAQ
 Q: Is it safe to keep my fuse box?
@@ -187,7 +187,7 @@ Standard breakers cost far less than AFCI, GFCI or dual-function breakers. The r
 
 ## Breaker Work Around Yardley
 
-We replace breakers in homes across [Lower Makefield](@lower-makefield), [Langhorne](@langhorne) and [Levittown](@levittown), often in panels that are 30 or more years old.
+We replace breakers in homes across [Bensalem](@bensalem), [Langhorne](@langhorne) and [Levittown](@levittown), often in panels that are 30 or more years old.
 
 ## FAQ
 Q: Can a circuit breaker go bad?
@@ -240,7 +240,7 @@ Every AFCI we install is tested with its built-in test button and under load, an
 
 ## AFCI Work Around Yardley
 
-We add arc-fault protection during basement finishes in [Newtown](@newtown) and [Langhorne](@langhorne), and as part of [code corrections](@electrical-code-corrections) before home sales in [Lower Makefield](@lower-makefield).
+We add arc-fault protection during basement finishes in [Warrington](@warrington) and [Richboro](@richboro), and as part of [code corrections](@electrical-code-corrections) before home sales in [Newtown](@newtown).
 
 ## FAQ
 Q: Do I have to replace all my breakers with AFCIs?
@@ -292,7 +292,7 @@ We plan the work so the kitchen, a bathroom and bedrooms stay usable each night.
 
 ## Rewiring Around Yardley
 
-We rewire historic stone and frame homes in [New Hope](@new-hope) and [Newtown](@newtown), and older twins and singles in [Morrisville](@morrisville), where knob-and-tube and early cloth-insulated cable are still common.
+We rewire historic homes in [Doylestown](@doylestown) and [New Hope](@new-hope), and older twins and singles in [Quakertown](@quakertown) and [Morrisville](@morrisville), where knob-and-tube and early cloth-insulated cable are still common.
 
 ## FAQ
 Q: How long does it take to rewire a house?
@@ -344,7 +344,7 @@ Aluminum and copper expand at different rates, and aluminum forms an oxide layer
 
 ## Aluminum Wiring Around Yardley
 
-We find aluminum branch wiring in some neighborhoods built during that era in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and often fix it as part of [code corrections](@electrical-code-corrections) before a sale in [Langhorne](@langhorne).
+We find aluminum branch wiring in homes and townhouses built during that era in [Bensalem](@bensalem) and [Lower Makefield](@lower-makefield), and often fix it as part of [code corrections](@electrical-code-corrections) before a sale in [Langhorne](@langhorne).
 
 ## FAQ
 Q: Is aluminum wiring safe?
@@ -395,7 +395,7 @@ We'll look at where you park, where the charge port is on your car and whether y
 
 ## EV Chargers Around Yardley
 
-We install chargers in garages throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and in driveways on the larger lots around [Washington Crossing](@washington-crossing).
+We install chargers in garages throughout [Newtown](@newtown), [Warrington](@warrington) and [Richboro](@richboro), and in driveways on the larger lots around [Washington Crossing](@washington-crossing).
 
 ## FAQ
 Q: Do I need a permit for an EV charger?
@@ -446,7 +446,7 @@ Surge damage isn't always dramatic. Watch for electronics that fail after storms
 
 ## Surge Protection Around Yardley
 
-Homes near the river in [New Hope](@new-hope) and [Washington Crossing](@washington-crossing), and anywhere with overhead lines through the trees, see more than their share of storm surges. We also add protection during panel upgrades in [Fairless Hills](@fairless-hills).
+Homes near the river in [New Hope](@new-hope) and [Washington Crossing](@washington-crossing), and anywhere with overhead lines through the trees, see more than their share of storm surges. We also add protection during panel upgrades in [Chalfont](@chalfont).
 
 ## FAQ
 Q: Does a whole-house surge protector stop lightning?
@@ -497,7 +497,7 @@ Some upgrades cost little and make a noticeable difference: replacing worn outle
 
 ## Home Upgrades Around Yardley
 
-Most of our upgrade work is in the post-war homes of [Levittown](@levittown) and [Fairless Hills](@fairless-hills), and in 1960s and 1970s colonials and ranchers in [Lower Makefield](@lower-makefield) that still have their original wiring layouts.
+Most of our upgrade work is in the post-war homes of [Levittown](@levittown), [Fairless Hills](@fairless-hills) and [Feasterville](@feasterville), and in 1950s homes in [Warminster](@warminster) that still have their original wiring layouts.
 
 ## FAQ
 Q: Can I just swap two-prong outlets for three-prong ones?
@@ -548,7 +548,7 @@ Think about where the coffee maker, toaster, stand mixer and chargers will live,
 
 ## Kitchen Work Around Yardley
 
-We wire kitchen remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and add circuits to smaller original kitchens in [Levittown](@levittown) homes without opening every wall.
+We wire kitchen remodels in [Newtown](@newtown) and [Southampton](@southampton), and add circuits to smaller original kitchens in [Levittown](@levittown) homes without opening every wall.
 
 ## FAQ
 Q: How many circuits does a kitchen need?
@@ -600,7 +600,7 @@ If you've had the same breaker trip or the same outlet fail more than once, the 
 
 ## Repairs Around Yardley
 
-We handle repair calls across [Lower Makefield](@lower-makefield), [Morrisville](@morrisville) and [Fairless Hills](@fairless-hills), and for small businesses along the Route 1 and Oxford Valley corridor.
+We handle repair calls across [Morrisville](@morrisville), [Bristol](@bristol) and [Warminster](@warminster), and for small businesses along the Route 1 and Street Road corridors.
 
 ## FAQ
 Q: Why did half the outlets in my room stop working?
@@ -651,7 +651,7 @@ In homes more than 40 years old, we pay extra attention to aluminum or cloth-ins
 
 ## Maintenance Around Yardley
 
-We do maintenance checks for new homeowners in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and for small businesses in [Langhorne](@langhorne).
+We do maintenance checks for new homeowners in [Lower Makefield](@lower-makefield) and [Richboro](@richboro), and for small businesses in [Langhorne](@langhorne).
 
 ## FAQ
 Q: How often should my home's electrical system be inspected?
@@ -703,7 +703,7 @@ Older homes around Bucks County tend to show the same findings: ungrounded outle
 
 ## Code Corrections Around Yardley
 
-We handle a lot of pre-sale corrections in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and rental inspection items in [Morrisville](@morrisville) and [Levittown](@levittown).
+We handle a lot of pre-sale corrections in [Newtown](@newtown) and [Southampton](@southampton), and rental inspection items in [Bristol](@bristol) and [Morrisville](@morrisville).
 
 ## FAQ
 Q: How fast can you fix inspection items?
@@ -754,7 +754,7 @@ New construction is the best time to plan lighting in layers: recessed lighting 
 
 ## New Construction Around Yardley
 
-We wire new homes and additions on larger lots in [Washington Crossing](@washington-crossing) and [Newtown](@newtown), and renovations in [Lower Makefield](@lower-makefield).
+We wire new homes and additions on larger lots in [Washington Crossing](@washington-crossing) and [Richboro](@richboro), and renovations in [Doylestown](@doylestown).
 
 ## FAQ
 Q: Do you work with my builder or directly with me?
@@ -808,7 +808,7 @@ Plug-in surge protectors need a true ground to work. On an ungrounded outlet, th
 
 ## Grounding Work Around Yardley
 
-We ground outlets in older homes in [Morrisville](@morrisville) and [Levittown](@levittown), and bond CSST gas lines in newer homes in [Newtown](@newtown) as part of [code corrections](@electrical-code-corrections).
+We ground outlets in older homes in [Morrisville](@morrisville), [Sellersville](@sellersville) and [Feasterville](@feasterville), and bond CSST gas lines in newer homes as part of [code corrections](@electrical-code-corrections).
 
 ## FAQ
 Q: Can I replace a two-prong outlet with a three-prong one?

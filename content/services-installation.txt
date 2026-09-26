@@ -41,7 +41,7 @@ Older homes present their own challenges: plaster and lath, fire blocking betwee
 
 ## Wiring Installation Around Yardley
 
-We wire remodels and additions across [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and attic and basement conversions in [Langhorne](@langhorne).
+We wire remodels and additions across [Newtown](@newtown) and [Doylestown](@doylestown), and attic and basement conversions in [Langhorne](@langhorne).
 
 ## FAQ
 Q: When should the electrician start on a remodel?
@@ -94,7 +94,7 @@ Every new circuit gets a clear, typed label at the panel, so you know exactly wh
 
 ## Dedicated Circuits Around Yardley
 
-We add circuits for kitchens and home offices in [Lower Makefield](@lower-makefield), and split overloaded circuits in the original homes of [Levittown](@levittown) and [Fairless Hills](@fairless-hills).
+We add circuits for workshops and home offices in [Warminster](@warminster), and split overloaded circuits in the original homes of [Levittown](@levittown) and [Fairless Hills](@fairless-hills).
 
 ## FAQ
 Q: Does my refrigerator need its own circuit?
@@ -146,7 +146,7 @@ Replacing all the outlets and switches in a house is a popular update, especiall
 
 ## Outlet and Switch Work Around Yardley
 
-We replace outlets and switches throughout [Lower Makefield](@lower-makefield) and [Morrisville](@morrisville), and add outlets to older rooms in [Levittown](@levittown) that were built with only one or two.
+We replace outlets and switches throughout [Bensalem](@bensalem) and [Morrisville](@morrisville), and add outlets to older rooms in [Sellersville](@sellersville) that were built with only one or two.
 
 ## FAQ
 Q: Why do my plugs fall out of the outlet?
@@ -197,7 +197,7 @@ If you're wall-mounting a TV, decide on its height and position before we move t
 
 ## Relocations Around Yardley
 
-We move outlets and switches for TV mounts and remodels throughout [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and in older plaster-walled homes in [New Hope](@new-hope).
+We move outlets and switches for TV mounts and remodels throughout [Newtown](@newtown) and [Warrington](@warrington), and in older plaster-walled homes in [New Hope](@new-hope).
 
 ## FAQ
 Q: Can you hide the TV cords in the wall?
@@ -251,7 +251,7 @@ When the first outlet on a circuit is behind a fridge, a washer or a basement fr
 
 ## GFCI Work Around Yardley
 
-We add GFCI protection as part of [code corrections](@electrical-code-corrections) before sales in [Lower Makefield](@lower-makefield) and [Langhorne](@langhorne), and in basements and garages in [Levittown](@levittown).
+We add GFCI protection as part of [code corrections](@electrical-code-corrections) before sales in [Southampton](@southampton) and [Langhorne](@langhorne), and in basements and garages in [Feasterville](@feasterville).
 
 ## FAQ
 Q: Why did several outlets stop working at once?
@@ -304,7 +304,7 @@ Holiday displays, heaters, pool pumps and pressure washers can overload a single
 
 ## Outdoor Outlets Around Yardley
 
-We install deck and patio outlets throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and garden and yard outlets on the larger properties around [Washington Crossing](@washington-crossing).
+We install deck and patio outlets throughout [Warrington](@warrington) and [Richboro](@richboro), and garden and yard outlets on the larger properties around [Washington Crossing](@washington-crossing).
 
 ## FAQ
 Q: Do outdoor outlets need to be GFCI?
@@ -357,7 +357,7 @@ Standard dimmers are inexpensive; smart and multi-location dimmers cost more. Bo
 
 ## Dimmer Work Around Yardley
 
-We fix flickering LED dimmers throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and install dimming with new lighting in [Langhorne](@langhorne).
+We fix flickering LED dimmers throughout [Lower Makefield](@lower-makefield) and [Chalfont](@chalfont), and install dimming with new lighting in [Langhorne](@langhorne).
 
 ## FAQ
 Q: Why do my LED lights flicker on the dimmer?
@@ -410,7 +410,7 @@ If walls are open for a remodel, it's the easiest time to add three-way switchin
 
 ## Two-Way Switching Around Yardley
 
-We add stair and hallway switching in two-story homes in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and fix mis-wired 3-way circuits in older homes in [Morrisville](@morrisville).
+We add stair and hallway switching in two-story homes in [Newtown](@newtown) and [Warrington](@warrington), and fix mis-wired 3-way circuits in older homes in [Bristol](@bristol).
 
 ## FAQ
 Q: What's the difference between two-way and 3-way switching?
@@ -463,7 +463,7 @@ Covered porches and patios need fans rated for damp or wet locations, and they'r
 
 ## Ceiling Fans Around Yardley
 
-We install a lot of ceiling fans in the original bedrooms of [Fairless Hills](@fairless-hills) and [Levittown](@levittown) homes, and in family rooms and porches in [Lower Makefield](@lower-makefield).
+We install a lot of ceiling fans in the original bedrooms of [Fairless Hills](@fairless-hills), [Levittown](@levittown) and [Feasterville](@feasterville) homes, and on porches in [Southampton](@southampton).
 
 ## FAQ
 Q: Can I put a ceiling fan where my light fixture is?
@@ -517,7 +517,7 @@ Attic fans should have a firestat that shuts the fan off if the attic gets extre
 
 ## Attic Fans Around Yardley
 
-We wire attic fans in two-story homes in [Lower Makefield](@lower-makefield) and [Newtown](@newtown), where upstairs bedrooms heat up quickly.
+We wire attic fans in two-story homes in [Richboro](@richboro) and [Warminster](@warminster), where upstairs bedrooms heat up quickly.
 
 ## FAQ
 Q: Does an attic fan replace air conditioning?
@@ -570,7 +570,7 @@ Heat pump water heaters, electric heat pumps and induction cooktops are replacin
 
 ## Appliance Wiring Around Yardley
 
-We wire induction ranges and wall ovens in kitchen remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and dryer and water heater circuits in [Levittown](@levittown).
+We wire induction ranges and wall ovens in kitchen remodels in [Doylestown](@doylestown) and [Chalfont](@chalfont), and dryer and water heater circuits in [Levittown](@levittown).
 
 ## FAQ
 Q: Can I switch from a gas range to induction?
@@ -623,7 +623,7 @@ A bathroom remodel is the best time to fix everything at once. Before the walls 
 
 ## Bathroom Work Around Yardley
 
-We wire bathroom remodels in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and replace old fans and add GFCI outlets in [Levittown](@levittown) baths.
+We wire bathroom remodels in [Southampton](@southampton) and [Newtown](@newtown), and replace old fans and add GFCI outlets in [Bensalem](@bensalem) baths.
 
 ## FAQ
 Q: Can my bathroom fan vent into the attic?
@@ -676,7 +676,7 @@ Many smart devices depend on a strong Wi-Fi signal. Access points mounted on cei
 
 ## Smart Home Work Around Yardley
 
-We install smart switches and thermostats throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and plan smart home wiring for new homes in [Washington Crossing](@washington-crossing).
+We install smart switches and thermostats throughout [Warrington](@warrington) and [Newtown](@newtown), and plan smart home wiring for new homes in [Washington Crossing](@washington-crossing).
 
 ## FAQ
 Q: Why won't my smart switch work in my old house?
@@ -734,7 +734,7 @@ Alarms should be on the ceiling or high on the wall, away from corners and at le
 
 ## Alarm Work Around Yardley
 
-We replace alarms and add CO detectors for pre-sale requirements in [Morrisville](@morrisville) and [Langhorne](@langhorne), and add hardwired alarms in older homes in [Fairless Hills](@fairless-hills).
+We replace alarms and add CO detectors for pre-sale requirements in [Morrisville](@morrisville) and [Bristol](@bristol), and add hardwired alarms in older homes in [Quakertown](@quakertown).
 
 ## FAQ
 Q: How often should smoke alarms be replaced?
@@ -787,7 +787,7 @@ Installing on good existing wiring is quick. A new transformer, new wire runs or
 
 ## Doorbell Work Around Yardley
 
-We install video doorbells throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and fix old doorbell wiring in older homes in [Morrisville](@morrisville).
+We install video doorbells throughout [Lower Makefield](@lower-makefield) and [Warrington](@warrington), and fix old doorbell wiring in older homes in [Perkasie](@perkasie).
 
 ## FAQ
 Q: Why does my Ring doorbell keep losing power?
@@ -840,7 +840,7 @@ A good home network starts in one place, usually near where the internet enters 
 
 ## Low-Voltage Work Around Yardley
 
-We run network cable to home offices in [Newtown](@newtown) and [Lower Makefield](@lower-makefield), and plan wiring for new homes and additions in [Washington Crossing](@washington-crossing).
+We run network cable to home offices in [Newtown](@newtown) and [Chalfont](@chalfont), and plan wiring for new homes and additions in [Richboro](@richboro).
 
 ## FAQ
 Q: Is wired internet really better than Wi-Fi?
@@ -893,7 +893,7 @@ Order the tub, then call us with the model. We'll confirm its electrical require
 
 ## Hot Tubs Around Yardley
 
-We wire hot tubs on decks and patios throughout [Lower Makefield](@lower-makefield) and [Newtown](@newtown), and on larger properties around [Washington Crossing](@washington-crossing).
+We wire hot tubs on decks and patios throughout [Richboro](@richboro) and [Warrington](@warrington), and on larger properties around [Washington Crossing](@washington-crossing).
 
 ## FAQ
 Q: How far does the disconnect need to be from the hot tub?
@@ -950,7 +950,7 @@ Older pools often have equipment wiring that's corroded, undersized or missing r
 
 ## Pool Wiring Around Yardley
 
-We wire pools on properties in [Lower Makefield](@lower-makefield), [Newtown](@newtown) and [Washington Crossing](@washington-crossing).
+We wire pools on properties in [Richboro](@richboro), [Newtown](@newtown) and [Southampton](@southampton).
 
 ## FAQ
 Q: What is pool bonding?
@@ -1007,7 +1007,7 @@ If your basement gets damp, we'll address it in the plan. Outlets in unfinished 
 
 ## Basement Wiring Around Yardley
 
-We wire basement finishes throughout [Lower Makefield](@lower-makefield), [Langhorne](@langhorne) and [Newtown](@newtown).
+We wire basement finishes throughout [Southampton](@southampton), [Langhorne](@langhorne) and [Warrington](@warrington).
 
 ## FAQ
 Q: Do I need a permit to finish my basement's electrical?
@@ -1060,7 +1060,7 @@ Trenching is the most labor-intensive part of powering a detached building, so i
 
 ## Garage and Shed Wiring Around Yardley
 
-We run power to detached garages and workshops on larger lots in [Washington Crossing](@washington-crossing) and [Newtown](@newtown), and to backyard sheds in [Levittown](@levittown).
+We run power to detached garages and workshops on larger lots in [Washington Crossing](@washington-crossing) and [Quakertown](@quakertown), and to backyard sheds in [Levittown](@levittown).
 
 ## FAQ
 Q: How deep does wiring to a shed need to be buried?
@@ -1117,7 +1117,7 @@ If you're building, bring us in early. We'll plan outlets, lighting and circuits
 
 ## Barns Around Yardley
 
-We wire horse barns and outbuildings on properties around [Washington Crossing](@washington-crossing), [New Hope](@new-hope) and [Newtown](@newtown).
+We wire horse barns and outbuildings on properties around [Washington Crossing](@washington-crossing), [New Hope](@new-hope) and [Perkasie](@perkasie).
 
 ## FAQ
 Q: Can you rewire an old bank barn?

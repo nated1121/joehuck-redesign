@@ -644,20 +644,32 @@ def build_simple(site, key, path, active=None, extra="", hero_cat=None):
     return out
 
 
+REGIONS = [
+    ("lower", "Near Yardley", "The towns closest to our Yardley base, along the river and across lower Bucks, where we work every week."),
+    ("central", "Central Bucks", "Richboro, Warminster, Warrington, Doylestown and Chalfont. We group appointments here to keep scheduling reliable."),
+    ("upper", "Upper Bucks", "Perkasie, Sellersville and Quakertown. Call early, and we'll schedule your job with our other upper Bucks appointments."),
+]
+
+
 def areas_index_extra(site):
     def f(p):
-        cards = "".join(
-            f'<li><a href="{p.href(a["path"])}"><b>{esc(a["meta"]["town"])}, PA</b><span>{esc(a["meta"]["blurb"])}</span><em>Electrician in {esc(a["meta"]["town"])} →</em></a></li>'
-            for a in (site.areas[s] for s in site.area_order)
-        )
-        return f'''
-  <section class="block services">
+        out = []
+        for i, (key, title, intro) in enumerate(REGIONS):
+            towns = [site.areas[s] for s in site.area_order if site.areas[s]["meta"]["region"] == key]
+            cards = "".join(
+                f'<li><a href="{p.href(a["path"])}"><b>{esc(a["meta"]["town"])}, PA</b><span>{esc(a["meta"]["blurb"])}</span><em>Electrician in {esc(a["meta"]["town"])} →</em></a></li>'
+                for a in towns
+            )
+            bg = " services" if i % 2 == 0 else ""
+            out.append(f'''
+  <section class="block{bg}" id="{key}">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">Towns we serve</p><h2>Around Yardley, PA.</h2></div>
-        <p>Yardley is home base. These are the towns around it where we work every week, plus the rest of Bucks County by appointment.</p></div>
+      <div class="sec-head"><div><p class="eyebrow">{len(towns)} towns</p><h2>{esc(title)}</h2></div>
+        <p>{esc(intro)}</p></div>
       <ul class="svc-grid">{cards}</ul>
     </div>
-  </section>'''
+  </section>''')
+        return "".join(out)
     return f
 
 
@@ -739,12 +751,18 @@ def build_home(site):
     tabs.append('<div class="brk" aria-hidden="true" style="cursor:default;opacity:.55"><span class="toggle"></span><span class="brk-txt"><b>Spare</b><small>Room to grow</small></span></div>')
 
     towns = "".join(
-        f'<li>{p.link(s, esc(site.areas[s]["meta"]["town"]) + " <small>Bucks Co.</small>")}</li>' for s in site.area_order
+        f'<li>{p.link(s, esc(site.areas[s]["meta"]["town"]))}</li>' for s in site.area_order
     )
     area_links = {site.areas[s]["meta"]["town"]: p.href(site.areas[s]["path"]) for s in site.area_order}
     area_links["Upper Makefield"] = area_links.get("Washington Crossing")
     area_links["Falls Township"] = area_links.get("Fairless Hills")
     area_links["Middletown"] = area_links.get("Langhorne")
+    aliases = {"Trevose": "Feasterville", "Feasterville-Trevose": "Feasterville", "Lower Southampton": "Feasterville",
+               "Upper Southampton": "Southampton", "Holland": "Richboro", "Churchville": "Richboro", "Northampton": "Richboro",
+               "Ivyland": "Warminster", "New Britain": "Chalfont", "Croydon": "Bristol", "Solebury": "New Hope",
+               "Penndel": "Langhorne", "Langhorne Manor": "Langhorne", "Tullytown": "Levittown"}
+    for k, v in aliases.items():
+        area_links[k] = area_links.get(v)
 
     faq_html = faq_section(p, faqs)
     main = f'''  <section class="hero" id="top">
