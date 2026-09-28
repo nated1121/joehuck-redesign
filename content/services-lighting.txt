@@ -6,7 +6,7 @@ cat: l
 name: Recessed Lighting Installation
 gbp: Recessed lighting installation
 h1: Recessed Lighting Installation in Yardley, PA
-title: Recessed Lighting Installation in Yardley, PA | LED Can & Wafer Lights
+title: Recessed Lighting Installation in Yardley, PA | Can Lights in Bucks County
 desc: Recessed lighting installation in Yardley, PA. Slim LED wafer and can lights for kitchens, living rooms and basements, laid out evenly and on dimmers.
 blurb: Recessed LED lighting for kitchens, living rooms, basements and baths, laid out for even light without dark spots or glare, on dimmers, and installed in finished ceilings with minimal patching.
 related: dimmer-switch-installation, led-lighting-retrofits, ceiling-light-installation
@@ -59,7 +59,7 @@ cat: l
 name: Ceiling Light Installation
 gbp: Ceiling light installation
 h1: Ceiling Light Installation in Yardley, PA
-title: Ceiling Light Installation in Yardley, PA | Fixture Replacement
+title: Ceiling Light Installation in Yardley, PA | Light Fixtures, Bucks County
 desc: Ceiling light installation in Yardley, PA. Replace old fixtures, add ceiling lights to rooms without them and install flush and semi-flush fixtures safely.
 blurb: Replace dated ceiling fixtures or add a ceiling light to a room that doesn't have one. We check the box and wiring, support heavier fixtures properly and put it on the switch where you want it.
 related: chandelier-installation, ceiling-fan-installation, recessed-lighting-installation
@@ -112,7 +112,7 @@ cat: l
 name: Chandelier Installation
 gbp: Chandelier installation
 h1: Chandelier Installation in Yardley, PA
-title: Chandelier Installation in Yardley, PA | Foyers & Dining Rooms
+title: Chandelier Installation in Yardley, PA | Chandelier Hanging, Bucks County
 desc: Chandelier installation in Yardley, PA. Heavy fixtures properly supported, high foyer ceilings, correct hanging height, dimmers and assembly. Licensed.
 blurb: Chandeliers installed safely on supports rated for the weight, hung at the right height over the table or in a two-story foyer, assembled, leveled and put on a dimmer.
 related: pendant-lighting-installation, ceiling-light-installation, dimmer-switch-installation
@@ -171,7 +171,7 @@ cat: l
 name: Pendant Lighting Installation
 gbp: Pendant lighting installation
 h1: Pendant Lighting Installation in Yardley, PA
-title: Pendant Lighting Installation in Yardley, PA | Kitchen Island Pendants
+title: Pendant Lighting Installation in Yardley, PA | Island Pendants, Bucks County
 desc: Pendant lighting installation in Yardley, PA. Kitchen island pendants, spacing and height, sloped ceiling adapters and new boxes. Licensed electricians.
 blurb: Pendant lights over kitchen islands, peninsulas, dining tables and entries, spaced and hung at the right height, with new boxes where they're needed and adapters for sloped ceilings.
 related: chandelier-installation, under-cabinet-lighting-installation, kitchen-electrical-upgrade
@@ -228,7 +228,7 @@ cat: l
 name: Wall Sconce Installation
 gbp: Wall sconce installation
 h1: Wall Sconce Installation in Yardley, PA
-title: Wall Sconce Installation in Yardley, PA | Bath & Hallway Sconces
+title: Wall Sconce Installation in Yardley, PA | Sconces in Bucks County
 desc: Wall sconce installation in Yardley, PA for bathrooms, hallways, bedrooms, stairs and exteriors. New boxes in finished walls, correct height, dimmers.
 blurb: Wall sconces beside bathroom mirrors, along hallways and stairs, by the bed and at exterior doors, installed at the right height with new boxes fished into finished walls.
 related: bathroom-fixture-wiring, accent-cove-lighting, switch-outlet-installation
@@ -285,7 +285,7 @@ cat: l
 name: Track Lighting Installation
 gbp: Track lighting installation
 h1: Track Lighting Installation in Yardley, PA
-title: Track Lighting Installation in Yardley, PA | Track & Monorail Lighting
+title: Track Lighting Installation in Yardley, PA | Track Lights in Bucks County
 desc: Track and monorail lighting installation in Yardley, PA for art, kitchens, sloped ceilings and retail displays. Modern LED track heads, dimmers.
 blurb: Adjustable track and monorail lighting for artwork, kitchens, sloped ceilings, studios and retail displays, with modern LED heads you can aim, move and dim.
 related: accent-cove-lighting, led-lighting-retrofits, recessed-lighting-installation
@@ -344,7 +344,7 @@ cat: l
 name: Under Cabinet Lighting Installation
 gbp: Under cabinet lighting installation
 h1: Under Cabinet Lighting Installation in Yardley, PA
-title: Under Cabinet Lighting Installation in Yardley, PA | Hardwired LED
+title: Under Cabinet Lighting Installation in Yardley, PA | Bucks County Kitchens
 desc: Under cabinet lighting installation in Yardley, PA. Hardwired LED light bars and strips on a wall switch, hidden wiring and drivers. Licensed electricians.
 blurb: Hardwired LED under-cabinet lighting on a wall switch or dimmer, with the wiring and drivers hidden, so your counters are evenly lit without cords or dark spots.
 related: led-strip-lighting-installation, pendant-lighting-installation, kitchen-electrical-upgrade
@@ -403,7 +403,7 @@ cat: l
 name: Accent & Cove Lighting Installation
 gbp: Accent lighting installation; Cove lighting installation
 h1: Accent & Cove Lighting Installation in Yardley, PA
-title: Accent & Cove Lighting in Yardley, PA | Tray Ceilings, Shelves & Art
+title: Accent & Cove Lighting Installation in Yardley, PA | Bucks County Lighting
 desc: Accent and cove lighting installation in Yardley, PA. LED cove lighting for tray ceilings and crown molding, shelf, art, toe-kick and stair lighting.
 blurb: Soft LED cove lighting in tray ceilings and crown molding, plus accent lighting for shelves, artwork, toe-kicks, stairs and built-ins, with hidden drivers and dimming.
 related: led-strip-lighting-installation, track-lighting-installation, wall-sconce-installation
@@ -458,7 +458,7 @@ cat: l
 name: LED Lighting Installation & Retrofits
 gbp: LED lighting installation; Lighting retrofits
 h1: LED Lighting Installation & Retrofits in Yardley, PA
-title: LED Lighting Retrofits in Yardley, PA | Homes & Businesses
+title: LED Lighting Installation & Retrofits in Yardley, PA | Bucks County LED
 desc: LED lighting installation and retrofits in Yardley, PA. Convert fluorescent fixtures, old recessed cans and halogen lights to LED for homes and businesses.
 blurb: Convert fluorescent fixtures, old recessed cans, halogen and incandescent lighting to efficient LED, for homes and small businesses, including ballast bypass and full fixture replacement.
 related: recessed-lighting-installation, lighting-repair, garage-lighting-installation
@@ -517,7 +517,7 @@ cat: l
 name: LED Strip Lighting Installation
 gbp: LED strip lighting installation
 h1: LED Strip Lighting Installation in Yardley, PA
-title: LED Strip Lighting Installation in Yardley, PA | Tape Lighting
+title: LED Strip Lighting Installation in Yardley, PA | Tape Lights, Bucks County
 desc: LED strip lighting installation in Yardley, PA. Hardwired LED tape in aluminum channels for kitchens, coves, stairs, shelves and bars, with hidden drivers.
 blurb: Hardwired LED strip (tape) lighting in aluminum channels with diffusers for coves, cabinets, shelves, stairs, bars and toe-kicks, with drivers sized for the run and hidden from view.
 related: accent-cove-lighting, under-cabinet-lighting-installation, smart-lighting-installation
@@ -574,7 +574,7 @@ cat: l
 name: Smart Lighting Installation
 gbp: Smart lighting installation
 h1: Smart Lighting Installation in Yardley, PA
-title: Smart Lighting Installation in Yardley, PA | Switches & Scenes
+title: Smart Lighting Installation in Yardley, PA | Smart Switches, Bucks County
 desc: Smart lighting installation in Yardley, PA. Smart switches, dimmers, scenes, schedules and app and voice control that work reliably. Licensed electricians.
 blurb: Smart switches and dimmers, scenes and schedules, app and voice control, installed with the neutrals and compatible fixtures they need, so your lighting is convenient and reliable.
 related: dimmer-switch-installation, smart-home-wiring, motion-sensor-lighting
@@ -629,7 +629,7 @@ cat: l
 name: Motion Sensor Lighting Installation
 gbp: Motion sensor lighting installation
 h1: Motion Sensor Lighting Installation in Yardley, PA
-title: Motion Sensor Lighting in Yardley, PA | Indoor & Outdoor Motion Lights
+title: Motion Sensor Lighting Installation in Yardley, PA | Motion Lights, Bucks Co.
 desc: Motion sensor lighting installation in Yardley, PA. Indoor occupancy and vacancy sensors and outdoor motion lights for closets, garages, stairs and driveways.
 blurb: Motion-activated lighting indoors and out: occupancy and vacancy sensor switches for closets, laundry rooms, garages and stairs, and outdoor motion lights for driveways, doors and walkways.
 related: security-flood-lighting, smart-lighting-installation, garage-lighting-installation
@@ -688,7 +688,7 @@ cat: l
 name: Security & Flood Light Installation
 gbp: Security lighting installation; Flood light installation
 h1: Security & Flood Light Installation in Yardley, PA
-title: Security & Flood Light Installation in Yardley, PA | LED Floodlights
+title: Security & Flood Light Installation in Yardley, PA | Floodlights, Bucks County
 desc: Security lighting and flood light installation in Yardley, PA. LED floodlights with motion and dusk-to-dawn control for driveways, yards and businesses.
 blurb: LED floodlights and security lighting for driveways, yards, entrances and commercial lots, with motion sensors, dusk-to-dawn control and aiming that lights your property without blinding the neighbors.
 related: motion-sensor-lighting, landscape-lighting-installation, outdoor-outlet-installation
@@ -751,7 +751,7 @@ cat: l
 name: Landscape & Low-Voltage Lighting Installation
 gbp: Landscape lighting installation; Low voltage lighting installation
 h1: Landscape Lighting Installation in Yardley, PA
-title: Landscape Lighting Installation in Yardley, PA | Low-Voltage LED
+title: Landscape Lighting Installation in Yardley, PA | Outdoor Lighting, Bucks County
 desc: Landscape and low-voltage lighting installation in Yardley, PA. LED path lights, uplights, patio and step lighting with transformers and timers.
 blurb: Low-voltage LED landscape lighting for paths, driveways, trees, steps, patios and the front of the house, with properly sized transformers, buried cable and timers or astronomical clocks.
 related: outdoor-outlet-installation, security-flood-lighting, pool-electrical-wiring
@@ -808,7 +808,7 @@ cat: l
 name: Garage Lighting Installation
 gbp: Garage lighting installation
 h1: Garage Lighting Installation in Yardley, PA
-title: Garage Lighting Installation in Yardley, PA | Bright LED Shop Lights
+title: Garage Lighting Installation in Yardley, PA | LED Shop Lights, Bucks County
 desc: Garage lighting installation in Yardley, PA. Bright LED shop lights and linear fixtures, new circuits and switches, and motion-activated garage lighting.
 blurb: Replace the single bare bulb with bright, even LED shop lighting, hardwired on a switch at the door, with added outlets and circuits for tools, freezers and workbenches.
 related: shed-garage-wiring, led-lighting-retrofits, motion-sensor-lighting
@@ -869,7 +869,7 @@ cat: l
 name: Lighting Repair
 gbp: Lighting repair; Ballast and bulb replacement
 h1: Lighting Repair in Yardley, PA
-title: Lighting Repair in Yardley, PA | Flickering Lights & Ballasts
+title: Lighting Repair in Yardley, PA | Flickering Light Repair in Bucks County
 desc: Lighting repair in Yardley, PA. Fix flickering or dead lights, buzzing fixtures, failed ballasts, hard-to-reach bulbs and outdoor lights. Licensed electricians.
 blurb: Fix lights that flicker, buzz or won't turn on, replace failed ballasts and drivers, change bulbs in hard-to-reach fixtures, and repair outdoor and landscape lighting.
 related: electrical-repair-troubleshooting, led-lighting-retrofits, dimmer-switch-installation

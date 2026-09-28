@@ -6,8 +6,8 @@ the hero intro. [text](@slug) links to another page. "## FAQ" starts Q:/A: pairs
 cat: g
 name: Electrical Panel Upgrade
 gbp: Electrical panel upgrade
-h1: Electrical Panel Upgrades in Yardley, PA
-title: Electrical Panel Upgrade in Yardley, PA | 200 Amp Service Upgrades
+h1: Electrical Panel Upgrade in Yardley, PA
+title: Electrical Panel Upgrade in Yardley, PA | 200 Amp Upgrades in Bucks County
 desc: Electrical panel and service upgrades in Yardley, PA. 100A to 200A upgrades, PECO coordination, permits and inspection by licensed electricians. Free estimates.
 blurb: Replace an outdated or overloaded electrical panel with a modern 200-amp service. We handle the permit, the PECO disconnect and reconnect, the inspection, and label every circuit when we're done.
 related: electrical-subpanel-installation, fuse-box-replacement, whole-house-surge-protection
@@ -53,7 +53,7 @@ cat: g
 name: Electrical Subpanel Installation
 gbp: Electrical subpanel installation
 h1: Electrical Subpanel Installation in Yardley, PA
-title: Electrical Subpanel Installation in Yardley, PA | Garage Subpanels
+title: Electrical Subpanel Installation in Yardley, PA | Subpanels in Bucks County
 desc: Subpanel installation in Yardley, PA for garages, basements, additions and workshops. Load calculations, permits and clean installs by licensed electricians.
 blurb: Add circuits where you need them with a subpanel for a garage, basement, addition or workshop. We check your service capacity first, size the feeder properly and handle the permit and inspection.
 related: electrical-panel-upgrade, shed-garage-wiring, basement-wiring
@@ -100,7 +100,7 @@ cat: g
 name: Fuse Box Replacement
 gbp: Fuse box replacement; Electrical fuse changing
 h1: Fuse Box Replacement in Yardley, PA
-title: Fuse Box Replacement in Yardley, PA | Fuse to Breaker Panel Upgrades
+title: Fuse Box Replacement in Yardley, PA | Fuse Box Electrician in Bucks County
 desc: Fuse box replacement and fuse changing in Yardley, PA. Convert an old fuse panel to a modern breaker panel with permits and inspection. Licensed electricians.
 blurb: Replace an old fuse box with a modern circuit breaker panel, or get a blown fuse changed safely. We make sure every fuse is the right size for its wire and upgrade the service when it's due.
 related: electrical-panel-upgrade, home-rewiring, circuit-breaker-replacement
@@ -149,7 +149,7 @@ cat: g
 name: Circuit Breaker Replacement
 gbp: Circuit breaker replacement
 h1: Circuit Breaker Replacement in Yardley, PA
-title: Circuit Breaker Replacement in Yardley, PA | Tripping Breakers
+title: Circuit Breaker Replacement in Yardley, PA | Breaker Repair in Bucks County
 desc: Circuit breaker replacement in Yardley, PA. We diagnose breakers that trip, run hot or won't reset, and install the right breaker for your panel.
 blurb: Breakers that trip for no reason, feel hot or won't reset get diagnosed and replaced with the correct breaker for your panel. We find out why it failed before we swap it, so the problem doesn't come back.
 related: afci-breaker-installation, electrical-repair-troubleshooting, electrical-panel-upgrade
@@ -202,7 +202,7 @@ cat: g
 name: AFCI Breaker Installation
 gbp: AFCI breaker installation
 h1: AFCI Breaker Installation in Yardley, PA
-title: AFCI Breaker Installation in Yardley, PA | Arc-Fault Protection
+title: AFCI Breaker Installation in Yardley, PA | Arc-Fault Breakers in Bucks County
 desc: AFCI breaker installation in Yardley, PA. Arc-fault protection for bedrooms and living areas, code upgrades and fixes for nuisance tripping.
 blurb: Arc-fault (AFCI) breakers detect the kind of sparking that starts electrical fires inside walls. We install them where code requires, add them during remodels, and track down the cause when one keeps tripping.
 related: circuit-breaker-replacement, electrical-code-corrections, home-electrical-upgrades
@@ -255,7 +255,7 @@ cat: g
 name: Home Rewiring
 gbp: Home rewiring
 h1: Home Rewiring in Yardley, PA
-title: Home Rewiring in Yardley, PA | Knob-and-Tube & Old Wiring Replacement
+title: Home Rewiring in Yardley, PA | Knob-and-Tube Replacement in Bucks County
 desc: Whole and partial home rewiring in Yardley, PA. Replace knob-and-tube, cloth and ungrounded wiring with minimal wall damage. Licensed electricians.
 blurb: Replace knob-and-tube, cloth-insulated or ungrounded wiring in older homes, room by room or all at once. We fish new cable through existing walls wherever we can, so you get new wiring with as little patching as possible.
 related: aluminum-wiring-replacement, ground-wire-installation-repair, electrical-panel-upgrade
@@ -306,8 +306,8 @@ A: It was well made, but after decades the insulation breaks down, it has no gro
 cat: g
 name: Aluminum Wiring Replacement
 gbp: Aluminum wiring replacement
-h1: Aluminum Wiring Replacement & Repair in Yardley, PA
-title: Aluminum Wiring Replacement in Yardley, PA | AlumiConn Repairs
+h1: Aluminum Wiring Replacement in Yardley, PA
+title: Aluminum Wiring Replacement in Yardley, PA | AlumiConn Repair in Bucks County
 desc: Aluminum wiring repair and replacement in Yardley, PA. Safe copper pigtail repairs or full rewiring for 1960s–70s homes. Licensed, insured electricians.
 blurb: Homes wired with single-strand aluminum in the 1960s and 70s can overheat at outlets and switches. We make every connection safe with approved copper pigtail connectors, or replace the aluminum wiring entirely.
 related: home-rewiring, switch-outlet-installation, electrical-code-corrections
@@ -359,7 +359,7 @@ cat: g
 name: Electric Car Charger Installation
 gbp: Electric car charger installation
 h1: EV Charger Installation in Yardley, PA
-title: EV Charger Installation in Yardley, PA | Tesla-Certified Installer
+title: EV Charger Installation in Yardley, PA | Level 2 Chargers in Bucks County
 desc: Level 2 EV charger installation in Yardley, PA by a Tesla-certified installer. Tesla, Rivian, Kia, Ford and more. Load calculation, permit and testing included.
 blurb: Level 2 home EV charger installation by a Tesla-certified installer. We check your panel's capacity, run the circuit to your garage or driveway, and install and test chargers for Tesla, Rivian, Ford, Kia and other brands.
 related: electrical-panel-upgrade, dedicated-circuit-installation, shed-garage-wiring
@@ -410,7 +410,7 @@ cat: g
 name: Whole House Surge Protection
 gbp: Whole house surge protection
 h1: Whole House Surge Protection in Yardley, PA
-title: Whole House Surge Protection in Yardley, PA | Panel Surge Protectors
+title: Whole House Surge Protection in Yardley, PA | Surge Protectors, Bucks County
 desc: Whole house surge protector installation in Yardley, PA. Protect appliances, HVAC and electronics at the panel. Licensed electricians, free estimates.
 blurb: A surge protector installed at your electrical panel protects everything in the house, from the furnace and fridge to TVs and computers, against surges from lightning, the utility and your own large appliances.
 related: electrical-panel-upgrade, circuit-breaker-replacement, smart-home-wiring
@@ -461,7 +461,7 @@ cat: g
 name: Home Electrical Upgrades
 gbp: Home electrical upgrades
 h1: Home Electrical Upgrades in Yardley, PA
-title: Home Electrical Upgrades in Yardley, PA | Modernize Older Homes
+title: Home Electrical Upgrades in Yardley, PA | Older Home Updates in Bucks County
 desc: Home electrical upgrades in Yardley, PA: grounded outlets, more circuits, better lighting and code updates for older homes. Free estimates.
 blurb: Bring an older home's electrical system up to how you live now: grounded three-prong outlets, more circuits, USB and GFCI outlets, better lighting and the capacity for modern appliances.
 related: electrical-panel-upgrade, kitchen-electrical-upgrade, gfci-outlet-installation
@@ -511,8 +511,8 @@ A: Updated electrical systems help with inspections and insurance, and buyers no
 cat: g
 name: Kitchen Electrical Upgrade
 gbp: Kitchen electrical upgrade
-h1: Kitchen Electrical Upgrades in Yardley, PA
-title: Kitchen Electrical Upgrade in Yardley, PA | Remodel Wiring & Circuits
+h1: Kitchen Electrical Upgrade in Yardley, PA
+title: Kitchen Electrical Upgrade in Yardley, PA | Kitchen Wiring in Bucks County
 desc: Kitchen electrical upgrades in Yardley, PA. Countertop circuits, GFCI outlets, appliance circuits, islands, induction ranges and lighting for remodels.
 blurb: Wiring for kitchen remodels and updates: countertop circuits, GFCI outlets, island power, dedicated appliance circuits, induction and electric ranges, recessed and under-cabinet lighting.
 related: appliance-wiring, under-cabinet-lighting-installation, recessed-lighting-installation
@@ -563,7 +563,7 @@ cat: g
 name: Electrical Repair & Troubleshooting
 gbp: General electrical repair; Electrical troubleshooting
 h1: Electrical Repair & Troubleshooting in Yardley, PA
-title: Electrical Repair in Yardley, PA | Troubleshooting Electrician
+title: Electrical Repair & Troubleshooting in Yardley, PA | Bucks County Electrician
 desc: Electrical repair and troubleshooting in Yardley, PA. Dead outlets, tripping breakers, flickering lights and buzzing switches found and fixed.
 blurb: Dead outlets, tripping breakers, flickering lights, buzzing switches and half-working circuits, tracked down methodically and fixed properly. We find the cause instead of guessing, and explain what we found.
 related: circuit-breaker-replacement, lighting-repair, switch-outlet-installation
@@ -614,8 +614,8 @@ A: No. Diagnosis and the quote are free. We find the problem, explain it and giv
 cat: g
 name: Electrical Maintenance
 gbp: Electrical maintenance
-h1: Electrical Maintenance & Safety Inspections in Yardley, PA
-title: Electrical Maintenance in Yardley, PA | Safety Inspections
+h1: Electrical Maintenance in Yardley, PA
+title: Electrical Maintenance in Yardley, PA | Safety Inspections in Bucks County
 desc: Electrical maintenance and safety inspections in Yardley, PA: panel checks, connection tightening, GFCI and AFCI tests and smoke alarm checks.
 blurb: A thorough check of your home's electrical system: panel inspection, tightening connections, testing GFCI and AFCI protection, smoke and CO alarms, and a written list of anything that needs attention.
 related: electrical-code-corrections, smoke-detector-installation, whole-house-surge-protection
@@ -666,7 +666,7 @@ cat: g
 name: Electrical Code Corrections
 gbp: Electrical code corrections
 h1: Electrical Code Corrections in Yardley, PA
-title: Electrical Code Corrections in Yardley, PA | Home Inspection Repairs
+title: Electrical Code Corrections in Yardley, PA | Inspection Repairs, Bucks County
 desc: Electrical code corrections in Yardley, PA. Fix home inspection findings fast: double taps, missing GFCIs, open boxes and ungrounded outlets.
 blurb: Fix the electrical items on a home inspection or municipal inspection report, from double-tapped breakers and missing GFCIs to open junction boxes and ungrounded outlets, with documentation for buyers and sellers.
 related: electrical-maintenance, gfci-outlet-installation, ground-wire-installation-repair
@@ -718,7 +718,7 @@ cat: g
 name: New Construction Electrical
 gbp: New construction electrical
 h1: New Construction Electrical in Yardley, PA
-title: New Construction Electrical in Yardley, PA | Additions & Custom Homes
+title: New Construction Electrical in Yardley, PA | Additions in Bucks County
 desc: New construction electrical in Yardley, PA for custom homes, additions and major renovations. Service, rough-in, trim-out and inspections.
 blurb: Complete electrical for new homes, additions and major renovations: planning, temporary power, service installation, rough-in, trim-out and inspections, coordinated with your builder's schedule.
 related: electrical-wiring-installation, electrical-panel-upgrade, smart-home-wiring
@@ -769,7 +769,7 @@ cat: g
 name: Ground Wire Installation & Repair
 gbp: Ground wire installation & Repair
 h1: Ground Wire Installation & Repair in Yardley, PA
-title: Ground Wire Installation & Repair in Yardley, PA | Grounding & Bonding
+title: Ground Wire Installation & Repair in Yardley, PA | Grounding, Bucks County
 desc: Ground wire installation and repair in Yardley, PA. Ground ungrounded outlets, fix grounding electrodes, water pipe and gas line bonding. Licensed electricians.
 blurb: Add ground wires to ungrounded outlets, repair or replace grounding electrodes and ground rods, and bond water pipes and gas lines, so your outlets, surge protection and electronics work as designed.
 related: home-rewiring, whole-house-surge-protection, electrical-code-corrections

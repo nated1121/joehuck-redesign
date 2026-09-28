@@ -4,7 +4,7 @@ Each page mentions and links 3–6 services, plus 2–3 nearby towns in the side
 === lower-makefield
 town: Lower Makefield
 h1: Electrician in Lower Makefield, PA
-title: Electrician in Lower Makefield, PA | Joe Huck Electric, Yardley
+title: Electrician in Lower Makefield, PA | Lower Makefield Township Electricians
 desc: Licensed electrician serving Lower Makefield Township, PA. Panel upgrades, EV chargers, lighting and repairs from a local Yardley electrician. Free estimates.
 blurb: The township that surrounds Yardley Borough. Panel upgrades, EV chargers, recessed lighting and repairs in homes from the 1950s to today.
 region: lower
@@ -315,7 +315,7 @@ A: Yes, including Fairless Hills and the neighborhoods around it.
 === morrisville
 town: Morrisville
 h1: Electrician in Morrisville, PA
-title: Electrician in Morrisville, PA | Licensed Local Electricians
+title: Electrician in Morrisville, PA | Licensed Electricians in Morrisville
 desc: Licensed electrician serving Morrisville, PA. Rewiring older twins and rowhomes, fuse box replacement, grounding, repairs and rental inspections.
 blurb: Older twins, rowhomes and singles in Morrisville Borough. Rewiring, fuse box replacement, grounding, repairs and rental inspection items.
 region: lower
@@ -460,7 +460,7 @@ A: Yes, including lighting retrofits, equipment circuits and repairs for offices
 town: Feasterville
 region: lower
 h1: Electrician in Feasterville-Trevose, PA
-title: Electrician in Feasterville-Trevose, PA | Lower Southampton
+title: Electrician in Feasterville-Trevose, PA | Lower Southampton Electrician
 desc: Licensed electrician serving Feasterville, Trevose and Lower Southampton Township, PA. Panel upgrades, rewiring, lighting and repairs. Free estimates.
 blurb: Post-war homes and Street Road businesses in Feasterville, Trevose and Lower Southampton. Panel upgrades, grounding, lighting and repairs.
 nearby: southampton, bensalem, langhorne
@@ -791,7 +791,7 @@ A: Yes. We check your panel's capacity, run a dedicated circuit to your garage o
 town: Perkasie
 region: upper
 h1: Electrician in Perkasie, PA
-title: Electrician in Perkasie, PA | Licensed Upper Bucks Electrician
+title: Electrician in Perkasie, PA | Licensed Electricians in Perkasie
 desc: Licensed electrician serving Perkasie, PA. Panel upgrades coordinated with the borough electric utility, rewiring, lighting and repairs.
 blurb: Perkasie's historic borough homes and surrounding neighborhoods. Panel upgrades with the borough utility, rewiring and repairs.
 nearby: sellersville, quakertown, chalfont
@@ -838,7 +838,7 @@ A: Call as early as you can. We group upper Bucks appointments, and we'll give y
 town: Sellersville
 region: upper
 h1: Electrician in Sellersville, PA
-title: Electrician in Sellersville, PA | Licensed Upper Bucks Electrician
+title: Electrician in Sellersville, PA | Licensed Electricians in Sellersville
 desc: Licensed electrician serving Sellersville, PA. Rewiring older homes, panel upgrades, lighting and repairs for upper Bucks County. Free estimates.
 blurb: Sellersville's historic borough homes and nearby neighborhoods. Rewiring, panel upgrades, lighting and repairs.
 nearby: perkasie, quakertown, chalfont
@@ -885,7 +885,7 @@ A: Call as early as you can. We group upper Bucks appointments and will give you
 town: Quakertown
 region: upper
 h1: Electrician in Quakertown, PA
-title: Electrician in Quakertown, PA | Licensed Upper Bucks Electrician
+title: Electrician in Quakertown, PA | Licensed Electricians in Quakertown
 desc: Licensed electrician serving Quakertown, PA. Panel upgrades coordinated with the borough electric utility, rewiring, lighting and repairs.
 blurb: Quakertown Borough and the surrounding townships. Panel upgrades with the borough utility, rewiring, lighting and repairs.
 nearby: perkasie, sellersville, chalfont

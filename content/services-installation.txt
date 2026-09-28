@@ -5,7 +5,7 @@ cat: i
 name: Electrical Wiring Installation
 gbp: Electrical wiring installation
 h1: Electrical Wiring Installation in Yardley, PA
-title: Electrical Wiring Installation in Yardley, PA | Remodels & Additions
+title: Electrical Wiring Installation in Yardley, PA | Remodels in Bucks County
 desc: Electrical wiring installation in Yardley, PA for remodels, additions and new rooms. New circuits, outlets and lighting wired to code, permits included.
 blurb: New wiring for remodels, additions, attic and basement conversions: circuits, outlets, switches and lighting planned around how you'll use the space, installed to code and inspected.
 related: new-construction-electrical, basement-wiring, dedicated-circuit-installation
@@ -56,7 +56,7 @@ cat: i
 name: Dedicated Circuit Installation
 gbp: Dedicated circuit installation
 h1: Dedicated Circuit Installation in Yardley, PA
-title: Dedicated Circuit Installation in Yardley, PA | 20A & 240V Circuits
+title: Dedicated Circuit Installation in Yardley, PA | New Circuits in Bucks County
 desc: Dedicated circuit installation in Yardley, PA for appliances, space heaters, home offices, freezers, sump pumps and equipment. 120V and 240V circuits.
 blurb: Give appliances and equipment their own circuit so they stop tripping breakers: microwaves, refrigerators, freezers, sump pumps, space heaters, home offices, gym equipment and 240-volt tools.
 related: appliance-wiring, electrical-panel-upgrade, ev-charger-installation
@@ -109,7 +109,7 @@ cat: i
 name: Switch & Outlet Installation
 gbp: Switch & Outlet installation; Electrical switch replacement
 h1: Switch & Outlet Installation in Yardley, PA
-title: Switch & Outlet Installation in Yardley, PA | Replacements
+title: Switch & Outlet Installation in Yardley, PA | Outlet Repair in Bucks County
 desc: Switch and outlet installation and replacement in Yardley, PA. New outlets, USB outlets, worn or warm switches replaced, tamper-resistant outlets. Licensed.
 blurb: Add outlets where you need them and replace worn, loose, cracked or warm switches and outlets. We install USB and tamper-resistant outlets and fix the loose connections behind flickering switches.
 related: switch-outlet-relocation, gfci-outlet-installation, dimmer-switch-installation
@@ -161,7 +161,7 @@ cat: i
 name: Switch & Outlet Relocation
 gbp: Switch & Outlet relocation
 h1: Switch & Outlet Relocation in Yardley, PA
-title: Switch & Outlet Relocation in Yardley, PA | Move Outlets & Switches
+title: Switch & Outlet Relocation in Yardley, PA | Move Outlets in Bucks County
 desc: Switch and outlet relocation in Yardley, PA. Move outlets for TVs, furniture, cabinets and remodels, and move switches to the right side of the door.
 blurb: Move outlets and switches to where they belong: behind a wall-mounted TV, clear of new cabinets, at the right height, or on the latch side of a door. Old boxes are closed up to code.
 related: switch-outlet-installation, electrical-wiring-installation, three-way-switch-wiring
@@ -212,7 +212,7 @@ cat: i
 name: GFCI Outlet Installation
 gbp: GFCI outlet installation
 h1: GFCI Outlet Installation in Yardley, PA
-title: GFCI Outlet Installation in Yardley, PA | Kitchens, Baths & Garages
+title: GFCI Outlet Installation in Yardley, PA | GFCI Outlets in Bucks County
 desc: GFCI outlet installation in Yardley, PA for kitchens, bathrooms, garages, basements, laundry and outdoors. Code corrections and GFCI troubleshooting.
 blurb: Ground-fault (GFCI) protection for kitchens, bathrooms, laundry areas, garages, basements and outdoor outlets. We install GFCI outlets and breakers where code requires and fix GFCIs that won't reset.
 related: outdoor-outlet-installation, electrical-code-corrections, bathroom-fixture-wiring
@@ -266,7 +266,7 @@ cat: i
 name: Outdoor Outlet Installation
 gbp: Outdoor outlet installation
 h1: Outdoor Outlet Installation in Yardley, PA
-title: Outdoor Outlet Installation in Yardley, PA | Weatherproof GFCI Outlets
+title: Outdoor Outlet Installation in Yardley, PA | Exterior Outlets, Bucks County
 desc: Outdoor outlet installation in Yardley, PA. Weather-resistant GFCI outlets with in-use covers for decks, patios, holiday lights and landscape lighting.
 blurb: Weather-resistant, GFCI-protected outdoor outlets with in-use covers for decks, patios, porches, holiday lights, landscape lighting transformers, pool equipment and yard tools.
 related: gfci-outlet-installation, landscape-lighting-installation, hot-tub-electrical-hookup
@@ -319,7 +319,7 @@ cat: i
 name: Dimmer Switch Installation
 gbp: Dimming switch installation
 h1: Dimmer Switch Installation in Yardley, PA
-title: Dimmer Switch Installation in Yardley, PA | LED-Compatible Dimmers
+title: Dimmer Switch Installation in Yardley, PA | LED Dimmers in Bucks County
 desc: Dimmer switch installation in Yardley, PA. LED-compatible dimmers that don't flicker or buzz, multi-location dimming and smart dimmers. Licensed electricians.
 blurb: LED-compatible dimmers that dim smoothly without flicker or buzz, including smart dimmers, multi-location dimming and dimmers matched to your fixtures and bulbs.
 related: smart-lighting-installation, recessed-lighting-installation, switch-outlet-installation
@@ -372,7 +372,7 @@ cat: i
 name: Two-Way (3-Way) Switch Wiring
 gbp: Two-way switching wiring
 h1: Two-Way & 3-Way Switch Wiring in Yardley, PA
-title: 3-Way Switch Wiring in Yardley, PA | Control Lights From Two Places
+title: Two-Way & 3-Way Switch Wiring in Yardley, PA | 3-Way Switches, Bucks County
 desc: Two-way and 3-way switch wiring in Yardley, PA. Control lights from both ends of stairs, halls and rooms. Repairs for 3-way switches that don't work right.
 blurb: Control a light from two or more places, such as the top and bottom of the stairs or both ends of a hallway. We add new switch locations and fix 3-way circuits that only work one way.
 related: switch-outlet-relocation, dimmer-switch-installation, smart-lighting-installation
@@ -425,7 +425,7 @@ cat: i
 name: Ceiling Fan Installation
 gbp: Ceiling fan installation
 h1: Ceiling Fan Installation in Yardley, PA
-title: Ceiling Fan Installation in Yardley, PA | Fan-Rated Boxes & New Wiring
+title: Ceiling Fan Installation in Yardley, PA | Fan Installers in Bucks County
 desc: Ceiling fan installation in Yardley, PA. Replace a light with a fan, add fans to rooms with no fixture, fan-rated boxes, separate fan and light control.
 blurb: Ceiling fans installed securely on fan-rated boxes, whether you're replacing a light fixture or adding a fan to a room with no ceiling wiring. Separate fan and light control, remotes and high-ceiling downrods.
 related: ceiling-light-installation, attic-fan-installation, three-way-switch-wiring
@@ -478,7 +478,7 @@ cat: i
 name: Attic Fan Installation
 gbp: Attic fan installation
 h1: Attic Fan Installation in Yardley, PA
-title: Attic Fan Installation in Yardley, PA | Attic Ventilator Wiring
+title: Attic Fan Installation in Yardley, PA | Attic Fan Wiring in Bucks County
 desc: Attic fan installation and wiring in Yardley, PA. Gable and roof-mounted powered attic ventilators with thermostat and humidistat control. Licensed.
 blurb: Powered attic ventilators wired with thermostat and humidistat control to move hot, humid air out of your attic. We install gable fans and wire roof-mounted units, and repair fans that have stopped working.
 related: ceiling-fan-installation, dedicated-circuit-installation, smart-home-wiring
@@ -531,8 +531,8 @@ A: Yes, so it runs only when the attic needs it.
 cat: i
 name: Appliance Wiring
 gbp: Appliance wiring
-h1: Appliance Wiring & Hookups in Yardley, PA
-title: Appliance Wiring in Yardley, PA | Range, Dryer & Oven Hookups
+h1: Appliance Wiring in Yardley, PA
+title: Appliance Wiring in Yardley, PA | Range & Dryer Hookups in Bucks County
 desc: Appliance wiring in Yardley, PA. 240V circuits and hookups for ranges, induction cooktops, wall ovens, dryers, water heaters and more. Licensed electricians.
 blurb: Circuits and hookups for electric and induction ranges, cooktops, wall ovens, dryers, water heaters, dishwashers, disposals and built-in microwaves, sized to each appliance and wired to code.
 related: dedicated-circuit-installation, kitchen-electrical-upgrade, electrical-panel-upgrade
@@ -584,8 +584,8 @@ A: It's typically required in new work and strongly recommended. We'll confirm w
 cat: i
 name: Bathroom Fixture Wiring
 gbp: Bathroom fixture wiring
-h1: Bathroom Electrical & Fixture Wiring in Yardley, PA
-title: Bathroom Fixture Wiring in Yardley, PA | Fans & Vanity Lights
+h1: Bathroom Fixture Wiring in Yardley, PA
+title: Bathroom Fixture Wiring in Yardley, PA | Bathroom Electrical, Bucks County
 desc: Bathroom electrical and fixture wiring in Yardley, PA: exhaust fans, vanity lights, heated floors, GFCI outlets and wet-rated shower lights. Licensed.
 blurb: Electrical for bathroom remodels and updates: vanity lights, exhaust fans vented to the outside, heated floors, towel warmers, wet-rated shower lights and GFCI-protected outlets.
 related: gfci-outlet-installation, wall-sconce-installation, recessed-lighting-installation
@@ -638,7 +638,7 @@ cat: i
 name: Smart Home Wiring
 gbp: Smart home wiring
 h1: Smart Home Wiring in Yardley, PA
-title: Smart Home Wiring in Yardley, PA | Smart Switches, Thermostats & Hubs
+title: Smart Home Wiring in Yardley, PA | Smart Switches in Bucks County
 desc: Smart home wiring in Yardley, PA. Smart switches and dimmers, neutral wires, smart thermostats, video doorbells and hardwired devices installed right.
 blurb: Wiring for smart switches, dimmers, thermostats, video doorbells, cameras and hubs, including adding neutral wires and power where devices need it, so your smart home is reliable rather than frustrating.
 related: smart-lighting-installation, low-voltage-wiring, doorbell-installation
@@ -691,7 +691,7 @@ cat: i
 name: Smoke Detector Installation
 gbp: Smoke detector installation
 h1: Smoke Detector Installation in Yardley, PA
-title: Smoke Detector Installation in Yardley, PA | Smoke & CO Alarms
+title: Smoke Detector Installation in Yardley, PA | Smoke & CO Alarms, Bucks County
 desc: Hardwired, interconnected smoke and carbon monoxide detector installation in Yardley, PA. Replacements, code compliance for sales and new work.
 blurb: Hardwired, interconnected smoke and carbon monoxide alarms with battery backup, installed where code requires, plus replacement of alarms past their ten-year life and fixes for chirping and false alarms.
 related: electrical-code-corrections, electrical-maintenance, basement-wiring
@@ -749,7 +749,7 @@ cat: i
 name: Doorbell Installation
 gbp: Doorbell installation
 h1: Doorbell Installation in Yardley, PA
-title: Doorbell Installation in Yardley, PA | Video Doorbells & Transformers
+title: Doorbell Installation in Yardley, PA | Video Doorbells in Bucks County
 desc: Doorbell installation in Yardley, PA. Video doorbell wiring, new transformers and chimes, and fixes for doorbells that don't ring. Ring, Nest and more.
 blurb: Wired and video doorbell installation, new transformers for Ring, Nest and other video doorbells, chime replacement and repair of doorbells that don't ring or keep losing power.
 related: smart-home-wiring, low-voltage-wiring, security-flood-lighting
@@ -802,7 +802,7 @@ cat: i
 name: Low Voltage Wiring
 gbp: Low voltage wiring
 h1: Low Voltage Wiring in Yardley, PA
-title: Low Voltage Wiring in Yardley, PA | Network & Thermostat Cable
+title: Low Voltage Wiring in Yardley, PA | Network Cable in Bucks County
 desc: Low voltage wiring in Yardley, PA: Ethernet and network cable, thermostat wire, speaker wire, TV pass-throughs, doorbells and camera power. Licensed.
 blurb: Network (Cat6) cable, thermostat and doorbell wire, speaker wire, TV wall pass-throughs and camera wiring, run neatly and kept a safe distance from power wiring.
 related: smart-home-wiring, doorbell-installation, switch-outlet-relocation
@@ -855,7 +855,7 @@ cat: i
 name: Hot Tub Electrical Hookup
 gbp: Hot tub electrical hookup
 h1: Hot Tub Electrical Hookup in Yardley, PA
-title: Hot Tub Electrical Hookup in Yardley, PA | 240V Spa Wiring
+title: Hot Tub Electrical Hookup in Yardley, PA | Spa Wiring in Bucks County
 desc: Hot tub and spa electrical hookup in Yardley, PA. 240V circuit, GFCI disconnect, bonding, permits and inspection by licensed electricians. Free estimates.
 blurb: Complete hot tub and swim spa wiring: a 240-volt circuit sized to the tub, a GFCI-protected disconnect at the required distance, bonding, the permit and the inspection.
 related: pool-electrical-wiring, electrical-panel-upgrade, outdoor-outlet-installation
@@ -908,7 +908,7 @@ cat: i
 name: Pool Electrical Wiring
 gbp: Pool electrical wiring
 h1: Pool Electrical Wiring in Yardley, PA
-title: Pool Electrical Wiring in Yardley, PA | Pumps, Lights & Bonding
+title: Pool Electrical Wiring in Yardley, PA | Pool Electricians, Bucks County
 desc: Pool electrical wiring in Yardley, PA: pumps, heaters, pool lights, equipotential bonding, GFCI protection and inspections for in-ground and above-ground pools.
 blurb: Electrical for in-ground and above-ground pools: pump, filter and heater circuits, pool lighting, equipotential bonding, GFCI protection and the inspections pools require.
 related: hot-tub-electrical-hookup, landscape-lighting-installation, outdoor-outlet-installation
@@ -965,7 +965,7 @@ cat: i
 name: Basement Wiring
 gbp: Basement wiring
 h1: Basement Wiring in Yardley, PA
-title: Basement Wiring in Yardley, PA | Finished Basement Electrical
+title: Basement Wiring in Yardley, PA | Finished Basements in Bucks County
 desc: Basement wiring in Yardley, PA for finished basements: circuits, outlets, recessed lighting, smoke alarms, subpanels, permits and inspections.
 blurb: Complete electrical for finished basements: circuits, outlets, recessed lighting, AFCI and GFCI protection, smoke alarms, sump pump circuits and a subpanel if your main panel is full.
 related: electrical-subpanel-installation, recessed-lighting-installation, smoke-detector-installation
@@ -1022,7 +1022,7 @@ cat: i
 name: Shed & Garage Wiring
 gbp: Shed or garage wiring
 h1: Shed & Garage Wiring in Yardley, PA
-title: Shed & Garage Wiring in Yardley, PA | Detached Garage Power
+title: Shed & Garage Wiring in Yardley, PA | Garage Power in Bucks County
 desc: Shed and garage wiring in Yardley, PA. Power to detached garages and sheds, underground feeders, subpanels, lighting, outlets and EV chargers. Licensed.
 blurb: Power for detached garages, sheds and workshops: underground feeders, subpanels, lighting, outlets, 240-volt tool circuits and EV charger circuits, permitted and inspected.
 related: electrical-subpanel-installation, garage-lighting-installation, ev-charger-installation
@@ -1075,7 +1075,7 @@ cat: i
 name: Barn Wiring
 gbp: Barn wiring
 h1: Barn Wiring in Yardley, PA
-title: Barn Wiring in Yardley, PA | Horse Barns & Pole Buildings
+title: Barn Wiring in Yardley, PA | Horse Barns & Outbuildings in Bucks County
 desc: Barn wiring in Bucks County, PA near Yardley. Horse barns, pole buildings and agricultural buildings wired for damp, dusty conditions. Licensed electricians.
 blurb: Electrical for horse barns, pole buildings and agricultural outbuildings: feeders and subpanels, damp- and dust-rated lighting, GFCI-protected outlets, water heater and fan circuits, and old barn wiring replaced safely.
 related: shed-garage-wiring, electrical-subpanel-installation, security-flood-lighting

@@ -10,6 +10,7 @@ area_h2: Your Local Bucks County Electrician.
 featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, ev-charger-installation, home-rewiring
 featured_i: switch-outlet-installation, ceiling-fan-installation, dedicated-circuit-installation, hot-tub-electrical-hookup
 featured_l: recessed-lighting-installation, under-cabinet-lighting-installation, landscape-lighting-installation, lighting-repair
+popular: electrical-panel-upgrade=How our panel upgrades work; electrical-repair-troubleshooting=Get an electrical problem diagnosed; ceiling-fan-installation=See how we install ceiling fans; switch-outlet-installation=Add or replace outlets and switches; recessed-lighting-installation=Plan recessed lighting for your home; landscape-lighting-installation=Explore landscape lighting
 ---
 #### lede
 We don't hang doors or fix leaky faucets. For over 40 years, Joe Huck Electric has done one thing: electrical work for homes and small businesses in Yardley and across Bucks County. Repairs, upgrades, installations and lighting, every job done by licensed, insured electricians.
@@ -52,14 +53,14 @@ A: Yes. Besides homes, we serve small businesses across Bucks County, from light
 h1: Electrical Services in Yardley, PA
 eyebrow: All services
 crumb: Services
-title: Electrical Services in Yardley, PA | Repairs, Installation & Lighting
+title: Electrical Services in Yardley, PA | Electricians Serving Bucks County
 desc: Every electrical service Joe Huck Electric offers in Yardley and Bucks County, PA: repairs, panel upgrades, installations and lighting. Licensed electricians.
 ---
 Everything we do, in one place. We're licensed, insured electricians based in Yardley, and every service below comes with a free written estimate, permits when they're needed and a clean job site when we're done.
 
 === electrician-services
 h1: Electrician Services in Yardley, PA
-title: Electrician Services in Yardley, PA | Repairs, Panels & Rewiring
+title: Electrician Services in Yardley, PA | Repairs & Panel Upgrades in Bucks County
 desc: General electrician services in Yardley, PA: repairs, troubleshooting, panel upgrades, fuse box replacement, rewiring, EV chargers and code corrections.
 ---
 Repairs, upgrades and the big jobs that keep a house safe and working. We troubleshoot problems, replace outdated panels and fuse boxes, rewire older homes, install EV chargers and fix inspection items for homeowners and small businesses around Yardley.
@@ -76,7 +77,7 @@ A: Constantly. Many Bucks County homes are 50 to 250 years old, and upgrading ol
 
 === electrical-installation-services
 h1: Electrical Installation Services in Yardley, PA
-title: Electrical Installation Services in Yardley, PA | Outlets & Wiring
+title: Electrical Installation Services in Yardley, PA | Wiring in Bucks County
 desc: Electrical installation in Yardley, PA: outlets, switches, dedicated circuits, ceiling fans, appliances, hot tubs, basements and garages. Licensed electricians.
 ---
 New outlets, switches, circuits and hookups, done safely and to code. Whether it's one GFCI outlet by the sink or the wiring for a finished basement, a hot tub or a detached garage, we install it cleanly and handle the permit and the inspection.
@@ -93,7 +94,7 @@ A: Replacing a device like-for-like usually doesn't. New circuits and most new w
 
 === lighting-contractor-services
 h1: Lighting Contractor Services in Yardley, PA
-title: Lighting Contractor in Yardley, PA | Lighting Installation & Repair
+title: Lighting Contractor Services in Yardley, PA | Bucks County Lighting
 desc: Lighting installation in Yardley, PA: recessed lights, chandeliers, pendants, sconces, under-cabinet, landscape and security lighting, plus lighting repair.
 ---
 Good lighting changes how a room looks and how it works. We install and repair every kind of lighting in Yardley-area homes and small businesses, from recessed lights and chandeliers to under-cabinet, landscape and security lighting, with clean wiring and a finished look.
@@ -112,7 +113,7 @@ A: Yes. We run a new switch leg through the attic or from below and install a pr
 h1: Electrician Service Areas Around Yardley, PA
 eyebrow: Service areas
 crumb: Service Areas
-title: Service Areas | Electrician Serving Yardley & Bucks County, PA
+title: Electrician Service Areas Around Yardley, PA | Serving Bucks County
 desc: Joe Huck Electric serves Yardley and Bucks County, PA, from Newtown, Levittown and Bensalem to Doylestown, Warminster and Quakertown.
 ---
 We're based in Yardley and serve homes and businesses across Bucks County, from the river towns of lower Bucks to Doylestown and Quakertown. Pick your town below to see the work we do there most, or call to ask about anywhere else in the county.

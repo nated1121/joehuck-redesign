@@ -302,8 +302,8 @@ NAV = [
 
 
 def layout(p, *, title, desc, main, schema, active=None, home=False):
-    if len(title) > 70:
-        WARNINGS.append(f"{p.path}: title is {len(title)} chars (aim for ≤ 70)")
+    if len(title) > 80:
+        WARNINGS.append(f"{p.path}: title is {len(title)} chars (aim for ≤ 80)")
     if not 70 <= len(desc) <= 160:
         WARNINGS.append(f"{p.path}: meta description is {len(desc)} chars (aim for 70–160)")
     cur = ' aria-current="page"'
@@ -828,6 +828,12 @@ def build_home(site):
     for k, v in aliases.items():
         area_links[k] = area_links.get(v)
 
+    popular_cards = ""
+    for item in m["popular"].split(";"):
+        slug, _, anchor = item.strip().partition("=")
+        sv = site.services[slug]
+        popular_cards += (f'<li><h2>{esc(sv["meta"]["name"])}</h2><p>{esc(sv["meta"]["blurb"])}</p>'
+                          f'{p.link(slug, esc(anchor) + " →")}</li>')
     faq_html = faq_section(p, faqs)
     main = f'''  <section class="hero hero-photo" id="top">
     <div class="hero-bg">
@@ -876,6 +882,16 @@ def build_home(site):
         </div>
         {"".join(panels)}
       </div>
+    </div>
+  </section>
+
+  <section class="block popular" id="popular">
+    <div class="wrap">
+      <div class="sec-head">
+        <div><p class="eyebrow">Most requested</p><h2>Popular Electrical Services in Yardley</h2></div>
+        <p>The jobs Yardley and Bucks County homeowners call us for most. Every one starts with a free, written estimate.</p>
+      </div>
+      <ul class="popular-grid">{popular_cards}</ul>
     </div>
   </section>
 

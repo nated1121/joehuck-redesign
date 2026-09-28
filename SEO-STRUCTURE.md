@@ -143,15 +143,21 @@ instead of swapping town names into a template.
 
 ## 5. On-page basics (Step 5)
 
-- **Title tags:** *Service + Yardley, PA | keyword variation* (≤ 70 characters). Homepage: "Electrician in Yardley, PA | Licensed Electricians in Bucks County".
-- **H1:** one per page, containing the primary keyword + city.
-- **NAP:** in the footer of every page, and on the contact page. Must match GBP exactly.
-- **Map:** embedded in the homepage footer and on the contact page.
-- **Schema (every page):** `Electrician` LocalBusiness with address, phone, areaServed and sameAs. Service pages add `Service`, `BreadcrumbList` and `FAQPage`; hubs add `OfferCatalog`.
-- **Word counts:** homepage ~1,000; service and area pages 500–700.
-- **Technical:** `sitemap.xml`, `robots.txt`, canonical URLs, and 301 redirects from the old site's URLs (`public/_redirects`).
+| Playbook rule | Homepage | Service, area & hub pages |
+|---|---|---|
+| **Title:** primary keyword + city \| variation + city | "Electrician in Yardley, PA \| Licensed Electricians in Bucks County" | Same pattern, e.g. "Electrical Panel Upgrade in Yardley, PA \| 200 Amp Upgrades in Bucks County" |
+| **H1 = title's main keyword** | "Expert Electrician in Yardley, PA. Not Your Neighborhood Handyman." contains the exact keyword; the wording is the client's | Identical to the title's first half on all 78 pages (the build checks it) |
+| **H2s:** prominent services, each with a blurb and a natural-anchor link | "Popular Electrical Services in Yardley": 6 services, each its own H2 with a blurb and varied link text, plus an H2 per GBP category in the breaker panel | Section H2s per topic (signs, process, cost, local work, FAQ) |
+| **Footer:** NAP + embedded map on the homepage | NAP + Google Map embed | NAP on every page |
+| **Schema** | `Electrician` LocalBusiness + `WebSite` + `FAQPage` | `Electrician` + `Service`/`OfferCatalog` + `BreadcrumbList` + `FAQPage` |
+| **Word count** | ~1,000+ | 500–700 (the build warns outside this) |
 
----
+Titles run up to ~80 characters so the second half can carry a location
+variation. Google displays roughly the first 60, and the keyword and Yardley
+always come first.
+
+Also in place: `sitemap.xml`, `robots.txt`, canonical URLs, and 301 redirects
+from the old site's URLs (`public/_redirects`).
 
 ## 6. GBP deliverable
 
