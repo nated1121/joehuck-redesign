@@ -10,7 +10,7 @@ area_h2: Your Local Bucks County Electrician.
 featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, ev-charger-installation, home-rewiring
 featured_i: switch-outlet-installation, ceiling-fan-installation, dedicated-circuit-installation, hot-tub-electrical-hookup
 featured_l: recessed-lighting-installation, under-cabinet-lighting-installation, landscape-lighting-installation, lighting-repair
-popular: electrical-panel-upgrade=How our panel upgrades work; electrical-repair-troubleshooting=Get an electrical problem diagnosed; ceiling-fan-installation=See how we install ceiling fans; switch-outlet-installation=Add or replace outlets and switches; recessed-lighting-installation=Plan recessed lighting for your home; landscape-lighting-installation=Explore landscape lighting
+popular: electrical-panel-upgrade=How our panel upgrades work; electrical-repair-troubleshooting=Get an electrical problem diagnosed; switch-outlet-installation=Add or replace outlets and switches; gfci-outlet-installation=See where GFCI protection is required; recessed-lighting-installation=Plan recessed lighting for your home; chandelier-installation=See how we hang chandeliers safely
 ---
 #### lede
 We don't hang doors or fix leaky faucets. For over 40 years, Joe Huck Electric has done one thing: electrical work for homes and small businesses in Yardley and across Bucks County. Repairs, upgrades, installations and lighting, every job done by licensed, insured electricians.

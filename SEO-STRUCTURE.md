@@ -78,6 +78,9 @@ Any combined page can be split later by adding a block to the content file.
 
 ### What every service page has (WWP steps)
 
+A dark "why us" band sits under every hero: Ryan and Abie's faces ("You'll know who's coming"), free diagnosis and a written quote, and 40+ years plus Nextdoor Favorite. Pages with a matching job photo open the article with it, and every page ends with the four-step "What happens when you call" strip.
+
+
 | WWP mental step | How the page answers it |
 |---|---|
 | "They can do the service I need" | H1 = *service + Yardley, PA*; intro that restates the problem |
@@ -179,7 +182,7 @@ landing page URL. Paste the descriptions into the Business Profile (Step 4.iv).
 
 **Assets**
 - [ ] Official logo file (the site uses a recreated wordmark)
-- [ ] Real job photos for each category, plus the van and crew. The WWP step "images align with the service" is the biggest gap right now. (One photo is in: the panel photo in the homepage estimate card, also used for og:image and schema.)
+- [x] Real job photos: 16 service pages, the 3 category pages, the Services page and the homepage now show real Joe Huck job photos (`content/photos.py`). Pages with no matching photo don't get a stand-in. Still useful: photos of EV chargers, generators/surge protectors, landscape lighting, ceiling fans, and the van.
 - [ ] Map embed code from the Business Profile (Share → Embed), for an exact pin
 
 **Technical**

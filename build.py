@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "content"))
 import config as C  # noqa: E402
+import photos as PH  # noqa: E402
 
 AREA_PREFIX = "/service-areas/"
 HERO_PHOTO = "/assets/img/electrician-panel-yardley.jpg"  # 2:1 crop, used for og:image and schema
@@ -542,6 +543,87 @@ def check_len(path, wc, lo, hi, label):
         WARNINGS.append(f"{path}: {label} has {wc} words (playbook: {lo}–{hi})")
 
 
+# ----------------------------------------------------------------------------
+# WWP components: real job photos, "why us" band, how-a-job-works strip
+# ----------------------------------------------------------------------------
+def photo_fig(p, name, cls="job-photo", focus=None, caption=None, eager=False, show_caption=True):
+    alt, cap, pos = PH.PHOTOS[name]
+    pos = focus or pos
+    cap = caption if caption is not None else cap
+    base = PH.JOBS + name
+    load = 'fetchpriority="high"' if eager else 'loading="lazy"'
+    figcap = f"<figcaption>{esc(cap)}</figcaption>" if (cap and show_caption) else ""
+    return (f'<figure class="{cls}"><img src="{p.href(base + ".jpg")}" '
+            f'srcset="{p.href(base + "-sm.jpg")} 560w, {p.href(base + ".jpg")} 1000w" '
+            f'sizes="(max-width: 960px) 100vw, 700px" width="1000" height="1500" '
+            f'alt="{esc(alt)}" style="object-position:{pos}" {load} decoding="async">{figcap}</figure>')
+
+
+def service_photo(p, slug, **kw):
+    entry = PH.SERVICE_PHOTOS.get(slug)
+    if not entry:
+        return ""
+    if isinstance(entry, tuple):
+        name, focus, caption = entry
+        return photo_fig(p, name, focus=focus, caption=caption, **kw)
+    return photo_fig(p, entry, **kw)
+
+
+def why_band(p):
+    avatars = "".join(
+        f'<img src="{p.href("/assets/img/avatar-" + t["name"].lower() + ".jpg")}" width="160" height="160" alt="{esc(t["full"])}" loading="lazy">'
+        for t in TEAM
+    )
+    return f'''
+  <section class="why-band" aria-label="Why homeowners call Joe Huck Electric">
+    <div class="wrap">
+      <div class="why-item">
+        <div class="why-avatars">{avatars}</div>
+        <div><h2>You'll Know Who's Coming</h2><p>Ryan and Abie handle every job themselves. No call center, no strangers at your door.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></span>
+        <div><h2>Free Diagnosis &amp; Written Quote</h2><p>We find the problem and price it in writing before any work starts. No surprises on the invoice.</p></div>
+      </div>
+      <div class="why-item">
+        <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.1 6.7.8-4.9 4.6 1.3 6.6L12 16.9 6 20.1l1.3-6.6L2.4 8.9l6.7-.8z"/></svg></span>
+        <div><h2>40+ Years, Only Electrical</h2><p>Licensed and insured. Named a Nextdoor Neighborhood Favorite in 2023 and 2024.</p></div>
+      </div>
+    </div>
+  </section>'''
+
+
+def steps_strip(p, heading="What Happens When You Call"):
+    return f'''
+  <section class="block steps-block">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">How a job works</p><h2>{esc(heading)}</h2></div>
+        <p>The same four steps on every job, from a single outlet to a full panel upgrade.</p></div>
+      <ol class="steps">
+        <li><h3>Call or Text</h3><p>Call or text {C.PHONE_DISPLAY}, or send the form. Tell us what's going on and we'll set a time.</p></li>
+        <li><h3>Free Diagnosis</h3><p>Ryan and Abie look at the job in person and give you a written price before any work starts.</p></li>
+        <li><h3>Clean, Code-Compliant Work</h3><p>We pull permits when needed, do the work neatly and clean up before we leave.</p></li>
+        <li><h3>Tested &amp; Inspected</h3><p>We test everything, meet the inspector and walk you through what we did.</p></li>
+      </ol>
+    </div>
+  </section>'''
+
+
+def photo_cards(p, site, slugs):
+    out = []
+    for slug in slugs:
+        sv = site.services[slug]
+        out.append(f'''<li><a href="{p.href(sv["path"])}">{service_photo(p, slug, show_caption=False)}<span class="pc-body"><b>{esc(sv["meta"]["name"])}</b><span>{esc(sv["meta"]["blurb"])}</span><em>Learn more →</em></span></a></li>''')
+    return f'<ul class="photo-cards n{len(out)}">{"".join(out)}</ul>'
+
+
+HUB_FEATURED = {
+    "g": ["electrical-panel-upgrade", "electrical-repair-troubleshooting", "home-rewiring"],
+    "i": ["switch-outlet-installation", "gfci-outlet-installation", "outdoor-outlet-installation"],
+    "l": ["recessed-lighting-installation", "chandelier-installation"],
+}
+
+
 def build_service(site, s):
     m = s["meta"]
     cat = C.CATEGORIES[m["cat"]]
@@ -556,13 +638,14 @@ def build_service(site, s):
     if not related:  # keep the sidebar useful even when the body already links everything
         extra = [x for x in site.svc_order if site.services[x]["meta"]["cat"] == m["cat"] and x not in inline and x != s["slug"]]
         related += [p.link(x, esc(site.services[x]["meta"]["name"])) for x in extra[:1]]
-    hub = p.link(cat["slug"], f"All {cat['name'].lower()}")
+    hub = p.link(cat["slug"], f"All {cat['short'].lower()} services")
     crumbs = [("Home", "/"), ("Services", "/services/"), (cat["name"], f"/{cat['slug']}/"), (m["name"], s["path"])]
     faq_html = faq_section(p, faqs)
-    main = page_hero(p, crumbs, cat["name"], m["h1"], lede, service=m["name"]) + f'''
+    main = page_hero(p, crumbs, cat["name"], m["h1"], lede, service=m["name"]) + why_band(p) + f'''
   <section class="article">
     <div class="wrap">
       <article class="prose">
+{service_photo(p, s["slug"])}
 {prose}
       </article>
       <aside class="side">
@@ -571,6 +654,7 @@ def build_service(site, s):
       </aside>
     </div>
   </section>
+{steps_strip(p)}
 {faq_html}'''
     schema = [
         business_schema(site),
@@ -611,7 +695,7 @@ def build_area(site, a):
     nearby = [p.link(n.strip(), esc(site.areas[n.strip()]["meta"]["town"])) for n in m["nearby"].split(",")]
     crumbs = [("Home", "/"), ("Service Areas", AREA_PREFIX), (m["town"], a["path"])]
     faq_html = faq_section(p, faqs)
-    main = page_hero(p, crumbs, f"Serving {m['town']}, PA", m["h1"], lede, cat=None) + f'''
+    main = page_hero(p, crumbs, f"Serving {m['town']}, PA", m["h1"], lede, cat=None) + why_band(p) + f'''
   <section class="article">
     <div class="wrap">
       <article class="prose">
@@ -623,6 +707,7 @@ def build_area(site, a):
       </aside>
     </div>
   </section>
+{steps_strip(p, f"Hiring an Electrician in {m['town']}")}
 {faq_html}'''
     schema = [business_schema(site), breadcrumb_schema(crumbs)]
     if faqs:
@@ -654,14 +739,27 @@ def build_hub(site, key):
     )
     crumbs = [("Home", "/"), ("Services", "/services/"), (cat["name"], path)]
     faq_html = faq_section(p, faqs)
-    main = page_hero(p, crumbs, f"{cat['name']} · Yardley, PA", m["h1"], lede, cat=key) + f'''
+    n = len(site.cat_services(key))
+    main = page_hero(p, crumbs, f"{cat['name']} · Yardley, PA", m["h1"], lede, cat=key) + why_band(p) + f'''
+  <section class="block hub-top">
+    <div class="wrap hub-split">
+      <div>
+        <p class="eyebrow">Most requested</p>
+        <h2>Popular {esc(cat["short"])} Jobs</h2>
+        <div class="hub-intro">{p.md(rest)}</div>
+      </div>
+      {photo_fig(p, PH.CATEGORY_PHOTOS[key], cls="job-photo tall")}
+    </div>
+    <div class="wrap">{photo_cards(p, site, HUB_FEATURED[key])}</div>
+  </section>
   <section class="block services">
     <div class="wrap">
-      <div class="hub-intro">{p.md(rest)}</div>
-      <h2 class="sr" style="position:absolute;left:-9999px">All {esc(cat["name"])}</h2>
+      <div class="sec-head"><div><p class="eyebrow">{n} services</p><h2>All {esc(cat["name"])}</h2></div>
+        <p>Every service in this category, each with its own page. Not sure which fits? Call and describe what's going on.</p></div>
       <ul class="svc-grid">{cards}</ul>
     </div>
   </section>
+{steps_strip(p)}
 {faq_html}'''
     schema = [business_schema(site), breadcrumb_schema(crumbs), {
         "@type": "OfferCatalog", "name": cat["name"],
@@ -690,7 +788,8 @@ def build_simple(site, key, path, active=None, extra="", hero_cat=None):
       <aside class="side">{call_card(p)}</aside>
     </div>
   </section>''' if rest else ""
-    main = page_hero(p, crumbs, m["eyebrow"], m["h1"], p.inline(intro), cat=hero_cat) + body + extra(p) + faq_section(p, faqs)
+    band = why_band(p) if key in ("services", "service-areas") else ""
+    main = page_hero(p, crumbs, m["eyebrow"], m["h1"], p.inline(intro), cat=hero_cat) + band + body + extra(p) + faq_section(p, faqs)
     schema = [business_schema(site), breadcrumb_schema(crumbs)]
     out = layout(p, title=m["title"], desc=m["desc"], main=main, schema=schema, active=active)
     REPORT.append((path, m["h1"], m["title"], words(main), len(p.links), "—"))
@@ -741,7 +840,14 @@ def areas_index_extra(site):
 
 def services_index_extra(site):
     def f(p):
-        out = []
+        out = [f'''
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="eyebrow">Most requested</p><h2>What Homeowners Call Us For</h2></div>
+        <p>Real jobs from Bucks County homes. Tap any service to see what's involved, what affects the price and how to get a free quote.</p></div>
+      {photo_cards(p, site, ["electrical-panel-upgrade", "electrical-repair-troubleshooting", "switch-outlet-installation", "gfci-outlet-installation", "recessed-lighting-installation", "chandelier-installation"])}
+    </div>
+  </section>''']
         for key in ("g", "i", "l"):
             cat = C.CATEGORIES[key]
             hub = site.pages[cat["slug"]]
@@ -752,10 +858,14 @@ def services_index_extra(site):
             )
             bg = " services" if key != "i" else ""
             out.append(f'''
-  <section class="block{bg}" id="{cat["slug"]}">
+  <section class="block{bg} cat-block" id="{cat["slug"]}">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">{len(site.cat_services(key))} services</p><h2>{esc(cat["name"])}</h2></div>
-        <p>{p.inline(intro)} <a href="{p.href("/" + cat["slug"] + "/")}" style="color:var(--bronze-deep);font-weight:700">{esc(cat["name"])} overview →</a></p></div>
+      <div class="cat-split">
+        <div><p class="eyebrow">{len(site.cat_services(key))} services</p><h2>{esc(cat["name"])}</h2>
+          <p>{p.inline(intro)}</p>
+          <a class="btn btn-bronze" href="{p.href("/" + cat["slug"] + "/")}">{esc(cat["name"])} overview →</a></div>
+        {photo_fig(p, PH.CATEGORY_PHOTOS[key], cls="job-photo wide", show_caption=False)}
+      </div>
       <ul class="svc-grid">{cards}</ul>
     </div>
   </section>''')
@@ -832,8 +942,8 @@ def build_home(site):
     for item in m["popular"].split(";"):
         slug, _, anchor = item.strip().partition("=")
         sv = site.services[slug]
-        popular_cards += (f'<li><h2>{esc(sv["meta"]["name"])}</h2><p>{esc(sv["meta"]["blurb"])}</p>'
-                          f'{p.link(slug, esc(anchor) + " →")}</li>')
+        popular_cards += (f'<li>{service_photo(p, slug, show_caption=False)}<div class="pop-body"><h2>{esc(sv["meta"]["name"])}</h2><p>{esc(sv["meta"]["blurb"])}</p>'
+                          f'{p.link(slug, esc(anchor) + " →")}</div></li>')
     faq_html = faq_section(p, faqs)
     main = f'''  <section class="hero hero-photo" id="top">
     <div class="hero-bg">

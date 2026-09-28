@@ -453,3 +453,67 @@ footer .about{max-width:34ch;margin-top:16px}
 @media (max-width:900px){.popular-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.popular-grid{grid-template-columns:minmax(0,1fr)}}
 .about-home{border-top:1px solid var(--line)}
+
+/* ==================================================================
+   WWP components
+   ================================================================== */
+/* "Why homeowners call us" band under the hero */
+.why-band{background:var(--char);color:var(--silver);padding-block:clamp(28px,4vw,40px)}
+.why-band .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,40px)}
+.why-item{display:flex;gap:16px;align-items:flex-start}
+.why-item h2{color:var(--white);font-size:19px;font-weight:600;line-height:1.25;margin:0 0 6px}
+.why-item p{margin:0;font-size:15px;line-height:1.5}
+.why-avatars{display:flex;flex:none}
+.why-avatars img{width:52px;height:52px;border-radius:50%;border:2px solid var(--char);object-fit:cover;background:var(--char-2)}
+.why-avatars img + img{margin-left:-14px}
+.why-ic{flex:none;width:48px;height:48px;border-radius:50%;background:rgba(203,185,139,.14);color:var(--bronze-glow);display:grid;place-items:center}
+.why-ic svg{width:24px;height:24px}
+@media (max-width:860px){.why-band .wrap{grid-template-columns:minmax(0,1fr);gap:20px}}
+
+/* Job photos */
+.job-photo{margin:0 0 30px}
+.job-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:12px;box-shadow:0 24px 50px -30px rgba(40,32,18,.5);background:var(--silver-lt)}
+.job-photo figcaption{font-size:14px;color:var(--ink-2);margin-top:10px}
+.job-photo.tall img{aspect-ratio:4/5}
+.job-photo.wide img{aspect-ratio:16/10}
+.prose .job-photo figcaption{font-size:15px}
+
+/* Hub pages: intro beside a photo, then featured photo cards */
+.hub-top{background:var(--white)}
+.hub-split{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(32px,6vw,72px);align-items:center;margin-bottom:clamp(40px,6vw,64px)}
+.hub-split h2{font-size:clamp(28px,3.4vw,42px);font-weight:600;margin:12px 0 18px}
+.hub-split .hub-intro{margin-bottom:0}
+.hub-split .job-photo{margin:0}
+@media (max-width:860px){.hub-split{grid-template-columns:minmax(0,1fr)}.hub-split .job-photo.tall img{aspect-ratio:3/2}}
+
+/* Photo cards (hubs, Services page) */
+.photo-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.photo-cards a{display:flex;flex-direction:column;height:100%;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--white);text-decoration:none;transition:transform .15s,box-shadow .15s,border-color .15s}
+.photo-cards a:hover{transform:translateY(-3px);border-color:var(--bronze);box-shadow:0 18px 36px -22px rgba(40,32,18,.45)}
+.photo-cards .job-photo{margin:0}
+.photo-cards .job-photo img{aspect-ratio:4/3;border-radius:0;box-shadow:none}
+.pc-body{display:flex;flex-direction:column;gap:8px;padding:18px 20px 20px;flex:1}
+.pc-body b{font:600 19px/1.2 var(--f-display);color:var(--ink)}
+.pc-body span{font-size:15px;color:var(--ink-2);line-height:1.5}
+.pc-body em{margin-top:auto;padding-top:6px;font:600 13px/1 var(--f-mono);font-style:normal;letter-spacing:.08em;text-transform:uppercase;color:var(--bronze-deep)}
+@media (max-width:900px){.photo-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.photo-cards{grid-template-columns:minmax(0,1fr)}}
+
+/* Services page: category intro beside a photo */
+.cat-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,64px);align-items:center;margin-bottom:clamp(32px,5vw,48px)}
+.cat-split h2{font-size:clamp(30px,3.8vw,46px);font-weight:600;margin:12px 0 14px}
+.cat-split p{color:var(--ink-2);margin:0 0 22px;max-width:56ch}
+.cat-split .job-photo{margin:0}
+@media (max-width:860px){.cat-split{grid-template-columns:minmax(0,1fr)}}
+
+/* Homepage popular cards now carry a photo */
+.popular-grid li{padding:0;overflow:hidden;gap:0}
+.popular-grid .job-photo{margin:0}
+.popular-grid .job-photo img{aspect-ratio:4/3;border-radius:0;box-shadow:none}
+.pop-body{display:flex;flex-direction:column;gap:10px;padding:20px 22px 22px;flex:1}
+
+/* How-a-job-works strip on inner pages */
+.steps-block{border-top:1px solid var(--line)}
+.photo-cards.n2{grid-template-columns:repeat(2,minmax(0,1fr));max-width:820px}
+.prose .job-photo img{aspect-ratio:4/3}
+@media (max-width:560px){.photo-cards.n2{grid-template-columns:minmax(0,1fr)}}
