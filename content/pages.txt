@@ -16,7 +16,7 @@ popular: electrical-panel-upgrade=How our panel upgrades work; electrical-repair
 We don't hang doors or fix leaky faucets. For over 40 years, Joe Huck Electric has done one thing: electrical work for homes and small businesses in Yardley and across Bucks County. Repairs, upgrades, installations and lighting, every job done by licensed, insured electricians.
 
 #### services_intro
-Choose a breaker to see what's in each part of our work. Every job starts with a free, written estimate, and every job ends with the work inspected, tested and cleaned up.
+Our work falls into three areas. Pick the one that fits your project. Every job starts with a free, written estimate, and every job ends with the work inspected, tested and cleaned up.
 
 #### cat_g
 When something stops working, trips or just isn't safe, we find the cause and fix it properly. We upgrade panels and services, replace fuse boxes, rewire older homes and install Level 2 EV chargers as a Tesla-certified installer.
@@ -35,7 +35,7 @@ These days, most electricians are part of big conglomerates that rarely send the
 At Joe Huck, **it's always Abie and I showing up at your door**, so you always know who to expect. Plus, you get peace of mind knowing your job is being handled by a team that has done thousands just like it. With us, your home is in safe hands.
 
 #### area
-We're based in Yardley and work every week in the towns around it, from Morrisville and Newtown to Langhorne, Levittown and Bensalem, and we serve the rest of Bucks County up to Doylestown and Quakertown. Being local means shorter waits, easier scheduling and an electrician who can come back quickly if you need anything. Type your town to see if we cover it, or pick it from the list.
+We're based in Yardley and work every week in the towns around it, from Morrisville and Newtown to Langhorne, Levittown and Bensalem, and we serve the rest of Bucks County up to Doylestown and Quakertown. Being local means shorter waits, easier scheduling and an electrician who can come back quickly if you need anything. Find your town below to see the work we do there most.
 
 ## FAQ
 Q: Is the estimate really free?

@@ -286,7 +286,9 @@ def faq_schema(pairs):
     return {
         "@type": "FAQPage",
         "mainEntity": [
-            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in pairs
+            {"@type": "Question", "name": q,
+             "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"\[([^\]]+)\]\(@[\w-]+\)", r"\1", a).replace("**", "")}}
+            for q, a in pairs
         ],
     }
 
@@ -429,31 +431,19 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
 '''
 
 
-def quote_card(cat=None, service=None, photo=False):
+def quote_card(cat=None, service=None):
     if service:
         picker = f'''<input type="hidden" name="service" value="{esc(service)}">
           <p class="about-svc">About: <b>{esc(service)}</b></p>'''
     else:
-        chips = "".join(
-            f'<label class="chip"><input type="checkbox" name="svc" value="{v}"{" checked" if k == cat else ""}><span>{lbl}</span></label>'
-            for k, v, lbl in [
-                ("g", "Electrician services", "Repair / upgrade"),
-                ("i", "Electrical installation", "Installation"),
-                ("l", "Lighting", "Lighting"),
-                ("o", "Other", "Something else"),
-            ]
+        opts = "".join(
+            f'<option value="{v}"{" selected" if k == cat else ""}>{v}</option>'
+            for k, v in [("g", "Repair or upgrade"), ("i", "Installation"), ("l", "Lighting"), ("o", "Something else")]
         )
-        picker = f'''<fieldset class="field">
-            <legend>What do you need?</legend>
-            <div class="chips" id="svcChips">{chips}</div>
-          </fieldset>'''
-    fig = ""
-    if photo:
-        fig = f'''<figure class="quote-photo">
-          <img src="{photo}" width="960" height="480" alt="Ryan Huck of Joe Huck Electric working on a home electrical panel" fetchpriority="high" decoding="async">
-        </figure>'''
-    return f'''<div class="quote{" has-photo" if photo else ""}" id="estimate">
-        {fig}
+        picker = f'''<div class="field"><label for="q-svc">What do you need?</label>
+            <select id="q-svc" name="service"><option value="">Choose one</option>{opts}</select>
+          </div>'''
+    return f'''<div class="quote" id="estimate">
         <form id="quoteForm" novalidate>
           <h2>Request a Free Estimate</h2>
           <p class="sub">Takes about 30 seconds. We reply within one business day.</p>
@@ -894,183 +884,199 @@ def contact_extra(site):
     return f
 
 
+# Homepage copy that isn't in pages.txt. Kept here so the page and the Wix
+# build guide (WIX-HOMEPAGE.md) always say the same thing.
+HOME_CREDS = [
+    ("40+ Years", "Serving Yardley & Bucks County"),
+    ("Master Electrician", "Electrician-led, never a handyman"),
+    ("Nextdoor Favorite", "Neighborhood Favorite 2023 & 2024"),
+    ("Only Electrical", "Licensed & insured"),
+]
+HOME_STEPS = [
+    ("Call or Request", "Tell us what's going on. We'll ask a few questions and set a time that works for you."),
+    ("Free Estimate", "We look at the job in person and give you a clear, written price before any work starts."),
+    ("Clean Install", "We handle permits, do the work neatly and to code, and clean up before we leave."),
+    ("Inspected & Done", "We test every circuit, meet the inspector and walk you through what we did."),
+]
+HOME_HEADS = {
+    "services": ("What we do", "Three Kinds of Electrical Work, One Local Team",
+                 None),  # intro comes from pages.txt (services_intro)
+    "popular": ("Most requested", "Popular Electrical Services in Yardley",
+                "The jobs Yardley and Bucks County homeowners call us for most. Every one starts with a free, written estimate."),
+    "team": ("The team", "Meet the Local Team",
+             "You deserve a team you know and trust. With us, you always know who you're getting."),
+    "process": ("How a job works", "No Surprises, Start to Finish",
+                "The same four steps whether you're swapping one fixture or upgrading the whole service."),
+    "reviews": ("Reputation", "Recommended by Your Neighbors",
+                "Bucks County neighbors named us a Nextdoor Neighborhood Favorite two years running. Read what customers say on the sites below."),
+    "faq": ("Questions", "Good to Know",
+            "Still have a question? Call 215-906-4634. You'll talk to an electrician, not a call center."),
+}
+TEAM_NOTE = "Ryan leads every job as head electrician, with Abie at his side. Together they carry on the work Joe Huck started in Bucks County over 40 years ago."
+
+
+def home_head(key, intro=None, dark=False):
+    label, h2, text = HOME_HEADS[key]
+    text = intro or text
+    return f'''<div class="hp-head">
+        <p class="eyebrow">{esc(label)}</p>
+        <h2>{esc(h2)}</h2>
+        {f"<p>{text}</p>" if text else ""}
+      </div>'''
+
+
 def build_home(site):
     p = Page(site, "/")
     pg = site.pages["home"]
     m = pg["meta"]
     main_md, faqs = split_faq(pg["body"])
-    # home.txt sections are separated by "## " headings with ids in the meta
     sections = {}
     for chunk in re.split(r"^#### ", main_md, flags=re.M)[1:]:
         k, _, v = chunk.partition("\n")
         sections[k.strip()] = v.strip()
 
-    # Breaker panel: one tab per category, server-rendered for crawlers.
-    tabs, panels = [], []
-    for i, key in enumerate(["g", "i", "l"]):
+    # Every section below is one full-width strip holding plain columns, cards
+    # and text, so it maps one-to-one onto Wix strips, boxes and repeaters.
+    # See WIX-HOMEPAGE.md.
+    cat_cards = ""
+    for key in ("g", "i", "l"):
         cat = C.CATEGORIES[key]
         feat = [x.strip() for x in m[f"featured_{key}"].split(",")]
         links = "".join(f'<li>{p.link(sl, esc(site.services[sl]["meta"]["name"]))}</li>' for sl in feat)
         n = len(site.cat_services(key))
-        tabs.append(
-            f'<button type="button" class="brk" role="tab" id="brk-{key}" data-id="{key}" aria-controls="panel-{key}" aria-selected="{"true" if i == 0 else "false"}" tabindex="{0 if i == 0 else -1}"><span class="toggle" aria-hidden="true"></span><span class="brk-txt"><b>{cat["name"]}</b><small>{cat["tag"]}</small></span></button>'
-        )
-        panels.append(f'''<div class="detail" role="tabpanel" id="panel-{key}" aria-labelledby="brk-{key}"{"" if i == 0 else " hidden"}>
-          <span class="num">Circuit 0{i + 1} · {cat["tag"]}</span>
-          <h2>{cat["name"]} in Yardley</h2>
-          <p>{p.inline(sections["cat_" + key])}</p>
-          <ul class="links">{links}</ul>
-          <div class="actions">{p.link(cat["slug"], f"See all {n} {cat['short'].lower()} services", cls="btn btn-bronze")}
-            <a class="btn btn-ghost" href="tel:{C.PHONE_E164}">Call {C.PHONE_DISPLAY}</a></div>
-        </div>''')
-
-    towns = "".join(
-        f'<li>{p.link(s, esc(site.areas[s]["meta"]["town"]))}</li>' for s in site.area_order
-    )
-    area_links = {site.areas[s]["meta"]["town"]: p.href(site.areas[s]["path"]) for s in site.area_order}
-    area_links["Upper Makefield"] = area_links.get("Washington Crossing")
-    area_links["Falls Township"] = area_links.get("Fairless Hills")
-    area_links["Middletown"] = area_links.get("Langhorne")
-    aliases = {"Trevose": "Feasterville", "Feasterville-Trevose": "Feasterville", "Lower Southampton": "Feasterville",
-               "Upper Southampton": "Southampton", "Holland": "Richboro", "Churchville": "Richboro", "Northampton": "Richboro",
-               "Ivyland": "Warminster", "New Britain": "Chalfont", "Croydon": "Bristol", "Solebury": "New Hope",
-               "Penndel": "Langhorne", "Langhorne Manor": "Langhorne", "Tullytown": "Levittown"}
-    for k, v in aliases.items():
-        area_links[k] = area_links.get(v)
+        cat_cards += f'''<li class="hp-card">
+          {photo_fig(p, PH.CATEGORY_PHOTOS[key], cls="hp-img", show_caption=False)}
+          <div class="hp-card-body">
+            <p class="hp-tag">{esc(cat["tag"])}</p>
+            <h2>{esc(cat["name"])}</h2>
+            <p>{p.inline(sections["cat_" + key])}</p>
+            <ul class="hp-links">{links}</ul>
+            {p.link(cat["slug"], f"See all {n} services", cls="btn btn-bronze")}
+          </div>
+        </li>'''
 
     popular_cards = ""
     for item in m["popular"].split(";"):
         slug, _, anchor = item.strip().partition("=")
         sv = site.services[slug]
-        popular_cards += (f'<li>{service_photo(p, slug, show_caption=False)}<div class="pop-body"><h2>{esc(sv["meta"]["name"])}</h2><p>{esc(sv["meta"]["blurb"])}</p>'
-                          f'{p.link(slug, esc(anchor) + " →")}</div></li>')
-    faq_html = faq_section(p, faqs)
-    main = f'''  <section class="hero hero-photo" id="top">
-    <div class="hero-bg">
-      <img src="{p.href(HERO_BG)}" width="1200" height="1800" alt="Ryan Huck of Joe Huck Electric working on a home electrical panel" fetchpriority="high" decoding="async">
-    </div>
-    <div class="wrap">
-      <div>
+        popular_cards += f'''<li class="hp-card">
+          {service_photo(p, slug, cls="hp-img", show_caption=False)}
+          <div class="hp-card-body">
+            <h2>{esc(sv["meta"]["name"])}</h2>
+            <p>{esc(sv["meta"]["blurb"])}</p>
+            {p.link(slug, esc(anchor) + " →", cls="hp-more")}
+          </div>
+        </li>'''
+
+    team_cards = "".join(
+        f'''<li class="hp-team-card">
+          <img src="{p.href(t["img"])}" width="900" height="1350" alt="{esc(t["full"])}, {esc(t["role"].lower())} at {C.NAME}" loading="lazy" decoding="async">
+          <p><b>{esc(t["full"])}</b><span>{esc(t["role"])}</span></p>
+        </li>''' for t in TEAM)
+
+    creds = "".join(f'<li><b>{esc(a)}</b><span>{esc(b)}</span></li>' for a, b in HOME_CREDS)
+    steps = "".join(
+        f'<li class="hp-step"><span class="hp-num">{i}</span><h3>{esc(h)}</h3><p>{esc(t)}</p></li>'
+        for i, (h, t) in enumerate(HOME_STEPS, 1))
+    towns = "".join(f'<li>{p.link(s, esc(site.areas[s]["meta"]["town"]))}</li>' for s in site.area_order)
+    badges = "".join(
+        f'<a class="btn btn-outline" href="{url}" target="_blank" rel="noopener">{name} ↗</a>'
+        for name, url in [("Nextdoor", C.SAME_AS[1]), ("HomeAdvisor", C.SAME_AS[2]), ("Facebook", C.SAME_AS[0])])
+    faq_items = "".join(
+        f'<details{" open" if i == 0 else ""}><summary>{esc(q)}<span class="pm" aria-hidden="true"></span></summary><p>{p.inline(a)}</p></details>'
+        for i, (q, a) in enumerate(faqs))
+    about_a, about_b = m["about_h2"].split("|")
+    faq_intro = (f'Still have a question? Call <a href="tel:{C.PHONE_E164}">{C.PHONE_DISPLAY}</a>. '
+                 "You'll talk to an electrician, not a call center.")
+
+    main = f'''  <section class="hp-hero" id="top" style="--hero-img:url('{p.href(HERO_BG)}')">
+    <div class="wrap hp-cols">
+      <div class="hp-hero-text">
         <p class="eyebrow">Only electrical, for 40+ years</p>
         <h1>{esc(m["h1"])} <em>Not Your Neighborhood Handyman.</em></h1>
         <p class="lede">{p.inline(sections["lede"])}</p>
-        <div class="hero-ctas">
-          <a class="btn btn-bronze" href="#estimate">Get a free estimate {ICON_ARROW}</a>
-          <a class="btn btn-ghost" href="tel:{C.PHONE_E164}">{ICON_CALL}{C.PHONE_DISPLAY}</a>
-        </div>
-        <div class="proof">
-          <span><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 14.5 4.6 17.5l1.2-6L1.3 7.3l6.1-.7z"/></svg>Nextdoor Neighborhood Favorite 2023 &amp; 2024</span>
-          <span><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2l7 3v5c0 4-3 7-7 8-4-1-7-4-7-8V5z"/><path d="M7 10l2 2 4-4"/></svg>Licensed &amp; insured</span>
+        <div class="hp-btns">
+          <a class="btn btn-bronze" href="#estimate">Get a free estimate</a>
+          <a class="btn btn-outline" href="tel:{C.PHONE_E164}">Call {C.PHONE_DISPLAY}</a>
         </div>
       </div>
       {quote_card()}
     </div>
   </section>
 
-  <section class="creds" aria-label="Credentials">
+  <section class="hp-creds" aria-label="Credentials">
+    <ul class="wrap">{creds}</ul>
+  </section>
+
+  <section class="hp-sec" id="services">
     <div class="wrap">
-      <ul>
-        <li><span class="big">40<sup>yrs</sup></span><span class="sm">Serving Yardley &amp; Bucks County</span></li>
-        <li><span class="big">Master</span><span class="sm">Electrician-led, never a handyman</span></li>
-        <li><span class="big">’23 + ’24</span><span class="sm">Nextdoor Neighborhood Favorite</span></li>
-        <li><span class="big">Only Electric</span><span class="sm">Licensed &amp; insured. Never a jack-of-all-trades.</span></li>
-      </ul>
+      {home_head("services", p.inline(sections["services_intro"]))}
+      <ul class="hp-grid hp-3">{cat_cards}</ul>
     </div>
   </section>
 
-  <section class="block services" id="services">
+  <section class="hp-sec hp-paper" id="popular">
     <div class="wrap">
-      <div class="sec-head">
-        <div><p class="eyebrow">What we do</p><h2>Every Circuit in the House.</h2></div>
-        <p>{p.inline(sections["services_intro"])}</p>
-      </div>
-      <div class="panel">
-        <div class="box">
-          <div class="box-top"><span class="screw" aria-hidden="true"></span><span class="main">● Main · 200A</span><span class="screw" aria-hidden="true"></span></div>
-          <div class="breakers breakers-3" role="tablist" aria-label="Service categories">{"".join(tabs)}</div>
-          <p class="box-foot">CIRCUIT DIRECTORY — JOE HUCK ELECTRIC · YARDLEY, PA</p>
-        </div>
-        {"".join(panels)}
-      </div>
+      {home_head("popular")}
+      <ul class="hp-grid hp-3">{popular_cards}</ul>
     </div>
   </section>
 
-  <section class="block popular" id="popular">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><p class="eyebrow">Most requested</p><h2>Popular Electrical Services in Yardley</h2></div>
-        <p>The jobs Yardley and Bucks County homeowners call us for most. Every one starts with a free, written estimate.</p>
-      </div>
-      <ul class="popular-grid">{popular_cards}</ul>
-    </div>
-  </section>
-
-  <section class="block about-home" id="about">
-    <div class="wrap">
+  <section class="hp-sec" id="about">
+    <div class="wrap hp-cols">
       <div>
         <p class="eyebrow">About us</p>
-        <h2>{esc(m["about_h2"].split("|")[0])} <em>{esc(m["about_h2"].split("|")[1])}</em></h2>
+        <h2>{esc(about_a)} <em>{esc(about_b)}</em></h2>
         <div class="prose">{p.md(sections["about"])}</div>
-        <a class="btn btn-bronze" href="#estimate" style="margin-top:8px">Free Diagnosis &amp; Quote {ICON_ARROW}</a>
+        <a class="btn btn-bronze" href="#estimate">Free Diagnosis &amp; Quote</a>
       </div>
-      <figure class="about-photo">
-        <img src="{p.href(ABOUT_PHOTO)}" width="900" height="1350" alt="Ryan Huck, head electrician at Joe Huck Electric, on a job in a Bucks County home" loading="lazy" decoding="async">
-      </figure>
-    </div>
-  </section>
-{team_section(p, " services")}
-
-  <section class="block" id="process">
-    <div class="wrap">
-      <div class="sec-head">
-        <div><p class="eyebrow">How a job works</p><h2>No Surprises, Start to Finish.</h2></div>
-        <p>These are the same four steps whether you're swapping one fixture or upgrading the whole service.</p>
-      </div>
-      <ol class="steps">
-        <li><h3>Call or Request</h3><p>Tell us what's going on. We'll ask a few questions and set a time that works for you.</p></li>
-        <li><h3>Free Estimate</h3><p>We look at the job in person and give you a clear, written price before any work starts.</p></li>
-        <li><h3>Clean Install</h3><p>We handle permits, do the work neatly and to code, and clean up before we leave.</p></li>
-        <li><h3>Inspected &amp; Done</h3><p>We test every circuit, meet the inspector and walk you through what we did.</p></li>
-      </ol>
+      <img class="hp-photo" src="{p.href(ABOUT_PHOTO)}" width="900" height="1350" alt="Ryan Huck, head electrician at Joe Huck Electric, on a job in a Bucks County home" loading="lazy" decoding="async">
     </div>
   </section>
 
-  <section class="block area" id="area">
+  <section class="hp-sec hp-paper" id="team">
     <div class="wrap">
+      {home_head("team")}
+      <ul class="hp-grid hp-2 hp-team">{team_cards}</ul>
+      <p class="hp-note">{esc(TEAM_NOTE)}</p>
+    </div>
+  </section>
+
+  <section class="hp-sec" id="process">
+    <div class="wrap">
+      {home_head("process")}
+      <ol class="hp-grid hp-4">{steps}</ol>
+    </div>
+  </section>
+
+  <section class="hp-sec hp-dark" id="area">
+    <div class="wrap hp-cols">
       <div>
         <p class="eyebrow">Service area</p>
         <h2>{esc(m["area_h2"])}</h2>
         <p>{p.inline(sections["area"])}</p>
-        <form class="checker" id="areaForm" role="search" data-links='{esc(json.dumps(area_links), quote=True)}'>
-          <label for="a-town" style="position:absolute;left:-9999px">Your town</label>
-          <input id="a-town" list="townlist" placeholder="Your town, e.g. Langhorne" autocomplete="address-level2">
-          <button class="btn" type="submit">Check</button>
-        </form>
-        <p class="result" id="areaResult" aria-live="polite"></p>
+        {p.link("service-areas", "See all service areas", cls="btn btn-bronze")}
       </div>
-      <ul class="towns">
-        <li class="hi">Yardley <small>Home base</small></li>
+      <ul class="hp-towns">
+        <li><b>Yardley</b> <span>(home base)</span></li>
         {towns}
-        <li class="all">{p.link("service-areas", "…and the rest of Bucks County")}</li>
       </ul>
     </div>
   </section>
 
-  <section class="block rep" id="reviews">
+  <section class="hp-sec" id="reviews">
     <div class="wrap">
-      <div>
-        <p class="eyebrow">Reputation</p>
-        <blockquote style="margin-top:16px">Two years running, <span>Bucks County neighbors</span> named us a Nextdoor Neighborhood Favorite.</blockquote>
-        <p class="who">Neighborhood Favorite, 2023 &amp; 2024. Read what customers say about us on the sites below.</p>
-      </div>
-      <div class="badges">
-        <a class="badge" href="{C.SAME_AS[1]}" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 14.5 4.6 17.5l1.2-6L1.3 7.3l6.1-.7z"/></svg></span><span><b>Nextdoor</b><small>Neighborhood Favorite ’23 &amp; ’24</small></span><span class="arr">↗</span></a>
-        <a class="badge" href="{C.SAME_AS[2]}" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l7-6 7 6v8H3z"/><path d="M8 17v-5h4v5"/></svg></span><span><b>HomeAdvisor</b><small>Verified customer reviews</small></span><span class="arr">↗</span></a>
-        <a class="badge" href="{C.SAME_AS[0]}" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="8"/><path d="M11 17v-6h2.5M11 11V8.5A1.5 1.5 0 0 1 12.5 7H14M8.5 11H11"/></svg></span><span><b>Facebook</b><small>Recent jobs &amp; updates</small></span><span class="arr">↗</span></a>
-      </div>
+      {home_head("reviews")}
+      <div class="hp-btns hp-center">{badges}</div>
     </div>
   </section>
-{faq_html}'''
+
+  <section class="hp-sec hp-paper faq" id="faq">
+    <div class="wrap">
+      {home_head("faq", faq_intro)}
+      <div class="faq-list">{faq_items}</div>
+    </div>
+  </section>'''
     schema = [business_schema(site), {"@type": "WebSite", "name": C.NAME, "url": C.DOMAIN + "/"}]
     if faqs:
         schema.append(faq_schema(faqs))
@@ -1081,6 +1087,246 @@ def build_home(site):
         WARNINGS.append(f"/: homepage has {wc} words (playbook: ~1,000)")
     REPORT.insert(0, ("/", m["h1"], m["title"], wc, len(p.links), "(homepage)"))
     return out
+
+
+# ----------------------------------------------------------------------------
+# Wix build guide for the homepage (WIX-HOMEPAGE.md), from the same content
+# ----------------------------------------------------------------------------
+def wix_guide(site):
+    m = site.pages["home"]["meta"]
+    main_md, faqs = split_faq(site.pages["home"]["body"])
+    sec = {}
+    for chunk in re.split(r"^#### ", main_md, flags=re.M)[1:]:
+        k, _, v = chunk.partition("\n")
+        sec[k.strip()] = v.strip()
+
+    def plain(s):
+        """Markdown-lite → text a person can paste, with links shown as 'text' → /url/."""
+        s = re.sub(r"\[([^\]]+)\]\(@([\w-]+)\)", lambda x: f"{x.group(1)} (link → `{site.resolve(x.group(2))}`)", s)
+        return s.replace("**", "")
+
+    def quote(s):
+        return "\n".join("> " + line if line else ">" for line in plain(s).split("\n"))
+
+    def head(key, intro=None):
+        label, h2, text = HOME_HEADS[key]
+        return (f"- **Label:** {label}\n- **Heading (H2):** {h2}\n"
+                f"- **Intro:** {plain(intro or text)}\n")
+
+    def svc_link(slug):
+        return f"[{site.services[slug]['meta']['name']}] → `{site.services[slug]['path']}`"
+
+    out = [f"""# Rebuilding the Homepage in Wix
+
+Generated by `build.py` from the same content as the coded site, so the copy
+here always matches it. Rebuild with `python3 build.py` after editing
+`content/pages.txt`.
+
+The homepage is built only from things the Wix Editor has out of the box:
+full-width **strips** (sections), **columns**, **boxes**, **text**, **buttons**,
+**images**, a **repeater**, **Wix Forms** and the **Wix FAQ** app (or collapsible
+text). No custom code is needed for the page itself.
+
+## 1. Site theme (set once: Site Design → Colors / Text)
+
+| Colour | Hex | Used for |
+|---|---|---|
+| Bronze | `#AE9B6C` | Header bar, CTA strip |
+| Brown | `#6E5A32` | Buttons, labels, highlighted heading words, step numbers |
+| Light bronze | `#CBB98B` | Labels and figures on black |
+| Black | `#0F0F0F` | Credentials strip, service-area strip, footer |
+| Paper | `#F5F5F3` | Alternate light strips |
+| White | `#FFFFFF` | Page and card backgrounds |
+| Ink | `#141414` | Headings |
+| Body grey | `#4A4845` | Paragraph text |
+| Line grey | `#DCDBD8` | Card borders, dividers |
+| Silver | `#C4C6C9` | Body text on black |
+
+Font: **Barlow** everywhere (add it from Wix's font list → Upload/Google fonts if it isn't listed).
+
+| Wix text style | Size desktop / mobile | Weight | Notes |
+|---|---|---|---|
+| Heading 1 | 50 / 34 px | SemiBold 600 | Hero only. Line height 1.1 |
+| Heading 2 | 44 / 30 px | SemiBold 600 | Section headings |
+| Heading 3 | 24 / 22 px | SemiBold 600 | Card titles (see the SEO note below) |
+| Label | 13 px | SemiBold 600 | ALL CAPS, letter spacing 0.14 em, colour Brown |
+| Paragraph 1 | 18 px | Regular 400 | Intros, About copy. Line height 1.6 |
+| Paragraph 2 | 16 px | Regular 400 | Card text |
+
+**SEO note:** the card titles in "What we do" and "Popular services" must be real **H2** tags
+(the playbook wants each prominent service as its own H2). In Wix, style them with the
+Heading 3 look, then set the tag to H2 in the text's SEO settings. Only the hero headline is an H1.
+
+**Buttons** (save both as Wix button presets)
+- **Primary:** fill Brown `#6E5A32`, white text, Barlow Bold 16 px, corner radius 6 px, height 48 px. Hover fill `#574625`.
+- **Outline:** white fill, 2 px Ink border, Ink text, same size. Hover: Ink fill, white text.
+
+**Layout:** content width 1200 px. Every strip has the same top and bottom padding, 96 px desktop / 56 px mobile.
+Cards: white, 1 px Line-grey border, radius 12 px, 24 px inner padding, 24 px gap between cards.
+
+## 2. Header and footer (shared on every page)
+
+- **Top bar** (black strip, 36 px tall): left "Serving Yardley & Bucks County homes and businesses"; right "Licensed & insured · Master electrician · Yardley, PA". Silver 14 px text.
+- **Header** (Bronze strip, 72 px, *freeze header* on): logo left; menu (Services, Service Areas, About, Contact) in white 16 px SemiBold; "CALL OR TEXT / {C.PHONE_DISPLAY}" in white (link `tel:{C.PHONE_E164}`); white button "Free estimate" with Brown text, linked to the form anchor.
+- **CTA strip** above the footer (Bronze): H2 "Need an Electrician You Can Trust?" (white) on the left; on the right "CALL OR TEXT" label, the phone number at 56 px white Bold (phone link), and a white button "Or request an estimate online".
+- **Footer** (black): a Wix **Google Maps** element across the top on the homepage only (use the Business Profile address). Below it, four columns: logo + "Licensed, insured electricians serving Yardley and the Greater Bucks County area for over 40 years." | Services (the 3 category pages) | Company (About, Service Areas, Contact) | Contact (NAP exactly as on the Business Profile: {C.NAME}, {C.STREET}, {C.CITY}, {C.REGION} {C.POSTAL}, {C.PHONE_DISPLAY}).
+- **Mobile:** add Wix's *Quick Action Bar* with Call and an estimate link.
+
+## 3. Homepage, strip by strip
+
+Page SEO (Page → SEO basics):
+- **Title tag:** {m["title"]}
+- **Meta description:** {m["desc"]}
+- **URL:** `/` (homepage)
+"""]
+
+    out.append(f"""### Strip 1. Hero (anchor: `top`)
+
+- **Background:** image `assets/img/electrician-panel-yardley-hero.jpg`, focal point right of centre, with a **white colour overlay at 84 % opacity** (Strip background → Settings → Overlay). If your editor has no overlay option, put a full-size white box at 84 % opacity behind the content.
+- **Layout:** 2 columns, 55 / 45, vertically centred.
+- **Left column**
+  - Label: Only electrical, for 40+ years
+  - **H1:** {m["h1"]} *Not Your Neighborhood Handyman.* (colour the second sentence Brown)
+  - Paragraph 1: {plain(sec["lede"])}
+  - Buttons: **Primary** "Get a free estimate" → form anchor; **Outline** "Call {C.PHONE_DISPLAY}" → `tel:{C.PHONE_E164}`
+- **Right column:** a white box (radius 12 px, light shadow) holding a **Wix Form** set as the anchor `estimate`:
+  - Heading: Request a Free Estimate. Sub-text: Takes about 30 seconds. We reply within one business day.
+  - Fields: *What do you need?* (dropdown: Repair or upgrade / Installation / Lighting / Something else), *Name* (required), *Phone* (required), *Town*, *Details (optional)* (long text)
+  - Submit button (Primary, full width): Send my request
+  - Note under it: Prefer to talk? Call {C.PHONE_DISPLAY}
+  - Success message: Thanks! We'll call you within one business day.
+  - Send submissions to Joe's email and phone (Wix Forms → Automations).
+- **Mobile:** the columns stack: text first, then the form.
+
+### Strip 2. Credentials (black)
+
+4 equal columns, centred text, 28 px top and bottom padding. Mobile: 2 × 2.
+
+| Big line (24 px SemiBold, Light bronze) | Small line (15 px, Silver) |
+|---|---|
+""")
+    out.append("".join(f"| {a} | {b} |\n" for a, b in HOME_CREDS))
+
+    cards = ""
+    for key in ("g", "i", "l"):
+        cat = C.CATEGORIES[key]
+        feat = [x.strip() for x in m[f"featured_{key}"].split(",")]
+        n = len(site.cat_services(key))
+        cards += (f"\n**Card: {cat['name']}**\n"
+                  f"- Image: `assets/img/jobs/{PH.CATEGORY_PHOTOS[key]}.jpg` (4:3 crop)\n"
+                  f"- Label: {cat['tag']}\n- **H2:** {cat['name']}\n"
+                  f"- Text: {plain(sec['cat_' + key])}\n"
+                  f"- Link list (each a text link, 1 px divider between): " + "; ".join(svc_link(s) for s in feat) + "\n"
+                  f"- Button (Primary): See all {n} services → `/{cat['slug']}/`\n")
+    out.append(f"""
+### Strip 3. What we do (white, anchor: `services`)
+
+Centred heading block (max width 760 px):
+{head("services", sec["services_intro"])}
+Then **3 cards in a row** (mobile: stacked), all the same height:
+{cards}""")
+
+    pop = ""
+    for item in m["popular"].split(";"):
+        slug, _, anchor = item.strip().partition("=")
+        sv = site.services[slug]
+        entry = PH.SERVICE_PHOTOS.get(slug)
+        photo = entry[0] if isinstance(entry, tuple) else entry
+        pop += (f"| `{photo}.jpg` | {sv['meta']['name']} | {sv['meta']['blurb']} | {anchor} → | `{sv['path']}` |\n")
+    out.append(f"""
+### Strip 4. Popular services (paper, anchor: `popular`)
+
+Centred heading block:
+{head("popular")}
+Then a **repeater** (or 6 boxes), 3 per row on desktop, 2 on tablet, 1 on mobile. Each card: image (4:3) on top, then the
+title as an **H2** styled Heading 3, the text in Paragraph 2, and a Brown bold text link at the bottom.
+
+| Image (`assets/img/jobs/`) | Title (H2) | Text | Link text | Links to |
+|---|---|---|---|---|
+{pop}""")
+
+    about_a, about_b = m["about_h2"].split("|")
+    out.append(f"""
+### Strip 5. About (white, anchor: `about`)
+
+2 columns, 50 / 50, vertically centred. Mobile: text first, photo below.
+- **Left:** Label "About us"; **H2** "{about_a} *{about_b}*" (second part in Brown); then Paragraph 1:
+
+{quote(sec["about"])}
+
+  (Bold the phrase "it's always Abie and I showing up at your door".) Then a Primary button "Free Diagnosis & Quote" → form anchor.
+- **Right:** image `assets/img/ryan-huck-electrician-ladder.jpg`, 4:5 crop, radius 12 px.
+  Alt text: Ryan Huck, head electrician at Joe Huck Electric, on a job in a Bucks County home
+
+### Strip 6. Meet the Local Team (paper, anchor: `team`)
+
+Centred heading block:
+{head("team")}
+Then 2 columns (max width 840 px, centred; mobile: stacked). Each: photo (4:5, radius 12 px), then the name centred
+(22 px SemiBold) with the role under it in Brown.
+""")
+    out.append("".join(f"- `{t['img'].lstrip('/')}`: **{t['full']}**, {t['role']}\n" for t in TEAM))
+    out.append(f"\nBelow, centred Paragraph 1: {TEAM_NOTE}\n")
+
+    out.append(f"""
+### Strip 7. How a job works (white, anchor: `process`)
+
+Centred heading block:
+{head("process")}
+Then **4 boxes in a row** (tablet 2 × 2, mobile stacked). Each box: a 44 px Brown circle with the white step number, an H3, and Paragraph 2.
+
+| # | Heading (H3) | Text |
+|---|---|---|
+""")
+    out.append("".join(f"| {i} | {h} | {t} |\n" for i, (h, t) in enumerate(HOME_STEPS, 1)))
+
+    towns = "\n".join(f"  - {site.areas[s]['meta']['town']} → `{site.areas[s]['path']}`" for s in site.area_order)
+    out.append(f"""
+### Strip 8. Service area (black, anchor: `area`)
+
+2 columns, 50 / 50. Mobile: stacked.
+- **Left:** Label "Service area" (Light bronze); **H2** "{m["area_h2"]}" (white); paragraph (Silver): {plain(sec["area"])}
+  Then a Primary button "See all service areas" → `{AREA_PREFIX}`.
+- **Right:** the town links in **3 columns** (mobile 2), white SemiBold 16 px, a faint divider under each.
+  First item "Yardley (home base)" (no link, it's this page). Then every service-area page:
+{towns}
+
+### Strip 9. Reputation (white, anchor: `reviews`)
+
+Centred heading block:
+{head("reviews")}
+Then 3 Outline buttons in a centred row, each opening in a new tab:
+- Nextdoor ↗ → {C.SAME_AS[1]}
+- HomeAdvisor ↗ → {C.SAME_AS[2]}
+- Facebook ↗ → {C.SAME_AS[0]}
+
+### Strip 10. FAQ (paper, anchor: `faq`)
+
+Centred heading block:
+- **Label:** {HOME_HEADS["faq"][0]}
+- **Heading (H2):** {HOME_HEADS["faq"][1]}
+- **Intro:** {HOME_HEADS["faq"][2]} (make the number a phone link)
+
+Then the **Wix FAQ** app (or one collapsible text per question), max width 860 px, centred, first question open:
+""")
+    out.append("".join(f"\n**Q: {q}**\nA: {plain(a)}\n" for q, a in faqs))
+
+    schema = [business_schema(site), {"@type": "WebSite", "name": C.NAME, "url": C.DOMAIN + "/"}, faq_schema(faqs)]
+    out.append(f"""
+## 4. Things Wix needs set by hand
+
+1. **Structured data:** Page → SEO → Advanced SEO → Structured data markup → add the JSON-LD below. Turn off any
+   default Wix markup that duplicates it, or the business ends up described twice.
+2. **Redirects:** add each line of `public/_redirects` in Marketing & SEO → SEO → URL Redirect Manager (301).
+3. **Images:** set each image's alt text to the one in this guide or in `content/photos.py`.
+4. **Heading tags:** check there's exactly one H1 (the hero headline), and that every card title is an H2.
+5. **Google Business Profile:** use `{C.DOMAIN}/contact/` (or the homepage) as the booking link, and keep the NAP identical.
+
+```json
+{json.dumps({"@context": "https://schema.org", "@graph": schema}, ensure_ascii=False, indent=1)}
+```
+""")
+    return "".join(out)
 
 
 # ----------------------------------------------------------------------------
@@ -1132,6 +1378,8 @@ def main():
                 s = site.services[slug]
                 for name in s["meta"].get("gbp", s["meta"]["name"]).split(";"):
                     w.writerow([C.CATEGORIES[s["meta"]["cat"]]["name"], name.strip(), s["meta"]["blurb"], C.DOMAIN + s["path"]])
+
+        (ROOT / "WIX-HOMEPAGE.md").write_text(wix_guide(site), encoding="utf-8")
 
         with open(ROOT / "PAGES.md", "w", encoding="utf-8") as fh:
             fh.write("# Page Inventory\n\nGenerated by `build.py`. One row per page.\n\n")

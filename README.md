@@ -7,6 +7,7 @@ pages, plus Services, Service Areas, About and Contact.
 - **Plan and reasoning:** [`SEO-STRUCTURE.md`](SEO-STRUCTURE.md)
 - **Every page, with its title, H1 and word count:** [`PAGES.md`](PAGES.md)
 - **Google Business Profile service descriptions:** [`gbp-services.csv`](gbp-services.csv)
+- **Rebuilding the homepage in Wix, section by section:** [`WIX-HOMEPAGE.md`](WIX-HOMEPAGE.md)
 
 ## Build
 

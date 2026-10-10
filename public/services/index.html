@@ -211,14 +211,12 @@
         <ul class="trust"><li>Licensed &amp; insured</li><li>Only electrical, 40+ years</li><li>Free written estimates</li></ul>
       </div>
       <div class="quote" id="estimate">
-        
         <form id="quoteForm" novalidate>
           <h2>Request a Free Estimate</h2>
           <p class="sub">Takes about 30 seconds. We reply within one business day.</p>
-          <fieldset class="field">
-            <legend>What do you need?</legend>
-            <div class="chips" id="svcChips"><label class="chip"><input type="checkbox" name="svc" value="Electrician services"><span>Repair / upgrade</span></label><label class="chip"><input type="checkbox" name="svc" value="Electrical installation"><span>Installation</span></label><label class="chip"><input type="checkbox" name="svc" value="Lighting"><span>Lighting</span></label><label class="chip"><input type="checkbox" name="svc" value="Other"><span>Something else</span></label></div>
-          </fieldset>
+          <div class="field"><label for="q-svc">What do you need?</label>
+            <select id="q-svc" name="service"><option value="">Choose one</option><option value="Repair or upgrade">Repair or upgrade</option><option value="Installation">Installation</option><option value="Lighting">Lighting</option><option value="Something else">Something else</option></select>
+          </div>
           <div class="row2">
             <div class="field"><label for="q-name">Name</label><input id="q-name" name="name" autocomplete="name" required></div>
             <div class="field"><label for="q-phone">Phone</label><input id="q-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>

@@ -150,7 +150,7 @@ instead of swapping town names into a template.
 |---|---|---|
 | **Title:** primary keyword + city \| variation + city | "Electrician in Yardley, PA \| Licensed Electricians in Bucks County" | Same pattern, e.g. "Electrical Panel Upgrade in Yardley, PA \| 200 Amp Upgrades in Bucks County" |
 | **H1 = title's main keyword** | "Expert Electrician in Yardley, PA. Not Your Neighborhood Handyman." contains the exact keyword; the wording is the client's | Identical to the title's first half on all 78 pages (the build checks it) |
-| **H2s:** prominent services, each with a blurb and a natural-anchor link | "Popular Electrical Services in Yardley": 6 services, each its own H2 with a blurb and varied link text, plus an H2 per GBP category in the breaker panel | Section H2s per topic (signs, process, cost, local work, FAQ) |
+| **H2s:** prominent services, each with a blurb and a natural-anchor link | "Popular Electrical Services in Yardley": 6 services, each its own H2 with a blurb and varied link text, plus an H2 card for each GBP category | Section H2s per topic (signs, process, cost, local work, FAQ) |
 | **Footer:** NAP + embedded map on the homepage | NAP + Google Map embed | NAP on every page |
 | **Schema** | `Electrician` LocalBusiness + `WebSite` + `FAQPage` | `Electrician` + `Service`/`OfferCatalog` + `BreadcrumbList` + `FAQPage` |
 | **Word count** | ~1,000+ | 500–700 (the build warns outside this) |
