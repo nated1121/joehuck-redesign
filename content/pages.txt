@@ -7,7 +7,7 @@ title: Electrician in Yardley, PA | Licensed Electricians in Bucks County
 desc: Joe Huck Electric is a licensed electrician in Yardley, PA. Repairs, panel upgrades, installations and lighting for Bucks County for 40+ years.
 about_h2: Always the|Same, Small, Expert Team
 area_h2: Your Local Bucks County Electrician.
-featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, ev-charger-installation, home-rewiring
+featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, fuse-box-replacement, circuit-breaker-replacement, home-rewiring
 featured_i: switch-outlet-installation, ceiling-fan-installation, dedicated-circuit-installation, hot-tub-electrical-hookup
 featured_l: recessed-lighting-installation, under-cabinet-lighting-installation, landscape-lighting-installation, lighting-repair
 popular: electrical-panel-upgrade=How our panel upgrades work; electrical-repair-troubleshooting=Get an electrical problem diagnosed; switch-outlet-installation=Add or replace outlets and switches; gfci-outlet-installation=See where GFCI protection is required; recessed-lighting-installation=Plan recessed lighting for your home; chandelier-installation=See how we hang chandeliers safely
@@ -61,9 +61,9 @@ Everything we do, in one place. We're licensed, insured electricians based in Ya
 === electrician-services
 h1: Electrician Services in Yardley, PA
 title: Electrician Services in Yardley, PA | Repairs & Panel Upgrades in Bucks County
-desc: General electrician services in Yardley, PA: repairs, troubleshooting, panel upgrades, fuse box replacement, rewiring, EV chargers and code corrections.
+desc: General electrician services in Yardley, PA: repairs, troubleshooting, panel upgrades, fuse box and breaker replacement, rewiring and code corrections.
 ---
-Repairs, upgrades and the big jobs that keep a house safe and working. We troubleshoot problems, replace outdated panels and fuse boxes, rewire older homes, install EV chargers and fix inspection items for homeowners and small businesses around Yardley.
+Repairs, upgrades and the big jobs that keep a house safe and working. We troubleshoot problems, replace outdated panels, fuse boxes and breakers, rewire older homes and fix inspection items for homeowners and small businesses around Yardley.
 
 Not sure which service fits your problem? Start with [electrical repair and troubleshooting](@electrical-repair-troubleshooting), or just call. We'll ask a few questions, tell you what's likely going on and whether it can wait.
 

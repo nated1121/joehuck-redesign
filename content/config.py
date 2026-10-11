@@ -60,9 +60,13 @@ REDIRECTS = {
     "/bucks-county-electrician": "/electrician-services/",
     "/bucks-county-electrical-installation-service": "/electrical-installation-services/",
     "/bucks-county-lighting-contractor": "/lighting-contractor-services/",
-    "/bucks-county-electric-vehicle-charging-station-contractor": "/electrician-services/ev-charger-installation/",
-    "/level-2-ev-charger-installation": "/electrician-services/ev-charger-installation/",
-    "/copy-of-electrical-fixture-installation-1": "/electrician-services/ev-charger-installation/",
+    "/bucks-county-electric-vehicle-charging-station-contractor": "/electrical-installation-services/ev-charger-installation/",
+    "/level-2-ev-charger-installation": "/electrical-installation-services/ev-charger-installation/",
+    "/copy-of-electrical-fixture-installation-1": "/electrical-installation-services/ev-charger-installation/",
     "/copy-of-commercial-electrical-contrac": "/electrician-services/electrical-repair-troubleshooting/",
     "/residential-electricial-services-yardley-pennsylvania/service-upgrades-panel-replacements": "/electrician-services/electrical-panel-upgrade/",
 }
+
+# Services the Business Profile lists under more than one category. The page
+# lives under its "cat"; these extra categories get a row in gbp-services.csv.
+GBP_ALSO = {"ev-charger-installation": ["g"]}

@@ -103,8 +103,8 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - Label: Repairs · Upgrades
 - **H2:** Electrician
 - Text: When something stops working, trips or just isn't safe, we find the cause and fix it properly. We upgrade panels and services, replace fuse boxes, rewire older homes and install Level 2 EV chargers as a Tesla-certified installer.
-- Link list (each a text link, 1 px divider between): [Electrical Panel Upgrade] → `/electrician-services/electrical-panel-upgrade/`; [Electrical Repair & Troubleshooting] → `/electrician-services/electrical-repair-troubleshooting/`; [Electric Car Charger Installation] → `/electrician-services/ev-charger-installation/`; [Home Rewiring] → `/electrician-services/home-rewiring/`
-- Button (Primary): See all 16 services → `/electrician-services/`
+- Link list (each a text link, 1 px divider between): [Electrical Panel Upgrade] → `/electrician-services/electrical-panel-upgrade/`; [Electrical Repair & Troubleshooting] → `/electrician-services/electrical-repair-troubleshooting/`; [Fuse Box Replacement] → `/electrician-services/fuse-box-replacement/`; [Circuit Breaker Replacement] → `/electrician-services/circuit-breaker-replacement/`; [Home Rewiring] → `/electrician-services/home-rewiring/`
+- Button (Primary): See all 14 services → `/electrician-services/`
 
 **Card: Electrical Installation Services**
 - Image: `assets/img/jobs/kitchen-shirt-back.jpg` (4:3 crop)
@@ -112,7 +112,7 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - **H2:** Electrical Installation Services
 - Text: New outlets, switches, circuits and hookups, installed safely and to code. From a single GFCI outlet to wiring a finished basement, a hot tub or a detached garage, we handle the permit and the inspection.
 - Link list (each a text link, 1 px divider between): [Switch & Outlet Installation] → `/electrical-installation-services/switch-outlet-installation/`; [Ceiling Fan Installation] → `/electrical-installation-services/ceiling-fan-installation/`; [Dedicated Circuit Installation] → `/electrical-installation-services/dedicated-circuit-installation/`; [Hot Tub Electrical Hookup] → `/electrical-installation-services/hot-tub-electrical-hookup/`
-- Button (Primary): See all 21 services → `/electrical-installation-services/`
+- Button (Primary): See all 23 services → `/electrical-installation-services/`
 
 **Card: Lighting Contractor Services**
 - Image: `assets/img/jobs/ryan-drill.jpg` (4:3 crop)

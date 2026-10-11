@@ -107,7 +107,7 @@ A: Yes, a new circuit generally needs a permit. We handle it.
 === switch-outlet-installation
 cat: i
 name: Switch & Outlet Installation
-gbp: Switch & Outlet installation; Electrical switch replacement
+gbp: Switch & outlet installation; Electrical outlet installation
 h1: Switch & Outlet Installation in Yardley, PA
 title: Switch & Outlet Installation in Yardley, PA | Outlet Repair in Bucks County
 desc: Switch and outlet installation and replacement in Yardley, PA. New outlets, USB outlets, worn or warm switches replaced, tamper-resistant outlets. Licensed.
@@ -159,7 +159,7 @@ A: Many people do, but if the switch was warm or sparking, have the box and wiri
 === switch-outlet-relocation
 cat: i
 name: Switch & Outlet Relocation
-gbp: Switch & Outlet relocation
+gbp: Switch & outlet relocation; Electrical outlet relocation
 h1: Switch & Outlet Relocation in Yardley, PA
 title: Switch & Outlet Relocation in Yardley, PA | Move Outlets in Bucks County
 desc: Switch and outlet relocation in Yardley, PA. Move outlets for TVs, furniture, cabinets and remodels, and move switches to the right side of the door.
@@ -1126,3 +1126,108 @@ Q: Do barn outlets need GFCI protection?
 A: Yes. Outlets in barns and agricultural buildings need GFCI protection.
 Q: Can you power heated waterers?
 A: Yes, on properly protected circuits sized for them.
+
+=== ev-charger-installation
+cat: i
+name: Electric Car Charger Installation
+gbp: Electric car charger installation
+h1: EV Charger Installation in Yardley, PA
+title: EV Charger Installation in Yardley, PA | Level 2 Chargers in Bucks County
+desc: Level 2 EV charger installation in Yardley, PA by a Tesla-certified installer. Tesla, Rivian, Kia, Ford and more. Load calculation, permit and testing included.
+blurb: Level 2 home EV charger installation by a Tesla-certified installer. We check your panel's capacity, run the circuit to your garage or driveway, and install and test chargers for Tesla, Rivian, Ford, Kia and other brands.
+related: electrical-panel-upgrade, dedicated-circuit-installation, shed-garage-wiring
+---
+A Level 2 charger adds roughly 25 to 30 miles of range per hour, enough to fill most EVs overnight. We're certified by Tesla to install their Level 2 chargers, and we install chargers for every major brand in garages and driveways around Yardley.
+
+:::signs
+## Is Your Home Ready for a Level 2 Charger?
+- You're charging from a regular 120-volt outlet and it can't keep up
+- You have a 100 amp service, or your panel is nearly full
+- The garage is detached, or the charger needs to go outside
+- You have two EVs, or plan to
+- You want a charger on the same circuit as a future second car
+:::
+
+## How We Install Your Charger
+
+Every install starts with a load calculation. A charger is a large, continuous load, and we need to confirm your service can carry it along with your heat, air conditioning, cooking and water heater. Most homes with a 200 amp service can add a charger with no trouble. If yours can't, we'll explain your options, from load-management devices to a [panel upgrade](@electrical-panel-upgrade).
+
+Then we install a [dedicated circuit](@dedicated-circuit-installation) sized for the charger, typically 40 to 60 amps at 240 volts, and run it to where you park. Wire runs are neat and protected, inside the garage or outdoors in conduit. We mount the charger, configure it for the circuit, and test it with your car. The job is permitted and inspected.
+
+## Chargers We Install
+
+We're certified by Tesla to install the Tesla Wall Connector, and we install hardwired and plug-in chargers from ChargePoint, Emporia, Grizzl-E, Wallbox and the automakers themselves for Rivian, Ford, Kia, Hyundai, Mercedes, BYD and more. We can install a NEMA 14-50 outlet if you'd rather plug in a mobile charger.
+
+## What Affects the Cost
+
+The distance from the panel to the charger, whether the run is inside or outside, the charger's amperage and your panel's capacity all affect the price. Detached garages may need a trench or a [garage subpanel](@shed-garage-wiring).
+
+## Choosing Where to Mount the Charger
+
+We'll look at where you park, where the charge port is on your car and whether you might add a second EV later. Mounting the charger where the cable reaches comfortably without crossing a walkway keeps it safe and convenient. Outdoor chargers need a location that's protected from snow piles and plows, and the charger itself must be rated for outdoor use.
+
+## EV Chargers Around Yardley
+
+We install chargers in garages throughout [Newtown](@newtown), [Warrington](@warrington) and [Richboro](@richboro), and in driveways on the larger lots around [Washington Crossing](@washington-crossing).
+
+## FAQ
+Q: Do I need a permit for an EV charger?
+A: Yes. A new 240-volt circuit for a charger needs a permit and an inspection, which we handle for you.
+Q: Should I hardwire the charger or use an outlet?
+A: Hardwiring is more reliable and allows higher charging speeds. A NEMA 14-50 outlet is more flexible if you might change chargers.
+Q: Can my 100 amp panel handle an EV charger?
+A: Sometimes, with a lower-amperage charger or a load-management device. The load calculation tells us for sure.
+
+=== ground-wire-installation-repair
+cat: i
+name: Ground Wire Installation & Repair
+gbp: Ground wire installation & repair
+h1: Ground Wire Installation & Repair in Yardley, PA
+title: Ground Wire Installation & Repair in Yardley, PA | Grounding, Bucks County
+desc: Ground wire installation and repair in Yardley, PA. Ground ungrounded outlets, fix grounding electrodes, water pipe and gas line bonding. Licensed electricians.
+blurb: Add ground wires to ungrounded outlets, repair or replace grounding electrodes and ground rods, and bond water pipes and gas lines, so your outlets, surge protection and electronics work as designed.
+related: home-rewiring, whole-house-surge-protection, electrical-code-corrections
+---
+Grounding gives stray electricity a safe path away from people and equipment. Many older homes around Yardley have two-prong outlets, three-prong outlets with no ground behind them, or a grounding system that's been cut or corroded over the years. We install and repair grounding so your outlets, surge protection and electronics work the way they should.
+
+:::signs
+## Signs of a Grounding Problem
+- Two-prong outlets, or three-prong outlets that test as ungrounded
+- A home inspector noted "open ground" or missing bonding
+- A plumber replaced metal water pipe with plastic
+- Your home has yellow or black flexible gas line (CSST)
+- You feel tingles from appliances or fixtures
+- Surge protectors show a "not grounded" light
+:::
+
+## Grounding Outlets
+
+To ground an existing outlet, we run a new ground wire from the outlet back to the panel or to a grounded circuit, following the paths the code allows. When running a new wire isn't practical, GFCI protection with a "No equipment ground" label is a code-approved alternative for many outlets, though it doesn't provide a true ground for surge protectors and electronics. If most of the house is ungrounded, [rewiring](@home-rewiring) those circuits may cost little more than grounding them one by one.
+
+## The Grounding Electrode System
+
+Your panel connects to the earth through grounding electrodes: typically ground rods outside and the metal water pipe where it enters the house. Over time, clamps corrode, wires get cut during other work, and water pipes get replaced with plastic, which breaks the ground. We test and repair the electrode system, drive new ground rods if needed and make sure every connection is tight.
+
+## Bonding Water and Gas Lines
+
+Metal water piping needs to be bonded to the electrical system. Many homes also have corrugated stainless steel tubing (CSST) for gas, which manufacturers require to be bonded to protect against lightning damage. We add the bonding the code and manufacturers require. Good grounding also makes your [whole-house surge protector](@whole-house-surge-protection) far more effective.
+
+## What Affects the Cost
+
+Grounding individual outlets depends on how many and how hard the wire runs are. Electrode and bonding repairs are usually quick, fixed-scope jobs.
+
+## Grounding and Surge Protectors
+
+Plug-in surge protectors need a true ground to work. On an ungrounded outlet, they can't divert surges and may give no warning. Grounding the outlets where your computers and TVs plug in is one of the most practical reasons to do this work.
+
+## Grounding Work Around Yardley
+
+We ground outlets in older homes in [Morrisville](@morrisville), [Sellersville](@sellersville) and [Feasterville](@feasterville), and bond CSST gas lines in newer homes as part of [code corrections](@electrical-code-corrections).
+
+## FAQ
+Q: Can I replace a two-prong outlet with a three-prong one?
+A: Only if a ground is present, or if it's GFCI-protected and labeled "No equipment ground." Otherwise the third prong gives false confidence.
+Q: What is CSST bonding?
+A: CSST is flexible gas tubing. Manufacturers require it to be bonded to the electrical grounding system to reduce the risk of damage from lightning.
+Q: How do I know if my outlets are grounded?
+A: An inexpensive plug-in tester shows it, but we test properly and check the ground path back to the panel.

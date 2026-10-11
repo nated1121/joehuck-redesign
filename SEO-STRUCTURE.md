@@ -18,8 +18,8 @@ individual pages. The services hub is split into the three GBP categories.
 ```
 /                                   Homepage — targets "Electrician in Yardley, PA"
 ├── /services/                      Services hub (all 53 service pages, grouped)
-│   ├── /electrician-services/               "Electrician" (primary GBP category) — 16 pages
-│   ├── /electrical-installation-services/   "Electrical Installation Services" — 21 pages
+│   ├── /electrician-services/               "Electrician" (primary GBP category) — 14 pages
+│   ├── /electrical-installation-services/   "Electrical Installation Services" — 23 pages
 │   └── /lighting-contractor-services/       "Lighting Contractor Services" — 16 pages
 │                                            (also the page for "Lighting installation")
 ├── /service-areas/                 Areas hub, grouped by region
@@ -62,8 +62,10 @@ AI-sounding pages you wanted to stay away from.
 | One page | Covers these checklist services | Why combined |
 |---|---|---|
 | Fuse Box Replacement | Fuse box replacement, Electrical fuse changing | Same equipment and customer |
-| Electrical Repair & Troubleshooting | General electrical repair, Electrical troubleshooting | Same job: find it, fix it |
-| Switch & Outlet Installation | Switch & Outlet installation, Electrical switch replacement | Install and replace are one visit |
+| Electrical Repair & Troubleshooting | General repairs, Electrical troubleshooting | Same job: find it, fix it |
+| Switch & Outlet Installation | Switch & outlet installation, Electrical outlet installation | Same job under two names |
+| Switch & Outlet Relocation | Switch & outlet relocation, Electrical outlet relocation | Same job under two names |
+| Electrical Inspections & Maintenance | Electrical inspections, Electrical maintenance | A maintenance visit is an inspection plus small fixes |
 | LED Lighting Installation & Retrofits | LED lighting installation, Lighting retrofits | A retrofit *is* an LED conversion |
 | Landscape & Low-Voltage Lighting | Landscape lighting installation (listed twice), Low voltage lighting installation | Duplicate on the checklist; low-voltage lighting is mostly landscape |
 | Security & Flood Light Installation | Security lighting installation, Flood light installation | Floodlights are the security light |
@@ -71,8 +73,11 @@ AI-sounding pages you wanted to stay away from.
 | Lighting Repair | Lighting repair, Ballast and bulb replacement | Same service call |
 | Lighting Contractor Services hub | Lighting installation | It's the category's umbrella term |
 
-**Moved:** "Ground wire installation & Repair" was listed under Lighting. It sits
-under Electrician, where it belongs. Consider moving it in GBP too.
+**Matched to the live Business Profile** (screenshots of the GBP service lists):
+- **Electric car charger installation** is listed under both Electrician and Electrical Installation in GBP. Its page sits under Electrical Installation; both GBP entries point to it.
+- **Ground wire installation & repair** is under Electrical Installation in GBP, and on the site.
+- **Barn wiring** has a page (it matters for upper-Bucks area pages) but isn't in the GBP list. Add it in GBP as a custom service under Electrical Installation, or drop the page.
+- **LED strip lighting installation** has a page but wasn't visible in the GBP Lighting list. Add it in GBP if it's missing.
 
 Any combined page can be split later by adding a block to the content file.
 

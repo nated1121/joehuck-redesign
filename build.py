@@ -1378,6 +1378,9 @@ def main():
                 s = site.services[slug]
                 for name in s["meta"].get("gbp", s["meta"]["name"]).split(";"):
                     w.writerow([C.CATEGORIES[s["meta"]["cat"]]["name"], name.strip(), s["meta"]["blurb"], C.DOMAIN + s["path"]])
+                # services listed under a second GBP category point to the same page
+                for key in C.GBP_ALSO.get(slug, []):
+                    w.writerow([C.CATEGORIES[key]["name"], s["meta"].get("gbp", s["meta"]["name"]).split(";")[0].strip(), s["meta"]["blurb"], C.DOMAIN + s["path"]])
 
         (ROOT / "WIX-HOMEPAGE.md").write_text(wix_guide(site), encoding="utf-8")
 
