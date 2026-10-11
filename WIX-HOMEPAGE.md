@@ -102,7 +102,7 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - Image: `assets/img/jobs/panel-connections.jpg` (4:3 crop)
 - Label: Repairs · Upgrades
 - **H2:** Electrician
-- Text: When something stops working, trips or just isn't safe, we find the cause and fix it properly. We upgrade panels and services, replace fuse boxes, rewire older homes and install Level 2 EV chargers as a Tesla-certified installer.
+- Text: When something stops working, trips or just isn't safe, we find the cause and fix it properly. We upgrade panels and services, replace fuse boxes and worn breakers, rewire older homes and install whole-house surge protection.
 - Link list (each a text link, 1 px divider between): [Electrical Panel Upgrade] → `/electrician-services/electrical-panel-upgrade/`; [Electrical Repair & Troubleshooting] → `/electrician-services/electrical-repair-troubleshooting/`; [Fuse Box Replacement] → `/electrician-services/fuse-box-replacement/`; [Circuit Breaker Replacement] → `/electrician-services/circuit-breaker-replacement/`; [Home Rewiring] → `/electrician-services/home-rewiring/`
 - Button (Primary): See all 14 services → `/electrician-services/`
 
