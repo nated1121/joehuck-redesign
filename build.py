@@ -333,6 +333,11 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{C.DOMAIN + HERO_PHOTO}">
+<link rel="icon" href="{p.href('/favicon.ico')}" sizes="32x32">
+<link rel="icon" href="{p.href('/assets/favicon/favicon.svg')}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{p.href('/assets/favicon/apple-touch-icon.png')}">
+<link rel="manifest" href="{p.href('/assets/favicon/site.webmanifest')}">
+<meta name="theme-color" content="#AE9B6C">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap">
@@ -1346,6 +1351,7 @@ def main():
         shutil.rmtree(out_dir)
     out_dir.mkdir(parents=True)
     shutil.copytree(ROOT / "site" / "assets", out_dir / "assets")
+    shutil.copy(ROOT / "site" / "assets" / "favicon" / "favicon.ico", out_dir / "favicon.ico")
 
     write(out_dir, "/", build_home(site))
     for key in ("g", "i", "l"):
