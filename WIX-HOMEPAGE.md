@@ -189,7 +189,7 @@ Then **4 boxes in a row** (tablet 2 × 2, mobile stacked). Each box: a 44 px Bro
 ### Strip 8. Service area (black, anchor: `area`)
 
 2 columns, 50 / 50. Mobile: stacked.
-- **Left:** Label "Service area" (Light bronze); **H2** "Your Local Bucks County Electrician." (white); paragraph (Silver): We're based in Yardley and work every week in the towns around it, from Morrisville and Newtown to Langhorne, Levittown and Bensalem, and we serve the rest of Bucks County up to Doylestown and Quakertown. Being local means shorter waits, easier scheduling and an electrician who can come back quickly if you need anything. Find your town below to see the work we do there most.
+- **Left:** Label "Service area" (Light bronze); **H2** "Your Local Bucks County Electrician." (white); paragraph (Silver): We're based in Yardley and work every week in the towns around it, from Morrisville and Newtown to Langhorne, Levittown and Bensalem, and we serve the rest of Bucks County up to Doylestown and Quakertown. Being local means shorter waits, easier scheduling and an electrician who can come back quickly if you need anything. Pick your town to see the work we do there most.
   Then a Primary button "See all service areas" → `/service-areas/`.
 - **Right:** the town links in **3 columns** (mobile 2), white SemiBold 16 px, a faint divider under each.
   First item "Yardley (home base)" (no link, it's this page). Then every service-area page:

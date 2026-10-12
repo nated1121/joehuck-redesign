@@ -437,11 +437,11 @@ footer .wrap.legal{border-top:1px solid #232120;padding-block:20px calc(20px + 6
 /* Service area: town links in columns on black */
 .hp-dark p{color:var(--silver)}
 .hp-dark .hp-cols > div > p{margin:0 0 28px}
-.hp-towns{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 20px}
+.hp-towns{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:repeat(7,auto);grid-auto-flow:column;gap:4px 20px}
 .hp-towns li{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.12);font-weight:600;color:var(--white)}
 .hp-towns span{font-weight:400;color:var(--steel);font-size:14px}
 .hp-towns a{color:var(--white);text-decoration:none}
 .hp-towns a:hover{color:var(--bronze-glow);text-decoration:underline;text-underline-offset:3px}
-@media (max-width:600px){.hp-towns{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.hp-towns{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(11,auto)}}
 
 .hp-sec .faq-list{margin-inline:auto}
