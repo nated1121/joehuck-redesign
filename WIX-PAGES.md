@@ -12,10 +12,14 @@ button styles you set up for the homepage carry straight over.
 | Service pages | 22 | **One** dynamic page fed by the `Services` CMS collection | `/services/{slug}` |
 | Service-area pages | 12 | **One** dynamic page fed by the `Service Areas` collection | `/service-areas/{slug}` |
 | Category pages: Electrician, Electrical Installation Services, Lighting Contractor Services | 3 | Normal pages (build one, duplicate it twice) | `/electrician-services`, `/electrical-installation-services`, `/lighting-contractor-services` |
-| Services, Service Areas, About, Contact | 4 | Normal pages | `/services`, `/service-areas`, `/about`, `/contact` |
+| Service Areas, About, Contact | 3 | Normal pages | `/service-areas`, `/about`, `/contact` |
 
-So you design **two templates** and **seven normal pages**. The other 32
+So you design **two templates** and **six normal pages**. The other 32
 pages fill themselves in from the spreadsheets.
+
+There is **no central Services page**. The three category pages are the
+service hubs, and the menu's **Services** item is a dropdown that lists them
+(see step 8).
 
 > The coded preview uses `/electrician-services/electrical-panel-upgrade/`
 > style addresses. In Wix, one collection gets one address pattern, so the
@@ -28,7 +32,7 @@ pages fill themselves in from the spreadsheets.
 |---|---|
 | `wix/services.csv` | 22 rows, one per service page |
 | `wix/service-areas.csv` | 12 rows, one per town page |
-| `wix/redirects.csv` | 301 redirects from the old site's URLs to the new pages |
+| `wix/redirects.csv` | 301 redirects from the old site's URLs to the new pages, plus `/services` → homepage |
 
 `build.py` regenerates them from the content files, so if the copy changes,
 rebuild and re-import.
@@ -43,7 +47,7 @@ rebuild and re-import.
 | `h1` | Text | The page headline (H1) |
 | `seoTitle`, `seoDescription` | Text, Text | Title tag and meta description |
 | `intro` | Text | Hero paragraph |
-| `summary` | Text | Text on cards that link to this page (Category, Services pages) |
+| `summary` | Text | Text on cards that link to this page (category pages) |
 | `image`, `imageAlt` | **Image**, Text | Job photo above the article (12 pages have one) |
 | `signsTitle`, `signsList` | Text, **Rich text** | The grey "Signs you need…" box |
 | `body` | **Rich text** | The main article: H2 sections, paragraphs, lists and links |
@@ -154,17 +158,16 @@ Copy the words from the coded preview page for each.
 5. **All services** (white): a **repeater** connected to the `Services` collection, with a dataset filter `category` = this page's category name. Each repeater item: H3 bound to `title`, text bound to `summary`, link "Learn more →" bound to the item's dynamic page. This lists every service automatically.
 6. How a job works, FAQ (type the 2–3 questions from the preview as static text).
 
-## 7. Services, Service Areas, About, Contact
+## 7. Service Areas, About, Contact
 
-- **Services:** hero, why us, "What Homeowners Call Us For" (6 photo cards), then one strip per category: 2 columns (intro + button | photo) above a repeater filtered to that category, as on the category pages.
 - **Service Areas:** hero, why us, then one strip per region ("Near Yardley", "Central Bucks", "Upper Bucks"), each with a repeater connected to `Service Areas` filtered by `region`, and a plain text line for the towns without a page ("Also serving Lower Makefield and Southampton. Call to schedule." and so on, as in the preview). Upper Bucks has no pages, so it's just the heading and the text line.
 - **About:** hero, then the article text in a 760px column, then the Meet the Local Team strip (copy it from the homepage).
 - **Contact:** hero with the form, then 2 columns: business name, address, phone and the "Tell us what's going on…" paragraph | a Google Maps element.
 
 ## 8. Before you publish
 
-- [ ] **Redirects:** Marketing & SEO → SEO → URL Redirect Manager → import `wix/redirects.csv` (or add the 8 lines by hand).
+- [ ] **Redirects:** Marketing & SEO → SEO → URL Redirect Manager → import `wix/redirects.csv` (or add the 9 lines by hand). The last one sends `/services` to the homepage, for anyone who trims a service page's address.
 - [ ] Every page has one H1, and the title tag and meta description are set (bound to the collection fields on the two templates).
-- [ ] The menu links: Services → `/services`, Service Areas → `/service-areas`, About, Contact.
+- [ ] **The menu:** Site Menu → Add Menu Item → **Dropdown title** (Wix may call it a menu folder) named **Services**, with the three category pages dragged under it: Electrician, Electrical Installation Services, Lighting Contractor Services. Then Service Areas, About, Contact. The Services title isn't a page; tapping it just opens the list.
 - [ ] Open three service pages and two area pages on a phone and check the strips stack.
 - [ ] Submit the sitemap in Google Search Console once the domain is connected.

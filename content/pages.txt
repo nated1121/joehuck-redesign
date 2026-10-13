@@ -49,15 +49,6 @@ A: Yes. When a job needs a permit, we pull it, meet the inspector and make sure 
 Q: Do you work on commercial properties?
 A: Yes. Besides homes, we serve small businesses across Bucks County, from lighting retrofits and new circuits to repairs.
 
-=== services
-h1: Electrical Services in Yardley, PA
-eyebrow: All services
-crumb: Services
-title: Electrical Services in Yardley, PA | Electricians Serving Bucks County
-desc: Every electrical service Joe Huck Electric offers in Yardley and Bucks County, PA: repairs, panel upgrades, installations and lighting. Licensed electricians.
----
-Everything we do, in one place. We're licensed, insured electricians based in Yardley, and every service below comes with a free written estimate, permits when they're needed and a clean job site when we're done.
-
 === electrician-services
 h1: Electrician Services in Yardley, PA
 title: Electrician Services in Yardley, PA | Repairs & Panel Upgrades in Bucks County

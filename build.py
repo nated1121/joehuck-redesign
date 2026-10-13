@@ -128,7 +128,7 @@ class Site:
         for cat in C.CATEGORIES.values():
             if ref == cat["slug"]:
                 return f"/{ref}/"
-        fixed = {"home": "/", "contact": "/contact/", "about": "/about/", "service-areas": AREA_PREFIX, "services": "/services/"}
+        fixed = {"home": "/", "contact": "/contact/", "about": "/about/", "service-areas": AREA_PREFIX}
         if ref in fixed:
             return fixed[ref]
         raise SystemExit(f"Unknown link target @{ref}")
@@ -307,7 +307,7 @@ def faq_schema(pairs):
 # Shared page parts
 # ----------------------------------------------------------------------------
 NAV = [
-    ("Services", "/services/", "services"),
+    ("Services", None, "services"),  # dropdown of the three category pages, no page of its own
     ("Service Areas", AREA_PREFIX, "areas"),
     ("About", "/about/", "about"),
     ("Contact", "/contact/", "contact"),
@@ -320,10 +320,15 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
     if not 70 <= len(desc) <= 160:
         WARNINGS.append(f"{p.path}: meta description is {len(desc)} chars (aim for 70–160)")
     cur = ' aria-current="page"'
-    nav = "".join(
-        f'<li><a href="{p.href(url)}"{cur if key == active else ""}>{label}</a></li>'
-        for label, url, key in NAV
-    )
+    def nav_item(label, url, key):
+        if url:
+            return f'<li><a href="{p.href(url)}"{cur if key == active else ""}>{label}</a></li>'
+        subs = "".join(
+            f'<li><a href="{p.href("/" + c["slug"] + "/")}"{cur if p.path.startswith("/" + c["slug"] + "/") and p.path.count("/") == 2 else ""}>{c["name"]}</a></li>'
+            for c in C.CATEGORIES.values())
+        on = " on" if key == active else ""
+        return f'<li class="has-sub"><span class="nav-parent{on}" tabindex="0">{label}</span><ul class="sub">{subs}</ul></li>'
+    nav = "".join(nav_item(*item) for item in NAV)
     ld = json.dumps({"@context": "https://schema.org", "@graph": schema}, ensure_ascii=False, indent=1)
     canonical = C.DOMAIN + p.path
     map_band = ""
@@ -656,7 +661,7 @@ def build_service(site, s):
     if len(rel) < 3:  # top up from the same category
         rel += [x for x in site.svc_order if site.services[x]["meta"]["cat"] == m["cat"] and x != s["slug"] and x not in rel][:3 - len(rel)]
     n_cat = len(site.cat_services(m["cat"]))
-    crumbs = [("Home", "/"), ("Services", "/services/"), (cat["name"], f"/{cat['slug']}/"), (m["name"], s["path"])]
+    crumbs = [("Home", "/"), (cat["name"], f"/{cat['slug']}/"), (m["name"], s["path"])]
     faq_html = faq_section(p, faqs)
     rel_cards = text_cards(p, [(site.services[r]["path"], site.services[r]["meta"]["name"], site.services[r]["meta"]["blurb"], "Learn more")
                                for r in rel[:3]])
@@ -761,7 +766,7 @@ def build_hub(site, key):
     intro, _, rest = main_md.partition("\n\n")
     lede = p.inline(intro)
     cards = text_cards(p, [(s["path"], s["meta"]["name"], s["meta"]["blurb"], "Learn more") for s in site.cat_services(key)])
-    crumbs = [("Home", "/"), ("Services", "/services/"), (cat["name"], path)]
+    crumbs = [("Home", "/"), (cat["name"], path)]
     faq_html = faq_section(p, faqs)
     n = len(site.cat_services(key))
     main = page_hero(p, crumbs, f"{cat['name']} · Yardley, PA", m["h1"], lede, cat=key) + why_band(p) + f'''
@@ -814,7 +819,7 @@ def build_simple(site, key, path, active=None, extra="", hero_cat=None):
       </article>
     </div>
   </section>''' if rest else ""
-    band = why_band(p) if key in ("services", "service-areas") else ""
+    band = why_band(p) if key == "service-areas" else ""
     main = page_hero(p, crumbs, m["eyebrow"], m["h1"], p.inline(intro), cat=hero_cat) + band + body + extra(p) + faq_section(p, faqs)
     schema = [business_schema(site), breadcrumb_schema(crumbs)]
     out = layout(p, title=m["title"], desc=m["desc"], main=main, schema=schema, active=active)
@@ -853,37 +858,6 @@ def areas_index_extra(site):
       {ip_head(f"{len(towns) + len(also)} towns", title, esc(intro))}
       {cards}
       {also_line}
-    </div>
-  </section>''')
-        return "".join(out)
-    return f
-
-
-def services_index_extra(site):
-    def f(p):
-        out = [f'''
-  <section class="hp-sec">
-    <div class="wrap">
-      {ip_head("Most requested", "What Homeowners Call Us For", "Real jobs from Bucks County homes. Tap any service to see what's involved, what affects the price and how to get a free quote.")}
-      {photo_cards(p, site, ["electrical-panel-upgrade", "electrical-repair-troubleshooting", "switch-outlet-installation", "gfci-outlet-installation", "recessed-lighting-installation", "light-fixture-installation"])}
-    </div>
-  </section>''']
-        for key in ("g", "i", "l"):
-            cat = C.CATEGORIES[key]
-            hub = site.pages[cat["slug"]]
-            intro = split_faq(hub["body"])[0].partition("\n\n")[0]
-            cards = text_cards(p, [(s["path"], s["meta"]["name"], s["meta"]["blurb"], "Learn more") for s in site.cat_services(key)])
-            bg = " hp-paper" if key != "i" else ""
-            out.append(f'''
-  <section class="hp-sec{bg}" id="{cat["slug"]}">
-    <div class="wrap">
-      <div class="hp-cols ip-top">
-        <div><p class="eyebrow">{len(site.cat_services(key))} services</p><h2>{esc(cat["name"])}</h2>
-          <p>{p.inline(intro)}</p>
-          <a class="btn btn-bronze" href="{p.href("/" + cat["slug"] + "/")}">{esc(cat["name"])} overview</a></div>
-        <img class="hp-photo ip-wide" src="{p.href(PH.JOBS + PH.CATEGORY_PHOTOS[key] + ".jpg")}" width="1000" height="1500" alt="{esc(PH.PHOTOS[PH.CATEGORY_PHOTOS[key]][0])}" loading="lazy" decoding="async">
-      </div>
-      {cards}
     </div>
   </section>''')
         return "".join(out)
@@ -1195,7 +1169,7 @@ Cards: white, 1 px Line-grey border, radius 12 px, 24 px inner padding, 24 px ga
 ## 2. Header and footer (shared on every page)
 
 - **Top bar** (black strip, 36 px tall): left "Serving Yardley & Bucks County homes and businesses"; right "Licensed & insured · Master electrician · Yardley, PA". Silver 14 px text.
-- **Header** (Bronze strip, 72 px, *freeze header* on): logo left; menu (Services, Service Areas, About, Contact) in white 16 px SemiBold; "CALL OR TEXT / {C.PHONE_DISPLAY}" in white (link `tel:{C.PHONE_E164}`); white button "Free estimate" with Brown text, linked to the form anchor.
+- **Header** (Bronze strip, 72 px, *freeze header* on): logo left; menu in white 16 px SemiBold: a **Services** dropdown title (no page) holding the three category pages, then Service Areas, About, Contact; "CALL OR TEXT / {C.PHONE_DISPLAY}" in white (link `tel:{C.PHONE_E164}`); white button "Free estimate" with Brown text, linked to the form anchor.
 - **CTA strip** above the footer (Bronze): H2 "Need an Electrician You Can Trust?" (white) on the left; on the right "CALL OR TEXT" label, the phone number at 56 px white Bold (phone link), and a white button "Or request an estimate online".
 - **Footer** (black): a Wix **Google Maps** element across the top on the homepage only (use the Business Profile address). Below it, four columns: logo + "Licensed, insured electricians serving Yardley and the Greater Bucks County area for over 40 years." | Services (the 3 category pages) | Company (About, Service Areas, Contact) | Contact (NAP exactly as on the Business Profile: {C.NAME}, {C.STREET}, {C.CITY}, {C.REGION} {C.POSTAL}, {C.PHONE_DISPLAY}).
 - **Mobile:** add Wix's *Quick Action Bar* with Call and an estimate link.
@@ -1494,7 +1468,6 @@ def main():
     for slug in site.area_order:
         write(out_dir, site.areas[slug]["path"], build_area(site, site.areas[slug]))
     write(out_dir, AREA_PREFIX, build_simple(site, "service-areas", AREA_PREFIX, "areas", areas_index_extra(site)))
-    write(out_dir, "/services/", build_simple(site, "services", "/services/", "services", services_index_extra(site)))
     write(out_dir, "/about/", build_simple(site, "about", "/about/", "about", lambda p: team_section(p, " services")))
     write(out_dir, "/contact/", build_simple(site, "contact", "/contact/", "contact", contact_extra(site)))
 

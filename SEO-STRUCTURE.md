@@ -17,7 +17,7 @@ individual pages. The services hub is split into the three GBP categories.
 
 ```
 /                                   Homepage — targets "Electrician in Yardley, PA"
-├── /services/                      Services hub (all 22 service pages, grouped)
+├── Services (menu dropdown, no page of its own)
 │   ├── /electrician-services/               "Electrician" (primary GBP category) — 8 pages
 │   ├── /electrical-installation-services/   "Electrical Installation Services" — 8 pages
 │   └── /lighting-contractor-services/       "Lighting Contractor Services" — 6 pages
@@ -29,10 +29,12 @@ individual pages. The services hub is split into the three GBP categories.
 └── /contact/                       Use as the GBP booking link (Step 3.iv)
 ```
 
-**42 indexable pages** (the playbook benchmark is 30+). Every page is listed,
+**41 indexable pages** (the playbook benchmark is 30+). The three category
+pages are the playbook's "services hub"; a central Services page above them
+would only repeat them, so the menu's Services item is a dropdown instead. Every page is listed,
 with its H1, title tag and word count, in [`PAGES.md`](PAGES.md).
 
-### Why 42 pages, not 81
+### Why 41 pages, not 81
 
 The first version had a page for every one of the 65 GBP services and all 20
 GBP towns. Many of those services are rarely searched (doorbells, attic fans,

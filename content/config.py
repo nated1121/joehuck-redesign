@@ -65,6 +65,8 @@ REDIRECTS = {
     "/copy-of-electrical-fixture-installation-1": "/electrical-installation-services/ev-charger-installation/",
     "/copy-of-commercial-electrical-contrac": "/electrician-services/electrical-repair-troubleshooting/",
     "/residential-electricial-services-yardley-pennsylvania/service-upgrades-panel-replacements": "/electrician-services/electrical-panel-upgrade/",
+    # no central Services page: the menu's Services dropdown lists the three category pages
+    "/services": "/",
 }
 
 # Services the Business Profile lists under more than one category. The page

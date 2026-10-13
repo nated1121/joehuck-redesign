@@ -49,7 +49,7 @@ Cards: white, 1 px Line-grey border, radius 12 px, 24 px inner padding, 24 px ga
 ## 2. Header and footer (shared on every page)
 
 - **Top bar** (black strip, 36 px tall): left "Serving Yardley & Bucks County homes and businesses"; right "Licensed & insured · Master electrician · Yardley, PA". Silver 14 px text.
-- **Header** (Bronze strip, 72 px, *freeze header* on): logo left; menu (Services, Service Areas, About, Contact) in white 16 px SemiBold; "CALL OR TEXT / 215-906-4634" in white (link `tel:+12159064634`); white button "Free estimate" with Brown text, linked to the form anchor.
+- **Header** (Bronze strip, 72 px, *freeze header* on): logo left; menu in white 16 px SemiBold: a **Services** dropdown title (no page) holding the three category pages, then Service Areas, About, Contact; "CALL OR TEXT / 215-906-4634" in white (link `tel:+12159064634`); white button "Free estimate" with Brown text, linked to the form anchor.
 - **CTA strip** above the footer (Bronze): H2 "Need an Electrician You Can Trust?" (white) on the left; on the right "CALL OR TEXT" label, the phone number at 56 px white Bold (phone link), and a white button "Or request an estimate online".
 - **Footer** (black): a Wix **Google Maps** element across the top on the homepage only (use the Business Profile address). Below it, four columns: logo + "Licensed, insured electricians serving Yardley and the Greater Bucks County area for over 40 years." | Services (the 3 category pages) | Company (About, Service Areas, Contact) | Contact (NAP exactly as on the Business Profile: Joe Huck Electric, 42 Bedford Pl, Yardley, PA 19067, 215-906-4634).
 - **Mobile:** add Wix's *Quick Action Bar* with Call and an estimate link.
