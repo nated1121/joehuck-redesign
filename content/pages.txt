@@ -7,10 +7,10 @@ title: Electrician in Yardley, PA | Licensed Electricians in Bucks County
 desc: Joe Huck Electric is a licensed electrician in Yardley, PA. Repairs, panel upgrades, installations and lighting for Bucks County for 40+ years.
 about_h2: Always the|Same, Small, Expert Team
 area_h2: Your Local Bucks County Electrician.
-featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, fuse-box-replacement, circuit-breaker-replacement, home-rewiring
+featured_g: electrical-panel-upgrade, electrical-repair-troubleshooting, fuse-box-replacement, home-rewiring, whole-house-surge-protection
 featured_i: switch-outlet-installation, ceiling-fan-installation, dedicated-circuit-installation, hot-tub-electrical-hookup
 featured_l: recessed-lighting-installation, under-cabinet-lighting-installation, landscape-lighting-installation, lighting-repair
-popular: electrical-panel-upgrade=How our panel upgrades work; electrical-repair-troubleshooting=Get an electrical problem diagnosed; switch-outlet-installation=Add or replace outlets and switches; gfci-outlet-installation=See where GFCI protection is required; recessed-lighting-installation=Plan recessed lighting for your home; chandelier-installation=See how we hang chandeliers safely
+popular: electrical-panel-upgrade=How our panel upgrades work; electrical-repair-troubleshooting=Get an electrical problem diagnosed; switch-outlet-installation=Add or replace outlets and switches; gfci-outlet-installation=See where GFCI protection is required; recessed-lighting-installation=Plan recessed lighting for your home; light-fixture-installation=See the fixtures we install
 ---
 #### lede
 We don't hang doors or fix leaky faucets. For over 40 years, Joe Huck Electric has done one thing: electrical work for homes and small businesses in Yardley and across Bucks County. Repairs, upgrades, installations and lighting, every job done by licensed, insured electricians.
@@ -86,6 +86,10 @@ Most installations take a few hours to a day. When walls are already finished, w
 
 Every installation comes with a written estimate first, and we test everything before we leave. If your panel is full, see our page on [subpanel installation](@electrical-subpanel-installation).
 
+## Doorbells, Smart Home and Low-Voltage Wiring
+
+Smaller jobs we do every week: wired and video doorbells, including new transformers for Ring and Nest and chime repair; wiring for smart switches, thermostats and cameras, adding neutral wires where devices need them; and network (Cat6), speaker and TV wiring, run neatly and kept clear of power wiring.
+
 ## FAQ
 Q: Can you add outlets without opening my walls?
 A: Usually. We fish new cable from the basement or attic and cut only a small opening for the new box.
@@ -102,6 +106,10 @@ Good lighting changes how a room looks and how it works. We install and repair e
 Many projects combine a few types of light: recessed lights for general light, pendants or a chandelier as the focal point, and under-cabinet or accent lighting for tasks and atmosphere. We'll help you plan the layout, the switching and the dimming so it all works together.
 
 If your lights flicker, buzz or won't turn on, start with [lighting repair](@lighting-repair).
+
+## Smart Lighting
+
+Smart switches and dimmers let you set scenes and schedules and control lights by app or voice. Most need a neutral wire, which older homes often don't have at the switch, so we add it and pair each switch with compatible bulbs and fixtures so the system works reliably.
 
 ## FAQ
 Q: Do you supply the fixtures?

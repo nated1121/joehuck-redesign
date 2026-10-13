@@ -34,23 +34,20 @@ TEAM = [
 
 def team_section(p, bg=""):
     cards = "".join(
-        f'''<li class="team-card">
+        f'''<li class="hp-team-card">
           <img src="{p.href(t["img"])}" width="900" height="1350" alt="{esc(t["full"])}, {esc(t["role"].lower())} at {C.NAME}" loading="lazy" decoding="async">
-          <span class="team-tag">{esc(t["name"])} | {esc(t["role"])}</span>
-        </li>'''
-        for t in TEAM
-    )
+          <p><b>{esc(t["full"])}</b><span>{esc(t["role"])}</span></p>
+        </li>''' for t in TEAM)
     return f'''
-  <section class="block team{bg}" id="team">
+  <section class="hp-sec hp-paper" id="team">
     <div class="wrap">
-      <div class="team-head">
-        <h2>Meet the <em>Local Team</em></h2>
-        <p>You deserve a team you know and trust. With us, you always know who you're getting.</p>
-      </div>
-      <ul class="team-grid">{cards}</ul>
-      <p class="team-note">Ryan leads every job as head electrician, with Abie at his side. Together they carry on the work Joe Huck started in Bucks County over 40 years ago.</p>
+      <div class="hp-head"><p class="eyebrow">The team</p><h2>Meet the Local Team</h2>
+        <p>You deserve a team you know and trust. With us, you always know who you're getting.</p></div>
+      <ul class="hp-grid hp-2 hp-team">{cards}</ul>
+      <p class="hp-note">Ryan leads every job as head electrician, with Abie at his side. Together they carry on the work Joe Huck started in Bucks County over 40 years ago.</p>
     </div>
   </section>'''
+
 
 WARNINGS = []
 
@@ -112,8 +109,18 @@ class Site:
         for a in self.areas.values():
             a["path"] = f"{AREA_PREFIX}{a['slug']}-pa/"
 
+    def canonical(self, ref):
+        """Follow a folded service to the page that covers it now."""
+        tgt = C.FOLDED_SERVICES.get(ref)
+        if tgt is None:
+            return ref
+        return C.CATEGORIES[tgt[4:]]["slug"] if tgt.startswith("hub:") else tgt
+
     def resolve(self, ref):
-        """@slug → site path."""
+        """@slug → site path (None for a town that no longer has its own page)."""
+        ref = self.canonical(ref)
+        if ref in C.REMOVED_AREAS:
+            return None
         if ref in self.services:
             return self.services[ref]["path"]
         if ref in self.areas:
@@ -127,6 +134,7 @@ class Site:
         raise SystemExit(f"Unknown link target @{ref}")
 
     def kind(self, ref):
+        ref = self.canonical(ref)
         if ref in self.services:
             return "service"
         if ref in self.areas:
@@ -162,6 +170,8 @@ class Page:
 
     def link(self, ref, text, track=True, cls=None):
         path = self.site.resolve(ref)
+        if path is None or path == self.path:
+            return text
         if track:
             self.links.append((self.site.kind(ref), ref))
         c = f' class="{cls}"' if cls else ""
@@ -475,40 +485,54 @@ def quote_card(cat=None, service=None):
 
 
 def page_hero(p, crumbs, eyebrow, h1, lede, cat=None, service=None):
-    crumb_html = "".join(
-        f'<li><a href="{p.href(path)}">{esc(name)}</a></li>' if i < len(crumbs) - 1 else f'<li aria-current="page">{esc(name)}</li>'
+    crumb_html = " / ".join(
+        f'<a href="{p.href(path)}">{esc(name)}</a>' if i < len(crumbs) - 1 else f'<span aria-current="page">{esc(name)}</span>'
         for i, (name, path) in enumerate(crumbs)
     )
-    return f'''  <section class="hero page-hero">
-    <div class="wrap">
+    return f'''  <section class="hp-sec hp-paper ip-hero">
+    <div class="wrap hp-cols">
       <div>
-        <ol class="crumbs" aria-label="Breadcrumb">{crumb_html}</ol>
+        <nav class="ip-crumbs" aria-label="Breadcrumb">{crumb_html}</nav>
         <p class="eyebrow">{esc(eyebrow)}</p>
         <h1>{esc(h1)}</h1>
         <p class="lede">{lede}</p>
-        <div class="hero-ctas">
-          <a class="btn btn-bronze" href="#estimate">Get a free estimate {ICON_ARROW}</a>
-          <a class="btn btn-ghost" href="tel:{C.PHONE_E164}">{ICON_CALL}{C.PHONE_DISPLAY}</a>
+        <div class="hp-btns">
+          <a class="btn btn-bronze" href="#estimate">Get a free estimate</a>
+          <a class="btn btn-outline" href="tel:{C.PHONE_E164}">Call {C.PHONE_DISPLAY}</a>
         </div>
-        <ul class="trust"><li>Licensed &amp; insured</li><li>Only electrical, 40+ years</li><li>Free written estimates</li></ul>
+        <p class="ip-trust">Licensed &amp; insured · Only electrical, 40+ years · Free written estimates</p>
       </div>
       {quote_card(cat, service)}
     </div>
   </section>'''
 
 
+def ip_head(label, h2, intro=None):
+    return f'''<div class="hp-head">
+        <p class="eyebrow">{esc(label)}</p>
+        <h2>{esc(h2)}</h2>
+        {f"<p>{intro}</p>" if intro else ""}
+      </div>'''
+
+
+def text_cards(p, items, cols=3):
+    """Cards with a title, a line of text and a link: a Wix repeater or a row of boxes."""
+    cards = "".join(
+        f'''<li class="hp-card"><div class="hp-card-body"><h3>{esc(title)}</h3><p>{esc(text)}</p><a class="hp-more" href="{p.href(path)}">{esc(more)} →</a></div></li>'''
+        for path, title, text, more in items)
+    return f'<ul class="hp-grid hp-{cols}">{cards}</ul>'
+
+
 def faq_section(p, pairs, heading="Questions"):
     if not pairs:
         return ""
-    items = "".join(
-        f'<details{" open" if i == 0 else ""}><summary>{esc(q)}<span class="pm" aria-hidden="true"></span></summary><p>{p.inline(a)}</p></details>'
-        for i, (q, a) in enumerate(pairs)
-    )
-    return f'''  <section class="block faq">
+    items = "".join(f"<h3>{esc(q)}</h3><p>{p.inline(a)}</p>" for q, a in pairs)
+    intro = f'Still have a question? Call <a href="tel:{C.PHONE_E164}">{C.PHONE_DISPLAY}</a>. You\'ll talk to an electrician, not a call center.'
+    return f'''
+  <section class="hp-sec faq">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">{heading}</p><h2>Good to Know.</h2></div>
-        <p>Still have a question? Call <a href="tel:{C.PHONE_E164}" style="color:var(--bronze-deep);font-weight:700">{C.PHONE_DISPLAY}</a>. You'll talk to an electrician, not a call center.</p></div>
-      <div class="faq-list">{items}</div>
+      {ip_head(heading, "Good to Know", intro)}
+      <div class="ip-faq">{items}</div>
     </div>
   </section>'''
 
@@ -589,17 +613,14 @@ def why_band(p):
 
 
 def steps_strip(p, heading="What Happens When You Call"):
+    steps = "".join(
+        f'<li class="hp-step"><span class="hp-num">{i}</span><h3>{esc(h)}</h3><p>{esc(t)}</p></li>'
+        for i, (h, t) in enumerate(HOME_STEPS, 1))
     return f'''
-  <section class="block steps-block">
+  <section class="hp-sec">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">How a job works</p><h2>{esc(heading)}</h2></div>
-        <p>The same four steps on every job, from a single outlet to a full panel upgrade.</p></div>
-      <ol class="steps">
-        <li><h3>Call or Text</h3><p>Call or text {C.PHONE_DISPLAY}, or send the form. Tell us what's going on and we'll set a time.</p></li>
-        <li><h3>Free Diagnosis</h3><p>Ryan and Abie look at the job in person and give you a written price before any work starts.</p></li>
-        <li><h3>Clean, Code-Compliant Work</h3><p>We pull permits when needed, do the work neatly and clean up before we leave.</p></li>
-        <li><h3>Tested &amp; Inspected</h3><p>We test everything, meet the inspector and walk you through what we did.</p></li>
-      </ol>
+      {ip_head("How a job works", heading, "The same four steps on every job, from a single outlet to a full panel upgrade.")}
+      <ol class="hp-grid hp-4">{steps}</ol>
     </div>
   </section>'''
 
@@ -608,14 +629,14 @@ def photo_cards(p, site, slugs):
     out = []
     for slug in slugs:
         sv = site.services[slug]
-        out.append(f'''<li><a href="{p.href(sv["path"])}">{service_photo(p, slug, show_caption=False)}<span class="pc-body"><b>{esc(sv["meta"]["name"])}</b><span>{esc(sv["meta"]["blurb"])}</span><em>Learn more →</em></span></a></li>''')
-    return f'<ul class="photo-cards n{len(out)}">{"".join(out)}</ul>'
+        out.append(f'''<li class="hp-card">{service_photo(p, slug, cls="hp-img", show_caption=False)}<div class="hp-card-body"><h3>{esc(sv["meta"]["name"])}</h3><p>{esc(sv["meta"]["blurb"])}</p><a class="hp-more" href="{p.href(sv["path"])}">Learn more →</a></div></li>''')
+    return f'<ul class="hp-grid hp-{min(len(out), 3)}">{"".join(out)}</ul>'
 
 
 HUB_FEATURED = {
     "g": ["electrical-panel-upgrade", "electrical-repair-troubleshooting", "home-rewiring"],
-    "i": ["switch-outlet-installation", "gfci-outlet-installation", "outdoor-outlet-installation"],
-    "l": ["recessed-lighting-installation", "chandelier-installation"],
+    "i": ["switch-outlet-installation", "gfci-outlet-installation", "dedicated-circuit-installation"],
+    "l": ["recessed-lighting-installation", "light-fixture-installation"],
 }
 
 
@@ -628,25 +649,33 @@ def build_service(site, s):
     lede = p.inline(intro)
     prose = p.md(rest)
     inline = {r for _, r in p.links}
-    related = [p.link(r, esc(site.services[r]["meta"]["name"]))
-               for r in (x.strip() for x in m["related"].split(",")) if r not in inline]
-    if not related:  # keep the sidebar useful even when the body already links everything
-        extra = [x for x in site.svc_order if site.services[x]["meta"]["cat"] == m["cat"] and x not in inline and x != s["slug"]]
-        related += [p.link(x, esc(site.services[x]["meta"]["name"])) for x in extra[:1]]
-    hub = p.link(cat["slug"], f"All {cat['short'].lower()} services")
+    rel = []
+    for r in (site.canonical(x.strip()) for x in m["related"].split(",")):
+        if r in site.services and r != s["slug"] and r not in rel:
+            rel.append(r)
+    if len(rel) < 3:  # top up from the same category
+        rel += [x for x in site.svc_order if site.services[x]["meta"]["cat"] == m["cat"] and x != s["slug"] and x not in rel][:3 - len(rel)]
+    n_cat = len(site.cat_services(m["cat"]))
     crumbs = [("Home", "/"), ("Services", "/services/"), (cat["name"], f"/{cat['slug']}/"), (m["name"], s["path"])]
     faq_html = faq_section(p, faqs)
+    rel_cards = text_cards(p, [(site.services[r]["path"], site.services[r]["meta"]["name"], site.services[r]["meta"]["blurb"], "Learn more")
+                               for r in rel[:3]])
+    for r in rel[:3]:
+        p.links.append(("service", r))
     main = page_hero(p, crumbs, cat["name"], m["h1"], lede, service=m["name"]) + why_band(p) + f'''
-  <section class="article">
+  <section class="hp-sec">
     <div class="wrap">
-      <article class="prose">
+      <article class="prose ip-article">
 {service_photo(p, s["slug"])}
 {prose}
       </article>
-      <aside class="side">
-        {call_card(p)}
-        {list_card("Related Services", related + [hub])}
-      </aside>
+    </div>
+  </section>
+  <section class="hp-sec hp-paper">
+    <div class="wrap">
+      {ip_head("Related", "Related Services")}
+      {rel_cards}
+      <p class="hp-center-btn"><a class="btn btn-outline" href="{p.href("/" + cat["slug"] + "/")}">See all {n_cat} {esc(cat["short"].lower())} services</a></p>
     </div>
   </section>
 {steps_strip(p)}
@@ -687,22 +716,25 @@ def build_area(site, a):
     intro, _, rest = main_md.partition("\n\n")
     lede = p.inline(intro)
     prose = p.md(rest)
-    nearby = [p.link(n.strip(), esc(site.areas[n.strip()]["meta"]["town"])) for n in m["nearby"].split(",")]
+    near = [n.strip() for n in m["nearby"].split(",")]
+    nearby = text_cards(p, [(site.areas[n]["path"], site.areas[n]["meta"]["town"] + ", PA", site.areas[n]["meta"]["blurb"], "Electrician in " + site.areas[n]["meta"]["town"]) for n in near])
     crumbs = [("Home", "/"), ("Service Areas", AREA_PREFIX), (m["town"], a["path"])]
     faq_html = faq_section(p, faqs)
     main = page_hero(p, crumbs, f"Serving {m['town']}, PA", m["h1"], lede, cat=None) + why_band(p) + f'''
-  <section class="article">
+  <section class="hp-sec">
     <div class="wrap">
-      <article class="prose">
+      <article class="prose ip-article">
 {prose}
       </article>
-      <aside class="side">
-        {call_card(p)}
-        {list_card("Nearby Towns We Serve", nearby)}
-      </aside>
     </div>
   </section>
-{steps_strip(p, f"Hiring an Electrician in {m['town']}")}
+  <section class="hp-sec hp-paper">
+    <div class="wrap">
+      {ip_head("Nearby", "Nearby Towns We Serve")}
+      {nearby}
+    </div>
+  </section>
+{steps_strip(p)}
 {faq_html}'''
     schema = [business_schema(site), breadcrumb_schema(crumbs)]
     if faqs:
@@ -728,30 +760,30 @@ def build_hub(site, key):
     main_md, faqs = split_faq(pg["body"])
     intro, _, rest = main_md.partition("\n\n")
     lede = p.inline(intro)
-    cards = "".join(
-        f'<li><a href="{p.href(s["path"])}"><b>{esc(s["meta"]["name"])}</b><span>{esc(s["meta"]["blurb"])}</span><em>Learn more →</em></a></li>'
-        for s in site.cat_services(key)
-    )
+    cards = text_cards(p, [(s["path"], s["meta"]["name"], s["meta"]["blurb"], "Learn more") for s in site.cat_services(key)])
     crumbs = [("Home", "/"), ("Services", "/services/"), (cat["name"], path)]
     faq_html = faq_section(p, faqs)
     n = len(site.cat_services(key))
     main = page_hero(p, crumbs, f"{cat['name']} · Yardley, PA", m["h1"], lede, cat=key) + why_band(p) + f'''
-  <section class="block hub-top">
-    <div class="wrap hub-split">
-      <div>
-        <p class="eyebrow">Most requested</p>
-        <h2>Popular {esc(cat["short"])} Jobs</h2>
-        <div class="hub-intro">{p.md(rest)}</div>
+  <section class="hp-sec">
+    <div class="wrap hp-cols ip-top">
+      <div class="prose">
+        <p class="eyebrow">Overview</p>
+        {p.md(rest)}
       </div>
-      {photo_fig(p, PH.CATEGORY_PHOTOS[key], cls="job-photo tall")}
+      <img class="hp-photo" src="{p.href(PH.JOBS + PH.CATEGORY_PHOTOS[key] + ".jpg")}" width="1000" height="1500" alt="{esc(PH.PHOTOS[PH.CATEGORY_PHOTOS[key]][0])}" loading="lazy" decoding="async">
     </div>
-    <div class="wrap">{photo_cards(p, site, HUB_FEATURED[key])}</div>
   </section>
-  <section class="block services">
+  <section class="hp-sec hp-paper">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">{n} services</p><h2>All {esc(cat["name"])}</h2></div>
-        <p>Every service in this category, each with its own page. Not sure which fits? Call and describe what's going on.</p></div>
-      <ul class="svc-grid">{cards}</ul>
+      {ip_head("Most requested", f"Popular {cat['short']} Jobs")}
+      {photo_cards(p, site, HUB_FEATURED[key])}
+    </div>
+  </section>
+  <section class="hp-sec">
+    <div class="wrap">
+      {ip_head(f"{n} services", f"All {cat['name']}", "Every service in this category, each with its own page. Not sure which fits? Call and describe what's going on.")}
+      {cards}
     </div>
   </section>
 {steps_strip(p)}
@@ -775,12 +807,11 @@ def build_simple(site, key, path, active=None, extra="", hero_cat=None):
     intro, _, rest = main_md.partition("\n\n")
     crumbs = [("Home", "/"), (m["crumb"], path)]
     body = f'''
-  <section class="article">
+  <section class="hp-sec">
     <div class="wrap">
-      <article class="prose">
+      <article class="prose ip-article">
 {p.md(rest)}
       </article>
-      <aside class="side">{call_card(p)}</aside>
     </div>
   </section>''' if rest else ""
     band = why_band(p) if key in ("services", "service-areas") else ""
@@ -798,35 +829,30 @@ REGIONS = [
 ]
 
 
+def town_list(site):
+    """Every service-area town in region order: slugs for towns with a page, names for the rest."""
+    out = []
+    for key, _, _ in REGIONS:
+        out += [sl for sl in site.area_order if site.areas[sl]["meta"]["region"] == key]
+        out += [name for name, reg in C.TOWNS_WITHOUT_PAGES if reg == key]
+    return out
+
+
 def areas_index_extra(site):
     def f(p):
-        total = len(site.areas)
-        jumps = " · ".join(
-            f'<a href="#{key}">{esc(title)} ({sum(1 for a in site.areas.values() if a["meta"]["region"] == key)})</a>'
-            for key, title, _ in REGIONS
-        )
-        all_towns = ", ".join(esc(site.areas[s]["meta"]["town"]) for s in site.area_order)
-        out = [f'''
-  <section class="block" style="padding-block:40px">
-    <div class="wrap">
-      <p class="eyebrow">{total} towns + Yardley, in 3 regions</p>
-      <p class="region-jumps">{jumps}</p>
-      <p style="color:var(--ink-2);max-width:80ch;margin:0">{all_towns}.</p>
-    </div>
-  </section>''']
+        out = []
         for i, (key, title, intro) in enumerate(REGIONS):
-            towns = [site.areas[s] for s in site.area_order if site.areas[s]["meta"]["region"] == key]
-            cards = "".join(
-                f'<li><a href="{p.href(a["path"])}"><b>{esc(a["meta"]["town"])}, PA</b><span>{esc(a["meta"]["blurb"])}</span><em>Electrician in {esc(a["meta"]["town"])} →</em></a></li>'
-                for a in towns
-            )
-            bg = " services" if i % 2 == 0 else ""
+            towns = [site.areas[sl] for sl in site.area_order if site.areas[sl]["meta"]["region"] == key]
+            also = [name for name, reg in C.TOWNS_WITHOUT_PAGES if reg == key]
+            cards = text_cards(p, [(a["path"], a["meta"]["town"] + ", PA", a["meta"]["blurb"], "Electrician in " + a["meta"]["town"]) for a in towns]) if towns else ""
+            also_line = f'<p class="ip-also">{"Also serving" if towns else "Serving"} {", ".join(also[:-1]) + " and " + also[-1] if len(also) > 1 else also[0]}. Call to schedule.</p>' if also else ""
+            bg = " hp-paper" if i % 2 == 0 else ""
             out.append(f'''
-  <section class="block{bg}" id="{key}">
+  <section class="hp-sec{bg}" id="{key}">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">{len(towns)} of {total} towns</p><h2>{esc(title)}</h2></div>
-        <p>{esc(intro)}</p></div>
-      <ul class="svc-grid">{cards}</ul>
+      {ip_head(f"{len(towns) + len(also)} towns", title, esc(intro))}
+      {cards}
+      {also_line}
     </div>
   </section>''')
         return "".join(out)
@@ -836,32 +862,28 @@ def areas_index_extra(site):
 def services_index_extra(site):
     def f(p):
         out = [f'''
-  <section class="block">
+  <section class="hp-sec">
     <div class="wrap">
-      <div class="sec-head"><div><p class="eyebrow">Most requested</p><h2>What Homeowners Call Us For</h2></div>
-        <p>Real jobs from Bucks County homes. Tap any service to see what's involved, what affects the price and how to get a free quote.</p></div>
-      {photo_cards(p, site, ["electrical-panel-upgrade", "electrical-repair-troubleshooting", "switch-outlet-installation", "gfci-outlet-installation", "recessed-lighting-installation", "chandelier-installation"])}
+      {ip_head("Most requested", "What Homeowners Call Us For", "Real jobs from Bucks County homes. Tap any service to see what's involved, what affects the price and how to get a free quote.")}
+      {photo_cards(p, site, ["electrical-panel-upgrade", "electrical-repair-troubleshooting", "switch-outlet-installation", "gfci-outlet-installation", "recessed-lighting-installation", "light-fixture-installation"])}
     </div>
   </section>''']
         for key in ("g", "i", "l"):
             cat = C.CATEGORIES[key]
             hub = site.pages[cat["slug"]]
             intro = split_faq(hub["body"])[0].partition("\n\n")[0]
-            cards = "".join(
-                f'<li><a href="{p.href(s["path"])}"><b>{esc(s["meta"]["name"])}</b><span>{esc(s["meta"]["blurb"])}</span><em>Learn more →</em></a></li>'
-                for s in site.cat_services(key)
-            )
-            bg = " services" if key != "i" else ""
+            cards = text_cards(p, [(s["path"], s["meta"]["name"], s["meta"]["blurb"], "Learn more") for s in site.cat_services(key)])
+            bg = " hp-paper" if key != "i" else ""
             out.append(f'''
-  <section class="block{bg} cat-block" id="{cat["slug"]}">
+  <section class="hp-sec{bg}" id="{cat["slug"]}">
     <div class="wrap">
-      <div class="cat-split">
+      <div class="hp-cols ip-top">
         <div><p class="eyebrow">{len(site.cat_services(key))} services</p><h2>{esc(cat["name"])}</h2>
           <p>{p.inline(intro)}</p>
-          <a class="btn btn-bronze" href="{p.href("/" + cat["slug"] + "/")}">{esc(cat["name"])} overview →</a></div>
-        {photo_fig(p, PH.CATEGORY_PHOTOS[key], cls="job-photo wide", show_caption=False)}
+          <a class="btn btn-bronze" href="{p.href("/" + cat["slug"] + "/")}">{esc(cat["name"])} overview</a></div>
+        <img class="hp-photo ip-wide" src="{p.href(PH.JOBS + PH.CATEGORY_PHOTOS[key] + ".jpg")}" width="1000" height="1500" alt="{esc(PH.PHOTOS[PH.CATEGORY_PHOTOS[key]][0])}" loading="lazy" decoding="async">
       </div>
-      <ul class="svc-grid">{cards}</ul>
+      {cards}
     </div>
   </section>''')
         return "".join(out)
@@ -871,8 +893,8 @@ def services_index_extra(site):
 def contact_extra(site):
     def f(p):
         return f'''
-  <section class="block">
-    <div class="wrap contact-grid">
+  <section class="hp-sec">
+    <div class="wrap hp-cols">
       <div>
         <p class="eyebrow">Contact details</p>
         <address class="nap" style="margin-top:14px">
@@ -983,7 +1005,8 @@ def build_home(site):
     steps = "".join(
         f'<li class="hp-step"><span class="hp-num">{i}</span><h3>{esc(h)}</h3><p>{esc(t)}</p></li>'
         for i, (h, t) in enumerate(HOME_STEPS, 1))
-    towns = "".join(f'<li>{p.link(s, esc(site.areas[s]["meta"]["town"]))}</li>' for s in site.area_order)
+    towns = "".join(f'<li>{p.link(s, esc(site.areas[s]["meta"]["town"]))}</li>' if s in site.areas else f'<li>{esc(s)}</li>'
+                    for s in town_list(site))
     badges = "".join(
         f'<a class="btn btn-outline" href="{url}" target="_blank" rel="noopener">{name} ↗</a>'
         for name, url in [("Nextdoor", C.SAME_AS[1]), ("HomeAdvisor", C.SAME_AS[2]), ("Facebook", C.SAME_AS[0])])
@@ -1285,7 +1308,8 @@ Then **4 boxes in a row** (tablet 2 × 2, mobile stacked). Each box: a 44 px Bro
 """)
     out.append("".join(f"| {i} | {h} | {t} |\n" for i, (h, t) in enumerate(HOME_STEPS, 1)))
 
-    towns = "\n".join(f"  - {site.areas[s]['meta']['town']} → `{site.areas[s]['path']}`" for s in site.area_order)
+    towns = "\n".join(f"  - {site.areas[s]['meta']['town']} → `{site.areas[s]['path']}`" if s in site.areas else f"  - {s} (no page, plain text)"
+                       for s in town_list(site))
     out.append(f"""
 ### Strip 8. Service area (black, anchor: `area`)
 
@@ -1334,6 +1358,115 @@ Then the **Wix FAQ** app (or one collapsible text per question), max width 860 p
     return "".join(out)
 
 
+
+# ----------------------------------------------------------------------------
+# Wix CMS export: one CSV row per service / area page (wix/*.csv)
+# ----------------------------------------------------------------------------
+def wix_url(site, path):
+    """Coded-site path -> the URL the page will have in Wix."""
+    for sv in site.services.values():
+        if sv["path"] == path:
+            return f"/services/{sv['slug']}"
+    for a in site.areas.values():
+        if a["path"] == path:
+            return f"/service-areas/{a['slug']}-pa"
+    return path.rstrip("/") or "/"
+
+
+class WixPage(Page):
+    def href(self, target):
+        if target.startswith(("http", "#", "tel:", "mailto:")):
+            return target
+        return wix_url(self.site, target)
+
+
+def wix_html(p, md_text):
+    html = p.md(md_text)
+    html = re.sub(r"<li><span>(.*?)</span></li>", r"<li>\1</li>", html)
+    return html
+
+
+def wix_export(site):
+    out_dir = ROOT / "wix"
+    out_dir.mkdir(exist_ok=True)
+
+    def split_signs(md_text):
+        m = re.search(r"(?ms)^:::signs\s*\n## (.+?)\n(.*?)^:::\s*$", md_text)
+        if not m:
+            return "", [], md_text
+        items = [l[2:].strip() for l in m.group(2).splitlines() if l.startswith("- ")]
+        return m.group(1).strip(), items, (md_text[:m.start()] + md_text[m.end():]).strip()
+
+    def faq_html(p, faqs):
+        return "".join(f"<h3>{esc(q)}</h3><p>{p.inline(a)}</p>" for q, a in faqs)
+
+    def faq_json(p, faqs):
+        return json.dumps(faq_schema(faqs), ensure_ascii=False) if faqs else ""
+
+    rows = []
+    for slug in site.svc_order:
+        sv = site.services[slug]; m = sv["meta"]; cat = C.CATEGORIES[m["cat"]]
+        p = WixPage(site, sv["path"])
+        main_md, faqs = split_faq(sv["body"])
+        intro, _, rest = main_md.partition("\n\n")
+        signs_title, signs, body = split_signs(rest)
+        rel = []
+        for r in (site.canonical(x.strip()) for x in m["related"].split(",")):
+            if r in site.services and r != slug and r not in rel:
+                rel.append(r)
+        rel += [x for x in site.svc_order if site.services[x]["meta"]["cat"] == m["cat"] and x != slug and x not in rel][:max(0, 3 - len(rel))]
+        photo = PH.SERVICE_PHOTOS.get(slug)
+        photo_name = (photo[0] if isinstance(photo, tuple) else photo) if photo else ""
+        row = {
+            "title": m["name"], "slug": slug, "category": cat["name"], "categoryPage": "/" + cat["slug"],
+            "h1": m["h1"], "seoTitle": m["title"], "seoDescription": m["desc"],
+            "intro": re.sub(r"<[^>]+>", "", p.inline(intro)), "summary": m["blurb"],
+            "image": f"{photo_name}.jpg" if photo_name else "", "imageAlt": PH.PHOTOS[photo_name][0] if photo_name else "",
+            "signsTitle": signs_title, "signsList": "<ul>" + "".join(f"<li>{p.inline(x)}</li>" for x in signs) + "</ul>" if signs else "",
+            "body": wix_html(p, body), "faq": faq_html(p, faqs), "faqSchema": faq_json(p, faqs),
+            "gbpServices": m.get("gbp", m["name"]),
+        }
+        for i, r in enumerate(rel[:3], 1):
+            rs = site.services[r]
+            row[f"related{i}Title"] = rs["meta"]["name"]; row[f"related{i}Text"] = rs["meta"]["blurb"]; row[f"related{i}Url"] = wix_url(site, rs["path"])
+        rows.append(row)
+    write_csv(out_dir / "services.csv", rows)
+
+    rows = []
+    for slug in site.area_order:
+        a = site.areas[slug]; m = a["meta"]
+        p = WixPage(site, a["path"])
+        main_md, faqs = split_faq(a["body"])
+        intro, _, rest = main_md.partition("\n\n")
+        row = {
+            "title": m["town"], "slug": f"{slug}-pa", "region": {"lower": "Near Yardley", "central": "Central Bucks", "upper": "Upper Bucks"}[m["region"]],
+            "h1": m["h1"], "seoTitle": m["title"], "seoDescription": m["desc"],
+            "intro": re.sub(r"<[^>]+>", "", p.inline(intro)), "summary": m["blurb"],
+            "body": wix_html(p, rest), "faq": faq_html(p, faqs), "faqSchema": faq_json(p, faqs),
+        }
+        for i, n in enumerate([x.strip() for x in m["nearby"].split(",")][:3], 1):
+            na = site.areas[n]
+            row[f"nearby{i}Title"] = na["meta"]["town"] + ", PA"; row[f"nearby{i}Text"] = na["meta"]["blurb"]; row[f"nearby{i}Url"] = wix_url(site, na["path"])
+        rows.append(row)
+    write_csv(out_dir / "service-areas.csv", rows)
+
+    # 301s for the Wix URL Redirect Manager: the old site's URLs -> the new Wix pages
+    with open(out_dir / "redirects.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["Old URL", "New URL"])
+        for old, new in C.REDIRECTS.items():
+            w.writerow([old, wix_url(site, new)])
+
+
+def write_csv(path, rows):
+    keys = []
+    for r in rows:
+        keys += [k for k in r if k not in keys]
+    with open(path, "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=keys)
+        w.writeheader()
+        w.writerows(rows)
+
 # ----------------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------------
@@ -1380,6 +1513,10 @@ def main():
             w.writerow(["GBP category", "GBP service name", "Description (<300 chars)", "Landing page"])
             lc = C.CATEGORIES["l"]
             w.writerow([lc["name"], "Lighting installation", site.pages[lc["slug"]]["body"].partition("\n\n")[0][:299], C.DOMAIN + "/" + lc["slug"] + "/"])
+            for key, names in C.HUB_GBP.items():
+                hub = C.CATEGORIES[key]
+                for name in names:
+                    w.writerow([hub["name"], name, site.pages[hub["slug"]]["body"].partition("\n\n")[0][:299], C.DOMAIN + "/" + hub["slug"] + "/"])
             for slug in site.svc_order:
                 s = site.services[slug]
                 for name in s["meta"].get("gbp", s["meta"]["name"]).split(";"):
@@ -1389,6 +1526,7 @@ def main():
                     w.writerow([C.CATEGORIES[key]["name"], s["meta"].get("gbp", s["meta"]["name"]).split(";")[0].strip(), s["meta"]["blurb"], C.DOMAIN + s["path"]])
 
         (ROOT / "WIX-HOMEPAGE.md").write_text(wix_guide(site), encoding="utf-8")
+        wix_export(site)
 
         with open(ROOT / "PAGES.md", "w", encoding="utf-8") as fh:
             fh.write("# Page Inventory\n\nGenerated by `build.py`. One row per page.\n\n")

@@ -103,8 +103,8 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - Label: Repairs · Upgrades
 - **H2:** Electrician
 - Text: When something stops working, trips or just isn't safe, we find the cause and fix it properly. We upgrade panels and services, replace fuse boxes and worn breakers, rewire older homes and install whole-house surge protection.
-- Link list (each a text link, 1 px divider between): [Electrical Panel Upgrade] → `/electrician-services/electrical-panel-upgrade/`; [Electrical Repair & Troubleshooting] → `/electrician-services/electrical-repair-troubleshooting/`; [Fuse Box Replacement] → `/electrician-services/fuse-box-replacement/`; [Circuit Breaker Replacement] → `/electrician-services/circuit-breaker-replacement/`; [Home Rewiring] → `/electrician-services/home-rewiring/`
-- Button (Primary): See all 14 services → `/electrician-services/`
+- Link list (each a text link, 1 px divider between): [Electrical Panel Upgrade] → `/electrician-services/electrical-panel-upgrade/`; [Electrical Repair & Troubleshooting] → `/electrician-services/electrical-repair-troubleshooting/`; [Fuse Box Replacement] → `/electrician-services/fuse-box-replacement/`; [Home Rewiring] → `/electrician-services/home-rewiring/`; [Whole House Surge Protection] → `/electrician-services/whole-house-surge-protection/`
+- Button (Primary): See all 8 services → `/electrician-services/`
 
 **Card: Electrical Installation Services**
 - Image: `assets/img/jobs/kitchen-shirt-back.jpg` (4:3 crop)
@@ -112,7 +112,7 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - **H2:** Electrical Installation Services
 - Text: New outlets, switches, circuits and hookups, installed safely and to code. From a single GFCI outlet to wiring a finished basement, a hot tub or a detached garage, we handle the permit and the inspection.
 - Link list (each a text link, 1 px divider between): [Switch & Outlet Installation] → `/electrical-installation-services/switch-outlet-installation/`; [Ceiling Fan Installation] → `/electrical-installation-services/ceiling-fan-installation/`; [Dedicated Circuit Installation] → `/electrical-installation-services/dedicated-circuit-installation/`; [Hot Tub Electrical Hookup] → `/electrical-installation-services/hot-tub-electrical-hookup/`
-- Button (Primary): See all 23 services → `/electrical-installation-services/`
+- Button (Primary): See all 8 services → `/electrical-installation-services/`
 
 **Card: Lighting Contractor Services**
 - Image: `assets/img/jobs/ryan-drill.jpg` (4:3 crop)
@@ -120,7 +120,7 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - **H2:** Lighting Contractor Services
 - Text: Good lighting changes how a room feels. We install recessed lighting, fixtures, chandeliers, pendants, under-cabinet and landscape lighting, and we fix lights that flicker, buzz or won't turn on.
 - Link list (each a text link, 1 px divider between): [Recessed Lighting Installation] → `/lighting-contractor-services/recessed-lighting-installation/`; [Under Cabinet Lighting Installation] → `/lighting-contractor-services/under-cabinet-lighting-installation/`; [Landscape & Low-Voltage Lighting Installation] → `/lighting-contractor-services/landscape-lighting-installation/`; [Lighting Repair] → `/lighting-contractor-services/lighting-repair/`
-- Button (Primary): See all 16 services → `/lighting-contractor-services/`
+- Button (Primary): See all 6 services → `/lighting-contractor-services/`
 
 ### Strip 4. Popular services (paper, anchor: `popular`)
 
@@ -139,7 +139,7 @@ title as an **H2** styled Heading 3, the text in Paragraph 2, and a Brown bold t
 | `kitchen-outlet-install.jpg` | Switch & Outlet Installation | Add outlets where you need them and replace worn, loose, cracked or warm switches and outlets. We install USB and tamper-resistant outlets and fix the loose connections behind flickering switches. | Add or replace outlets and switches → | `/electrical-installation-services/switch-outlet-installation/` |
 | `bathroom-outlet-test.jpg` | GFCI Outlet Installation | Ground-fault (GFCI) protection for kitchens, bathrooms, laundry areas, garages, basements and outdoor outlets. We install GFCI outlets and breakers where code requires and fix GFCIs that won't reset. | See where GFCI protection is required → | `/electrical-installation-services/gfci-outlet-installation/` |
 | `recessed-light-install.jpg` | Recessed Lighting Installation | Recessed LED lighting for kitchens, living rooms, basements and baths, laid out for even light without dark spots or glare, on dimmers, and installed in finished ceilings with minimal patching. | Plan recessed lighting for your home → | `/lighting-contractor-services/recessed-lighting-installation/` |
-| `chandelier-install.jpg` | Chandelier Installation | Chandeliers installed safely on supports rated for the weight, hung at the right height over the table or in a two-story foyer, assembled, leveled and put on a dimmer. | See how we hang chandeliers safely → | `/lighting-contractor-services/chandelier-installation/` |
+| `chandelier-install.jpg` | Light Fixture Installation | Ceiling lights, chandeliers, pendants, wall sconces and track lighting, installed level, at the right height and on a box rated for the weight. We add new boxes and switches where there's no fixture today. | See the fixtures we install → | `/lighting-contractor-services/light-fixture-installation/` |
 
 ### Strip 5. About (white, anchor: `about`)
 
@@ -193,7 +193,6 @@ Then **4 boxes in a row** (tablet 2 × 2, mobile stacked). Each box: a 44 px Bro
   Then a Primary button "See all service areas" → `/service-areas/`.
 - **Right:** the town links in **3 columns** (mobile 2), white SemiBold 16 px, a faint divider under each.
   First item "Yardley (home base)" (no link, it's this page). Then every service-area page:
-  - Lower Makefield → `/service-areas/lower-makefield-pa/`
   - Newtown → `/service-areas/newtown-pa/`
   - Washington Crossing → `/service-areas/washington-crossing-pa/`
   - New Hope → `/service-areas/new-hope-pa/`
@@ -204,15 +203,16 @@ Then **4 boxes in a row** (tablet 2 × 2, mobile stacked). Each box: a 44 px Bro
   - Bristol → `/service-areas/bristol-pa/`
   - Bensalem → `/service-areas/bensalem-pa/`
   - Feasterville → `/service-areas/feasterville-pa/`
-  - Southampton → `/service-areas/southampton-pa/`
-  - Richboro → `/service-areas/richboro-pa/`
+  - Lower Makefield (no page, plain text)
+  - Southampton (no page, plain text)
   - Warminster → `/service-areas/warminster-pa/`
-  - Warrington → `/service-areas/warrington-pa/`
   - Doylestown → `/service-areas/doylestown-pa/`
-  - Chalfont → `/service-areas/chalfont-pa/`
-  - Perkasie → `/service-areas/perkasie-pa/`
-  - Sellersville → `/service-areas/sellersville-pa/`
-  - Quakertown → `/service-areas/quakertown-pa/`
+  - Richboro (no page, plain text)
+  - Warrington (no page, plain text)
+  - Chalfont (no page, plain text)
+  - Perkasie (no page, plain text)
+  - Sellersville (no page, plain text)
+  - Quakertown (no page, plain text)
 
 ### Strip 9. Reputation (white, anchor: `reviews`)
 
@@ -285,10 +285,6 @@ A: Yes. Besides homes, we serve small businesses across Bucks County, from light
     },
     {
      "@type": "City",
-     "name": "Lower Makefield, PA"
-    },
-    {
-     "@type": "City",
      "name": "Newtown, PA"
     },
     {
@@ -329,39 +325,11 @@ A: Yes. Besides homes, we serve small businesses across Bucks County, from light
     },
     {
      "@type": "City",
-     "name": "Southampton, PA"
-    },
-    {
-     "@type": "City",
-     "name": "Richboro, PA"
-    },
-    {
-     "@type": "City",
      "name": "Warminster, PA"
     },
     {
      "@type": "City",
-     "name": "Warrington, PA"
-    },
-    {
-     "@type": "City",
      "name": "Doylestown, PA"
-    },
-    {
-     "@type": "City",
-     "name": "Chalfont, PA"
-    },
-    {
-     "@type": "City",
-     "name": "Perkasie, PA"
-    },
-    {
-     "@type": "City",
-     "name": "Sellersville, PA"
-    },
-    {
-     "@type": "City",
-     "name": "Quakertown, PA"
     },
     {
      "@type": "AdministrativeArea",

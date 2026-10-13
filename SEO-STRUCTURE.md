@@ -17,23 +17,30 @@ individual pages. The services hub is split into the three GBP categories.
 
 ```
 /                                   Homepage — targets "Electrician in Yardley, PA"
-├── /services/                      Services hub (all 53 service pages, grouped)
-│   ├── /electrician-services/               "Electrician" (primary GBP category) — 14 pages
-│   ├── /electrical-installation-services/   "Electrical Installation Services" — 23 pages
-│   └── /lighting-contractor-services/       "Lighting Contractor Services" — 16 pages
-│                                            (also the page for "Lighting installation")
-├── /service-areas/                 Areas hub, grouped by region
-│   ├── Near Yardley (12):  Lower Makefield, Newtown, Washington Crossing, New Hope,
-│   │                       Langhorne, Levittown, Fairless Hills, Morrisville, Bristol,
-│   │                       Bensalem, Feasterville-Trevose, Southampton
-│   ├── Central Bucks (5):  Richboro, Warminster, Warrington, Doylestown, Chalfont
-│   └── Upper Bucks (3):    Perkasie, Sellersville, Quakertown
+├── /services/                      Services hub (all 22 service pages, grouped)
+│   ├── /electrician-services/               "Electrician" (primary GBP category) — 8 pages
+│   ├── /electrical-installation-services/   "Electrical Installation Services" — 8 pages
+│   └── /lighting-contractor-services/       "Lighting Contractor Services" — 6 pages
+├── /service-areas/                 Areas hub, grouped by region; 12 town pages
+│   ├── Near Yardley (10):  Newtown, Washington Crossing, New Hope, Langhorne, Levittown,
+│   │                       Fairless Hills, Morrisville, Bristol, Bensalem, Feasterville
+│   └── Central Bucks (2):  Warminster, Doylestown
 ├── /about/
 └── /contact/                       Use as the GBP booking link (Step 3.iv)
 ```
 
-**81 indexable pages** (the playbook benchmark is 30+). Every page is listed,
+**42 indexable pages** (the playbook benchmark is 30+). Every page is listed,
 with its H1, title tag and word count, in [`PAGES.md`](PAGES.md).
+
+### Why 42 pages, not 81
+
+The first version had a page for every one of the 65 GBP services and all 20
+GBP towns. Many of those services are rarely searched (doorbells, attic fans,
+ballast replacement), and their pages had to be padded to reach 500 words.
+Thin, near-duplicate pages can drag down the strong ones, so each low-volume
+service is now a short section on the page it belongs with, and the towns
+far from Yardley are listed on the Service Areas page without a page of their
+own. Every GBP service still maps to a page in `gbp-services.csv`.
 
 ### Category names
 
@@ -51,35 +58,34 @@ homepage for the same search, so there isn't one.
 
 ---
 
-## 2. Service pages: one per GBP service, without duplicates
+## 2. Service pages: 22 strong pages, every GBP service covered
 
-Every service on the checklist has a landing page. Where two checklist names
-describe the same job, one page covers both, and both names appear on it.
-That follows Step 4 ("one clear version of each service, no duplicates"). It
-also avoids near-identical pages competing with each other, and avoids the thin,
-AI-sounding pages you wanted to stay away from.
+Each page covers one main service plus closely related GBP services as their
+own sections. The full mapping (folded service → page) is `FOLDED_SERVICES` in
+`content/config.py`; old links to folded services resolve to the new page.
 
-| One page | Covers these checklist services | Why combined |
-|---|---|---|
-| Fuse Box Replacement | Fuse box replacement, Electrical fuse changing | Same equipment and customer |
-| Electrical Repair & Troubleshooting | General repairs, Electrical troubleshooting | Same job: find it, fix it |
-| Switch & Outlet Installation | Switch & outlet installation, Electrical outlet installation | Same job under two names |
-| Switch & Outlet Relocation | Switch & outlet relocation, Electrical outlet relocation | Same job under two names |
-| Electrical Inspections & Maintenance | Electrical inspections, Electrical maintenance | A maintenance visit is an inspection plus small fixes |
-| LED Lighting Installation & Retrofits | LED lighting installation, Lighting retrofits | A retrofit *is* an LED conversion |
-| Landscape & Low-Voltage Lighting | Landscape lighting installation (listed twice), Low voltage lighting installation | Duplicate on the checklist; low-voltage lighting is mostly landscape |
-| Security & Flood Light Installation | Security lighting installation, Flood light installation | Floodlights are the security light |
-| Accent & Cove Lighting | Accent lighting installation, Cove lighting installation | Cove is a type of accent lighting |
-| Lighting Repair | Lighting repair, Ballast and bulb replacement | Same service call |
-| Lighting Contractor Services hub | Lighting installation | It's the category's umbrella term |
+| Page | Also covers (GBP services) |
+|---|---|
+| Electrical Panel Upgrade | Circuit breaker replacement, AFCI breaker installation |
+| Home Rewiring | Home electrical upgrades, Ground wire installation & repair |
+| Electrical Inspections & Maintenance | Electrical inspections, Electrical code corrections, Smoke detector installation |
+| Dedicated Circuit Installation | Appliance wiring, Kitchen electrical upgrade |
+| Switch & Outlet Installation | Electrical outlet installation, Switch & outlet relocation, Dimming switch installation, Two-way switching wiring |
+| GFCI Outlet Installation | Outdoor outlet installation |
+| Ceiling Fan Installation | Attic fan installation, Bathroom fixture wiring |
+| Hot Tub Electrical Hookup | Pool electrical wiring |
+| Basement Wiring | Electrical wiring installation, New construction electrical |
+| Shed, Garage & Barn Wiring | Barn wiring, Garage lighting installation |
+| Light Fixture Installation | Ceiling light, Chandelier, Pendant, Wall sconce, Track lighting |
+| Under-Cabinet Lighting | LED strip lighting, Accent & cove lighting |
+| Security & Flood Lighting | Motion sensor lighting |
+| Lighting Repair | Ballast and bulb replacement, Lighting retrofits, LED lighting installation |
+| Electrical Installation Services page | Doorbell installation, Smart home wiring, Low voltage wiring |
+| Lighting Contractor Services page | Lighting installation, Smart lighting installation |
 
-**Matched to the live Business Profile** (screenshots of the GBP service lists):
-- **Electric car charger installation** is listed under both Electrician and Electrical Installation in GBP. Its page sits under Electrical Installation; both GBP entries point to it.
-- **Ground wire installation & repair** is under Electrical Installation in GBP, and on the site.
-- **Barn wiring** has a page (it matters for upper-Bucks area pages) but isn't in the GBP list. Add it in GBP as a custom service under Electrical Installation, or drop the page.
-- **LED strip lighting installation** has a page but wasn't visible in the GBP Lighting list. Add it in GBP if it's missing.
-
-Any combined page can be split later by adding a block to the content file.
+The other pages (Repair & Troubleshooting, Fuse Box, Subpanel, Surge
+Protection, Aluminum Wiring, EV Charger, Recessed, Landscape) cover one service
+each.
 
 ### What every service page has (WWP steps)
 
@@ -99,27 +105,24 @@ marked up with FAQ schema.
 
 ---
 
-## 3. Area pages: one per GBP service area
-
-There's an area page for every town in the Business Profile's service area
-list, except Yardley (that's the homepage) and Bucks County (the whole region).
-Lower Makefield and Fairless Hills also have pages. They aren't in the GBP list,
-but they sit right next to Yardley, and GBP only allows 20 service areas.
+## 3. Area pages: the 12 towns that can actually rank
 
 | GBP service area | Page |
 |---|---|
 | Yardley | Homepage |
 | Bucks County | Service Areas hub + schema `areaServed` |
-| Langhorne, Levittown, Bristol, Newtown, New Hope, Morrisville, Washington Crossing, Bensalem, Southampton (Upper Southampton), Feasterville (Feasterville-Trevose) | Near Yardley pages |
-| Richboro, Warminster Township, Warrington, Doylestown, Chalfont | Central Bucks pages |
-| Perkasie, Sellersville, Quakertown | Upper Bucks pages |
+| Newtown, Washington Crossing, New Hope, Langhorne, Levittown, Fairless Hills, Morrisville, Bristol, Bensalem, Feasterville | Near Yardley pages |
+| Warminster, Doylestown | Central Bucks pages (large markets worth an organic page) |
+| Lower Makefield, Southampton, Richboro, Warrington, Chalfont, Perkasie, Sellersville, Quakertown | Listed on the Service Areas page and the homepage, no page of their own |
+
+Lower Makefield surrounds Yardley, so the homepage already covers it. The
+others are far enough from Yardley that a page is unlikely to help in the map
+results; they can get pages later if those searches turn out to matter.
 
 Each page has 500–700 words of **unique** local content: the town's real
-housing stock, real landmarks and the electrical problems that come with them.
-One example is the Levitt homes built on slabs. Another is Perkasie and
-Quakertown running their own electric utilities, which changes how service
-upgrades get scheduled. That's Step 6's "referencing real local landmarks"
-instead of swapping town names into a template.
+housing stock, real landmarks and the electrical problems that come with them,
+such as the Levitt homes built on slabs. That's Step 6's "referencing real
+local landmarks" instead of swapping town names into a template.
 
 ### What these pages will and won't do for the heat map
 
@@ -127,10 +130,9 @@ instead of swapping town names into a template.
   Crossing, Langhorne, Levittown, Bristol, Bensalem, Morrisville and Feasterville.
   Pages for these support the map pack where Yardley's proximity already gives
   the profile a chance.
-- **The central and upper Bucks towns are 15 to 35 miles out.** Google's map
-  results lean heavily on distance, so these pages mostly help *organic* results
-  ("electrician Doylestown", "electrician Quakertown") rather than the map
-  pack. They're still worth having, since those searches convert.
+- **Doylestown and Warminster are 15 to 20 miles out.** Google's map results
+  lean heavily on distance, so these pages mostly help *organic* results
+  ("electrician Doylestown") rather than the map pack.
 - **East of Yardley is New Jersey.** The east edge of any Yardley heat map
   falls across the river (Ewing, West Trenton, Titusville). That only matters
   if Joe is licensed in New Jersey.
@@ -139,8 +141,8 @@ instead of swapping town names into a template.
 
 - Service pages link to **2–4 area pages** within the text.
 - Area pages link to **3–6 service pages** within the text.
-- Homepage links to all 3 category hubs, 12 featured services and all 20 area pages; the hubs link every service.
-- Every area page receives at least 4 contextual links from service pages, spread by what's typical in each town (historic rewiring in Doylestown, aluminum wiring in Bensalem, barns up north).
+- Homepage links to all 3 category hubs, its featured services and all 12 area pages; the hubs link every service.
+- Every area page receives at least 2 contextual links from service pages (most get 4–7), spread by what's typical in each town (historic rewiring in Doylestown, aluminum wiring in Bensalem).
 - No more than **10 links** in the content of any service or area page; the sidebar skips any service already linked in the body.
 - Anchor text is written as a person would say it, and varies from page to page.
 - Footer has only NAP, the 3 hubs and company pages. There's no link dump.
