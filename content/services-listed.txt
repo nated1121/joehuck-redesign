@@ -1,0 +1,261 @@
+Services listed on their category page without a page of their own.
+Each box shows the name and description, with a Call now link instead of
+Learn more. "covered" is the page (or category page) that covers it now.
+Blocks are in display order; services with pages slot in around them by
+SERVICE_ORDER in config.py.
+
+=== circuit-breaker-replacement
+cat: g
+name: Circuit Breaker Replacement
+gbp: Circuit breaker replacement
+blurb: Breakers that trip for no reason, feel hot or won't reset get diagnosed and replaced with the correct breaker for your panel. We find out why it failed before we swap it, so the problem doesn't come back.
+covered: electrical-panel-upgrade
+---
+
+=== afci-breaker-installation
+cat: g
+name: AFCI Breaker Installation
+gbp: AFCI breaker installation
+blurb: Arc-fault (AFCI) breakers detect the kind of sparking that starts electrical fires inside walls. We install them where code requires, add them during remodels, and track down the cause when one keeps tripping.
+covered: electrical-panel-upgrade
+---
+
+=== home-electrical-upgrades
+cat: g
+name: Home Electrical Upgrades
+gbp: Home electrical upgrades
+blurb: Bring an older home's electrical system up to how you live now: grounded three-prong outlets, more circuits, USB and GFCI outlets, better lighting and the capacity for modern appliances.
+covered: home-rewiring
+---
+
+=== kitchen-electrical-upgrade
+cat: g
+name: Kitchen Electrical Upgrade
+gbp: Kitchen electrical upgrade
+blurb: Wiring for kitchen remodels and updates: countertop circuits, GFCI outlets, island power, dedicated appliance circuits, induction and electric ranges, recessed and under-cabinet lighting.
+covered: dedicated-circuit-installation
+---
+
+=== electrical-code-corrections
+cat: g
+name: Electrical Code Corrections
+gbp: Electrical code corrections
+blurb: Fix the electrical items on a home inspection or municipal inspection report, from double-tapped breakers and missing GFCIs to open junction boxes and ungrounded outlets, with documentation for buyers and sellers.
+covered: electrical-maintenance
+---
+
+=== new-construction-electrical
+cat: g
+name: New Construction Electrical
+gbp: New construction electrical
+blurb: Complete electrical for new homes, additions and major renovations: planning, temporary power, service installation, rough-in, trim-out and inspections, coordinated with your builder's schedule.
+covered: basement-wiring
+---
+
+=== electrical-wiring-installation
+cat: i
+name: Electrical Wiring Installation
+gbp: Electrical wiring installation
+blurb: New wiring for remodels, additions, attic and basement conversions: circuits, outlets, switches and lighting planned around how you'll use the space, installed to code and inspected.
+covered: basement-wiring
+---
+
+=== switch-outlet-relocation
+cat: i
+name: Switch & Outlet Relocation
+gbp: Switch & outlet relocation; Electrical outlet relocation
+blurb: Move outlets and switches to where they belong: behind a wall-mounted TV, clear of new cabinets, at the right height, or on the latch side of a door. Old boxes are closed up to code.
+covered: switch-outlet-installation
+---
+
+=== outdoor-outlet-installation
+cat: i
+name: Outdoor Outlet Installation
+gbp: Outdoor outlet installation
+blurb: Weather-resistant, GFCI-protected outdoor outlets with in-use covers for decks, patios, porches, holiday lights, landscape lighting transformers, pool equipment and yard tools.
+covered: gfci-outlet-installation
+---
+
+=== dimmer-switch-installation
+cat: i
+name: Dimmer Switch Installation
+gbp: Dimming switch installation
+blurb: LED-compatible dimmers that dim smoothly without flicker or buzz, including smart dimmers, multi-location dimming and dimmers matched to your fixtures and bulbs.
+covered: switch-outlet-installation
+---
+
+=== three-way-switch-wiring
+cat: i
+name: Two-Way (3-Way) Switch Wiring
+gbp: Two-way switching wiring
+blurb: Control a light from two or more places, such as the top and bottom of the stairs or both ends of a hallway. We add new switch locations and fix 3-way circuits that only work one way.
+covered: switch-outlet-installation
+---
+
+=== attic-fan-installation
+cat: i
+name: Attic Fan Installation
+gbp: Attic fan installation
+blurb: Powered attic ventilators wired with thermostat and humidistat control to move hot, humid air out of your attic. We install gable fans and wire roof-mounted units, and repair fans that have stopped working.
+covered: ceiling-fan-installation
+---
+
+=== appliance-wiring
+cat: i
+name: Appliance Wiring
+gbp: Appliance wiring
+blurb: Circuits and hookups for electric and induction ranges, cooktops, wall ovens, dryers, water heaters, dishwashers, disposals and built-in microwaves, sized to each appliance and wired to code.
+covered: dedicated-circuit-installation
+---
+
+=== bathroom-fixture-wiring
+cat: i
+name: Bathroom Fixture Wiring
+gbp: Bathroom fixture wiring
+blurb: Electrical for bathroom remodels and updates: vanity lights, exhaust fans vented to the outside, heated floors, towel warmers, wet-rated shower lights and GFCI-protected outlets.
+covered: ceiling-fan-installation
+---
+
+=== smart-home-wiring
+cat: i
+name: Smart Home Wiring
+gbp: Smart home wiring
+blurb: Wiring for smart switches, dimmers, thermostats, video doorbells, cameras and hubs, including adding neutral wires and power where devices need it, so your smart home is reliable rather than frustrating.
+covered: hub:i
+---
+
+=== smoke-detector-installation
+cat: i
+name: Smoke Detector Installation
+gbp: Smoke detector installation
+blurb: Hardwired, interconnected smoke and carbon monoxide alarms with battery backup, installed where code requires, plus replacement of alarms past their ten-year life and fixes for chirping and false alarms.
+covered: electrical-maintenance
+---
+
+=== doorbell-installation
+cat: i
+name: Doorbell Installation
+gbp: Doorbell installation
+blurb: Wired and video doorbell installation, new transformers for Ring, Nest and other video doorbells, chime replacement and repair of doorbells that don't ring or keep losing power.
+covered: hub:i
+---
+
+=== low-voltage-wiring
+cat: i
+name: Low Voltage Wiring
+gbp: Low voltage wiring
+blurb: Network (Cat6) cable, thermostat and doorbell wire, speaker wire, TV wall pass-throughs and camera wiring, run neatly and kept a safe distance from power wiring.
+covered: hub:i
+---
+
+=== pool-electrical-wiring
+cat: i
+name: Pool Electrical Wiring
+gbp: Pool electrical wiring
+blurb: Electrical for in-ground and above-ground pools: pump, filter and heater circuits, pool lighting, equipotential bonding, GFCI protection and the inspections pools require.
+covered: hot-tub-electrical-hookup
+---
+
+=== barn-wiring
+cat: i
+name: Barn Wiring
+gbp: Barn wiring
+blurb: Electrical for horse barns, pole buildings and agricultural outbuildings: feeders and subpanels, damp- and dust-rated lighting, GFCI-protected outlets, water heater and fan circuits, and old barn wiring replaced safely.
+covered: shed-garage-wiring
+---
+
+=== ground-wire-installation-repair
+cat: i
+name: Ground Wire Installation & Repair
+gbp: Ground wire installation & repair
+blurb: Add ground wires to ungrounded outlets, repair or replace grounding electrodes and ground rods, and bond water pipes and gas lines, so your outlets, surge protection and electronics work as designed.
+covered: home-rewiring
+---
+
+=== ceiling-light-installation
+cat: l
+name: Ceiling Light Installation
+gbp: Ceiling light installation
+blurb: Replace dated ceiling fixtures or add a ceiling light to a room that doesn't have one. We check the box and wiring, support heavier fixtures properly and put it on the switch where you want it.
+covered: light-fixture-installation
+---
+
+=== chandelier-installation
+cat: l
+name: Chandelier Installation
+gbp: Chandelier installation
+blurb: Chandeliers installed safely on supports rated for the weight, hung at the right height over the table or in a two-story foyer, assembled, leveled and put on a dimmer.
+covered: light-fixture-installation
+---
+
+=== pendant-lighting-installation
+cat: l
+name: Pendant Lighting Installation
+gbp: Pendant lighting installation
+blurb: Pendant lights over kitchen islands, peninsulas, dining tables and entries, spaced and hung at the right height, with new boxes where they're needed and adapters for sloped ceilings.
+covered: light-fixture-installation
+---
+
+=== wall-sconce-installation
+cat: l
+name: Wall Sconce Installation
+gbp: Wall sconce installation
+blurb: Wall sconces beside bathroom mirrors, along hallways and stairs, by the bed and at exterior doors, installed at the right height with new boxes fished into finished walls.
+covered: light-fixture-installation
+---
+
+=== track-lighting-installation
+cat: l
+name: Track Lighting Installation
+gbp: Track lighting installation
+blurb: Adjustable track and monorail lighting for artwork, kitchens, sloped ceilings, studios and retail displays, with modern LED heads you can aim, move and dim.
+covered: light-fixture-installation
+---
+
+=== accent-cove-lighting
+cat: l
+name: Accent & Cove Lighting Installation
+gbp: Accent lighting installation; Cove lighting installation
+blurb: Soft LED cove lighting in tray ceilings and crown molding, plus accent lighting for shelves, artwork, toe-kicks, stairs and built-ins, with hidden drivers and dimming.
+covered: under-cabinet-lighting-installation
+---
+
+=== led-lighting-retrofits
+cat: l
+name: LED Lighting Installation & Retrofits
+gbp: LED lighting installation; Lighting retrofits
+blurb: Convert fluorescent fixtures, old recessed cans, halogen and incandescent lighting to efficient LED, for homes and small businesses, including ballast bypass and full fixture replacement.
+covered: lighting-repair
+---
+
+=== led-strip-lighting-installation
+cat: l
+name: LED Strip Lighting Installation
+gbp: LED strip lighting installation
+blurb: Hardwired LED strip (tape) lighting in aluminum channels with diffusers for coves, cabinets, shelves, stairs, bars and toe-kicks, with drivers sized for the run and hidden from view.
+covered: under-cabinet-lighting-installation
+---
+
+=== smart-lighting-installation
+cat: l
+name: Smart Lighting Installation
+gbp: Smart lighting installation
+blurb: Smart switches and dimmers, scenes and schedules, app and voice control, installed with the neutrals and compatible fixtures they need, so your lighting is convenient and reliable.
+covered: hub:l
+---
+
+=== motion-sensor-lighting
+cat: l
+name: Motion Sensor Lighting Installation
+gbp: Motion sensor lighting installation
+blurb: Motion-activated lighting indoors and out: occupancy and vacancy sensor switches for closets, laundry rooms, garages and stairs, and outdoor motion lights for driveways, doors and walkways.
+covered: security-flood-lighting
+---
+
+=== garage-lighting-installation
+cat: l
+name: Garage Lighting Installation
+gbp: Garage lighting installation
+blurb: Replace the single bare bulb with bright, even LED shop lighting, hardwired on a switch at the door, with added outlets and circuits for tools, freezers and workbenches.
+covered: shed-garage-wiring
+---

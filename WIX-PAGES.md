@@ -32,6 +32,7 @@ service hubs, and the menu's **Services** item is a dropdown that lists them
 |---|---|
 | `wix/services.csv` | 22 rows, one per service page |
 | `wix/service-areas.csv` | 12 rows, one per town page |
+| `wix/service-list.csv` | 54 rows: every service box on the three category pages, including the 32 services without their own page |
 | `wix/redirects.csv` | 301 redirects from the old site's URLs to the new pages, plus `/services` → homepage |
 
 `build.py` regenerates them from the content files, so if the copy changes,
@@ -155,7 +156,10 @@ Copy the words from the coded preview page for each.
 2. **Why us** strip.
 3. **Overview** (white): 2 columns. Left: the overview text and section(s) from the preview. Right: the category photo (Electrician `panel-connections.jpg`, Installation `kitchen-shirt-back.jpg`, Lighting `ryan-drill.jpg`), 4:5, 12px corners.
 4. **Popular jobs** (paper): 2–3 photo cards, like the homepage's Popular Services.
-5. **All services** (white): a **repeater** connected to the `Services` collection, with a dataset filter `category` = this page's category name. Each repeater item: H3 bound to `title`, text bound to `summary`, link "Learn more →" bound to the item's dynamic page. This lists every service automatically.
+5. **All services** (white): heading "All Electrician" (label "14 SERVICES"; Installation 23, Lighting 17) and the line "The bigger jobs each have their own page. For the rest, call and tell us what you need. You'll talk to an electrician, not a call center." Below it, a **repeater** of white cards, 3 per row.
+   - Import `wix/service-list.csv` as a third collection, **Service List**. Set `order` to Number and `buttonLink` to URL. (This is a separate collection from `Services` because a collection with a dynamic page makes a page for every row, and the Call now services shouldn't get pages.)
+   - Connect the repeater to a dataset on **Service List**, filter `category` = this page's category name, sort by `order` ascending, and set the dataset to show **30** items so none are cut off.
+   - In each card: H3 bound to `title`, text bound to `summary`, and a text button bound to `buttonLabel` with its link bound to `buttonLink`. Services with a page get **Learn more** linked to that page; the rest get **Call now** linked to `tel:+12159064634`, which dials on phones.
 6. How a job works, FAQ (type the 2–3 questions from the preview as static text).
 
 ## 7. Service Areas, About, Contact

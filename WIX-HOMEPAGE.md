@@ -104,7 +104,7 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - **H2:** Electrician
 - Text: When something stops working, trips or just isn't safe, we find the cause and fix it properly. We upgrade panels and services, replace fuse boxes and worn breakers, rewire older homes and install whole-house surge protection.
 - Link list (each a text link, 1 px divider between): [Electrical Panel Upgrade] → `/electrician-services/electrical-panel-upgrade/`; [Electrical Repair & Troubleshooting] → `/electrician-services/electrical-repair-troubleshooting/`; [Fuse Box Replacement] → `/electrician-services/fuse-box-replacement/`; [Home Rewiring] → `/electrician-services/home-rewiring/`; [Whole House Surge Protection] → `/electrician-services/whole-house-surge-protection/`
-- Button (Primary): See all 8 services → `/electrician-services/`
+- Button (Primary): See all 14 services → `/electrician-services/`
 
 **Card: Electrical Installation Services**
 - Image: `assets/img/jobs/kitchen-shirt-back.jpg` (4:3 crop)
@@ -112,7 +112,7 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - **H2:** Electrical Installation Services
 - Text: New outlets, switches, circuits and hookups, installed safely and to code. From a single GFCI outlet to wiring a finished basement, a hot tub or a detached garage, we handle the permit and the inspection.
 - Link list (each a text link, 1 px divider between): [Switch & Outlet Installation] → `/electrical-installation-services/switch-outlet-installation/`; [Ceiling Fan Installation] → `/electrical-installation-services/ceiling-fan-installation/`; [Dedicated Circuit Installation] → `/electrical-installation-services/dedicated-circuit-installation/`; [Hot Tub Electrical Hookup] → `/electrical-installation-services/hot-tub-electrical-hookup/`
-- Button (Primary): See all 8 services → `/electrical-installation-services/`
+- Button (Primary): See all 23 services → `/electrical-installation-services/`
 
 **Card: Lighting Contractor Services**
 - Image: `assets/img/jobs/ryan-drill.jpg` (4:3 crop)
@@ -120,7 +120,7 @@ Then **3 cards in a row** (mobile: stacked), all the same height:
 - **H2:** Lighting Contractor Services
 - Text: Good lighting changes how a room feels. We install recessed lighting, fixtures, chandeliers, pendants, under-cabinet and landscape lighting, and we fix lights that flicker, buzz or won't turn on.
 - Link list (each a text link, 1 px divider between): [Recessed Lighting Installation] → `/lighting-contractor-services/recessed-lighting-installation/`; [Under Cabinet Lighting Installation] → `/lighting-contractor-services/under-cabinet-lighting-installation/`; [Landscape & Low-Voltage Lighting Installation] → `/lighting-contractor-services/landscape-lighting-installation/`; [Lighting Repair] → `/lighting-contractor-services/lighting-repair/`
-- Button (Primary): See all 6 services → `/lighting-contractor-services/`
+- Button (Primary): See all 17 services → `/lighting-contractor-services/`
 
 ### Strip 4. Popular services (paper, anchor: `popular`)
 

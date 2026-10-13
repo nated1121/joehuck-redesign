@@ -89,6 +89,11 @@ The other pages (Repair & Troubleshooting, Fuse Box, Subpanel, Surge
 Protection, Aluminum Wiring, EV Charger, Recessed, Landscape) cover one service
 each.
 
+Every one of these GBP services still gets its own box on its category page
+(54 boxes in all), with its own description. Services with a page link to it
+("Learn more"); the rest have a "Call now" link instead. The list and
+descriptions are in `content/services-listed.txt`.
+
 ### What every service page has (WWP steps)
 
 A dark "why us" band sits under every hero: Ryan and Abie's faces ("You'll know who's coming"), free diagnosis and a written quote, and 40+ years plus Nextdoor Favorite. Pages with a matching job photo open the article with it, and every page ends with the four-step "What happens when you call" strip.

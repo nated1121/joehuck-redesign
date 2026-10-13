@@ -102,6 +102,7 @@ class Site:
             svc_order += order
         self.svc_order = svc_order
         self.areas, self.area_order = parse_blocks(ROOT / "content" / "areas.txt")
+        self.listed, _ = parse_blocks(ROOT / "content" / "services-listed.txt")
         self.pages, _ = parse_blocks(ROOT / "content" / "pages.txt")
         for s in self.services.values():
             cat = C.CATEGORIES[s["meta"]["cat"]]
@@ -143,6 +144,18 @@ class Site:
 
     def cat_services(self, key):
         return [self.services[s] for s in self.svc_order if self.services[s]["meta"]["cat"] == key]
+
+    def cat_boxes(self, key):
+        """Every service box on a category page, in display order: (slug, name, text, page path or None)."""
+        out = []
+        for sl in C.SERVICE_ORDER:
+            if sl in self.services and self.services[sl]["meta"]["cat"] == key:
+                sv = self.services[sl]
+                out.append((sl, sv["meta"]["name"], sv["meta"]["blurb"], sv["path"]))
+            elif sl in self.listed and self.listed[sl]["meta"]["cat"] == key:
+                ls = self.listed[sl]["meta"]
+                out.append((sl, ls["name"], ls["blurb"], None))
+        return out
 
 
 # ----------------------------------------------------------------------------
@@ -521,10 +534,13 @@ def ip_head(label, h2, intro=None):
 
 
 def text_cards(p, items, cols=3):
-    """Cards with a title, a line of text and a link: a Wix repeater or a row of boxes."""
-    cards = "".join(
-        f'''<li class="hp-card"><div class="hp-card-body"><h3>{esc(title)}</h3><p>{esc(text)}</p><a class="hp-more" href="{p.href(path)}">{esc(more)} →</a></div></li>'''
-        for path, title, text, more in items)
+    """Cards with a title, a line of text and a link: a Wix repeater or a row of boxes.
+    A card with no page (path None) gets a Call now link instead."""
+    def card(path, title, text, more):
+        link = (f'<a class="hp-more" href="{p.href(path)}">{esc(more)} →</a>' if path
+                else f'<a class="hp-more hp-call" href="tel:{C.PHONE_E164}">{ICON_CALL}Call now</a>')
+        return f'''<li class="hp-card"><div class="hp-card-body"><h3>{esc(title)}</h3><p>{esc(text)}</p>{link}</div></li>'''
+    cards = "".join(card(*it) for it in items)
     return f'<ul class="hp-grid hp-{cols}">{cards}</ul>'
 
 
@@ -660,7 +676,7 @@ def build_service(site, s):
             rel.append(r)
     if len(rel) < 3:  # top up from the same category
         rel += [x for x in site.svc_order if site.services[x]["meta"]["cat"] == m["cat"] and x != s["slug"] and x not in rel][:3 - len(rel)]
-    n_cat = len(site.cat_services(m["cat"]))
+    n_cat = len(site.cat_boxes(m["cat"]))
     crumbs = [("Home", "/"), (cat["name"], f"/{cat['slug']}/"), (m["name"], s["path"])]
     faq_html = faq_section(p, faqs)
     rel_cards = text_cards(p, [(site.services[r]["path"], site.services[r]["meta"]["name"], site.services[r]["meta"]["blurb"], "Learn more")
@@ -765,10 +781,10 @@ def build_hub(site, key):
     main_md, faqs = split_faq(pg["body"])
     intro, _, rest = main_md.partition("\n\n")
     lede = p.inline(intro)
-    cards = text_cards(p, [(s["path"], s["meta"]["name"], s["meta"]["blurb"], "Learn more") for s in site.cat_services(key)])
+    cards = text_cards(p, [(path_, name, text, "Learn more") for _, name, text, path_ in site.cat_boxes(key)])
     crumbs = [("Home", "/"), (cat["name"], path)]
     faq_html = faq_section(p, faqs)
-    n = len(site.cat_services(key))
+    n = len(site.cat_boxes(key))
     main = page_hero(p, crumbs, f"{cat['name']} · Yardley, PA", m["h1"], lede, cat=key) + why_band(p) + f'''
   <section class="hp-sec">
     <div class="wrap hp-cols ip-top">
@@ -787,7 +803,7 @@ def build_hub(site, key):
   </section>
   <section class="hp-sec">
     <div class="wrap">
-      {ip_head(f"{n} services", f"All {cat['name']}", "Every service in this category, each with its own page. Not sure which fits? Call and describe what's going on.")}
+      {ip_head(f"{n} services", f"All {cat['name']}", "The bigger jobs each have their own page. For the rest, call and tell us what you need. You'll talk to an electrician, not a call center.")}
       {cards}
     </div>
   </section>
@@ -944,7 +960,7 @@ def build_home(site):
         cat = C.CATEGORIES[key]
         feat = [x.strip() for x in m[f"featured_{key}"].split(",")]
         links = "".join(f'<li>{p.link(sl, esc(site.services[sl]["meta"]["name"]))}</li>' for sl in feat)
-        n = len(site.cat_services(key))
+        n = len(site.cat_boxes(key))
         cat_cards += f'''<li class="hp-card">
           {photo_fig(p, PH.CATEGORY_PHOTOS[key], cls="hp-img", show_caption=False)}
           <div class="hp-card-body">
@@ -1213,7 +1229,7 @@ Page SEO (Page → SEO basics):
     for key in ("g", "i", "l"):
         cat = C.CATEGORIES[key]
         feat = [x.strip() for x in m[f"featured_{key}"].split(",")]
-        n = len(site.cat_services(key))
+        n = len(site.cat_boxes(key))
         cards += (f"\n**Card: {cat['name']}**\n"
                   f"- Image: `assets/img/jobs/{PH.CATEGORY_PHOTOS[key]}.jpg` (4:3 crop)\n"
                   f"- Label: {cat['tag']}\n- **H2:** {cat['name']}\n"
@@ -1424,6 +1440,15 @@ def wix_export(site):
         rows.append(row)
     write_csv(out_dir / "service-areas.csv", rows)
 
+    # every box on the three category pages, for the repeater there
+    rows = []
+    for key in ("g", "i", "l"):
+        for n, (sl, name, text, path) in enumerate(site.cat_boxes(key), 1):
+            rows.append({"title": name, "category": C.CATEGORIES[key]["name"], "order": n, "summary": text,
+                         "buttonLabel": "Learn more" if path else "Call now",
+                         "buttonLink": wix_url(site, path) if path else f"tel:{C.PHONE_E164}"})
+    write_csv(out_dir / "service-list.csv", rows)
+
     # 301s for the Wix URL Redirect Manager: the old site's URLs -> the new Wix pages
     with open(out_dir / "redirects.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
@@ -1486,13 +1511,16 @@ def main():
             w.writerow(["GBP category", "GBP service name", "Description (<300 chars)", "Landing page"])
             lc = C.CATEGORIES["l"]
             w.writerow([lc["name"], "Lighting installation", site.pages[lc["slug"]]["body"].partition("\n\n")[0][:299], C.DOMAIN + "/" + lc["slug"] + "/"])
-            for key, names in C.HUB_GBP.items():
-                hub = C.CATEGORIES[key]
-                for name in names:
-                    w.writerow([hub["name"], name, site.pages[hub["slug"]]["body"].partition("\n\n")[0][:299], C.DOMAIN + "/" + hub["slug"] + "/"])
+            for sl, ls in site.listed.items():
+                lm = ls["meta"]
+                for name in lm["gbp"].split(";"):
+                    w.writerow([C.CATEGORIES[lm["cat"]]["name"], name.strip(), lm["blurb"], C.DOMAIN + site.resolve(sl)])
+            listed_names = {n.strip().lower() for ls in site.listed.values() for n in ls["meta"]["gbp"].split(";")}
             for slug in site.svc_order:
                 s = site.services[slug]
                 for name in s["meta"].get("gbp", s["meta"]["name"]).split(";"):
+                    if name.strip().lower() in listed_names:
+                        continue  # has its own row above, with its own description
                     w.writerow([C.CATEGORIES[s["meta"]["cat"]]["name"], name.strip(), s["meta"]["blurb"], C.DOMAIN + s["path"]])
                 # services listed under a second GBP category point to the same page
                 for key in C.GBP_ALSO.get(slug, []):

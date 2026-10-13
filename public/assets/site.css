@@ -485,3 +485,5 @@ nav.primary .sub a{padding:12px 14px}
   nav.primary.open .nav-parent{padding:14px 4px;font-size:18px;border-bottom:1px solid rgba(0,0,0,.12)}
   nav.primary.open .nav-parent::after{display:none}
 }
+.hp-call{display:inline-flex;align-items:center;gap:8px}
+.hp-call svg{width:16px;height:16px}
