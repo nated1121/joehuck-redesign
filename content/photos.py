@@ -70,3 +70,7 @@ PHOTOS["older-panel-wiring-2"] = ("Ryan Huck updating an older home's electrical
 
 # category hubs and the /services/ page
 CATEGORY_PHOTOS = {"g": "panel-connections", "i": "kitchen-shirt-back", "l": "ryan-drill"}
+
+# Photo for a service's card only (not its page), where no job photo shows the
+# service itself. Swap in a real under-cabinet lighting photo when there is one.
+CARD_PHOTOS = {"under-cabinet-lighting-installation": "kitchen-shirt-back"}

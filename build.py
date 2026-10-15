@@ -650,14 +650,17 @@ def photo_cards(p, site, slugs):
     out = []
     for slug in slugs:
         sv = site.services[slug]
-        out.append(f'''<li class="hp-card">{service_photo(p, slug, cls="hp-img", show_caption=False)}<div class="hp-card-body"><h3>{esc(sv["meta"]["name"])}</h3><p>{esc(sv["meta"]["blurb"])}</p><a class="hp-more" href="{p.href(sv["path"])}">Learn more →</a></div></li>''')
+        card_photo = PH.CARD_PHOTOS.get(slug)
+        img = (photo_fig(p, card_photo, cls="hp-img", show_caption=False) if card_photo
+               else service_photo(p, slug, cls="hp-img", show_caption=False))
+        out.append(f'''<li class="hp-card">{img}<div class="hp-card-body"><h3>{esc(sv["meta"]["name"])}</h3><p>{esc(sv["meta"]["blurb"])}</p><a class="hp-more" href="{p.href(sv["path"])}">Learn more →</a></div></li>''')
     return f'<ul class="hp-grid hp-{min(len(out), 3)}">{"".join(out)}</ul>'
 
 
 HUB_FEATURED = {
     "g": ["electrical-panel-upgrade", "electrical-repair-troubleshooting", "home-rewiring"],
     "i": ["switch-outlet-installation", "gfci-outlet-installation", "dedicated-circuit-installation"],
-    "l": ["recessed-lighting-installation", "light-fixture-installation"],
+    "l": ["recessed-lighting-installation", "light-fixture-installation", "under-cabinet-lighting-installation"],
 }
 
 
