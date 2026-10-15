@@ -421,7 +421,7 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
       <p class="about">Licensed, insured electricians serving Yardley and the Greater Bucks County area for over 40 years.</p>
     </div>
     <div>
-      <h4>Services</h4>
+      <p class="foot-title">Services</p>
       <ul>
         <li><a href="{p.href('/' + C.CATEGORIES['g']['slug'] + '/')}">{C.CATEGORIES['g']['name']}</a></li>
         <li><a href="{p.href('/' + C.CATEGORIES['i']['slug'] + '/')}">{C.CATEGORIES['i']['name']}</a></li>
@@ -429,7 +429,7 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
       </ul>
     </div>
     <div>
-      <h4>Company</h4>
+      <p class="foot-title">Company</p>
       <ul>
         <li><a href="{p.href('/about/')}">About</a></li>
         <li><a href="{p.href(AREA_PREFIX)}">Service Areas</a></li>
@@ -437,7 +437,7 @@ def layout(p, *, title, desc, main, schema, active=None, home=False):
       </ul>
     </div>
     <div>
-      <h4>Contact</h4>
+      <p class="foot-title">Contact</p>
       <address class="nap-foot" style="font-style:normal">
         <b style="color:var(--white);font-weight:600">{C.NAME}</b><br>
         {C.STREET}<br>{C.CITY}, {C.REGION} {C.POSTAL}<br>
@@ -478,7 +478,7 @@ def quote_card(cat=None, service=None):
           </div>'''
     return f'''<div class="quote" id="estimate">
         <form id="quoteForm" novalidate>
-          <h2>Request a Free Estimate</h2>
+          <p class="quote-title">Request a Free Estimate</p>
           <p class="sub">Takes about 30 seconds. We reply within one business day.</p>
           {picker}
           <div class="row2">
@@ -495,7 +495,7 @@ def quote_card(cat=None, service=None):
         </form>
         <div class="done" id="quoteDone" hidden aria-live="polite">
           <div class="check"><svg width="26" height="26" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 10.5l4 4 8-9"/></svg></div>
-          <h3>Request Sent</h3>
+          <p class="done-title">Request Sent</p>
           <p id="doneMsg">We'll call you within one business day.</p>
           <button class="btn btn-ghost" type="button" id="quoteReset" style="color:var(--ink);border-color:var(--line)">Send another request</button>
         </div>
@@ -619,15 +619,15 @@ def why_band(p):
     <div class="wrap">
       <div class="why-item">
         <div class="why-avatars">{avatars}</div>
-        <div><h2>You'll Know Who's Coming</h2><p>Ryan and Abie handle every job themselves. No call center, no strangers at your door.</p></div>
+        <div><p class="why-title">You'll Know Who's Coming</p><p>Ryan and Abie handle every job themselves. No call center, no strangers at your door.</p></div>
       </div>
       <div class="why-item">
         <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></span>
-        <div><h2>Free Diagnosis &amp; Written Quote</h2><p>We find the problem and price it in writing before any work starts. No surprises on the invoice.</p></div>
+        <div><p class="why-title">Free Diagnosis &amp; Written Quote</p><p>We find the problem and price it in writing before any work starts. No surprises on the invoice.</p></div>
       </div>
       <div class="why-item">
         <span class="why-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.1 6.7.8-4.9 4.6 1.3 6.6L12 16.9 6 20.1l1.3-6.6L2.4 8.9l6.7-.8z"/></svg></span>
-        <div><h2>40+ Years, Only Electrical</h2><p>Licensed and insured. Named a Nextdoor Neighborhood Favorite in 2023 and 2024.</p></div>
+        <div><p class="why-title">40+ Years, Only Electrical</p><p>Licensed and insured. Named a Nextdoor Neighborhood Favorite in 2023 and 2024.</p></div>
       </div>
     </div>
   </section>'''
@@ -790,6 +790,7 @@ def build_hub(site, key):
     <div class="wrap hp-cols ip-top">
       <div class="prose">
         <p class="eyebrow">Overview</p>
+        <h2>{esc(cat["short"])} Work We Do</h2>
         {p.md(rest)}
       </div>
       <img class="hp-photo" src="{p.href(PH.JOBS + PH.CATEGORY_PHOTOS[key] + ".jpg")}" width="1000" height="1500" alt="{esc(PH.PHOTOS[PH.CATEGORY_PHOTOS[key]][0])}" loading="lazy" decoding="async">
@@ -803,7 +804,7 @@ def build_hub(site, key):
   </section>
   <section class="hp-sec">
     <div class="wrap">
-      {ip_head(f"{n} services", f"All {cat['name']}", "The bigger jobs each have their own page. For the rest, call and tell us what you need. You'll talk to an electrician, not a call center.")}
+      {ip_head(f"{n} services", f"All {cat['name']}" + ("" if cat["name"].endswith("Services") else " Services"), "The bigger jobs each have their own page. For the rest, call and tell us what you need. You'll talk to an electrician, not a call center.")}
       {cards}
     </div>
   </section>
@@ -887,7 +888,8 @@ def contact_extra(site):
     <div class="wrap hp-cols">
       <div>
         <p class="eyebrow">Contact details</p>
-        <address class="nap" style="margin-top:14px">
+        <h2 style="margin:12px 0 18px">How to Reach Us</h2>
+        <address class="nap">
           <b>{C.NAME}</b>
           {C.STREET}<br>{C.CITY}, {C.REGION} {C.POSTAL}<br>
           <a href="tel:{C.PHONE_E164}">{C.PHONE_DISPLAY}</a> (call or text)<br>
@@ -1390,8 +1392,10 @@ def wix_export(site):
     def faq_html(p, faqs):
         return "".join(f"<h3>{esc(q)}</h3><p>{p.inline(a)}</p>" for q, a in faqs)
 
-    def faq_json(p, faqs):
-        return json.dumps(faq_schema(faqs), ensure_ascii=False) if faqs else ""
+    def schema_json(items):
+        return json.dumps(items, ensure_ascii=False)
+
+    area_served = business_schema(site)["areaServed"]
 
     rows = []
     for slug in site.svc_order:
@@ -1413,7 +1417,13 @@ def wix_export(site):
             "intro": re.sub(r"<[^>]+>", "", p.inline(intro)), "summary": m["blurb"],
             "image": f"{photo_name}.jpg" if photo_name else "", "imageAlt": PH.PHOTOS[photo_name][0] if photo_name else "",
             "signsTitle": signs_title, "signsList": "<ul>" + "".join(f"<li>{p.inline(x)}</li>" for x in signs) + "</ul>" if signs else "",
-            "body": wix_html(p, body), "faq": faq_html(p, faqs), "faqSchema": faq_json(p, faqs),
+            "body": wix_html(p, body), "faq": faq_html(p, faqs),
+            "schema": schema_json([
+                {"@context": "https://schema.org", "@type": "Service", "name": m["name"], "serviceType": m["name"],
+                 "description": m["blurb"], "provider": {"@id": C.DOMAIN + "/#business"}, "areaServed": area_served,
+                 "url": C.DOMAIN + wix_url(site, sv["path"])},
+                {"@context": "https://schema.org", **breadcrumb_schema([("Home", "/"), (cat["name"], "/" + cat["slug"]), (m["name"], wix_url(site, sv["path"]))])},
+            ] + ([{"@context": "https://schema.org", **faq_schema(faqs)}] if faqs else [])),
             "gbpServices": m.get("gbp", m["name"]),
         }
         for i, r in enumerate(rel[:3], 1):
@@ -1432,7 +1442,10 @@ def wix_export(site):
             "title": m["town"], "slug": f"{slug}-pa", "region": {"lower": "Near Yardley", "central": "Central Bucks", "upper": "Upper Bucks"}[m["region"]],
             "h1": m["h1"], "seoTitle": m["title"], "seoDescription": m["desc"],
             "intro": re.sub(r"<[^>]+>", "", p.inline(intro)), "summary": m["blurb"],
-            "body": wix_html(p, rest), "faq": faq_html(p, faqs), "faqSchema": faq_json(p, faqs),
+            "body": wix_html(p, rest), "faq": faq_html(p, faqs),
+            "schema": schema_json([
+                {"@context": "https://schema.org", **breadcrumb_schema([("Home", "/"), ("Service Areas", "/service-areas"), (m["town"], wix_url(site, a["path"]))])},
+            ] + ([{"@context": "https://schema.org", **faq_schema(faqs)}] if faqs else [])),
         }
         for i, n in enumerate([x.strip() for x in m["nearby"].split(",")][:3], 1):
             na = site.areas[n]
@@ -1465,6 +1478,296 @@ def write_csv(path, rows):
         w = csv.DictWriter(fh, fieldnames=keys)
         w.writeheader()
         w.writerows(rows)
+
+
+# ----------------------------------------------------------------------------
+# SEO settings + heading outline for every page (WIX-SEO.md), read from the built HTML
+# ----------------------------------------------------------------------------
+from html.parser import HTMLParser
+
+VOID = {"img", "input", "br", "meta", "link", "source", "hr"}
+
+
+class _Node:
+    def __init__(self, tag, attrs, parent=None):
+        self.tag, self.attrs, self.parent, self.kids = tag, dict(attrs), parent, []
+
+    @property
+    def cls(self):
+        return (self.attrs.get("class") or "").split()
+
+    def text(self):
+        return re.sub(r"\s+", " ", "".join(k if isinstance(k, str) else k.text() for k in self.kids)).strip()
+
+    def find(self, tag):
+        for k in self.kids:
+            if isinstance(k, _Node):
+                if k.tag == tag:
+                    return k
+                f = k.find(tag)
+                if f:
+                    return f
+        return None
+
+
+class _Tree(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.root = self.cur = _Node("root", [])
+
+    def handle_starttag(self, tag, attrs):
+        n = _Node(tag, attrs, self.cur)
+        self.cur.kids.append(n)
+        if tag not in VOID:
+            self.cur = n
+
+    def handle_endtag(self, tag):
+        n = self.cur
+        while n is not self.root and n.tag != tag:
+            n = n.parent
+        if n is not self.root:
+            self.cur = n.parent
+
+    def handle_data(self, data):
+        self.cur.kids.append(data)
+
+
+def _parse(html_text):
+    t = _Tree(); t.feed(html_text); return t.root
+
+
+def _short(s, n=70):
+    return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
+
+
+def page_outline(html_text):
+    root = _parse(html_text)
+    main = root.find("main")
+    lines = []          # (level, text); level = indent depth
+
+    state = {"lvl": 0, "label": None}
+
+    def add(text, heading=None):
+        if heading:
+            lvl = {"h1": 0, "h2": 0, "h3": 1}[heading]
+            if state["label"]:
+                lines.append((lvl, state["label"]))
+                state["label"] = None
+            lines.append((lvl, f"{heading.upper()}  {text}"))
+            state["lvl"] = lvl + 1
+        else:
+            if state["label"]:
+                lines.append((state["lvl"], state["label"]))
+                state["label"] = None
+            if text == "Paragraph" and lines and lines[-1][1].startswith("Paragraph") and lines[-1][0] == state["lvl"]:
+                prev = lines[-1][1]
+                n = int(prev.split("×")[1]) + 1 if "×" in prev else 2
+                lines[-1] = (state["lvl"], f"Paragraph ×{n}")
+                return
+            lines.append((state["lvl"], text))
+
+    def walk(n):
+        if not isinstance(n, _Node):
+            return
+        c = n.cls
+        if "quote" in c:
+            add("[Estimate form: its title is plain bold text, not a heading]"); return
+        if "why-band" in c:
+            add("[Why-us band: 3 items, titles are bold plain text, not headings]"); return
+        if n.tag in ("h1", "h2", "h3"):
+            add(n.text(), n.tag); return
+        if n.tag == "nav" and "ip-crumbs" in c:
+            add(f"Breadcrumb (plain text links): {n.text()}"); return
+        if n.tag == "p":
+            if "eyebrow" in c:
+                state["label"] = f"Label (plain text): {n.text().upper()}"
+            elif "lede" in c:
+                add(f"Paragraph (intro): {_short(n.text())}")
+            elif n.find("a") and "btn" in (n.find("a").cls):
+                add(f"Button: {n.text()}")
+            else:
+                add("Paragraph")
+            return
+        if n.tag in ("ul", "ol"):
+            items = [k for k in n.kids if isinstance(k, _Node) and k.tag == "li"]
+            if "hp-grid" in c or "photo-cards" in c:
+                first = items[0] if items else None
+                h = next((t for t in ("h2", "h3") if first and first.find(t)), None)
+                img = "photo + " if first and first.find("img") else ""
+                head = f"{h.upper()} title" if h else "bold name (plain text)"
+                link = " + link" if first and first.find("a") else ""
+                titles = [it.find(h).text() for it in items] if h else []
+                more = f": {', '.join(titles)}" if titles and len(titles) <= 6 else ""
+                add(f"Cards ×{len(items)} ({img}{head} + paragraph{link}){more}")
+            elif "hp-towns" in c:
+                add(f"Town links ×{len(items)} (plain text links)")
+            elif "hp-links" in c:
+                add(f"Link list ×{len(items)}")
+            elif "hp-creds" in (n.parent.cls if n.parent else []) or n.parent and "hp-creds" in n.parent.cls:
+                add(f"Credentials ×{len(items)} (plain text)")
+            else:
+                add(f"Bullet list ({len(items)} items)")
+            return
+        if n.tag == "div" and "signs" in c:
+            add("Grey box, containing:")
+            state["lvl"] += 1
+            for k in n.kids:
+                walk(k)
+            state["lvl"] -= 1
+            return
+        if n.tag == "img":
+            add(f"Image (alt: {_short(n.attrs.get('alt', ''), 60)})"); return
+        if n.tag == "details":
+            parent = n.parent
+            qs = [k for k in parent.kids if isinstance(k, _Node) and k.tag == "details"]
+            if qs and qs[0] is n:
+                add(f"FAQ accordion ×{len(qs)} (questions are plain text in the Wix FAQ app)")
+            return
+        if n.tag == "a" and "btn" in c:
+            add(f"Button: {n.text()}"); return
+        if n.tag == "address":
+            add("Address block (plain text): name, street, town, phone, hours"); return
+        if n.tag in ("iframe",) or "map-card" in c:
+            add("Google Map"); return
+        if "faq-list" in c and False:
+            return
+        for k in n.kids:
+            walk(k)
+
+    walk(main)
+    return "\n".join("    " * lvl + text for lvl, text in lines)
+
+
+def page_meta(html_text):
+    title = re.search(r"<title>(.*?)</title>", html_text, re.S).group(1)
+    desc = re.search(r'<meta name="description" content="(.*?)">', html_text).group(1)
+    h1 = re.sub(r"<[^>]+>", "", re.search(r"<h1[^>]*>(.*?)</h1>", html_text, re.S).group(1)).strip()
+    import html as _h
+    return _h.unescape(title), _h.unescape(desc), _h.unescape(re.sub(r"\s+", " ", h1))
+
+
+def seo_guide(site, out_dir):
+    def cell(x):
+        return str(x).replace("|", "\\|")
+
+    def read(path):
+        return (out_dir / path.lstrip("/") / "index.html").read_text(encoding="utf-8")
+
+    static = [("Home", "/", "electrician-panel-yardley.jpg (hero photo)")]
+    for key in ("g", "i", "l"):
+        cat = C.CATEGORIES[key]
+        static.append((cat["name"], f"/{cat['slug']}/", f"jobs/{PH.CATEGORY_PHOTOS[key]}.jpg"))
+    static += [("Service Areas", AREA_PREFIX, "electrician-panel-yardley.jpg"), ("About", "/about/", "ryan-huck-electrician-ladder.jpg"),
+               ("Contact", "/contact/", "electrician-panel-yardley.jpg")]
+
+    out = ["""# SEO Settings and Page Structure
+
+Generated by `build.py` from the built pages, so it always matches the content.
+Use it alongside `WIX-HOMEPAGE.md` and `WIX-PAGES.md`.
+
+## 1. Site-wide settings (set once)
+
+| Where in Wix | Setting |
+|---|---|
+| Settings → Business Info | Business name **Joe Huck Electric**; address, phone and hours exactly as on the Google Business Profile (NAP must match character for character) |
+| Settings → Favicon | `site/assets/favicon/favicon-96.png` |
+| Marketing & SEO → SEO → **SEO Setup Checklist** | Run it once; it connects **Google Search Console** and submits the sitemap |
+| Marketing & SEO → SEO → **SEO Settings → Site preferences** | Let search engines index the site: **on** |
+| Marketing & SEO → SEO → **Social share** | Default image: `electrician-panel-yardley.jpg` (the panel photo); it's what shows when someone shares a page that has no image of its own |
+| Marketing & SEO → SEO → **URL Redirect Manager** | Import `wix/redirects.csv` |
+
+### Rules that apply to every page
+
+- **One H1 per page**, and it contains the page's main keyword plus "Yardley, PA" (or the town). It matches the first half of the title tag.
+- **Title tags** put the keyword first. Google shows roughly the first 55–60 characters, so the part after the `|` is a bonus that may be cut off.
+- **Meta descriptions** are 70–160 characters, written for people: what you do, where, and a reason to click.
+- **Headings go in order**: H1 → H2 → H3. Never skip from H1 to H3, and don't use headings just to make text big. Labels ("WHAT WE DO"), button text, form titles, the "why us" band, card blurbs and footer column titles are **plain text** styled to look the part.
+- **In Wix**, the look and the tag are separate: pick the text style you want (e.g. Heading 3), then set the actual HTML tag in the text's settings (**SEO & accessibility → Semantic HTML tag**, or **Advanced SEO**, depending on the editor version).
+- **Every image** gets alt text describing what's in it ("Ryan Huck installing a recessed light in a finished ceiling"), not keywords.
+- **Indexing:** every page below is indexed. If Wix creates extra pages you don't use (e.g. a blank blog or a thank-you page), set them to *not* indexed.
+
+## 2. Settings for every page
+
+Set these in **Page settings → SEO basics** (static pages), or in the dynamic page's SEO settings bound to the collection fields (service and area pages, see below).
+
+### Static pages
+
+| Page | URL | Title tag | Meta description | H1 | Social image |
+|---|---|---|---|---|---|
+"""]
+    for name, path, img in static:
+        t, d, h = page_meta(read(path))
+        url = "/" if path == "/" else path.rstrip("/")
+        out.append(f"| {name} | `{url}` | {cell(t)} | {cell(d)} | {cell(h)} | `{img}` |\n")
+
+    out.append("""
+### Service pages (dynamic page, `Services` collection)
+
+On the dynamic page: **Page settings → SEO basics**, then bind each setting to a field instead of typing it:
+
+| Setting | Value |
+|---|---|
+| URL pattern | `/services/{slug}` |
+| Title tag | `{seoTitle}` |
+| Meta description | `{seoDescription}` |
+| Social share image | `{image}` (pages without a photo use the site default) |
+| Structured data | Added by the page code in `WIX-PAGES.md` step 4 (`schema` field) |
+| Indexing | On |
+
+What that produces for each page (check a few after importing):
+
+| Service | URL | Title tag | Meta description |
+|---|---|---|---|
+""")
+    for slug in site.svc_order:
+        sv = site.services[slug]; m = sv["meta"]
+        out.append(f"| {m['name']} | `{wix_url(site, sv['path'])}` | {cell(m['title'])} | {cell(m['desc'])} |\n")
+
+    out.append("""
+### Service-area pages (dynamic page, `Service Areas` collection)
+
+| Setting | Value |
+|---|---|
+| URL pattern | `/service-areas/{slug}` |
+| Title tag | `{seoTitle}` |
+| Meta description | `{seoDescription}` |
+| Social share image | Site default |
+| Structured data | Page code (`schema` field: breadcrumb + FAQ) |
+| Indexing | On |
+
+| Town | URL | Title tag | Meta description |
+|---|---|---|---|
+""")
+    for slug in site.area_order:
+        a = site.areas[slug]; m = a["meta"]
+        out.append(f"| {m['town']} | `{wix_url(site, a['path'])}` | {cell(m['title'])} | {cell(m['desc'])} |\n")
+
+    pc = C.CATEGORIES["g"]
+    examples = [
+        ("Homepage", "/", "The homepage is the Yardley page, so it carries the main keyword. Each popular service and each category card gets its own H2, as the SEO playbook asks."),
+        ("Category page (Electrician; the other two follow the same pattern)", f"/{pc['slug']}/", None),
+        ("Service page (Electrical Panel Upgrade; every service page follows this pattern)", site.services["electrical-panel-upgrade"]["path"],
+         "In Wix, the H2 and H3 headings after the photo come from the `body` and `faq` rich text fields, so they're already the right tags. Only the hero H1, the signs-box title (H2), the section titles (H2) and the card titles (H3) on the template need setting."),
+        ("Service-area page (Newtown; every town page follows this pattern)", site.areas["newtown"]["path"], None),
+        ("Service Areas page", AREA_PREFIX, None),
+        ("About page", "/about/", None),
+        ("Contact page", "/contact/", None),
+    ]
+    out.append("""
+## 3. Heading and paragraph structure
+
+The outline of each page type, top to bottom. `H1`/`H2`/`H3` are real heading
+tags; everything else is plain text, an image, a button or a list. Indented
+lines sit under the heading above them. The header, footer and the bronze
+"Need an Electrician You Can Trust?" band are the same on every page: the band's
+title is an H2, and nothing in the header or footer is a heading.
+""")
+    for title, path, note in examples:
+        out.append(f"\n### {title}\n\n")
+        if note:
+            out.append(note + "\n\n")
+        out.append("```\n" + page_outline(read(path)) + "\n```\n")
+    return "".join(out)
 
 # ----------------------------------------------------------------------------
 # Main
@@ -1528,6 +1831,7 @@ def main():
 
         (ROOT / "WIX-HOMEPAGE.md").write_text(wix_guide(site), encoding="utf-8")
         wix_export(site)
+        (ROOT / "WIX-SEO.md").write_text(seo_guide(site, out_dir), encoding="utf-8")
 
         with open(ROOT / "PAGES.md", "w", encoding="utf-8") as fh:
             fh.write("# Page Inventory\n\nGenerated by `build.py`. One row per page.\n\n")

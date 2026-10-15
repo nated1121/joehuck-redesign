@@ -99,7 +99,7 @@ header.site .btn-bronze:hover{background:var(--silver-lt);color:var(--black)}
 /* Quote card */
 .quote{background:var(--white);color:var(--ink);border-radius:10px;padding:clamp(22px,3vw,32px);border:1px solid var(--line);box-shadow:0 30px 70px -30px rgba(40,32,18,.35);position:relative}
 .quote::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;border-radius:10px 10px 0 0;background:linear-gradient(90deg,var(--bronze-deep),var(--bronze-glow),var(--bronze))}
-.quote h2{font-size:26px;font-weight:600}
+.quote .quote-title{font:600 26px/1.1 var(--f-display);letter-spacing:-.015em;margin:0;color:var(--ink)}
 .quote p.sub{margin:6px 0 18px;color:var(--ink-2);font-size:15px}
 .field{display:grid;gap:6px;margin-bottom:14px}
 .field label,.field legend{font:600 13px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
@@ -114,7 +114,7 @@ fieldset legend{padding:0;margin-bottom:8px}
 .quote .fine a{font-weight:700;color:var(--bronze-deep)}
 .done{text-align:center;padding:24px 4px}
 .done .check{width:56px;height:56px;border-radius:50%;background:var(--bronze);color:var(--white);display:grid;place-items:center;margin:0 auto 14px}
-.done h3{font-size:26px;}
+.done .done-title{font:600 26px/1.1 var(--f-display);margin:0;color:var(--ink)}
 .done p{color:var(--ink-2)}
 .err{color:#A12F22;font-size:14px;margin:0 0 10px}
 @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}}
@@ -168,7 +168,7 @@ details p{margin:0 0 22px;color:var(--ink-2);max-width:68ch}
 .cta .btn:hover{background:var(--silver-lt);color:var(--black)}
 footer{background:var(--black);color:var(--steel);font-size:15px}
 footer .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding-block:56px 32px}
-footer h4{font:600 13px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--silver);margin:0 0 16px}
+footer .foot-title{font:600 13px/1 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--silver);margin:0 0 16px}
 footer ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
 footer a{text-decoration:none;color:var(--silver-lt)}
 footer a:hover{color:var(--bronze-glow)}
@@ -299,7 +299,7 @@ footer .wrap.legal{border-top:1px solid #232120;padding-block:20px calc(20px + 6
 .why-band{background:var(--char);color:var(--silver);padding-block:clamp(28px,4vw,40px)}
 .why-band .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,40px)}
 .why-item{display:flex;gap:16px;align-items:flex-start}
-.why-item h2{color:var(--white);font-size:19px;font-weight:600;line-height:1.25;margin:0 0 6px}
+.why-item p.why-title{color:var(--white);font:600 19px/1.25 var(--f-display);margin:0 0 6px}
 .why-item p{margin:0;font-size:15px;line-height:1.5}
 .why-avatars{display:flex;flex:none}
 .why-avatars img{width:52px;height:52px;border-radius:50%;border:2px solid var(--char);object-fit:cover;background:var(--char-2)}

@@ -9,6 +9,7 @@ pages, plus Service Areas, About and Contact.
 - **Google Business Profile service descriptions:** [`gbp-services.csv`](gbp-services.csv)
 - **Rebuilding the homepage in Wix, section by section:** [`WIX-HOMEPAGE.md`](WIX-HOMEPAGE.md)
 - **Rebuilding every other page in Wix (CMS collections + templates):** [`WIX-PAGES.md`](WIX-PAGES.md), with the import files in `wix/`
+- **SEO settings for every page, and each page type's heading structure:** [`WIX-SEO.md`](WIX-SEO.md)
 
 ## Build
 

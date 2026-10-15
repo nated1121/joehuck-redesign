@@ -53,7 +53,7 @@ rebuild and re-import.
 | `signsTitle`, `signsList` | Text, **Rich text** | The grey "Signs you need…" box |
 | `body` | **Rich text** | The main article: H2 sections, paragraphs, lists and links |
 | `faq` | **Rich text** | Questions (H3) and answers |
-| `faqSchema` | Text | FAQ structured data (used by the code in step 4) |
+| `schema` | Text | Structured data for Google: Service, breadcrumb and FAQ (used by the code in step 4) |
 | `gbpServices` | Text | Reference only: the GBP services this page covers |
 | `related1Title`…`related3Url` | Text / Text / **URL** | The three Related Services cards |
 
@@ -61,7 +61,7 @@ rebuild and re-import.
 
 Same idea: `title` (town), `slug`, `region`, `h1`, `seoTitle`,
 `seoDescription`, `intro`, `summary`, `body` (Rich text), `faq` (Rich text),
-`faqSchema`, and `nearby1Title`…`nearby3Url` for the Nearby Towns cards.
+`schema`, and `nearby1Title`…`nearby3Url` for the Nearby Towns cards.
 
 ### Importing
 
@@ -113,8 +113,8 @@ already H2s inside the rich text.
 ### 4. A little code for the service page (optional but recommended)
 
 Some services have no photo, and Wix may leave an empty frame where the image
-would go. This hides it, and adds the FAQ structured data Google uses for FAQ
-results. Turn on **Dev Mode**, give the image the ID `servicePhoto` and the
+would go. This hides it, and adds each page's structured data (the service,
+its breadcrumb and its FAQ) so Google understands the page. Turn on **Dev Mode**, give the image the ID `servicePhoto` and the
 signs box the ID `signsBox` (Properties panel), and paste this into the page
 code:
 
@@ -126,8 +126,8 @@ $w.onReady(() => {
     const item = $w('#dynamicDataset').getCurrentItem();
     if (!item.image) $w('#servicePhoto').collapse();
     if (!item.signsTitle) $w('#signsBox').collapse();
-    if (item.faqSchema) {
-      wixSeoFrontend.setStructuredData([JSON.parse(item.faqSchema)]);
+    if (item.schema) {
+      wixSeoFrontend.setStructuredData(JSON.parse(item.schema));
     }
   });
 });
