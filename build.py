@@ -1772,6 +1772,313 @@ title is an H2, and nothing in the header or footer is a heading.
         out.append("```\n" + page_outline(read(path)) + "\n```\n")
     return "".join(out)
 
+
+# ----------------------------------------------------------------------------
+# One build sheet per service page, for building the pages by hand in Wix
+# (wix/service-pages/*.md). Links are given by page name, so the sheets work
+# whichever address scheme the pages end up with.
+# ----------------------------------------------------------------------------
+def related_for(site, slug):
+    m = site.services[slug]["meta"]
+    rel = []
+    for r in (site.canonical(x.strip()) for x in m["related"].split(",")):
+        if r in site.services and r != slug and r not in rel:
+            rel.append(r)
+    rel += [x for x in site.svc_order if site.services[x]["meta"]["cat"] == m["cat"] and x != slug and x not in rel][:max(0, 3 - len(rel))]
+    return rel[:3]
+
+
+def page_label(site, ref):
+    ref = site.canonical(ref)
+    if ref in C.REMOVED_AREAS:
+        return None
+    if ref in site.services:
+        return f"{site.services[ref]['meta']['name']} page"
+    if ref in site.areas:
+        return f"{site.areas[ref]['meta']['town']} page"
+    for cat in C.CATEGORIES.values():
+        if ref == cat["slug"]:
+            return f"{cat['name']} page"
+    return {"home": "Home page", "contact": "Contact page", "about": "About page", "service-areas": "Service Areas page"}.get(ref, ref)
+
+
+def plain_links(site, text):
+    """Markdown-lite -> (plain text to paste, [(anchor text, page to link)])."""
+    links = []
+
+    def sub(mo):
+        label = page_label(site, mo.group(2))
+        if label:
+            links.append((mo.group(1), label))
+        return mo.group(1)
+    out = re.sub(r"\[([^\]]+)\]\(@([\w-]+)\)", sub, text).replace("**", "")
+    return re.sub(r"\s+", " ", out).strip(), links
+
+
+def link_lines(links):
+    return "".join(f"  - Link **\"{a}\"** → {t}\n" for a, t in links)
+
+
+def hand_url(slug):
+    return f"/{slug}"
+
+
+def service_sheet(site, slug, full):
+    sv = site.services[slug]; m = sv["meta"]; cat = C.CATEGORIES[m["cat"]]
+    main_md, faqs = split_faq(sv["body"])
+    intro, _, rest = main_md.partition("\n\n")
+    sm = re.search(r"(?ms)^:::signs\s*\n## (.+?)\n(.*?)^:::\s*$", rest)
+    signs_title = sm.group(1).strip() if sm else ""
+    signs = [l[2:].strip() for l in sm.group(2).splitlines() if l.startswith("- ")] if sm else []
+    body = (rest[:sm.start()] + rest[sm.end():]).strip() if sm else rest
+    photo = PH.SERVICE_PHOTOS.get(slug)
+    photo_name = (photo[0] if isinstance(photo, tuple) else photo) if photo else None
+    rel = related_for(site, slug)
+    n_cat = len(site.cat_boxes(m["cat"]))
+    intro_txt, intro_links = plain_links(site, intro)
+    o = []
+    w = o.append
+    first = "electrical-panel-upgrade"
+
+    w(f"# {m['name']}: Wix Build Sheet\n\n")
+    if full:
+        w("""This sheet has everything for building this page by hand in Wix: the
+settings, the layout of each strip with sizes and colours, and every word of
+copy in the order it appears. Build this page first. Every other service page
+has the same layout, so you'll duplicate this one for the other 21 (see the
+last section).
+
+Open the coded preview of this page alongside: it's the visual reference.
+
+**Before you start:** the homepage should already exist, because you'll copy
+three things from it: the estimate form, the "How a job works" strip and the
+button styles. Put the bronze **"Need an Electrician You Can Trust?"** band in
+the **site footer** (above the black footer) if it isn't there already; then
+it appears on every page automatically and you never build it again.
+
+""")
+    else:
+        w(f"""Build this page by duplicating the **Electrical Panel Upgrade** page (see
+`01-electrical-panel-upgrade.md`, last section), then replace the content
+strip by strip with the copy below. The layout, sizes and colours don't change.
+
+""")
+
+    # ---- page settings
+    w("## Page settings\n\n")
+    if full:
+        w("Pages panel → **+ Add Page** → Blank. Then ⋯ → **Settings** for each tab below.\n\n")
+    w("| Setting | Value |\n|---|---|\n")
+    w(f"| Page name | {m['name']} |\n")
+    w(f"| Show in menu | **No** (people reach it from the {cat['name']} page and the homepage) |\n")
+    w(f"| URL slug (SEO basics) | `{slug}`, so the address is `{hand_url(slug)}` |\n")
+    w(f"| Title tag | {m['title'].replace('|', chr(92) + '|')} |\n")
+    w(f"| Meta description | {m['desc']} |\n")
+    w(f"| Let search engines index this page | On |\n")
+    w(f"| Social share image | {('`' + photo_name + '.jpg`') if photo_name else 'Leave as the site default'} |\n\n")
+
+    # ---- strip 1
+    w("## Strip 1: Hero\n\n")
+    if full:
+        w("""**Layout:** section background paper `#F5F5F3`, 72px space above and below.
+Two columns: text on the left (about 640px wide), the estimate form on the right
+(about 520px wide), with 72px between them, vertically centred.
+
+**Build it:**
+1. Add a blank section. Set its background to `#F5F5F3`.
+2. **Breadcrumb:** a text box, 14px Barlow Regular, `#4A4845`, with the links below in brown `#6E5A32`.
+3. **Label:** 13px Barlow SemiBold, all caps, letter spacing 0.14em, `#6E5A32`, 14px below the breadcrumb.
+4. **H1:** your Heading 1 style, 48px Barlow SemiBold, `#141414`, 14px below the label. Make sure its HTML tag is **H1**: this is the page's only H1.
+5. **Intro:** 20px Barlow Regular, `#4A4845`, about 18px below the H1.
+6. **Buttons**, 26px below the intro: Primary "Get a free estimate" linked to the form's anchor (step 8), then Outline "Call 215-906-4634" linked to phone `+12159064634`.
+7. **Trust line**, 22px below the buttons: 14px Barlow Regular, `#4A4845`.
+8. **Form:** copy the estimate form box from the homepage hero and paste it in the right column. Add an anchor just above it (Add → Menu & Anchor → Anchor) named `estimate`.
+
+""")
+    w("| Element | Copy |\n|---|---|\n")
+    w(f"| Breadcrumb | Home / {cat['name']} / {m['name']} (link \"Home\" → Home page; \"{cat['name']}\" → {cat['name']} page; the last part is plain text) |\n")
+    w(f"| Label | {cat['name'].upper()} |\n")
+    w(f"| H1 | {m['h1']} |\n")
+    w(f"| Intro | {intro_txt} |\n")
+    w(f"| Buttons | Get a free estimate · Call 215-906-4634 |\n")
+    w(f"| Trust line | Licensed & insured · Only electrical, 40+ years · Free written estimates |\n")
+    w(f"| Form | Copied from the homepage (title \"Request a Free Estimate\" is plain bold text, not a heading) |\n\n")
+    if intro_links:
+        w("Links in the intro:\n" + link_lines(intro_links) + "\n")
+
+    # ---- strip 2
+    w("## Strip 2: Why us band\n\n")
+    if full:
+        w("Copy the black \"why us\" section from any page where you've built it (or build it once using the directions you have for it) and paste it directly under the hero. Nothing on it changes from page to page.\n\n")
+    else:
+        w("Already there from the duplicate. Nothing changes.\n\n")
+
+    # ---- strip 3
+    w("## Strip 3: Article\n\n")
+    if full:
+        w("""**Layout:** white section, 96px space above and below. Everything sits in **one
+centred column 760px wide** (x = 220 inside the 1,200px content area). Use one
+text box per section below, so each is easy to space and to replace later.
+
+**Build it:**
+1. **Photo** (if the page has one): Add → Image, **760 × 570** (4:3), corners 12px, alt text as below.
+2. **Signs box**, 30px below the photo: a Container Box 760 wide, fill `#F5F5F3`, 1px border `#DCDBD8`, corners 10px. Inside it, 24px padding:
+   - the box title: Heading style 22px SemiBold, HTML tag **H2**;
+   - a bulleted list, 18px Regular, `#4A4845`, 10px between items.
+3. **Sections**, 26px below the box: one text box per section, 760 wide. In each box, the first line uses your **Heading 2** style (32px SemiBold, tag **H2**) and the paragraphs use Paragraph 1 (18px Regular, `#4A4845`, line height 1.6). Leave 48px above each section's heading.
+4. **Links:** highlight the words shown under each section and use the link button to link them to the page named. Links are brown `#6E5A32`, SemiBold, underlined.
+
+""")
+    if photo_name:
+        w(f"**Photo:** `site/assets/img/jobs/{photo_name}.jpg`  \n**Alt text:** {PH.PHOTOS[photo_name][0]}\n\n")
+    else:
+        w("**Photo:** none for this service. Leave the photo out and start the column with the signs box.\n\n" if not full else "")
+    if signs:
+        w(f"**Signs box**\n\n- **H2:** {signs_title}\n- Bulleted list:\n\n")
+        for it in signs:
+            t, _ = plain_links(site, it)
+            w(f"> - {t}\n")
+        w("\n")
+    blocks = [b.strip() for b in re.split(r"\n\s*\n", body) if b.strip()]
+    sec = []
+    for b in blocks:
+        if b.startswith("## "):
+            sec.append([b[3:].strip(), []])
+        elif sec:
+            sec[-1][1].append(b)
+        else:
+            sec.append(["", [b]])
+    for i, (title, parts) in enumerate(sec, 1):
+        w(f"**Section {i}**\n\n")
+        if title:
+            w(f"- **H2:** {title}\n")
+        all_links = []
+        for part in parts:
+            lines = part.splitlines()
+            if all(l.startswith("- ") for l in lines):
+                w("- Bulleted list:\n\n")
+                for l in lines:
+                    t, lk = plain_links(site, l[2:]); all_links += lk
+                    w(f"> - {t}\n")
+                w("\n")
+            else:
+                t, lk = plain_links(site, " ".join(lines)); all_links += lk
+                w(f"- Paragraph:\n\n> {t}\n\n")
+        if all_links:
+            w("- Links in this section:\n" + link_lines(all_links))
+        w("\n")
+
+    # ---- strip 4
+    w("## Strip 4: Related services\n\n")
+    if full:
+        w("""**Layout:** paper `#F5F5F3` section, 96px space above and below.
+Centred heading block (max 760px wide), 48px gap, then **3 white cards in a row**,
+each **384px wide** with 24px gaps (x = 0, 408, 816): fill white, 1px border
+`#DCDBD8`, corners 12px, 24px padding. Inside each card: title (Heading 3 look,
+22px SemiBold, tag **H3**), text (16px Regular, `#4A4845`), then a text link
+"Learn more →" (16px Bold, `#6E5A32`). Make all three cards the same height.
+Below the cards, 32px down, a centred **Outline** button.
+
+""")
+    w("| Element | Copy | Links to |\n|---|---|---|\n")
+    w("| Label | RELATED | |\n| Heading (H2) | Related Services | |\n")
+    for r in rel:
+        rs = site.services[r]["meta"]
+        w(f"| Card: title (H3) | {rs['name']} | |\n| Card: text | {rs['blurb']} | |\n| Card: link | Learn more → | {rs['name']} page |\n")
+    w(f"| Button | See all {n_cat} {cat['short'].lower()} services | {cat['name']} page |\n\n")
+
+    # ---- strip 5
+    w("## Strip 5: How a job works\n\n")
+    if full:
+        w("Copy the **\"How a job works\"** section from the homepage and paste it here. Change only the heading and the intro line:\n\n")
+    else:
+        w("Already there from the duplicate. Nothing changes.\n\n")
+    if full:
+        w("| Element | Copy |\n|---|---|\n| Label | HOW A JOB WORKS |\n| Heading (H2) | What Happens When You Call |\n"
+          "| Intro | The same four steps on every job, from a single outlet to a full panel upgrade. |\n"
+          "| 4 boxes | Unchanged from the homepage (titles are H3) |\n\n")
+
+    # ---- strip 6
+    w("## Strip 6: Questions\n\n")
+    if full:
+        w("""**Layout:** paper `#F5F5F3` section, 96px space above and below. Centred heading block,
+48px gap, then **one text box 760 wide, centred**. In it, each question uses a
+**Heading 3** style (20px SemiBold, tag **H3**) with its answer below in Paragraph 1
+(18px Regular, `#4A4845`). Leave 28px above each question.
+
+""")
+    w("| Element | Copy |\n|---|---|\n| Label | QUESTIONS |\n| Heading (H2) | Good to Know |\n"
+      "| Intro | Still have a question? Call 215-906-4634. You'll talk to an electrician, not a call center. (link the number to phone `+12159064634`) |\n\n")
+    for q, a in faqs:
+        t, lk = plain_links(site, a)
+        w(f"- **H3:** {q}\n\n> {t}\n\n")
+        if lk:
+            w(link_lines(lk) + "\n")
+
+    # ---- structured data
+    w("## Structured data (SEO)\n\n")
+    w("Page ⋯ → **SEO basics → Advanced SEO → Structured data markup → Add new markup**, and paste this. It tells Google what the service is, where the page sits, and its questions and answers.\n\n")
+    graph = [
+        {"@type": "Service", "name": m["name"], "serviceType": m["name"], "description": m["blurb"],
+         "provider": {"@id": C.DOMAIN + "/#business"}, "areaServed": business_schema(site)["areaServed"],
+         "url": C.DOMAIN + hand_url(slug)},
+        breadcrumb_schema([("Home", "/"), (cat["name"], "/" + cat["slug"]), (m["name"], hand_url(slug))]),
+    ]
+    if faqs:
+        graph.append(faq_schema(faqs))
+    w("```json\n" + json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=1) + "\n```\n\n")
+
+    # ---- mobile + finishing
+    if full:
+        w("""## Mobile
+
+Switch to the mobile editor and check each strip:
+- **Hero:** text first, then the form, both full width.
+- **Article:** photo, box and text boxes full width with 16px side margins.
+- **Related cards and step boxes:** stacked one per row, 16px apart.
+- Text sizes: H1 about 32px, H2 about 26px, paragraphs 17px.
+
+## Building the other 21 service pages
+
+1. In the Pages panel, hover over this page → ⋯ → **Duplicate**.
+2. Open that service's sheet in `wix/service-pages/` and work down it:
+   - **Page settings:** rename the page, change the URL slug, title tag, meta description and social image.
+   - **Hero:** breadcrumb, label, H1 and intro.
+   - **Article:** swap the photo (or delete it if the sheet says there's none), the signs box, and each section's text. Add or delete section text boxes so the count matches the sheet, and redo the links.
+   - **Related services:** the three cards and the button.
+   - **Questions:** replace the questions and answers.
+   - **Structured data:** delete the old markup and paste the new one.
+3. Preview it, check it on mobile, and move to the next one.
+
+Each duplicate takes roughly 20–30 minutes once you're used to it. If that
+sounds like too much, the CMS route in `WIX-PAGES.md` builds all 22 from one
+template and a spreadsheet import instead; the content is identical.
+""")
+    return "".join(o)
+
+
+def write_service_sheets(site):
+    d = ROOT / "wix" / "service-pages"
+    if d.exists():
+        shutil.rmtree(d)
+    d.mkdir(parents=True)
+    order = ["electrical-panel-upgrade"] + [s for s in site.svc_order if s != "electrical-panel-upgrade"]
+    index = ["# Service Page Build Sheets\n\nOne sheet per service page, in the order to build them. Start with\n`01-electrical-panel-upgrade.md`: it has the full layout directions. The rest\nare duplicates of it with different copy.\n\n| # | Page | Category | Sheet |\n|---:|---|---|---|\n"]
+    for i, slug in enumerate(order, 1):
+        name = f"{i:02d}-{slug}.md"
+        (d / name).write_text(service_sheet(site, slug, slug == "electrical-panel-upgrade"), encoding="utf-8")
+        m = site.services[slug]["meta"]
+        index.append(f"| {i} | {m['name']} | {C.CATEGORIES[m['cat']]['name']} | [`{name}`]({name}) |\n")
+    (d / "README.md").write_text("".join(index), encoding="utf-8")
+
+    # redirects for hand-built pages (pages at /slug instead of /services/slug)
+    with open(ROOT / "wix" / "redirects-hand-built.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        w.writerow(["Old URL", "New URL"])
+        for old, new in C.REDIRECTS.items():
+            u = wix_url(site, new)
+            w.writerow([old, u.replace("/services/", "/", 1) if u.startswith("/services/") else u])
+
 # ----------------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------------
@@ -1834,6 +2141,7 @@ def main():
 
         (ROOT / "WIX-HOMEPAGE.md").write_text(wix_guide(site), encoding="utf-8")
         wix_export(site)
+        write_service_sheets(site)
         (ROOT / "WIX-SEO.md").write_text(seo_guide(site, out_dir), encoding="utf-8")
 
         with open(ROOT / "PAGES.md", "w", encoding="utf-8") as fh:

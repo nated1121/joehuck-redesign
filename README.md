@@ -10,6 +10,7 @@ pages, plus Service Areas, About and Contact.
 - **Rebuilding the homepage in Wix, section by section:** [`WIX-HOMEPAGE.md`](WIX-HOMEPAGE.md)
 - **Rebuilding every other page in Wix (CMS collections + templates):** [`WIX-PAGES.md`](WIX-PAGES.md), with the import files in `wix/`
 - **SEO settings for every page, and each page type's heading structure:** [`WIX-SEO.md`](WIX-SEO.md)
+- **Build sheets for each service page (by hand in Wix):** [`wix/service-pages/`](wix/service-pages/README.md)
 
 ## Build
 

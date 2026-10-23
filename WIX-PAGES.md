@@ -26,6 +26,15 @@ service hubs, and the menu's **Services** item is a dropdown that lists them
 > service pages live at `/services/electrical-panel-upgrade`. The spreadsheets
 > already use the Wix addresses in every link.
 
+### Prefer to build the service pages by hand?
+
+`wix/service-pages/` has a build sheet for each of the 22 service pages: page
+settings, every strip's layout and every word of copy, with links given by page
+name. Build the Electrical Panel Upgrade page from `01-electrical-panel-upgrade.md`
+(it has the full layout directions), then duplicate it for the rest. Hand-built
+pages live at `/electrical-panel-upgrade` style addresses, so use
+`wix/redirects-hand-built.csv` instead of `wix/redirects.csv`.
+
 ## 2. The spreadsheets (in the `wix/` folder)
 
 | File | What it is |
